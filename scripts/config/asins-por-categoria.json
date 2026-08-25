@@ -1,0 +1,9 @@
+{
+  "_comentario": "PA-API no expone un endpoint confiable de 'más vendidos' en todos los marketplaces, así que el ranking se basa en una lista curada de ASINs por categoría (edita esta lista vos). El script mensual consulta precio/rating/reseñas actuales para cada ASIN y ordena el ranking por número de reseñas (proxy de popularidad). Estos ASINs son productos reales de riego automatizado identificados manualmente el 2026-08-24 — reemplazalos o agregá más cuando quieras ajustar qué compite por el ranking del mes.",
+  "controladores-wifi": ["B0F883P8N1", "B0GSSJ2KWT"],
+  "sensores-humedad": ["B0F596PTCF", "B0GH6WJWQK"],
+  "valvulas-solenoides": ["B01MG1VV2M", "B07T4TNP3B"],
+  "kits-goteo": ["B0F6Y9CSZP", "B0GLM4SYN8"],
+  "modulos-rele": ["B00VRUAHLE", "B09ZQRLD95"],
+  "bombas": ["B0C9QCCBVW", "B0C8N8CG9G"]
+}

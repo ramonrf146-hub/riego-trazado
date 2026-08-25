@@ -1,0 +1,70 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  /* Paleta "plano técnico / blueprint industrial" */
+  --ink: #0e2530; /* fondo principal */
+  --ink-2: #123244;
+  --paper: #f0ede4; /* fondo de tarjetas/secciones claras */
+  --paper-dim: #e4e0d3;
+  --line: #7fd7dd; /* líneas y acentos tipo plano técnico */
+  --line-dim: #3e6b72; /* bordes sutiles */
+  --accent: #e8863a; /* naranja tipo válvula/alerta — CTAs */
+  --accent-2: #8fbf6b; /* verde — elementos "activos"/orgánicos */
+  --text-light: #edf3f2;
+  --text-dim: #9fb8bc;
+
+  --background: var(--ink);
+  --foreground: var(--text-light);
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-paper: var(--paper);
+  --color-paper-dim: var(--paper-dim);
+  --color-line: var(--line);
+  --color-line-dim: var(--line-dim);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+  --color-text-light: var(--text-light);
+  --color-text-dim: var(--text-dim);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-mono: var(--font-jetbrains-mono);
+  --font-sans: var(--font-public-sans);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+.font-mono,
+.font-technical {
+  font-family: var(--font-mono), ui-monospace, monospace;
+}
+
+/* Grilla de plano técnico de fondo, sutil */
+.blueprint-grid {
+  background-image:
+    linear-gradient(var(--line-dim) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line-dim) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: -1px -1px;
+  opacity: 0.15;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
