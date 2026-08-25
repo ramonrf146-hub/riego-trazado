@@ -17,6 +17,8 @@ export interface Producto {
   nombre: string;
   categoria: CategoriaSlug;
   precio: number;
+  /** Opcional: si el producto tiene variantes/vendedores en rangos de precio distintos, define el techo del rango ("Desde $precio - $precioMax"). */
+  precioMax?: number;
   moneda: string;
   imagen: string;
   rating: number;
@@ -26,6 +28,8 @@ export interface Producto {
   notaTecnica: string;
   urlAfiliado: string;
   actualizadoEn: string;
+  /** false = el enlace queda pausado: no se muestra en el sitio pero se conserva en el catálogo. Default true si se omite. */
+  activo?: boolean;
 }
 
 export interface ArticuloFrontmatter {

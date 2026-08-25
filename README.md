@@ -53,6 +53,68 @@ Abrí `data/productos.json`, buscá el producto por `asin` y editá el campo
 sobrescribe este campo si el ASIN ya existe en el catálogo** — solo lo
 completa con `"[PENDIENTE DE REDACTAR]"` en productos nuevos.
 
+### Gestionar enlaces: agregar, pausar, eliminar o rotar productos
+
+El catálogo completo vive en `data/productos.json` — es la única fuente de
+verdad, no hay base de datos aparte. Cada producto es un objeto con esta
+forma (ver `src/lib/tipos.ts` para el tipo completo):
+
+```json
+{
+  "asin": "B0F883P8N1",
+  "nombre": "...",
+  "categoria": "controladores-wifi",
+  "precio": 39.99,
+  "precioMax": 59.99,
+  "moneda": "USD",
+  "imagen": "https://m.media-amazon.com/images/...",
+  "rating": 4.2,
+  "numResenas": 415,
+  "ranking": 1,
+  "notaTecnica": "...",
+  "urlAfiliado": "https://www.amazon.com/dp/B0F883P8N1?tag=riegotrazado-20",
+  "actualizadoEn": "2026-08-24",
+  "activo": true
+}
+```
+
+**Agregar un producto nuevo:** copiá un objeto existente de la misma
+categoría, cambiá `asin`, `nombre`, `precio`, `imagen`, `rating`,
+`numResenas`, `urlAfiliado` (siempre `?tag=riegotrazado-20`) y escribí una
+`notaTecnica` propia. Asigná el `ranking` que corresponda dentro de esa
+categoría (1 = más destacado).
+
+**Pausar un enlace sin borrarlo** (por ejemplo, dejó de convertir, el
+vendedor subió mucho el precio, o querés sacarlo temporalmente mientras
+evaluás un reemplazo): poné `"activo": false` en ese objeto. El producto
+deja de aparecer en el sitio (home, categoría, sitemap) pero **el registro
+queda en el archivo** con su `notaTecnica` y su historial — reactivalo
+después con `"activo": true` sin tener que reescribir nada. Si el campo
+`activo` no está presente, se toma como `true` (activo por defecto).
+
+**Eliminar un producto definitivamente:** borrá el objeto completo del
+array. Usalo solo cuando estés seguro de que no lo vas a volver a listar
+(por ejemplo, el producto fue descontinuado en Amazon).
+
+**Rango de precio en vez de precio fijo:** si el producto tiene variantes o
+vendedores con precios distintos, agregá `precioMax` (además de `precio`,
+que actúa como el mínimo del rango). La tarjeta va a mostrar
+"Desde $X — $Y" en vez de un precio único. Omití `precioMax` para productos
+con precio único.
+
+**Flujo recomendado para rotar hardware según rendimiento de ventas:**
+1. Revisá qué ASINs generan clics/ventas en tu panel de Amazon Associates
+   (Reports → Earnings Report, filtrado por producto/tag).
+2. Los productos con bajo rendimiento sostenido (varias semanas sin clics o
+   sin conversión) marcalos con `"activo": false` en vez de borrarlos —
+   conservás la nota técnica ya escrita por si los volvés a activar en
+   temporada alta (ej. un producto de riego exterior en invierno).
+3. Agregá el/los reemplazos como productos nuevos activos en la misma
+   categoría, con el `ranking` que corresponda.
+4. Commiteá y pusheá — Vercel redeploya solo con cada push a `main`.
+5. Repetí mensualmente o cuando notes una caída de rendimiento; no hace
+   falta esperar al ciclo de PA-API para reordenar manualmente el catálogo.
+
 ### Agregar un artículo nuevo
 
 1. Creá un archivo en `content/articulos/tu-slug.md`.

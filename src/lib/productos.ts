@@ -14,7 +14,9 @@ const RUTA_PRODUCTOS = path.join(process.cwd(), "data", "productos.json");
 export async function getProductos(): Promise<Producto[]> {
   const raw = fs.readFileSync(RUTA_PRODUCTOS, "utf-8");
   const productos = JSON.parse(raw) as Producto[];
-  return productos.sort((a, b) => a.ranking - b.ranking);
+  return productos
+    .filter((p) => p.activo !== false)
+    .sort((a, b) => a.ranking - b.ranking);
 }
 
 export async function getProductosPorCategoria(

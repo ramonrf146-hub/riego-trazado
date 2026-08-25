@@ -15,10 +15,11 @@ import { obtenerItems } from "./lib/paapiCliente.mjs";
  *      refrescar precio, imagen, rating y número de reseñas.
  *   3. Ordena cada categoría por número de reseñas (proxy de "más
  *      vendido" — PA-API no expone sales rank de forma consistente).
- *   4. Escribe /data/productos.json PRESERVANDO la "notaTecnica" ya
- *      escrita a mano para cada ASIN existente. Los ASINs nuevos quedan
- *      con notaTecnica = "[PENDIENTE DE REDACTAR]" para que el editor
- *      la complete.
+ *   4. Escribe /data/productos.json PRESERVANDO los campos editoriales/
+ *      manuales de cada ASIN existente: "notaTecnica", "activo" (gestión de
+ *      enlaces — pausar sin borrar) y "precioMax" (rango de precio). Los
+ *      ASINs nuevos quedan con notaTecnica = "[PENDIENTE DE REDACTAR]" y
+ *      sin esos otros campos.
  *
  * Uso:
  *   node scripts/actualizar-productos.mjs           # requiere credenciales PA-API
@@ -113,8 +114,14 @@ async function obtenerItemsPorCategoria(asinsPorCategoria, credenciales) {
 }
 
 function fusionarConCatalogoExistente(itemsPorCategoria, catalogoExistente) {
-  const notasExistentesPorAsin = new Map(
-    catalogoExistente.map((p) => [p.asin, p.notaTecnica])
+  // Campos editoriales/manuales que el script NUNCA debe pisar para un ASIN
+  // que ya existía: la nota técnica, el estado activo/pausado (gestión de
+  // enlaces) y el techo de un rango de precio cargado a mano.
+  const datosManualesPorAsin = new Map(
+    catalogoExistente.map((p) => [
+      p.asin,
+      { notaTecnica: p.notaTecnica, activo: p.activo, precioMax: p.precioMax },
+    ])
   );
   const hoy = new Date().toISOString().slice(0, 10);
   const nuevoCatalogo = [];
@@ -127,7 +134,8 @@ function fusionarConCatalogoExistente(itemsPorCategoria, catalogoExistente) {
     );
 
     ordenados.forEach((item, indice) => {
-      nuevoCatalogo.push({
+      const manual = datosManualesPorAsin.get(item.asin);
+      const producto = {
         asin: item.asin,
         nombre: item.nombre,
         categoria,
@@ -137,11 +145,16 @@ function fusionarConCatalogoExistente(itemsPorCategoria, catalogoExistente) {
         rating: item.rating ?? 0,
         numResenas: item.numResenas ?? 0,
         ranking: indice + 1,
-        notaTecnica:
-          notasExistentesPorAsin.get(item.asin) ?? "[PENDIENTE DE REDACTAR]",
+        notaTecnica: manual?.notaTecnica ?? "[PENDIENTE DE REDACTAR]",
         urlAfiliado: item.urlAfiliado,
         actualizadoEn: hoy,
-      });
+      };
+      // Solo agregamos estos campos si ya existían — así un ASIN nuevo no
+      // arrastra "activo"/"precioMax" innecesarios.
+      if (manual?.activo === false) producto.activo = false;
+      if (manual?.precioMax !== undefined) producto.precioMax = manual.precioMax;
+
+      nuevoCatalogo.push(producto);
     });
   }
 

@@ -48,12 +48,21 @@ export default async function CategoriaPage({ params }: Props) {
           ratingValue: p.rating,
           reviewCount: p.numResenas,
         },
-        offers: {
-          "@type": "Offer",
-          price: p.precio,
-          priceCurrency: p.moneda,
-          url: p.urlAfiliado,
-        },
+        offers:
+          p.precioMax && p.precioMax > p.precio
+            ? {
+                "@type": "AggregateOffer",
+                lowPrice: p.precio,
+                highPrice: p.precioMax,
+                priceCurrency: p.moneda,
+                url: p.urlAfiliado,
+              }
+            : {
+                "@type": "Offer",
+                price: p.precio,
+                priceCurrency: p.moneda,
+                url: p.urlAfiliado,
+              },
       },
     })),
   };

@@ -76,9 +76,20 @@ export default function ProductCard({ producto }: { producto: Producto }) {
         <div className="mt-auto flex items-center justify-between gap-3 pt-2">
           <div>
             <p className="font-mono text-base font-semibold text-ink">
-              ${producto.precio.toFixed(2)}
+              {producto.precioMax && producto.precioMax > producto.precio ? (
+                <>
+                  Desde ${producto.precio.toFixed(2)}{" "}
+                  <span className="text-ink/50">— ${producto.precioMax.toFixed(2)}</span>
+                </>
+              ) : (
+                `$${producto.precio.toFixed(2)}`
+              )}
             </p>
-            <p className="text-[10px] text-ink/50">Precio referencial, ver en Amazon</p>
+            <p className="text-[10px] text-ink/50">
+              {producto.precioMax && producto.precioMax > producto.precio
+                ? "Rango referencial según vendedor/variante — precio final en Amazon"
+                : "Precio referencial, ver en Amazon"}
+            </p>
           </div>
           <a
             href={producto.urlAfiliado}
