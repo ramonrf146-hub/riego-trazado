@@ -6,7 +6,7 @@ actualizado: "2026-08-24"
 
 _Última actualización: 24 de agosto de 2026._
 
-Esta Política de Privacidad describe cómo **Riego Trazado** ("nosotros", "nuestro" o "el sitio") recopila, usa y comparte información cuando visitas riegotrazado.com (el "Sitio").
+Esta Política de Privacidad describe cómo **Riego Trazado** ("nosotros", "nuestro" o "el sitio") recopila, usa y comparte información cuando visitas riegocom.uk (el "Sitio").
 
 ## 1. Información que recopilamos
 
