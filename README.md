@@ -227,6 +227,41 @@ Si preferís esta opción:
 Si no vas a usar esta opción, podés borrar `vercel.json` y
 `src/app/api/cron/actualizar-productos/` sin afectar nada más.
 
+## Herramienta separada: agente clasificador de inventario
+
+> ⚠️ **No está conectada al sitio.** Riego Trazado es 100% riego residencial
+> (branding, artículos y lo declarado ante Amazon Associates). Este agente
+> clasifica hardware de **automatización/hogar inteligente** (Tuya, Node-RED,
+> ESP32) y **control industrial B2B** (variadores de frecuencia, RS485,
+> PLC) — un mercado y público distintos. Se dejó como script standalone,
+> deliberadamente separado de `data/productos.json` y de las categorías del
+> sitio, para no mezclar catálogos hasta decidir si esto va a un sitio nuevo,
+> una sección aparte, o no se usa.
+
+Vive en `scripts/agente-clasificador/`:
+
+```bash
+node scripts/agente-clasificador/agente.mjs
+```
+
+Qué hace:
+1. Lee un inventario local estructurado desde
+   `scripts/agente-clasificador/config/inventario-fuente.json` (sin llamar a
+   ninguna API — es el punto de extensión si más adelante querés conectar
+   PA-API u otro origen).
+2. Clasifica cada item en una de las dos ramas definidas en
+   `scripts/agente-clasificador/config/reglas-clasificacion.json`, buscando
+   palabras clave en el nombre/descripción (editá esas listas para ajustar
+   qué cae en cada rama, sin tocar código).
+3. Ordena cada rama por número de reseñas y escribe el resultado en
+   `scripts/agente-clasificador/output/inventario-clasificado.json`.
+
+Los productos que no matchean ninguna palabra clave de ninguna rama caen en
+`sin-clasificar` para revisión manual, en vez de perderse o asignarse mal.
+
+Usá `--fuente ruta/a/otro.json` para clasificar un inventario distinto al de
+ejemplo.
+
 ## Analítica: GA4 vs. Plausible
 
 Se integró **Google Analytics 4** (`src/components/GoogleAnalytics.tsx`),

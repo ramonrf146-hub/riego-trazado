@@ -44,3 +44,6 @@ next-env.d.ts
 # herramientas locales de desarrollo (no forman parte del sitio)
 /.claude/
 /files/
+
+# salida generada del agente clasificador (se regenera con cada corrida)
+/scripts/agente-clasificador/output/

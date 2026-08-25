@@ -1,0 +1,55 @@
+{
+  "_comentario": "Reglas de clasificación por palabra clave. El agente busca estas palabras (sin distinguir mayúsculas/acentos) en nombre + descripcion + tags de cada item del inventario fuente. Editá las listas para ajustar qué cae en cada rama, sin tocar el código del agente.",
+  "ramas": [
+    {
+      "id": "automatizacion-hogar-inteligente",
+      "nombre": "Automatización y Hogar Inteligente",
+      "palabrasClave": [
+        "tuya",
+        "smart life",
+        "node-red",
+        "node red",
+        "esp32",
+        "esp8266",
+        "zigbee",
+        "z-wave",
+        "sonoff",
+        "smart plug",
+        "enchufe inteligente",
+        "smart switch",
+        "interruptor inteligente",
+        "domotica",
+        "home assistant",
+        "matter",
+        "wifi switch"
+      ]
+    },
+    {
+      "id": "control-industrial-b2b",
+      "nombre": "Control Industrial B2B",
+      "palabrasClave": [
+        "vfd",
+        "variador de frecuencia",
+        "variable frequency drive",
+        "frequency inverter",
+        "rs485",
+        "rs-485",
+        "modbus",
+        "plc",
+        "contactor",
+        "240v",
+        "480v",
+        "3 phase",
+        "trifasico",
+        "trifásico",
+        "gateway industrial",
+        "din rail",
+        "riel din"
+      ]
+    }
+  ],
+  "ramaSinClasificar": {
+    "id": "sin-clasificar",
+    "nombre": "Sin clasificar (revisar manualmente)"
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "sku": "DEMO-001",
+    "nombre": "Enchufe inteligente WiFi compatible con Tuya y Alexa",
+    "descripcion": "Smart plug 16A, control remoto por app Smart Life, monitoreo de consumo.",
+    "numResenas": 1200,
+    "precio": 9.99
+  },
+  {
+    "sku": "DEMO-002",
+    "nombre": "Módulo relé WiFi para integración con Node-RED",
+    "descripcion": "Compatible con ESP32, ideal para proyectos de domótica DIY.",
+    "numResenas": 340,
+    "precio": 14.5
+  },
+  {
+    "sku": "DEMO-003",
+    "nombre": "Variador de frecuencia VFD 3HP 240V trifásico",
+    "descripcion": "Control de velocidad para motores industriales, entrada monofásica/salida trifásica.",
+    "numResenas": 85,
+    "precio": 189.99
+  },
+  {
+    "sku": "DEMO-004",
+    "nombre": "Gateway RS485 a Modbus TCP para PLC",
+    "descripcion": "Pasarela industrial riel DIN, comunicación Modbus RTU/TCP.",
+    "numResenas": 42,
+    "precio": 65.0
+  },
+  {
+    "sku": "DEMO-005",
+    "nombre": "Contactor trifásico 240V para tablero eléctrico",
+    "descripcion": "Uso industrial, montaje riel DIN, bobina 220V AC.",
+    "numResenas": 27,
+    "precio": 38.0
+  },
+  {
+    "sku": "DEMO-006",
+    "nombre": "Cable USB-C genérico 2 metros",
+    "descripcion": "Cable de carga y datos, trenzado de nylon.",
+    "numResenas": 500,
+    "precio": 7.99
+  }
+]
