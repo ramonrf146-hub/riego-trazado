@@ -1,10 +1,33 @@
+"use client";
+
 import type { Producto } from "@/lib/tipos";
+
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void;
+  }
+}
 
 const CTAS_AFILIADO = [
   "Ver disponibilidad en Amazon",
   "Ver precio actual en Amazon",
   "Revisar en Amazon",
 ];
+
+/** Registra en GA4 cada clic a un enlace de afiliado — sin esto, la
+ * analítica solo ve vistas de página, nunca si alguien realmente
+ * hizo clic hacia Amazon. */
+function registrarClicAfiliado(producto: Producto) {
+  if (typeof window !== "undefined" && typeof window.gtag === "function") {
+    window.gtag("event", "click_afiliado", {
+      asin: producto.asin,
+      nombre_producto: producto.nombre,
+      categoria: producto.categoria,
+      valor: producto.precio,
+      moneda: producto.moneda,
+    });
+  }
+}
 
 function IconoFlecha() {
   return (
@@ -118,6 +141,7 @@ export default function ProductCard({ producto }: { producto: Producto }) {
             href={producto.urlAfiliado}
             target="_blank"
             rel="nofollow sponsored noopener noreferrer"
+            onClick={() => registrarClicAfiliado(producto)}
             className="flex items-center justify-center gap-2 rounded-2xl bg-accent px-5 py-4 text-base font-bold text-ink shadow-lg shadow-accent/30 transition-transform active:scale-[0.98]"
           >
             {cta}
