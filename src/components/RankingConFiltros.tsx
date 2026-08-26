@@ -1,17 +1,63 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { Producto } from "@/lib/tipos";
 import { CATEGORIAS } from "@/lib/categorias";
 import ProductCard from "./ProductCard";
 
+const PASO_SCROLL = 400; // ancho de tarjeta (380px) + gap (20px) en desktop
+
+function IconoChevron({ direccion }: { direccion: "izquierda" | "derecha" }) {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      {direccion === "izquierda" ? <path d="M15 18l-6-6 6-6" /> : <path d="M9 18l6-6-6-6" />}
+    </svg>
+  );
+}
+
 export default function RankingConFiltros({ productos }: { productos: Producto[] }) {
   const [categoriaActiva, setCategoriaActiva] = useState<string>("todas");
+  const sliderRef = useRef<HTMLDivElement>(null);
+  const [puedeIzquierda, setPuedeIzquierda] = useState(false);
+  const [puedeDerecha, setPuedeDerecha] = useState(false);
 
   const productosFiltrados = useMemo(() => {
     if (categoriaActiva === "todas") return productos;
     return productos.filter((p) => p.categoria === categoriaActiva);
   }, [productos, categoriaActiva]);
+
+  function actualizarFlechas() {
+    const el = sliderRef.current;
+    if (!el) return;
+    setPuedeIzquierda(el.scrollLeft > 4);
+    setPuedeDerecha(el.scrollLeft + el.clientWidth < el.scrollWidth - 4);
+  }
+
+  useEffect(() => {
+    const el = sliderRef.current;
+    if (!el) return;
+    // Medir en el mismo tick del mount a veces da clientWidth/scrollWidth
+    // en 0 o desactualizados (antes de que el layout termine de asentarse).
+    // Reintentar en el siguiente frame es la forma confiable de evitarlo.
+    actualizarFlechas();
+    const raf = requestAnimationFrame(actualizarFlechas);
+    const observer = new ResizeObserver(() => actualizarFlechas());
+    observer.observe(el);
+    window.addEventListener("resize", actualizarFlechas);
+    return () => {
+      cancelAnimationFrame(raf);
+      observer.disconnect();
+      window.removeEventListener("resize", actualizarFlechas);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [productosFiltrados]);
+
+  function desplazar(direccion: "izquierda" | "derecha") {
+    sliderRef.current?.scrollBy({
+      left: direccion === "derecha" ? PASO_SCROLL : -PASO_SCROLL,
+      behavior: "smooth",
+    });
+  }
 
   return (
     <div>
@@ -55,15 +101,42 @@ export default function RankingConFiltros({ productos }: { productos: Producto[]
         </p>
       ) : (
         <>
-          <div className="cards-slider mt-6 flex snap-x snap-mandatory gap-4 overflow-x-auto pb-4 sm:gap-5">
-            {productosFiltrados.map((producto) => (
-              <div
-                key={producto.asin}
-                className="w-[85vw] max-w-sm shrink-0 snap-start sm:w-[380px]"
+          <div className="relative mt-6">
+            <div
+              ref={sliderRef}
+              onScroll={actualizarFlechas}
+              className="cards-slider flex snap-x snap-mandatory gap-4 overflow-x-auto pb-4 sm:gap-5"
+            >
+              {productosFiltrados.map((producto) => (
+                <div
+                  key={producto.asin}
+                  className="w-[85vw] max-w-sm shrink-0 snap-start sm:w-[380px]"
+                >
+                  <ProductCard producto={producto} />
+                </div>
+              ))}
+            </div>
+
+            {puedeIzquierda && (
+              <button
+                type="button"
+                onClick={() => desplazar("izquierda")}
+                aria-label="Ver producto anterior"
+                className="absolute left-0 top-1/2 hidden -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-line-dim bg-ink p-2.5 text-text-light shadow-lg transition-colors hover:border-line hover:text-line sm:flex"
               >
-                <ProductCard producto={producto} />
-              </div>
-            ))}
+                <IconoChevron direccion="izquierda" />
+              </button>
+            )}
+            {puedeDerecha && (
+              <button
+                type="button"
+                onClick={() => desplazar("derecha")}
+                aria-label="Ver producto siguiente"
+                className="absolute right-0 top-1/2 hidden translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-line-dim bg-ink p-2.5 text-text-light shadow-lg transition-colors hover:border-line hover:text-line sm:flex"
+              >
+                <IconoChevron direccion="derecha" />
+              </button>
+            )}
           </div>
           <p className="mt-1 text-center text-xs text-text-dim/70 sm:hidden">
             Deslizá para ver el siguiente →
