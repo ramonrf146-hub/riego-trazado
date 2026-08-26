@@ -12,7 +12,12 @@
     "notaTecnica": "WiFi 2.4GHz únicamente (no 5GHz) — revisá que tu router tenga esa banda antes de comprar. Salta el riego automáticamente si detecta lluvia, helada o viento fuerte, y se instala en unos 10 minutos sin herramientas especiales. Es la variante de 4 zonas de una familia que también viene en 6, 8 y hasta 16 zonas — si vas a crecer el sistema, conviene comprar directamente la versión más grande en vez de duplicar controladores.",
     "urlAfiliado": "https://www.amazon.com/dp/B0F883P8N1?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
-    "activo": true
+    "activo": true,
+    "tags": [
+      "WiFi 2.4GHz",
+      "4 zonas",
+      "Auto rain skip"
+    ]
   },
   {
     "asin": "B0GSSJ2KWT",
@@ -27,7 +32,12 @@
     "notaTecnica": "Ojo con la categoría: este es un temporizador a batería con gateway RF (rango de hasta 984 ft), no un controlador cableado a válvulas de 24V AC. Sirve para expandir riego a varios grifos/mangueras sin tender cable, con hasta 8 meses de batería declarados y actualizaciones OTA — pero si tu sistema ya tiene válvulas solenoides fijas, necesitás un controlador cableado, no este tipo de temporizador.",
     "urlAfiliado": "https://www.amazon.com/dp/B0GSSJ2KWT?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
-    "activo": true
+    "activo": true,
+    "tags": [
+      "RF Gateway",
+      "A batería",
+      "64 dispositivos"
+    ]
   },
   {
     "asin": "B0F596PTCF",
@@ -42,7 +52,12 @@
     "notaTecnica": "Usa sonda capacitiva (más duradera que las resistivas económicas, que se corroen con el tiempo) y está pensada para quedar enterrada de forma permanente ('leave-in'), no para mediciones puntuales. Requiere un hub WiFi del mismo fabricante — sin él, el sensor no reporta datos en tiempo real, solo funciona como sonda local.",
     "urlAfiliado": "https://www.amazon.com/dp/B0F596PTCF?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
-    "activo": true
+    "activo": true,
+    "tags": [
+      "Sonda capacitiva",
+      "Leave-in",
+      "Requiere hub"
+    ]
   },
   {
     "asin": "B0GH6WJWQK",
@@ -57,7 +72,12 @@
     "notaTecnica": "Viene con el hub WiFi incluido (a diferencia del sensor suelto de arriba) y agrega registro histórico de datos y alertas de humedad baja. Se integra directo con el sistema de riego inteligente RAINPOINT — si ya tenés o vas a comprar un controlador de otra marca, confirmá que acepte esta integración antes de comprar, porque es un ecosistema cerrado.",
     "urlAfiliado": "https://www.amazon.com/dp/B0GH6WJWQK?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
-    "activo": true
+    "activo": true,
+    "tags": [
+      "Hub incluido",
+      "Alertas",
+      "Ecosistema RAINPOINT"
+    ]
   },
   {
     "asin": "B01MG1VV2M",
@@ -72,7 +92,12 @@
     "notaTecnica": "Con más de 2.400 reseñas es, por lejos, la válvula más comprada de esta categoría — eso también significa que hay más piezas de repuesto y guías de instalación disponibles si algo falla. Rosca 3/4\" FPT, normalmente cerrada como la mayoría de las válvulas residenciales, y compatible con cualquier controlador de 24V AC, no solo los de la propia marca Orbit.",
     "urlAfiliado": "https://www.amazon.com/dp/B01MG1VV2M?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
-    "activo": true
+    "activo": true,
+    "tags": [
+      "3/4\" FPT",
+      "24V AC",
+      "Normalmente cerrada"
+    ]
   },
   {
     "asin": "B07T4TNP3B",
@@ -87,7 +112,12 @@
     "notaTecnica": "Importante: esto NO es una válvula completa, es el solenoide (la bobina) de repuesto para válvulas Irritrol de las series 2400, 2500, 2600 y 700. Tiene sentido comprarlo si tu válvula actual dejó de abrir o cerrar pero el cuerpo de la válvula sigue en buen estado — reemplazar solo el solenoide es más barato que cambiar la válvula entera.",
     "urlAfiliado": "https://www.amazon.com/dp/B07T4TNP3B?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
-    "activo": true
+    "activo": true,
+    "tags": [
+      "Repuesto",
+      "24V AC",
+      "2 unidades"
+    ]
   },
   {
     "asin": "B0F6Y9CSZP",
@@ -102,7 +132,12 @@
     "notaTecnica": "Trae línea principal de 5/16\" (50 ft) más tubería de 1/4\" y 40 emisores, con conectores rápidos que facilitan agregar o mover goteros sin herramientas. Especificado para 20-45 PSI — la presión de red doméstica suele ser más alta, así que vas a necesitar un regulador de presión en la entrada (revisá la ficha para confirmar si ya lo incluye).",
     "urlAfiliado": "https://www.amazon.com/dp/B0F6Y9CSZP?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
-    "activo": true
+    "activo": true,
+    "tags": [
+      "247 ft",
+      "Quick Connect",
+      "40 emisores"
+    ]
   },
   {
     "asin": "B0GLM4SYN8",
@@ -117,7 +152,12 @@
     "notaTecnica": "A diferencia del kit anterior (goteo puro), este usa 32 boquillas de cobre ajustables tipo micro-aspersión/niebla — cubre un área más amplia por punto, mejor para macizos de flores o almácigos que para plantas individuales en maceta. Si buscás goteo localizado gota a gota, el kit de Bonviee de arriba es la opción más precisa.",
     "urlAfiliado": "https://www.amazon.com/dp/B0GLM4SYN8?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
-    "activo": true
+    "activo": true,
+    "tags": [
+      "200 ft",
+      "Micro-aspersión",
+      "Boquillas cobre"
+    ]
   },
   {
     "asin": "B00VRUAHLE",
@@ -132,7 +172,12 @@
     "notaTecnica": "Punto de entrada barato para controlar una sola válvula o bomba desde un microcontrolador (Arduino, ESP32, Raspberry Pi). La ficha de este modelo puntual no confirma aislamiento por optoacoplador — antes de conectarlo a una carga de 24V AC, verificá ese dato con el vendedor o sumale un optoacoplador aparte para no arriesgar el microcontrolador.",
     "urlAfiliado": "https://www.amazon.com/dp/B00VRUAHLE?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
-    "activo": true
+    "activo": true,
+    "tags": [
+      "1 canal",
+      "5V",
+      "Arduino/ESP"
+    ]
   },
   {
     "asin": "B09ZQRLD95",
@@ -147,7 +192,12 @@
     "notaTecnica": "Con 8 canales podés controlar hasta 8 válvulas/zonas desde un solo microcontrolador — suficiente para armar un controlador de riego DIY completo. Trae optoacoplador (aislamiento eléctrico real entre la lógica de 5V y la carga conmutada) y terminales NO/NC, lo que lo hace más seguro que un módulo de 1 canal sin ese dato confirmado.",
     "urlAfiliado": "https://www.amazon.com/dp/B09ZQRLD95?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
-    "activo": true
+    "activo": true,
+    "tags": [
+      "8 canales",
+      "Optoacoplador",
+      "NO/NC"
+    ]
   },
   {
     "asin": "B0C9QCCBVW",
@@ -162,7 +212,12 @@
     "notaTecnica": "Es una bomba de achique/extracción (pensada para vaciar piletas, sótanos o pozos), no una bomba de presión constante para aspersores. Sirve bien para subir agua desde una cisterna o aljibe hacia el resto del sistema, pero si necesitás presión estable y sostenida para varios aspersores funcionando a la vez, la bomba de superficie de abajo está mejor especificada para eso.",
     "urlAfiliado": "https://www.amazon.com/dp/B0C9QCCBVW?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
-    "activo": true
+    "activo": true,
+    "tags": [
+      "Sumergible",
+      "4.500 GPH",
+      "1 HP"
+    ]
   },
   {
     "asin": "B0C8N8CG9G",
@@ -177,6 +232,11 @@
     "notaTecnica": "Bomba centrífuga/jet de superficie, autocebante y de cuerpo de hierro fundido, específicamente comercializada para aspersores de césped y riego de jardín — a diferencia de la sumergible de arriba, está diseñada para dar presión constante, no solo para mover agua de un punto a otro. Es notablemente más cara; tiene sentido si tu sistema realmente necesita presión adicional (revisá primero la presión de tu red antes de invertir acá).",
     "urlAfiliado": "https://www.amazon.com/dp/B0C8N8CG9G?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
-    "activo": true
+    "activo": true,
+    "tags": [
+      "Superficie",
+      "Autocebante",
+      "1.5 HP"
+    ]
   }
 ]

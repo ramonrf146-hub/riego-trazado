@@ -1,9 +1,33 @@
 import type { Producto } from "@/lib/tipos";
-import { getCategoriaPorSlug } from "@/lib/categorias";
 
-function Estrella({ llena, mitad }: { llena?: boolean; mitad?: boolean }) {
+const CTAS_AFILIADO = [
+  "Ver disponibilidad en Amazon",
+  "Ver precio actual en Amazon",
+  "Revisar en Amazon",
+];
+
+function IconoFlecha() {
   return (
-    <svg width="12" height="12" viewBox="0 0 20 20" aria-hidden="true">
+    <svg
+      width="18"
+      height="18"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M5 12h14" />
+      <path d="m12 5 7 7-7 7" />
+    </svg>
+  );
+}
+
+function IconoEstrella({ llena, mitad }: { llena?: boolean; mitad?: boolean }) {
+  return (
+    <svg width="13" height="13" viewBox="0 0 20 20" aria-hidden="true">
       <defs>
         <linearGradient id="mediaEstrella">
           <stop offset="50%" stopColor="var(--accent)" />
@@ -18,86 +42,86 @@ function Estrella({ llena, mitad }: { llena?: boolean; mitad?: boolean }) {
   );
 }
 
-function Rating({ rating, numResenas }: { rating: number; numResenas: number }) {
-  const llenas = Math.floor(rating);
-  const mitad = rating - llenas >= 0.5;
-
-  return (
-    <div className="flex items-center gap-1.5">
-      <div className="flex gap-0.5">
-        {Array.from({ length: 5 }).map((_, i) => (
-          <Estrella key={i} llena={i < llenas} mitad={i === llenas && mitad} />
-        ))}
-      </div>
-      <span className="font-mono text-[11px] text-text-dim">
-        {rating.toFixed(1)} · {numResenas.toLocaleString("es")}
-      </span>
-    </div>
-  );
-}
-
 export default function ProductCard({ producto }: { producto: Producto }) {
-  const categoria = getCategoriaPorSlug(producto.categoria);
+  const llenas = Math.floor(producto.rating);
+  const mitad = producto.rating - llenas >= 0.5;
+  const cta = CTAS_AFILIADO[producto.ranking % CTAS_AFILIADO.length];
 
   return (
-    <article className="group flex flex-col overflow-hidden rounded-sm border border-line-dim/50 bg-paper text-ink transition-colors hover:border-line">
-      <div className="relative flex items-center justify-between border-b border-line-dim/30 bg-ink px-3 py-2">
-        <span className="font-mono text-[11px] uppercase tracking-wide text-text-dim">
-          {categoria?.nombre ?? producto.categoria}
-        </span>
-        <span className="font-mono text-xs font-semibold text-accent">
+    <article className="flex h-full flex-col overflow-hidden rounded-3xl border border-line-dim/60 bg-ink-2 shadow-xl shadow-black/20">
+      <div className="relative flex h-56 items-center justify-center bg-image-bg p-5 sm:h-64">
+        <span className="absolute left-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-ink text-base font-extrabold text-text-light shadow-lg shadow-black/30">
           #{producto.ranking}
         </span>
-      </div>
-
-      <div className="flex aspect-[4/3] items-center justify-center bg-ink-2 text-text-dim">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={producto.imagen}
           alt={producto.nombre}
           loading="lazy"
-          className="h-full w-full object-contain p-6 opacity-90"
+          className="h-full w-full object-contain"
         />
       </div>
 
-      <div className="flex flex-1 flex-col gap-3 p-4">
-        <h3 className="text-sm font-semibold leading-snug text-ink">
+      <div className="flex flex-1 flex-col gap-4 p-5 sm:p-6">
+        <h3 className="text-lg font-bold leading-snug text-text-light sm:text-xl">
           {producto.nombre}
         </h3>
 
-        <Rating rating={producto.rating} numResenas={producto.numResenas} />
+        {producto.tags && producto.tags.length > 0 && (
+          <div className="flex flex-wrap gap-2">
+            {producto.tags.map((tag) => (
+              <span
+                key={tag}
+                className="rounded-md bg-line-dim px-2.5 py-1 text-xs font-medium text-text-light"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
+
+        <div className="flex items-center gap-1.5">
+          <div className="flex gap-0.5">
+            {Array.from({ length: 5 }).map((_, i) => (
+              <IconoEstrella key={i} llena={i < llenas} mitad={i === llenas && mitad} />
+            ))}
+          </div>
+          <span className="text-xs text-text-dim">
+            {producto.numResenas > 0
+              ? `${producto.rating.toFixed(1)} · ${producto.numResenas.toLocaleString("es")} reseñas`
+              : "Sin reseñas todavía"}
+          </span>
+        </div>
 
         {producto.notaTecnica && (
-          <p className="line-clamp-3 text-xs leading-relaxed text-ink/70">
+          <p className="flex-1 text-sm leading-relaxed text-text-dim">
             {producto.notaTecnica}
           </p>
         )}
 
-        <div className="mt-auto flex items-center justify-between gap-3 pt-2">
-          <div>
-            <p className="font-mono text-base font-semibold text-ink">
-              {producto.precioMax && producto.precioMax > producto.precio ? (
-                <>
-                  Desde ${producto.precio.toFixed(2)}{" "}
-                  <span className="text-ink/50">— ${producto.precioMax.toFixed(2)}</span>
-                </>
-              ) : (
-                `$${producto.precio.toFixed(2)}`
-              )}
-            </p>
-            <p className="text-[10px] text-ink/50">
-              {producto.precioMax && producto.precioMax > producto.precio
-                ? "Rango referencial según vendedor/variante — precio final en Amazon"
-                : "Precio referencial, ver en Amazon"}
-            </p>
-          </div>
+        <div className="mt-auto space-y-3">
+          <p className="text-lg font-bold text-text-light">
+            {producto.precioMax && producto.precioMax > producto.precio ? (
+              <>
+                Desde ${producto.precio.toFixed(2)}{" "}
+                <span className="text-text-dim">— ${producto.precioMax.toFixed(2)}</span>
+              </>
+            ) : (
+              `$${producto.precio.toFixed(2)}`
+            )}
+            <span className="ml-2 align-middle text-[11px] font-normal text-text-dim">
+              precio referencial
+            </span>
+          </p>
+
           <a
             href={producto.urlAfiliado}
             target="_blank"
             rel="nofollow sponsored noopener noreferrer"
-            className="whitespace-nowrap rounded-sm bg-accent px-3 py-2 font-mono text-xs font-medium uppercase tracking-wide text-ink transition-opacity hover:opacity-90"
+            className="flex items-center justify-center gap-2 rounded-2xl bg-accent px-5 py-4 text-base font-bold text-ink shadow-lg shadow-accent/30 transition-transform active:scale-[0.98]"
           >
-            Ver en Amazon
+            {cta}
+            <IconoFlecha />
           </a>
         </div>
       </div>

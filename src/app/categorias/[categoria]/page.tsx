@@ -35,7 +35,7 @@ export default async function CategoriaPage({ params }: Props) {
   const itemListJsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: `Ranking de ${categoria.nombre} — Riego Trazado`,
+    name: `Ranking de ${categoria.nombre} — HidroLab`,
     itemListElement: productos.map((p, i) => ({
       "@type": "ListItem",
       position: i + 1,

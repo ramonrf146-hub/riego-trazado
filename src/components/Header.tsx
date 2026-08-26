@@ -58,14 +58,14 @@ export default function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <Link href="/" className="flex items-center gap-2.5 shrink-0" onClick={() => setMenuAbierto(false)}>
           <LogoValvula />
-          <span className="font-mono text-sm font-medium tracking-wide text-text-light sm:text-base">
-            RIEGO<span className="text-accent">_</span>TRAZADO
+          <span className="text-base font-extrabold tracking-tight text-text-light">
+            HIDRO<span className="text-accent">_</span>LAB
           </span>
         </Link>
 
         <nav
           aria-label="Categorías"
-          className="hidden items-center gap-5 overflow-x-auto font-mono text-xs uppercase tracking-wide text-text-dim md:flex"
+          className="hidden items-center gap-5 overflow-x-auto text-sm font-medium text-text-dim md:flex"
         >
           {CATEGORIAS.map((categoria) => (
             <Link
@@ -78,7 +78,7 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-3 font-mono text-xs uppercase tracking-wide">
+        <div className="flex items-center gap-3 text-sm font-medium">
           <Link
             href="/articulos"
             className="hidden text-text-dim transition-colors hover:text-line sm:inline"
@@ -87,7 +87,7 @@ export default function Header() {
           </Link>
           <Link
             href="/#ranking"
-            className="rounded-sm border border-accent/70 px-3 py-1.5 text-accent transition-colors hover:bg-accent hover:text-ink"
+            className="rounded-full bg-accent px-4 py-2 text-ink transition-opacity hover:opacity-90"
           >
             Ver ranking
           </Link>
@@ -97,7 +97,7 @@ export default function Header() {
             aria-expanded={menuAbierto}
             aria-controls="menu-movil"
             onClick={() => setMenuAbierto((v) => !v)}
-            className="flex items-center justify-center rounded-sm border border-line-dim p-2 text-text-light transition-colors hover:border-line md:hidden"
+            className="flex items-center justify-center rounded-full border border-line-dim p-2 text-text-light transition-colors hover:border-line md:hidden"
           >
             <IconoMenu abierto={menuAbierto} />
           </button>
@@ -108,7 +108,7 @@ export default function Header() {
         <nav
           id="menu-movil"
           aria-label="Categorías"
-          className="border-t border-line-dim/60 bg-ink px-4 py-4 font-mono text-xs uppercase tracking-wide text-text-dim md:hidden"
+          className="border-t border-line-dim/60 bg-ink px-4 py-4 text-sm font-medium text-text-dim md:hidden"
         >
           <ul className="flex flex-col gap-1">
             {CATEGORIAS.map((categoria) => (

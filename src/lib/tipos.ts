@@ -26,6 +26,8 @@ export interface Producto {
   ranking: number;
   /** Contenido editorial escrito a mano. Nunca se sobrescribe automáticamente. */
   notaTecnica: string;
+  /** Etiquetas cortas (protocolo, voltaje, forma factor) para las píldoras técnicas de la tarjeta. Opcional. */
+  tags?: string[];
   urlAfiliado: string;
   actualizadoEn: string;
   /** false = el enlace queda pausado: no se muestra en el sitio pero se conserva en el catálogo. Default true si se omite. */

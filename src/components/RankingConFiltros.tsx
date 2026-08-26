@@ -18,16 +18,16 @@ export default function RankingConFiltros({ productos }: { productos: Producto[]
       <div
         role="tablist"
         aria-label="Filtrar por categoría"
-        className="flex flex-wrap gap-2 border-b border-line-dim/40 pb-6"
+        className="flex flex-wrap gap-2"
       >
         <button
           role="tab"
           aria-selected={categoriaActiva === "todas"}
           onClick={() => setCategoriaActiva("todas")}
-          className={`rounded-sm border px-3 py-1.5 font-mono text-xs uppercase tracking-wide transition-colors ${
+          className={`rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-wide transition-colors ${
             categoriaActiva === "todas"
-              ? "border-accent bg-accent text-ink"
-              : "border-line-dim text-text-dim hover:border-line hover:text-line"
+              ? "bg-line text-ink"
+              : "bg-line-dim/60 text-text-dim hover:text-text-light"
           }`}
         >
           Todas
@@ -38,10 +38,10 @@ export default function RankingConFiltros({ productos }: { productos: Producto[]
             role="tab"
             aria-selected={categoriaActiva === categoria.slug}
             onClick={() => setCategoriaActiva(categoria.slug)}
-            className={`rounded-sm border px-3 py-1.5 font-mono text-xs uppercase tracking-wide transition-colors ${
+            className={`rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-wide transition-colors ${
               categoriaActiva === categoria.slug
-                ? "border-accent bg-accent text-ink"
-                : "border-line-dim text-text-dim hover:border-line hover:text-line"
+                ? "bg-line text-ink"
+                : "bg-line-dim/60 text-text-dim hover:text-text-light"
             }`}
           >
             {categoria.nombre}
@@ -54,11 +54,21 @@ export default function RankingConFiltros({ productos }: { productos: Producto[]
           Aún no hay productos rankeados en esta categoría.
         </p>
       ) : (
-        <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {productosFiltrados.map((producto) => (
-            <ProductCard key={producto.asin} producto={producto} />
-          ))}
-        </div>
+        <>
+          <div className="cards-slider mt-6 flex snap-x snap-mandatory gap-4 overflow-x-auto pb-4 sm:gap-5">
+            {productosFiltrados.map((producto) => (
+              <div
+                key={producto.asin}
+                className="w-[85vw] max-w-sm shrink-0 snap-start sm:w-[380px]"
+              >
+                <ProductCard producto={producto} />
+              </div>
+            ))}
+          </div>
+          <p className="mt-1 text-center text-xs text-text-dim/70 sm:hidden">
+            Deslizá para ver el siguiente →
+          </p>
+        </>
       )}
     </div>
   );

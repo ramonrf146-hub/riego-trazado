@@ -40,13 +40,13 @@ export default async function HomePage() {
             <div className="mt-8 flex flex-wrap gap-3">
               <a
                 href="#ranking"
-                className="rounded-sm bg-accent px-5 py-3 font-mono text-xs font-medium uppercase tracking-wide text-ink transition-opacity hover:opacity-90"
+                className="rounded-full bg-accent px-6 py-3 text-sm font-bold text-ink shadow-lg shadow-accent/30 transition-opacity hover:opacity-90"
               >
                 Ver ranking del mes
               </a>
               <a
                 href="#metodologia"
-                className="rounded-sm border border-line-dim px-5 py-3 font-mono text-xs font-medium uppercase tracking-wide text-text-light transition-colors hover:border-line"
+                className="rounded-full border border-line-dim px-6 py-3 text-sm font-semibold text-text-light transition-colors hover:border-line"
               >
                 Cómo evaluamos
               </a>

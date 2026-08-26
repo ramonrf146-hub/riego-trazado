@@ -1,5 +1,5 @@
 ---
-titulo: "Acerca de Riego Trazado"
+titulo: "Acerca de HidroLab"
 descripcion: "Quién está detrás de este sitio y por qué existe"
 actualizado: "2026-08-24"
 ---
@@ -18,4 +18,4 @@ Este sitio nace de la idea contraria: evaluar los controladores, sensores y vál
 
 ## Cómo se financia el sitio
 
-Riego Trazado participa en el Programa de Afiliados de Amazon Associates. Esto significa que algunos enlaces a productos en este sitio son enlaces de afiliado: si compras a través de ellos, recibimos una pequeña comisión sin costo adicional para ti. Esto no afecta qué productos recomendamos ni cómo los evaluamos — el ranking se basa en datos de ventas reales, no en qué producto paga más comisión.
+HidroLab participa en el Programa de Afiliados de Amazon Associates. Esto significa que algunos enlaces a productos en este sitio son enlaces de afiliado: si compras a través de ellos, recibimos una pequeña comisión sin costo adicional para ti. Esto no afecta qué productos recomendamos ni cómo los evaluamos — el ranking se basa en datos de ventas reales, no en qué producto paga más comisión.

@@ -1,4 +1,4 @@
-# Riego Trazado
+# HidroLab
 
 Sitio de afiliados de Amazon enfocado en riego inteligente/automatizado. Rankea
 mensualmente controladores WiFi, sensores de humedad, válvulas solenoides,
@@ -229,7 +229,7 @@ Si no vas a usar esta opción, podés borrar `vercel.json` y
 
 ## Herramienta separada: agente clasificador de inventario
 
-> ⚠️ **No está conectada al sitio.** Riego Trazado es 100% riego residencial
+> ⚠️ **No está conectada al sitio.** HidroLab es 100% riego residencial
 > (branding, artículos y lo declarado ante Amazon Associates). Este agente
 > clasifica hardware de **automatización/hogar inteligente** (Tuya, Node-RED,
 > ESP32) y **control industrial B2B** (variadores de frecuencia, RS485,
