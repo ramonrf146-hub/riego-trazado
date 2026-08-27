@@ -250,5 +250,89 @@
       "Autocebante",
       "1.5 HP"
     ]
+  },
+  {
+    "asin": "B01MUVVSSF",
+    "nombre": "Rain Bird LNK2 — Módulo WiFi 2da Generación (para controladores existentes)",
+    "categoria": "controladores-wifi",
+    "precio": 104.16,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/717NmAQGB0L._AC_UL320_.jpg",
+    "rating": 4.4,
+    "numResenas": 4885,
+    "ranking": 3,
+    "notaTecnica": "Ojo con la categoría: esto NO es un controlador standalone como los otros dos de este ranking, es un módulo WiFi que se enchufa dentro de un controlador Rain Bird compatible ya instalado (series TRU, ESP-TM2, ESP-ME3, ESP-RZXe o ESP-LXME2, fabricados después del 2 de noviembre de 2016). Si no tenés ya uno de esos controladores Rain Bird, este módulo solo no sirve de nada — necesitás comprar primero el controlador. Si ya lo tenés, agrega control remoto por app, rain delay y manejo de zonas individuales sin cambiar el controlador entero.",
+    "idealPara": "Quien ya tiene un controlador Rain Bird compatible (TRU, ESP-TM2/ME3/RZXe/LXME2) y solo le falta sumar WiFi — no sirve como controlador nuevo.",
+    "tags": [
+      "Módulo WiFi (no standalone)",
+      "Requiere controlador Rain Bird",
+      "Quick Pair"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B01MUVVSSF?tag=riegotrazado-20",
+    "actualizadoEn": "2026-08-26",
+    "activo": true
+  },
+  {
+    "asin": "B0DX6G7MSV",
+    "nombre": "meross WiFi Water Timer para Manguera (Hub incluido, IP65)",
+    "categoria": "controladores-wifi",
+    "precio": 55.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61HxCH9TFLL._AC_UL320_.jpg",
+    "rating": 4,
+    "numResenas": 218,
+    "ranking": 4,
+    "notaTecnica": "A diferencia del temporizador con gateway RF de este ranking, este se conecta directo por WiFi con hub incluido, y es compatible con Apple HomeKit además de Alexa y Google Assistant — más abierto que un enchufe atado a un solo asistente de voz. Conectores de entrada y salida en latón (más resistente a la corrosión que el plástico), y un mismo hub soporta hasta 24 temporizadores si vas a escalar. Es un producto más nuevo: 218 reseñas y 4.0 de rating, bastante por debajo del resto del ranking.",
+    "idealPara": "Timer de manguera inteligente compatible con cualquier asistente de voz (HomeKit incluido) y construcción más resistente en latón.",
+    "tags": [
+      "WiFi 2.4GHz",
+      "HomeKit/Alexa/Google",
+      "Latón + IP65"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0DX6G7MSV?tag=riegotrazado-20",
+    "actualizadoEn": "2026-08-26",
+    "activo": true
+  },
+  {
+    "asin": "B00J2NRUBI",
+    "nombre": "Raindrip R560DP — Kit de Goteo con Timer para Macetas y Canastos",
+    "categoria": "kits-goteo",
+    "precio": 35.98,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/81OgUqJGAcL._AC_UL320_.jpg",
+    "rating": 4.2,
+    "numResenas": 5830,
+    "ranking": 3,
+    "notaTecnica": "A diferencia de los kits de Bonviee y Bluepro de este ranking (pensados para hileras de plantas en el suelo o macizos), este viene armado específicamente para macetas y canastos colgantes — hasta 20 plantas. Incluye timer mecánico a pila (no WiFi/smart) y 75 ft de tubería de 1/4\", con acoples rápidos para instalar en tres pasos. Si buscás cobertura de jardín en el suelo, los kits de este ranking pensados para hileras son mejor opción.",
+    "idealPara": "Macetas, jardineras y canastos colgantes — no es el kit indicado para hileras de plantas en el suelo (para eso, los otros kits de este ranking).",
+    "tags": [
+      "Timer mecánico incluido",
+      "Hasta 20 plantas",
+      "Para macetas/canastos"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B00J2NRUBI?tag=riegotrazado-20",
+    "actualizadoEn": "2026-08-26",
+    "activo": true
+  },
+  {
+    "asin": "B079LFKZX6",
+    "nombre": "MIXC Kit de Riego/Niebla 50 ft con 20 Boquillas Ajustables",
+    "categoria": "kits-goteo",
+    "precio": 12.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/81WkSozJEML._AC_UL320_.jpg",
+    "rating": 4.3,
+    "numResenas": 2809,
+    "ranking": 4,
+    "notaTecnica": "La opción más económica de este ranking. Las 20 boquillas se ajustan entre modo chorro y modo niebla según la planta, cubriendo hasta 50 ft de recorrido. A diferencia de los otros kits de este ranking, NO incluye ningún temporizador — el fabricante lo aclara en la ficha, así que si querés automatizarlo del todo necesitás sumar uno de los controladores WiFi de este sitio o un timer mecánico aparte.",
+    "idealPara": "La opción más barata para armar un sistema de niebla/goteo ajustable — acordate de sumar un timer aparte, no lo trae incluido.",
+    "tags": [
+      "20 boquillas ajustables",
+      "Modo niebla/chorro",
+      "Sin timer incluido"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B079LFKZX6?tag=riegotrazado-20",
+    "actualizadoEn": "2026-08-26",
+    "activo": true
   }
 ]
