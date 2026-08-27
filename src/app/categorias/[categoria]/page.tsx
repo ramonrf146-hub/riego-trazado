@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { CATEGORIAS, getCategoriaPorSlug } from "@/lib/categorias";
 import { getProductosPorCategoria } from "@/lib/productos";
-import ProductCard from "@/components/ProductCard";
+import GridDeProductos from "@/components/GridDeProductos";
 
 interface Props {
   params: Promise<{ categoria: string }>;
@@ -96,11 +96,7 @@ export default async function CategoriaPage({ params }: Props) {
           Aún no hay productos rankeados en esta categoría.
         </p>
       ) : (
-        <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {productos.map((producto) => (
-            <ProductCard key={producto.asin} producto={producto} />
-          ))}
-        </div>
+        <GridDeProductos productos={productos} />
       )}
     </div>
   );

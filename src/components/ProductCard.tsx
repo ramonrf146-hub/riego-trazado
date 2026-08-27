@@ -65,7 +65,19 @@ function IconoEstrella({ llena, mitad }: { llena?: boolean; mitad?: boolean }) {
   );
 }
 
-export default function ProductCard({ producto }: { producto: Producto }) {
+interface ProductCardProps {
+  producto: Producto;
+  comparando?: boolean;
+  comparadorBloqueado?: boolean;
+  onToggleComparar?: () => void;
+}
+
+export default function ProductCard({
+  producto,
+  comparando = false,
+  comparadorBloqueado = false,
+  onToggleComparar,
+}: ProductCardProps) {
   const llenas = Math.floor(producto.rating);
   const mitad = producto.rating - llenas >= 0.5;
   const cta = CTAS_AFILIADO[producto.ranking % CTAS_AFILIADO.length];
@@ -115,6 +127,23 @@ export default function ProductCard({ producto }: { producto: Producto }) {
               : "Sin reseñas todavía"}
           </span>
         </div>
+
+        {onToggleComparar && (
+          <label
+            className={`flex items-center gap-2 text-xs ${
+              comparadorBloqueado ? "cursor-not-allowed text-text-dim/40" : "cursor-pointer text-text-dim"
+            }`}
+          >
+            <input
+              type="checkbox"
+              checked={comparando}
+              disabled={comparadorBloqueado}
+              onChange={onToggleComparar}
+              className="h-4 w-4 rounded border-line-dim accent-[var(--accent-2)]"
+            />
+            Comparar este producto
+          </label>
+        )}
 
         {producto.notaTecnica && (
           <p className="flex-1 text-sm leading-relaxed text-text-dim">
