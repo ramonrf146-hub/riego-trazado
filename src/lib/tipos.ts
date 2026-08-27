@@ -12,6 +12,19 @@ export interface Categoria {
   descripcion: string;
 }
 
+/**
+ * Guía de compra en lenguaje simple (sin jerga) para la página de
+ * detalle del producto. Distinta de `notaTecnica`: esa es corta y para
+ * el comparador; esto es contenido educativo más largo.
+ */
+export interface GuiaCompra {
+  queEsYParaQueSirve: string;
+  ejemploHogar: string;
+  ejemploNegocio: string;
+  puntosClave: [string, string, string];
+  consejoInversion: string;
+}
+
 export interface Producto {
   asin: string;
   nombre: string;
@@ -28,6 +41,8 @@ export interface Producto {
   notaTecnica: string;
   /** Una línea editorial: a qué tipo de comprador/situación le conviene este producto. Se usa en el comparador. */
   idealPara?: string;
+  /** Contenido educativo largo (qué es, ejemplos, guía de compra, consejo) para /productos/[asin]. Opcional. */
+  guiaCompra?: GuiaCompra;
   /** Etiquetas cortas (protocolo, voltaje, forma factor) para las píldoras técnicas de la tarjeta. Opcional. */
   tags?: string[];
   urlAfiliado: string;

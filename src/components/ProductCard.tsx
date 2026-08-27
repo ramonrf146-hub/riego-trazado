@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import type { Producto } from "@/lib/tipos";
 
 declare global {
@@ -176,6 +177,15 @@ export default function ProductCard({
             {cta}
             <IconoFlecha />
           </a>
+
+          {producto.guiaCompra && (
+            <Link
+              href={`/productos/${producto.asin}`}
+              className="block text-center text-xs font-semibold text-text-dim underline-offset-2 hover:text-text-light hover:underline"
+            >
+              Ver guía de compra completa
+            </Link>
+          )}
         </div>
       </div>
     </article>
