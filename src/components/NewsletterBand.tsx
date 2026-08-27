@@ -2,12 +2,22 @@
 
 import { useState } from "react";
 
+/**
+ * El "regalo" se entrega como descarga directa apenas se completa el
+ * form — el alta en Buttondown (vía /api/suscribirse) es best-effort y
+ * nunca bloquea la descarga si falla o tarda.
+ */
 export default function NewsletterBand() {
   const [estado, setEstado] = useState<"idle" | "enviado">("idle");
 
   function manejarEnvio(evento: React.FormEvent<HTMLFormElement>) {
     evento.preventDefault();
-    // TODO: conectar a proveedor de newsletter (ej. Buttondown, ConvertKit).
+    const email = new FormData(evento.currentTarget).get("email");
+    fetch("/api/suscribirse", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email, tag: "hoja-ingles-riego" }),
+    }).catch(() => {});
     setEstado("enviado");
   }
 
@@ -16,21 +26,31 @@ export default function NewsletterBand() {
       <div className="mx-auto flex max-w-6xl flex-col items-start gap-6 px-4 py-14 sm:flex-row sm:items-center sm:justify-between sm:px-6">
         <div>
           <p className="font-mono text-xs uppercase tracking-wide text-ink/60">
-            Ranking mensual por correo
+            Para el día a día en el jardín y el taller
           </p>
           <h2 className="mt-2 max-w-md text-xl font-semibold sm:text-2xl">
-            Recibe el ranking del mes antes que nadie
+            El inglés técnico de riego que necesitás, en una sola hoja
           </h2>
           <p className="mt-2 max-w-md text-sm text-ink/70">
-            Un correo al mes con los cambios de ranking y las notas técnicas
-            nuevas. Sin spam.
+            Términos como <em>backflow preventer</em>, <em>rain sensor</em> o
+            <em> self-priming</em> aparecen en cada manual y cada ficha en
+            inglés. Te armamos una hoja con 28 términos de riego automatizado,
+            traducidos y explicados en criollo, para imprimir y tener a mano.
           </p>
         </div>
 
         {estado === "enviado" ? (
-          <p className="font-mono text-sm text-accent">
-            Listo — revisa tu correo para confirmar.
-          </p>
+          <div className="flex flex-col items-start gap-2">
+            <p className="font-mono text-sm text-accent">Listo, ya es tuya.</p>
+            <a
+              href="/plantillas/ingles-tecnico-riego.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="whitespace-nowrap rounded-sm bg-ink px-4 py-2.5 font-mono text-xs font-medium uppercase tracking-wide text-text-light transition-opacity hover:opacity-90"
+            >
+              Abrir hoja de referencia
+            </a>
+          </div>
         ) : (
           <form
             onSubmit={manejarEnvio}
@@ -41,6 +61,7 @@ export default function NewsletterBand() {
             </label>
             <input
               id="newsletter-email"
+              name="email"
               type="email"
               required
               placeholder="tu@correo.com"
@@ -50,7 +71,7 @@ export default function NewsletterBand() {
               type="submit"
               className="whitespace-nowrap rounded-sm bg-ink px-4 py-2.5 font-mono text-xs font-medium uppercase tracking-wide text-text-light transition-opacity hover:opacity-90"
             >
-              Suscribirme
+              Quiero la hoja de referencia
             </button>
           </form>
         )}

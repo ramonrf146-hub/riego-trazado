@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Inglés técnico para riego automatizado — HidroLab</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 4rem;
+    color: #0f172a;
+    background: #ffffff;
+    line-height: 1.4;
+  }
+  header {
+    border-bottom: 3px solid #0f172a;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+  header p.eyebrow {
+    font-family: monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #0891b2;
+    margin: 0 0 0.4rem;
+    font-weight: 700;
+  }
+  header h1 { font-size: 1.5rem; margin: 0 0 0.4rem; }
+  header p.sub { font-size: 0.85rem; color: #475569; margin: 0; }
+  h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #0f172a;
+    border-bottom: 1px solid #cbd5e1;
+    padding-bottom: 0.35rem;
+    margin-top: 2rem;
+  }
+  table { width: 100%; border-collapse: collapse; margin-top: 0.75rem; }
+  td { vertical-align: top; padding: 0.5rem 0.4rem; border-bottom: 1px solid #e2e8f0; font-size: 0.85rem; }
+  td.termino { width: 34%; font-weight: 700; white-space: nowrap; }
+  td.termino span { display: block; font-weight: 500; color: #0891b2; font-size: 0.78rem; }
+  td.definicion { color: #334155; }
+  footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #cbd5e1; font-size: 0.75rem; color: #64748b; }
+  @media print {
+    body { padding: 0.5rem 1rem; }
+    h2 { break-after: avoid; }
+    tr { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <p class="eyebrow">HidroLab — Hoja de referencia</p>
+  <h1>Inglés técnico para riego automatizado</h1>
+  <p class="sub">28 términos que vas a encontrar en manuales, fichas técnicas y reseñas en inglés de productos de riego, traducidos y explicados en criollo. Imprimí esta hoja y tenela a mano en el jardín o el taller.</p>
+</header>
+
+<h2>Válvulas y zonas</h2>
+<table>
+  <tr><td class="termino">Solenoid Valve<span>Válvula solenoide</span></td><td class="definicion">Se abre o cierra sola al recibir una señal eléctrica, en vez de girarla a mano.</td></tr>
+  <tr><td class="termino">Zone Valve<span>Válvula de zona</span></td><td class="definicion">Controla el riego de un sector específico del jardín de forma independiente.</td></tr>
+  <tr><td class="termino">Master Valve<span>Válvula maestra</span></td><td class="definicion">Corta el paso de agua a todo el sistema, no solo a una zona — protección extra contra fugas.</td></tr>
+  <tr><td class="termino">Backflow Preventer<span>Válvula antirretorno</span></td><td class="definicion">Evita que el agua de riego (con tierra o químicos) se devuelva a la red de agua potable.</td></tr>
+  <tr><td class="termino">Anti-Siphon<span>Anti-sifón</span></td><td class="definicion">Válvula que trae la protección antirretorno incorporada en el mismo cuerpo.</td></tr>
+  <tr><td class="termino">NO / NC<span>Normalmente abierta / cerrada</span></td><td class="definicion">El estado por defecto de una válvula cuando no recibe señal — "cerrada" no deja pasar agua hasta activarse.</td></tr>
+  <tr><td class="termino">Hose Bib<span>Canilla / grifo</span></td><td class="definicion">El punto de conexión de agua exterior de la casa.</td></tr>
+  <tr><td class="termino">Riser<span>Elevador</span></td><td class="definicion">El caño que sube desde la tubería enterrada hasta el aspersor en superficie.</td></tr>
+  <tr><td class="termino">Manifold<span>Colector</span></td><td class="definicion">Punto donde se agrupan varias válvulas de zona en un solo lugar.</td></tr>
+  <tr><td class="termino">Quick Connect<span>Conector rápido</span></td><td class="definicion">Acople que une piezas de riego sin herramientas ni roscas.</td></tr>
+</table>
+
+<h2>Sensores y controladores</h2>
+<table>
+  <tr><td class="termino">Rain Sensor<span>Sensor de lluvia</span></td><td class="definicion">Detecta lluvia real y cancela el riego programado automáticamente.</td></tr>
+  <tr><td class="termino">Rain Delay<span>Retraso por lluvia</span></td><td class="definicion">Función que pausa el riego programado por un número de días.</td></tr>
+  <tr><td class="termino">Freeze Sensor<span>Sensor de helada</span></td><td class="definicion">Cancela el riego si la temperatura baja demasiado, para no dañar el sistema.</td></tr>
+  <tr><td class="termino">Leave-in Probe<span>Sonda enterrada permanente</span></td><td class="definicion">Sensor pensado para quedar bajo tierra todo el tiempo, no para medir puntualmente.</td></tr>
+  <tr><td class="termino">Capacitive Probe<span>Sonda capacitiva</span></td><td class="definicion">Mide humedad por campo eléctrico — no se corroe como las sondas metálicas baratas.</td></tr>
+  <tr><td class="termino">Dry Contact<span>Contacto seco</span></td><td class="definicion">Un interruptor que solo abre o cierra un circuito, sin importarle el voltaje del otro lado.</td></tr>
+  <tr><td class="termino">Gateway<span>Pasarela</span></td><td class="definicion">Equipo que traduce entre un protocolo de radio y tu red WiFi/Ethernet.</td></tr>
+  <tr><td class="termino">Timer<span>Temporizador</span></td><td class="definicion">Programa cuándo y por cuánto tiempo se abre una válvula o zona.</td></tr>
+</table>
+
+<h2>Bombas y presión</h2>
+<table>
+  <tr><td class="termino">PSI<span>Libras por pulgada cuadrada</span></td><td class="definicion">La unidad con la que se mide la presión del agua — más alto, más fuerza tiene el chorro.</td></tr>
+  <tr><td class="termino">GPH<span>Galones por hora</span></td><td class="definicion">Cuánta agua mueve una bomba en una hora.</td></tr>
+  <tr><td class="termino">GPM<span>Galones por minuto</span></td><td class="definicion">Otra forma de medir caudal, usada sobre todo en bombas de mayor potencia.</td></tr>
+  <tr><td class="termino">Self-Priming<span>Autocebante</span></td><td class="definicion">Una bomba que saca el aire de su propia tubería sola, sin llenarla de agua a mano antes de prenderla.</td></tr>
+  <tr><td class="termino">Check Valve<span>Válvula de retención</span></td><td class="definicion">Deja pasar el agua en un solo sentido, evitando que vuelva hacia la bomba.</td></tr>
+</table>
+
+<h2>Kits de goteo</h2>
+<table>
+  <tr><td class="termino">Drip Emitter<span>Emisor / gotero</span></td><td class="definicion">La pieza que deja salir el agua gota a gota junto a la raíz de la planta.</td></tr>
+  <tr><td class="termino">Micro-Spray<span>Micro-aspersor</span></td><td class="definicion">Boquilla que riega en niebla o spray fino, para un área más amplia que el goteo puntual.</td></tr>
+  <tr><td class="termino">Pressure Regulator<span>Regulador de presión</span></td><td class="definicion">Baja la presión de la red al rango que soporta un kit de goteo (suele ser 20-45 PSI).</td></tr>
+  <tr><td class="termino">Barbed Fitting<span>Conector de espiga</span></td><td class="definicion">Pieza dentada que se inserta a presión dentro de la manguera para conectar piezas.</td></tr>
+  <tr><td class="termino">Inline Filter<span>Filtro en línea</span></td><td class="definicion">Evita que el sedimento del agua tape los emisores del kit de goteo.</td></tr>
+</table>
+
+<footer>
+  HidroLab · riegocom.uk — Ranking mensual y guías de riego automatizado con criterio técnico.
+</footer>
+
+</body>
+</html>
