@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getCategoriaPorSlug } from "@/lib/categorias";
 import { getProductos, getProductoPorAsin } from "@/lib/productos";
+import GlosarioDeCampo from "@/components/GlosarioDeCampo";
 
 interface Props {
   params: Promise<{ asin: string }>;
@@ -134,6 +135,8 @@ export default async function ProductoPage({ params }: Props) {
       >
         Ver precio actual en Amazon
       </a>
+
+      <GlosarioDeCampo producto={producto} />
     </div>
   );
 }
