@@ -19,6 +19,39 @@ function IconoCerrar() {
   );
 }
 
+/**
+ * Insignias calculadas a partir de datos reales del catálogo (precio,
+ * rating, reseñas) — nunca texto inventado. Solo se otorgan cuando hay
+ * una diferencia real entre los productos comparados.
+ */
+function calcularInsignias(productos: Producto[]): Record<string, string[]> {
+  const insignias: Record<string, string[]> = {};
+  for (const p of productos) insignias[p.asin] = [];
+  if (productos.length < 2) return insignias;
+
+  const precios = productos.map((p) => p.precio);
+  const ratings = productos.map((p) => p.rating);
+  const resenas = productos.map((p) => p.numResenas);
+
+  const precioMin = Math.min(...precios);
+  const ratingMax = Math.max(...ratings);
+  const resenasMax = Math.max(...resenas);
+
+  const empatePrecio = precios.filter((v) => v === precioMin).length === productos.length;
+  const empateRating = ratings.filter((v) => v === ratingMax).length === productos.length;
+  const empateResenas = resenas.filter((v) => v === resenasMax).length === productos.length;
+
+  productos.forEach((p) => {
+    if (!empatePrecio && p.precio === precioMin) insignias[p.asin].push("💰 Precio más bajo");
+    if (!empateRating && p.rating === ratingMax) insignias[p.asin].push("⭐ Mejor valorado");
+    if (!empateResenas && p.numResenas === resenasMax && p.numResenas > 0) {
+      insignias[p.asin].push("🏆 Más reseñado");
+    }
+  });
+
+  return insignias;
+}
+
 export default function ComparadorModal({
   productos,
   onCerrar,
@@ -36,6 +69,7 @@ export default function ComparadorModal({
   const todasLasTags = Array.from(
     new Set(productos.flatMap((p) => p.tags ?? []))
   );
+  const insignias = calcularInsignias(productos);
 
   return (
     <div
@@ -82,6 +116,30 @@ export default function ComparadorModal({
                     ? `${producto.rating.toFixed(1)} ★ · ${producto.numResenas.toLocaleString("es")} reseñas`
                     : "Sin reseñas todavía"}
                 </p>
+
+                {insignias[producto.asin]?.length > 0 && (
+                  <div className="flex flex-wrap gap-1.5">
+                    {insignias[producto.asin].map((insignia) => (
+                      <span
+                        key={insignia}
+                        className="rounded-full bg-accent-2/15 px-2 py-1 text-[11px] font-semibold text-accent-2"
+                      >
+                        {insignia}
+                      </span>
+                    ))}
+                  </div>
+                )}
+
+                {producto.idealPara && (
+                  <p className="rounded-lg bg-line-dim/40 px-2.5 py-2 text-xs leading-snug text-text-light">
+                    <span className="font-semibold text-text-dim">Ideal para: </span>
+                    {producto.idealPara}
+                  </p>
+                )}
+
+                {producto.notaTecnica && (
+                  <p className="text-xs leading-relaxed text-text-dim">{producto.notaTecnica}</p>
+                )}
               </div>
             ))}
           </div>

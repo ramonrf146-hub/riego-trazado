@@ -26,6 +26,8 @@ export interface Producto {
   ranking: number;
   /** Contenido editorial escrito a mano. Nunca se sobrescribe automáticamente. */
   notaTecnica: string;
+  /** Una línea editorial: a qué tipo de comprador/situación le conviene este producto. Se usa en el comparador. */
+  idealPara?: string;
   /** Etiquetas cortas (protocolo, voltaje, forma factor) para las píldoras técnicas de la tarjeta. Opcional. */
   tags?: string[];
   urlAfiliado: string;
