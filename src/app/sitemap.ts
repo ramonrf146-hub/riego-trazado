@@ -1,11 +1,12 @@
 import type { MetadataRoute } from "next";
 import { CATEGORIAS } from "@/lib/categorias";
 import { getArticulos } from "@/lib/contenido";
+import { getProductos } from "@/lib/productos";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://riegocom.uk";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const articulos = await getArticulos();
+  const [articulos, productos] = await Promise.all([getArticulos(), getProductos()]);
 
   const paginasEstaticas: MetadataRoute.Sitemap = [
     { url: `${SITE_URL}/`, changeFrequency: "monthly", priority: 1 },
@@ -27,5 +28,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.5,
   }));
 
-  return [...paginasEstaticas, ...paginasCategoria, ...paginasArticulos];
+  const paginasProductos: MetadataRoute.Sitemap = productos.map((producto) => ({
+    url: `${SITE_URL}/productos/${producto.asin}`,
+    lastModified: producto.actualizadoEn,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  return [...paginasEstaticas, ...paginasCategoria, ...paginasArticulos, ...paginasProductos];
 }
