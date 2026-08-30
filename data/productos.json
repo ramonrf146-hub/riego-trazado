@@ -510,5 +510,101 @@
     "urlAfiliado": "https://www.amazon.com/dp/B079LFKZX6?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-26",
     "activo": true
+  },
+  {
+    "asin": "B07CZ864Y9",
+    "nombre": "Rachio 3 — Controlador WiFi 8 Zonas (Weather Intelligence)",
+    "categoria": "controladores-wifi",
+    "precio": 199,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71asdFrVrlL._AC_SY450_.jpg",
+    "rating": 4.5,
+    "numResenas": 8410,
+    "ranking": 5,
+    "notaTecnica": "Usa \"Weather Intelligence\" (patentado) para ajustar el riego de forma predictiva con datos meteorológicos reales, no solo cancelar si ya está lloviendo — no necesita sensores adicionales para eso. Se instala en unos 30 minutos, compatible con el 99% de los sistemas de riego existentes, y requiere el mismo cableado de 24V AC que cualquier controlador (no es a pilas). Viene también en versión de 16 zonas; si lo instalás afuera, la carcasa weatherproof se vende aparte. Es la marca premium con más historial de reseñas de las tres de este ranking.",
+    "idealPara": "Quien ya tiene el cableado de válvulas hecho y quiere el ajuste climático predictivo más probado (más reseñas) de las tres marcas premium, sin depender de sensores adicionales.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un controlador de riego que, además de prender y apagar zonas por horario, ajusta él solo cuánto regar según el clima real de tu zona (lluvia, viento, temperatura) usando su propio algoritmo — no solo cancela si detecta lluvia, como hacen los controladores económicos.",
+      "ejemploHogar": "En vez de programar \"regar 15 minutos todos los martes\", el sistema decide regar 9 minutos un día fresco y 18 minutos en una ola de calor, sin que vos tengas que tocar nada.",
+      "ejemploNegocio": "Una empresa de mantenimiento de jardines puede gestionar el riego de varias propiedades de clientes distintos desde una sola app, sin visitar cada casa para ajustar el programa según el clima de esa semana.",
+      "puntosClave": [
+        "Requiere el mismo cableado de 24V AC hacia las válvulas que cualquier controlador — no reemplaza ni simplifica la instalación eléctrica existente.",
+        "Si lo instalás a la intemperie necesitás la carcasa weatherproof, que Amazon vende como accesorio aparte del controlador.",
+        "Cuesta unas 5 veces más que un controlador económico de este ranking — la diferencia real está en el algoritmo de predicción climática, no en el hardware que abre la válvula."
+      ],
+      "consejoInversion": "Vale la pena pagar la diferencia si tu jardín tiene zonas con necesidades de agua muy distintas o si tu compañía de agua da un reembolso por certificación WaterSense. Si solo buscás horarios fijos y cancelar por lluvia, un controlador económico de este ranking hace lo mismo por una fracción del precio."
+    },
+    "tags": [
+      "WiFi",
+      "8 zonas",
+      "Weather Intelligence"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B07CZ864Y9?tag=riegotrazado-20",
+    "actualizadoEn": "2026-08-30",
+    "activo": true
+  },
+  {
+    "asin": "B076CZ6DHR",
+    "nombre": "Netro Sprite — Controlador WiFi 6 Zonas (Base de Datos de Plantas)",
+    "categoria": "controladores-wifi",
+    "precio": 79.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61VZFwEQLZL._AC_SX450_.jpg",
+    "rating": 4.3,
+    "numResenas": 1375,
+    "ranking": 6,
+    "notaTecnica": "Es el más económico de las tres marcas premium de este ranking (Rachio, Netro, Hydrawise). Su diferencial es la base de datos de plantas: sugiere humedad, luz y temperatura objetivo según el tipo de planta que le asignes a cada zona, y guarda hasta 60 días de historial de riego. Igual que los otros dos, necesita cableado de 24V AC — no es un timer a pilas. Tiene menos reseñas y un rating levemente menor que Rachio.",
+    "idealPara": "Quien quiere el salto a un controlador de marca reconocida sin pagar el precio de Rachio o Hydrawise, y le interesa que la app sugiera el riego según el tipo de planta de cada zona.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Además de programar horarios y cancelar por lluvia, este controlador te deja decirle qué tipo de planta tenés en cada zona (césped, flores, huerta) y ajusta la recomendación de riego según esa base de datos, en vez de tratarlas todas igual.",
+      "ejemploHogar": "Le asignás \"césped\" a una zona y \"huerta de tomates\" a otra — la app te sugiere un esquema de riego distinto para cada una según lo que esas plantas necesitan, en vez de un horario genérico para todo el jardín.",
+      "ejemploNegocio": "Un vivero con distintos sectores (plantines, arbustos, macetas) puede usar la base de datos de plantas para no tener que calcular a mano cuánta agua necesita cada sector.",
+      "puntosClave": [
+        "Es el más barato de las tres marcas premium (~$80 vs ~$200) pero tiene menos reseñas y un rating levemente menor que Rachio.",
+        "La base de datos de plantas es la función diferencial frente a un controlador económico — si tus zonas tienen vegetación mixta, es donde más se nota.",
+        "Necesita el mismo cableado de 24V AC a las válvulas que cualquier controlador de este ranking — no es plug&play sin instalación previa."
+      ],
+      "consejoInversion": "Es un buen punto medio si querés probar una marca premium sin pagar el precio de Rachio o Hydrawise — la base de datos de plantas suma valor real solo si tenés zonas con vegetación bien distinta entre sí."
+    },
+    "tags": [
+      "WiFi",
+      "6 zonas",
+      "Base de datos de plantas"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B076CZ6DHR?tag=riegotrazado-20",
+    "actualizadoEn": "2026-08-30",
+    "activo": true
+  },
+  {
+    "asin": "B08BJBKW44",
+    "nombre": "Hunter HPC400 — Controlador WiFi 4 Zonas con Hydrawise (Expandible a 32)",
+    "categoria": "controladores-wifi",
+    "precio": 200,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/7112oelzMJL._AC_SX450_.jpg",
+    "rating": 4.5,
+    "numResenas": 156,
+    "ranking": 7,
+    "notaTecnica": "Usa la app Hydrawise (la misma plataforma que los controladores Hunter Pro-HC de gama más alta) con ajuste de riego por clima. Arranca en 4 zonas y se expande con módulos aparte (no incluidos) hasta 32 zonas totales — útil si pensás crecer el sistema con el tiempo. Pantalla táctil e instalación DIY en unos 30 minutos. Tiene bastante menos reseñas que Rachio (156 vs 8.400+) pese a que Hunter es una marca histórica de riego profesional.",
+    "idealPara": "Quien quiere margen para crecer el sistema de riego agregando zonas con el tiempo, sin comprar otro controlador entero, con una marca (Hunter) con historia en riego profesional.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un controlador que arranca chico (4 zonas) pero está pensado para crecer: le vas sumando módulos de expansión a medida que agregás zonas de riego a tu jardín, en vez de tener que cambiar todo el controlador.",
+      "ejemploHogar": "Empezás regando solo el frente de la casa con 4 zonas, y el año que viene sumás el patio trasero comprando un módulo de expansión en vez de comprar un controlador nuevo de más zonas.",
+      "ejemploNegocio": "Un encargado de mantenimiento de un complejo de departamentos puede ir ampliando zonas de riego del predio con módulos, sin reemplazar el controlador central cada vez que se suma un sector nuevo.",
+      "puntosClave": [
+        "Arranca en 4 zonas pero cada módulo de expansión (se compra aparte, ronda los $48) suma zonas hasta un máximo de 32 — calculá cuánto pensás crecer antes de elegir la versión base.",
+        "Tiene muchas menos reseñas que Rachio (156 vs 8.400+), así que el respaldo de otros compradores en Amazon es más chico, aunque Hunter es un fabricante histórico de riego.",
+        "Usa la misma app Hydrawise que los controladores Hunter más caros de uso semi-profesional, así que no cambiás de plataforma si en el futuro subís de gama dentro de la marca."
+      ],
+      "consejoInversion": "Tiene sentido pagar la diferencia frente a un económico si sabés que vas a ampliar el sistema de riego en el futuro — la posibilidad de expandir sin cambiar el controlador central es la ventaja real frente a Rachio o Netro, que no ofrecen esa modularidad."
+    },
+    "tags": [
+      "WiFi",
+      "4 zonas",
+      "Expandible a 32"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B08BJBKW44?tag=riegotrazado-20",
+    "actualizadoEn": "2026-08-30",
+    "activo": true
   }
 ]
