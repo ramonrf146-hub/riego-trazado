@@ -15,7 +15,10 @@ const DIR_ARTICULOS = path.join(process.cwd(), "content", "articulos");
 const DIR_PAGINAS = path.join(process.cwd(), "content", "paginas");
 
 async function markdownAHtml(markdown: string): Promise<string> {
-  const resultado = await remark().use(remarkHtml).process(markdown);
+  // sanitize:false permite HTML crudo (embeds de YouTube) en los .md —
+  // seguro acá porque el contenido lo escribimos nosotros, no es
+  // input de usuarios.
+  const resultado = await remark().use(remarkHtml, { sanitize: false }).process(markdown);
   return resultado.toString();
 }
 

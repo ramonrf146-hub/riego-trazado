@@ -31,6 +31,12 @@ Es un sello del gobierno de EE.UU. que certifica que un controlador cumple está
 
 Si tu necesidad es programar horarios fijos, tener control por app y que no riegue bajo lluvia, un controlador como el de este ranking o el [meross con hub incluido](/productos/B0DX6G7MSV) cumple exactamente lo mismo por una fracción del precio — la diferencia con las marcas premium se nota más en jardines grandes o complejos, no en un patio residencial estándar.
 
+## Video: Rachio vs. Orbit cara a cara
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/LVB48v5deL8" title="What's the BEST Sprinkler Controller? Rachio vs Orbit — Smart Home Solver" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## Nuestra recomendación del mes
 
 Mirá el ranking completo de [Controladores WiFi](/categorias/controladores-wifi) — todos con nota técnica honesta sobre qué hacen y qué no, para comparar contra lo que ofrecen las marcas premium antes de decidir.
