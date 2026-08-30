@@ -7,6 +7,25 @@ categoria: "controladores-wifi"
 
 Si buscaste "mejor controlador de riego WiFi" seguro te cruzaste con Rachio, Netro o el sistema Hydrawise de Hunter una y otra vez — son las marcas de referencia que todo el mundo compara. Vale la pena entender qué hacen distinto antes de decidir si te conviene pagar el sobreprecio o si un controlador económico te resuelve igual.
 
+<div class="not-prose my-8 overflow-x-auto rounded-2xl border border-line-dim/60">
+<table class="w-full text-left text-sm">
+<thead>
+<tr class="border-b border-line-dim/60 bg-ink-2">
+<th class="px-4 py-3 text-xs font-mono uppercase tracking-wide text-text-dim">Función</th>
+<th class="px-4 py-3 text-xs font-mono uppercase tracking-wide text-text-dim">Económico</th>
+<th class="px-4 py-3 text-xs font-mono uppercase tracking-wide text-line">Premium (Rachio/Netro/Hydrawise)</th>
+</tr>
+</thead>
+<tbody class="text-text-dim">
+<tr class="border-b border-line-dim/30"><td class="px-4 py-3">Control por app</td><td class="px-4 py-3 text-accent-2">✓</td><td class="px-4 py-3 text-accent-2">✓</td></tr>
+<tr class="border-b border-line-dim/30"><td class="px-4 py-3">Cancela por lluvia/helada</td><td class="px-4 py-3 text-accent-2">✓</td><td class="px-4 py-3 text-accent-2">✓</td></tr>
+<tr class="border-b border-line-dim/30"><td class="px-4 py-3">Riego predictivo por clima</td><td class="px-4 py-3 text-text-dim/40">✕</td><td class="px-4 py-3 text-accent-2">✓</td></tr>
+<tr class="border-b border-line-dim/30"><td class="px-4 py-3">Certificación EPA WaterSense</td><td class="px-4 py-3 text-text-dim/40">✕</td><td class="px-4 py-3 text-accent-2">Según modelo</td></tr>
+<tr><td class="px-4 py-3">Precio típico</td><td class="px-4 py-3 text-text-light">$40–$60</td><td class="px-4 py-3 text-text-light">$130–$200+</td></tr>
+</tbody>
+</table>
+</div>
+
 ## 1. La diferencia real: riego por clima con predicción, no solo "saltar si llueve"
 
 Un controlador económico (como el [Smart Sprinklers Controller de este ranking](/productos/B0F883P8N1)) cancela el riego si detecta lluvia, helada o viento fuerte — reacciona a lo que ya está pasando. Las marcas premium van un paso más allá: ajustan el riego de forma predictiva usando datos meteorológicos y el tipo de suelo/planta, calculando cuánta agua necesita el jardín ANTES de que riegue, no solo cancelando cuando ya llovió. Para el uso normal de una casa, esa diferencia es real pero no siempre decisiva.
