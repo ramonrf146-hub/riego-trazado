@@ -34,8 +34,44 @@ export default async function ProductoPage({ params }: Props) {
   const categoria = getCategoriaPorSlug(producto.categoria);
   const guia = producto.guiaCompra;
 
+  const productoJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: producto.nombre,
+    sku: producto.asin,
+    image: producto.imagen,
+    description: guia?.queEsYParaQueSirve ?? producto.notaTecnica,
+    ...(producto.numResenas > 0 && {
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: producto.rating,
+        reviewCount: producto.numResenas,
+      },
+    }),
+    offers:
+      producto.precioMax && producto.precioMax > producto.precio
+        ? {
+            "@type": "AggregateOffer",
+            lowPrice: producto.precio,
+            highPrice: producto.precioMax,
+            priceCurrency: producto.moneda,
+            url: producto.urlAfiliado,
+          }
+        : {
+            "@type": "Offer",
+            price: producto.precio,
+            priceCurrency: producto.moneda,
+            url: producto.urlAfiliado,
+          },
+  };
+
   return (
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productoJsonLd) }}
+      />
+
       <nav className="font-mono text-xs uppercase tracking-wide text-text-dim">
         <Link href="/" className="hover:text-line">
           Inicio
