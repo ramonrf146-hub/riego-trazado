@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getArticulos, getArticuloPorSlug } from "@/lib/contenido";
 import { getCategoriaPorSlug } from "@/lib/categorias";
+import { getProductosPorCategoria } from "@/lib/productos";
+import GridDeProductos from "@/components/GridDeProductos";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -37,6 +39,9 @@ export default async function ArticuloPage({ params }: Props) {
   if (!articulo) notFound();
 
   const categoria = articulo.categoria ? getCategoriaPorSlug(articulo.categoria) : undefined;
+  const productosRelacionados = articulo.categoria
+    ? (await getProductosPorCategoria(articulo.categoria)).slice(0, 3)
+    : [];
 
   const articuloJsonLd = {
     "@context": "https://schema.org",
@@ -80,6 +85,21 @@ export default async function ArticuloPage({ params }: Props) {
         className="prose prose-invert prose-headings:font-semibold prose-a:text-line mt-8 max-w-none prose-headings:text-text-light prose-p:text-text-dim prose-li:text-text-dim prose-strong:text-text-light"
         dangerouslySetInnerHTML={{ __html: articulo.contenidoHtml }}
       />
+
+      {productosRelacionados.length > 0 && categoria && (
+        <section className="mt-14 border-t border-line-dim/60 pt-10">
+          <div className="flex items-center justify-between gap-4">
+            <h2 className="text-xl font-semibold text-text-light">Productos relacionados</h2>
+            <Link
+              href={`/categorias/${categoria.slug}`}
+              className="whitespace-nowrap font-mono text-xs uppercase tracking-wide text-line hover:underline"
+            >
+              Ver ranking completo →
+            </Link>
+          </div>
+          <GridDeProductos productos={productosRelacionados} />
+        </section>
+      )}
     </article>
   );
 }
