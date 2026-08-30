@@ -606,5 +606,37 @@
     "urlAfiliado": "https://www.amazon.com/dp/B08BJBKW44?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-30",
     "activo": true
+  },
+  {
+    "asin": "B01D15HOIQ",
+    "nombre": "Orbit B-hyve — Controlador WiFi 6 Zonas",
+    "categoria": "controladores-wifi",
+    "precio": 104.77,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61y8wLhK3BL._AC_SY450_.jpg",
+    "rating": 4.5,
+    "numResenas": 9416,
+    "ranking": 8,
+    "notaTecnica": "Es el controlador con más reseñas de todo este catálogo (9.400+), incluso más que Rachio. Ofrece programación por app, carcasa weatherproof para instalación interior o exterior (garage, pared exterior), y viene también en versión de 12 zonas. A diferencia de Rachio, Netro o Hydrawise no destaca un algoritmo propio de predicción climática en su ficha — es un controlador WiFi sólido y de marca reconocida (Orbit), pero sin el marketing de 'riego inteligente por IA' de los otros tres premium.",
+    "idealPara": "Quien quiere una marca de riego reconocida (Orbit) con muchísimo respaldo de reseñas, en un precio intermedio entre los controladores económicos y las tres marcas premium de este ranking.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un controlador de riego WiFi de una marca histórica en irrigación (Orbit), que te deja programar horarios y manejar hasta 6 zonas desde el celular, con una carcasa preparada para instalarse tanto adentro como afuera de la casa.",
+      "ejemploHogar": "Instalás el controlador en el garage o contra una pared exterior protegida, programás el riego del jardín delantero y trasero por separado, y lo manejás desde el celular sin tener que ir hasta el aparato.",
+      "ejemploNegocio": "Un administrador de un pequeño complejo de casas puede estandarizar en esta marca por su volumen de reseñas y disponibilidad de repuestos, sin pagar el sobreprecio de las marcas con algoritmo climático propio.",
+      "puntosClave": [
+        "Es el producto con más reseñas de todo el catálogo — un dato a favor si valorás el respaldo de muchos compradores antes que funciones extra.",
+        "No promociona un algoritmo propio de predicción climática como Rachio, Netro o Hydrawise — cúmplelo bien lo básico (horarios, cancelar por lluvia vía la app) sin ese plus.",
+        "Viene también en versión de 12 zonas si tu jardín necesita más cobertura que las 6 zonas de este modelo."
+      ],
+      "consejoInversion": "Es un punto medio razonable: más barato que las tres marcas premium de este ranking, con una marca y volumen de reseñas más fuerte que los controladores más económicos. Si no te interesa el ajuste climático predictivo y solo querés una marca confiable con historial comprobado, esta es una opción sólida."
+    },
+    "tags": [
+      "WiFi",
+      "6 zonas",
+      "Weatherproof"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B01D15HOIQ?tag=riegotrazado-20",
+    "actualizadoEn": "2026-08-30",
+    "activo": true
   }
 ]
