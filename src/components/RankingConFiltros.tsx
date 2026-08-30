@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import type { Producto } from "@/lib/tipos";
 import { CATEGORIAS } from "@/lib/categorias";
 import { useComparador } from "@/lib/useComparador";
+import { calcularInsigniasCatalogo } from "@/lib/insignias";
 import ProductCard from "./ProductCard";
 import ComparadorModal from "./ComparadorModal";
 
@@ -28,6 +29,11 @@ export default function RankingConFiltros({ productos }: { productos: Producto[]
     if (categoriaActiva === "todas") return productos;
     return productos.filter((p) => p.categoria === categoriaActiva);
   }, [productos, categoriaActiva]);
+
+  // Se calcula sobre el catálogo completo (no el filtrado) para que la
+  // insignia de cada producto sea siempre relativa a su propia
+  // categoría, incluso cuando se está viendo "Todas".
+  const insignias = useMemo(() => calcularInsigniasCatalogo(productos), [productos]);
 
   function actualizarFlechas() {
     const el = sliderRef.current;
@@ -120,6 +126,8 @@ export default function RankingConFiltros({ productos }: { productos: Producto[]
                     comparando={comparador.estaSeleccionado(producto)}
                     comparadorBloqueado={comparador.estaBloqueado(producto)}
                     onToggleComparar={() => comparador.toggleSeleccion(producto)}
+                    masVendido={insignias.masVendido.has(producto.asin)}
+                    mejorValorado={insignias.mejorValorado.has(producto.asin)}
                   />
                 </div>
               ))}

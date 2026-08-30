@@ -71,6 +71,8 @@ interface ProductCardProps {
   comparando?: boolean;
   comparadorBloqueado?: boolean;
   onToggleComparar?: () => void;
+  masVendido?: boolean;
+  mejorValorado?: boolean;
 }
 
 export default function ProductCard({
@@ -78,6 +80,8 @@ export default function ProductCard({
   comparando = false,
   comparadorBloqueado = false,
   onToggleComparar,
+  masVendido = false,
+  mejorValorado = false,
 }: ProductCardProps) {
   const llenas = Math.floor(producto.rating);
   const mitad = producto.rating - llenas >= 0.5;
@@ -89,6 +93,20 @@ export default function ProductCard({
         <span className="absolute left-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-ink text-base font-extrabold text-text-light shadow-lg shadow-black/30">
           #{producto.ranking}
         </span>
+        {(masVendido || mejorValorado) && (
+          <div className="absolute right-4 top-4 flex flex-col items-end gap-1.5">
+            {masVendido && (
+              <span className="rounded-full bg-accent-2 px-2.5 py-1 text-[11px] font-bold text-ink shadow-lg shadow-black/30">
+                🏆 Más vendido
+              </span>
+            )}
+            {mejorValorado && (
+              <span className="rounded-full bg-accent px-2.5 py-1 text-[11px] font-bold text-ink shadow-lg shadow-black/30">
+                ⭐ Mejor valorado
+              </span>
+            )}
+          </div>
+        )}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={producto.imagen}

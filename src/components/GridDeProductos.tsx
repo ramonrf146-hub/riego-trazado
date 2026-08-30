@@ -1,7 +1,9 @@
 "use client";
 
+import { useMemo } from "react";
 import type { Producto } from "@/lib/tipos";
 import { useComparador } from "@/lib/useComparador";
+import { calcularInsigniasCatalogo } from "@/lib/insignias";
 import ProductCard from "./ProductCard";
 import ComparadorModal from "./ComparadorModal";
 
@@ -12,6 +14,7 @@ import ComparadorModal from "./ComparadorModal";
  */
 export default function GridDeProductos({ productos }: { productos: Producto[] }) {
   const comparador = useComparador();
+  const insignias = useMemo(() => calcularInsigniasCatalogo(productos), [productos]);
 
   return (
     <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -22,6 +25,8 @@ export default function GridDeProductos({ productos }: { productos: Producto[] }
           comparando={comparador.estaSeleccionado(producto)}
           comparadorBloqueado={comparador.estaBloqueado(producto)}
           onToggleComparar={() => comparador.toggleSeleccion(producto)}
+          masVendido={insignias.masVendido.has(producto.asin)}
+          mejorValorado={insignias.mejorValorado.has(producto.asin)}
         />
       ))}
 
