@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getProductos, getEstadisticas } from "@/lib/productos";
 import HeroDiagrama from "@/components/HeroDiagrama";
 import StatsGrid from "@/components/StatsGrid";
+import BuscadorDeProducto from "@/components/BuscadorDeProducto";
 import RankingConFiltros from "@/components/RankingConFiltros";
 import ComoArmamosRanking from "@/components/ComoArmamosRanking";
 import NewsletterBand from "@/components/NewsletterBand";
@@ -62,6 +63,10 @@ export default async function HomePage() {
           totalProductos={estadisticas.totalProductos}
           ultimaActualizacion={estadisticas.ultimaActualizacion}
         />
+      </section>
+
+      <section className="mx-auto max-w-3xl px-4 pb-4 sm:px-6">
+        <BuscadorDeProducto productos={productos} />
       </section>
 
       <section id="ranking" className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
