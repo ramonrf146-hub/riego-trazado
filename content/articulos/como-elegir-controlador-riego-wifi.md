@@ -36,4 +36,8 @@ Es una pregunta incómoda pero válida: si la empresa detrás del controlador ci
 
 Antes de mirar el precio, verifica: cuántas zonas reales necesitas (más un margen), si funciona sin depender de servidores externos, si acepta sensores externos por entrada física, y qué tan lejos vas a instalarlo del router. Esos cuatro factores predicen mejor la satisfacción a largo plazo que cualquier lista de funciones de la app.
 
-*[PENDIENTE: agregar aquí 2-3 modelos específicos del ranking mensual una vez conectada la API, con nota técnica de cuál cumple mejor cada criterio.]*
+## Ejemplos reales de este ranking, según el criterio
+
+- **Pensando en el futuro (criterio 1):** el [Hunter HPC400](/productos/B08BJBKW44) arranca en 4 zonas pero se expande con módulos hasta 32 — resuelve directamente el problema de comprar de menos. El [Rachio 3](/productos/B07CZ864Y9) también viene en versión de 16 zonas si sabés que vas a necesitar más desde el arranque.
+- **Respaldo de otros compradores:** el [Orbit B-hyve](/productos/B01D15HOIQ) es el controlador con más reseñas de todo este ranking (más de 9.000) — no es sinónimo de "mejor" en cada criterio técnico, pero sí de que mucha gente lo usó sin problemas graves.
+- **Protocolo:** todos los controladores de este ranking son WiFi puro — si tu instalación queda lejos del router, revisá el alcance de tu red antes de comprar cualquiera de ellos, ya que ninguno incluye un repetidor propio.
