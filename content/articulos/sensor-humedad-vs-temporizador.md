@@ -37,4 +37,7 @@ No es todo o nada. Muchos controladores modernos aceptan un sensor de lluvia sim
 
 Si tu prioridad es simplicidad y costo, un temporizador con buen horario ajustado por estación funciona bien. Si tu prioridad es ahorro de agua y precisión, o tienes plantas sensibles al exceso de riego, el sensor de humedad se paga solo con el tiempo. Y si no estás seguro, el sensor de lluvia como veto es el punto de entrada más barato a un sistema más inteligente.
 
-*[PENDIENTE: agregar aquí productos específicos del ranking mensual una vez conectada la API.]*
+## Ejemplos reales de este ranking
+
+- **Temporizador con veto por lluvia:** el [Smart Sprinklers Controller](/productos/B0F883P8N1) ya trae esa función de "interruptor de veto" incorporada — programás el horario fijo y el controlador cancela solo si su app detecta lluvia, sin que tengas que sumar un sensor físico aparte.
+- **Sensor de humedad de suelo:** el [RAINPOINT con sonda capacitiva](/productos/B0F596PTCF) mide directamente el suelo, o si además querés recibir alertas en el celular, el [RAINPOINT con hub WiFi](/productos/B0GH6WJWQK) suma esa capa de notificaciones.

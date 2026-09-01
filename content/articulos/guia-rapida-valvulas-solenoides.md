@@ -33,4 +33,7 @@ La mayoría de los kits de riego residencial usan válvulas de 3/4 de pulgada. S
 
 Confirma 24V AC, normalmente cerrada (salvo caso específico), y el diámetro correcto de tu tubería. En instalación, respeta la flecha de dirección, protege la válvula del clima, y sella bien las conexiones eléctricas — eso evita el 90% de las fallas prematuras que se reportan en reseñas de producto.
 
-*[PENDIENTE: agregar aquí productos específicos del ranking mensual una vez conectada la API.]*
+## Ejemplos reales de este ranking
+
+- **Válvula completa, 3/4":** la [Orbit 57280](/productos/B01MG1VV2M) ya viene en la rosca de 3/4" FPT que es el estándar de la mayoría de los kits residenciales.
+- **Solenoide de repuesto, 24V AC:** si tu válvula sigue en buen estado mecánico pero el solenoide falló (el motivo más común, según el punto 3 de arriba), el [Irritrol R811-24VACG](/productos/B07T4TNP3B) es un solenoide de reemplazo a 24V AC — viene de a 2 unidades, útil para tener uno de repuesto antes de que falle el siguiente.
