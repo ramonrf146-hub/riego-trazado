@@ -638,5 +638,37 @@
     "urlAfiliado": "https://www.amazon.com/dp/B01D15HOIQ?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-30",
     "activo": true
+  },
+  {
+    "asin": "B0DQLFC3Q6",
+    "nombre": "GoveeLife Detector Inteligente de Fugas de Agua (5 sensores + gateway WiFi)",
+    "categoria": "sensores-humedad",
+    "precio": 59.98,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61ocRSrpStL._AC_SX425_PIbundle-6,TopRight,0,0_SH20_.jpg",
+    "rating": 4.2,
+    "numResenas": 2665,
+    "ranking": 3,
+    "notaTecnica": "No es un sensor de humedad de suelo — es un detector de fugas/inundación para instalar cerca de electrodomésticos, bajo pileta, o en el sótano. Los sensores individuales NO hablan WiFi directo entre sí: usan radio de largo alcance propietaria (hasta 1804 pies) hacia un gateway, y es el gateway el que se conecta a tu WiFi 2.4GHz y manda las alertas por app/SMS/email. GoveeLife vende esta misma línea en variantes con y sin gateway incluido — confirmá en el listado que la que comprás lo incluye, si no tenés uno ya de otro producto GoveeLife compatible (H5059/H5830).",
+    "idealPara": "Quien quiere anticiparse a daños por agua (pérdidas de calefón, lavarropas, pileta de cocina) en vez de sensores de riego — un complemento de seguridad para la casa, no para el jardín.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es una alarma que detecta cuando hay agua donde no debería haber — la colocás en el piso cerca del calefón, debajo de la pileta de cocina, o al lado del lavarropas, y te avisa al celular apenas detecta la primera gota, antes de que se convierta en una inundación cara de arreglar.",
+      "ejemploHogar": "Ponés uno debajo del calentador de agua y otro bajo la pileta de la cocina — si cualquiera de las dos mangueras empieza a perder, te llega una notificación al celular aunque no estés en casa.",
+      "ejemploNegocio": "Una casa de alquiler temporario (Airbnb) o una segunda propiedad que se visita poco puede usar varios de estos sensores para detectar una fuga antes de que el próximo huésped o vos mismos lo noten semanas después.",
+      "puntosClave": [
+        "No mide humedad de suelo para riego — es específicamente para detectar agua donde no debería haber (fugas, inundaciones), un uso distinto al resto de esta categoría.",
+        "Los sensores no tienen WiFi propio: dependen de un gateway que sí se conecta a tu red 2.4GHz — confirmá que el pack que comprás incluye ese gateway.",
+        "La batería dura hasta 5 años según el fabricante — no es un dispositivo que vayas a estar recargando seguido como otros sensores WiFi."
+      ],
+      "consejoInversion": "El costo de un pack de sensores es una fracción de lo que cuesta reparar un piso o un mueble dañado por una fuga no detectada a tiempo — vale la pena en cualquier punto de la casa donde haya una manguera o conexión de agua escondida (calefón, lavarropas, bajomesada)."
+    },
+    "tags": [
+      "Detector de fugas",
+      "5 sensores",
+      "IP67"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0DQLFC3Q6?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-01",
+    "activo": true
   }
 ]
