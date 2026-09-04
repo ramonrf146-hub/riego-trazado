@@ -670,5 +670,37 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0DQLFC3Q6?tag=riegotrazado-20",
     "actualizadoEn": "2026-09-01",
     "activo": true
+  },
+  {
+    "asin": "B00004RAAZ",
+    "nombre": "Rain Bird DASASVF075 — Válvula Anti-Sifón 3/4 pulgada",
+    "categoria": "valvulas-solenoides",
+    "precio": 26.43,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/916ysT48o1L._AC_SX466_.jpg",
+    "rating": 4.6,
+    "numResenas": 831,
+    "ranking": 3,
+    "notaTecnica": "A diferencia de la válvula in-line Orbit 57280 de este ranking (que va enterrada), esta es una válvula 'anti-sifón': se instala arriba del nivel del suelo, típicamente atornillada directo sobre una canilla, con rompedor de vacío integrado — exigido por código en muchas zonas cuando la válvula está cerca de una fuente de agua potable. Rosca 3/4\", 24V AC estándar, compatible con cualquier controlador. Casi 900 compradas el último mes.",
+    "idealPara": "Instalaciones donde el código local exige protección anti-retorno visible cerca de una canilla, o para quien prefiere una válvula fácil de inspeccionar sin cavar.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "A diferencia de la válvula in-line que va enterrada (como la Orbit de este ranking), esta va montada arriba del nivel del suelo, generalmente atornillada directo sobre una canilla — trae integrado un 'rompedor de vacío' que evita que el agua de riego (con tierra, fertilizante) se succione de vuelta hacia la red de agua potable.",
+      "ejemploHogar": "La instalás directo sobre la canilla exterior de tu casa, visible y fácil de inspeccionar, en vez de enterrada — ideal si preferís poder revisarla o repararla sin cavar.",
+      "ejemploNegocio": "Un instalador de riego que trabaja en zonas donde el código de plomería exige protección anti-retorno visible cerca de la fuente de agua puede usar este tipo de válvula para cumplir la normativa sin instalar un dispositivo aparte.",
+      "puntosClave": [
+        "Va montada arriba del nivel del suelo (típicamente sobre una canilla), no enterrada como la válvula in-line de este ranking — confirmá cuál necesita tu instalación.",
+        "Trae el rompedor de vacío integrado — en muchas zonas es obligatorio por código si la válvula está cerca de una fuente de agua potable.",
+        "Rosca 3/4\" y 24V AC estándar — compatible con cualquier controlador, no solo los de la marca Rain Bird."
+      ],
+      "consejoInversion": "Con 831 reseñas y casi 900 compradas el último mes, es una de las válvulas anti-sifón más probadas del mercado — si tu instalación exige protección anti-retorno visible, esta cumple la norma sin pagar de más por funciones que no necesitás."
+    },
+    "tags": [
+      "Anti-sifón",
+      "3/4\" FPT",
+      "24V AC"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B00004RAAZ?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-04",
+    "activo": true
   }
 ]

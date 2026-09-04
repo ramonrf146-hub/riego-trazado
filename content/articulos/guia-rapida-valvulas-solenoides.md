@@ -18,6 +18,15 @@ Casi todos los controladores de riego residencial, tanto los tradicionales como 
 
 Si la ficha del producto no lo especifica, es casi seguro que es normalmente cerrada — pero confírmalo, porque instalar la incorrecta significa que tu sistema riega todo el tiempo excepto cuando tú quieres.
 
+## Válvula in-line (enterrada) vs. anti-sifón (sobre el nivel del suelo)
+
+Hay dos formas físicas de instalar una válvula solenoide, y no son intercambiables:
+
+- **In-line**: va enterrada, conectada directo a la tubería subterránea. Es la más común en sistemas residenciales con varias zonas.
+- **Anti-sifón**: se instala arriba del nivel del suelo, generalmente atornillada directo sobre una canilla, con un rompedor de vacío integrado. En muchas zonas es obligatoria por código cuando la válvula está cerca de una fuente de agua potable, porque evita que el agua de riego (con tierra o fertilizante) se succione de vuelta hacia la red doméstica.
+
+Si tu instalación va a quedar enterrada, necesitás una in-line. Si conecta directo sobre una canilla o está cerca de una fuente de agua potable, revisá el código local — probablemente necesites una anti-sifón.
+
 ## Tamaño de rosca: 3/4" es el más común
 
 La mayoría de los kits de riego residencial usan válvulas de 3/4 de pulgada. Si tu tubería principal es de 1 pulgada, existen válvulas de ese tamaño, pero es menos común encontrarlas en el rango de precio económico. Mide tu tubería antes de comprar — no asumas.
@@ -37,3 +46,4 @@ Confirma 24V AC, normalmente cerrada (salvo caso específico), y el diámetro co
 
 - **Válvula completa, 3/4":** la [Orbit 57280](/productos/B01MG1VV2M) ya viene en la rosca de 3/4" FPT que es el estándar de la mayoría de los kits residenciales.
 - **Solenoide de repuesto, 24V AC:** si tu válvula sigue en buen estado mecánico pero el solenoide falló (el motivo más común, según el punto 3 de arriba), el [Irritrol R811-24VACG](/productos/B07T4TNP3B) es un solenoide de reemplazo a 24V AC — viene de a 2 unidades, útil para tener uno de repuesto antes de que falle el siguiente.
+- **Válvula anti-sifón, 3/4":** si tu instalación va sobre una canilla o el código local exige protección anti-retorno visible, la [Rain Bird DASASVF075](/productos/B00004RAAZ) es una anti-sifón con rompedor de vacío integrado, a diferencia de la Orbit in-line de arriba.
