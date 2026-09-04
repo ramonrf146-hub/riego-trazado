@@ -702,5 +702,33 @@
     "urlAfiliado": "https://www.amazon.com/dp/B00004RAAZ?tag=riegotrazado-20",
     "actualizadoEn": "2026-09-04",
     "activo": true
+  },
+  {
+    "asin": "B0BB9M2TS8",
+    "nombre": "ECO-WORTHY 33-Series — Bomba Booster de Diafragma 4.0 GPM 50 PSI",
+    "categoria": "bombas",
+    "precio": 68.39,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71Qm9HwRDoL._AC_SX425_.jpg",
+    "rating": 4.2,
+    "numResenas": 2129,
+    "ranking": 3,
+    "notaTecnica": "Bomba de diafragma (no centrífuga como la de superficie de este ranking) — arranca y para sola con presostato integrado, según demanda. A diferencia de la sumergible (achique) y la de superficie autocebante (presión constante para varios aspersores), esta es un booster liviano y portátil para una sola manguera o punto de riego con baja presión: 4.0 GPM, 50 PSI, 110V AC. Trae adaptadores de manguera de jardín incluidos.",
+    "idealPara": "Sumar presión a una sola manguera o punto de riego cuando la presión de la canilla es floja — opción liviana y portátil frente a la bomba de superficie de este ranking.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "A diferencia de la bomba de superficie de este ranking (pensada para sostener presión de todo un sistema de aspersores), esta es una bomba de diafragma chica y portátil que se conecta en línea con una sola manguera para darle más presión — arranca sola cuando abrís la canilla y para sola cuando la cerrás, gracias a un presostato integrado.",
+      "ejemploHogar": "Tenés una manguera con poca presión al final del jardín (lejos de la conexión principal) y esta bomba, conectada en el medio del recorrido, le devuelve la fuerza para que el aspersor funcione bien.",
+      "ejemploNegocio": "Un vivero chico con una sola manguera de riego que pierde presión en el punto más alejado puede sumar esta bomba portátil sin rehacer toda la instalación de presión.",
+      "puntosClave": [
+        "Es una bomba de diafragma, no centrífuga como la de superficie de este ranking — pensada para un punto de uso (una manguera), no para sostener presión de todo un sistema con varios aspersores a la vez.",
+        "Trae adaptadores de manguera de jardín incluidos — no necesitás comprar piezas extra para la instalación básica.",
+        "Arranca y para sola según la demanda (presostato integrado) — no hace falta prenderla y apagarla manualmente cada vez que regás."
+      ],
+      "consejoInversion": "Con más de 2.100 reseñas y 'Amazon's Choice', es una forma barata y portátil de resolver baja presión en un punto puntual del jardín — mucho más económica que la bomba de superficie de este ranking, aunque no la reemplaza si necesitás presión para varios aspersores a la vez."
+    },
+    "tags": ["Diafragma", "Portátil", "4.0 GPM"],
+    "urlAfiliado": "https://www.amazon.com/dp/B0BB9M2TS8?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-04",
+    "activo": true
   }
 ]
