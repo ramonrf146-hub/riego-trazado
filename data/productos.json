@@ -730,5 +730,33 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0BB9M2TS8?tag=riegotrazado-20",
     "actualizadoEn": "2026-09-04",
     "activo": true
+  },
+  {
+    "asin": "B0CGTRGLFC",
+    "nombre": "DieseRC Relé WiFi 2 Canales — App eWeLink, sin Arduino",
+    "categoria": "modulos-rele",
+    "precio": 15.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71xAQkSVheL._SX342_.jpg",
+    "rating": 4.5,
+    "numResenas": 223,
+    "ranking": 3,
+    "notaTecnica": "A diferencia de los relés de este ranking (1 canal y 8 canales), que son módulos 'crudos' para conectar a un Arduino/ESP32, este trae su propio WiFi integrado — no necesitás programar ni sumar un microcontrolador aparte, se controla directo desde la app eWeLink (o Alexa/Google) apenas lo conectás a tu red. 2 canales, salida pasiva compatible con 24V, hasta 10A.",
+    "idealPara": "Controlar 1-2 válvulas de riego por WiFi sin programar nada ni sumar un Arduino — la opción 'app y listo' frente a los módulos de relé DIY de este ranking.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "A diferencia de los relés de este ranking (que son piezas sueltas para conectar a un Arduino y programar vos mismo), este trae WiFi integrado — lo conectás a tu red con la app eWeLink y ya podés prender/apagar cada canal desde el celular, sin escribir una sola línea de código.",
+      "ejemploHogar": "Tenés una sola válvula de riego que hoy abrís y cerrás a mano, y querés controlarla por WiFi sin armar un proyecto de electrónica — este relé hace ese trabajo directo, sin Arduino de por medio.",
+      "ejemploNegocio": "Un cuidador de jardines con pocos clientes puede sumar control remoto a válvulas sueltas en distintas propiedades sin tener que programar un microcontrolador para cada una.",
+      "puntosClave": [
+        "A diferencia de los relés de este ranking, no necesita Arduino ni programación — se controla directo desde la app eWeLink apenas lo conectás al WiFi.",
+        "Trae 2 canales — podés controlar dos válvulas o cargas independientes con un solo módulo.",
+        "Es compatible con Alexa y Google Home, algo que los relés DIY de este ranking no ofrecen por sí solos."
+      ],
+      "consejoInversion": "Con más de 220 reseñas y 'Amazon's Choice', es la opción de menor fricción para sumar control WiFi a una válvula suelta — si ya sabés programar Arduino, los relés DIY de este ranking dan más control fino, pero para 'que funcione ya' este es más rápido de poner en marcha."
+    },
+    "tags": ["WiFi integrado", "App eWeLink", "2 canales"],
+    "urlAfiliado": "https://www.amazon.com/dp/B0CGTRGLFC?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-04",
+    "activo": true
   }
 ]
