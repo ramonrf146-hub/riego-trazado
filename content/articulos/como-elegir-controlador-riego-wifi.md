@@ -36,6 +36,10 @@ Es una pregunta incómoda pero válida: si la empresa detrás del controlador ci
 
 Antes de mirar el precio, verifica: cuántas zonas reales necesitas (más un margen), si funciona sin depender de servidores externos, si acepta sensores externos por entrada física, y qué tan lejos vas a instalarlo del router. Esos cuatro factores predicen mejor la satisfacción a largo plazo que cualquier lista de funciones de la app.
 
+## Si solo necesitás resolver un viaje, no todo el jardín
+
+No siempre hace falta un controlador WiFi completo. Si el problema puntual es "me voy de vacaciones y no quiero que se sequen las macetas o la huerta", puede alcanzar con un kit de goteo con timer a pilas — mirá la guía de [cómo regar el jardín si te vas de vacaciones](/articulos/como-regar-el-jardin-si-te-vas-de-vacaciones) para saber cuándo conviene cada opción según cuánto tiempo estés fuera.
+
 ## Ejemplos reales de este ranking, según el criterio
 
 - **Pensando en el futuro (criterio 1):** el [Hunter HPC400](/productos/B08BJBKW44) arranca en 4 zonas pero se expande con módulos hasta 32 — resuelve directamente el problema de comprar de menos. El [Rachio 3](/productos/B07CZ864Y9) también viene en versión de 16 zonas si sabés que vas a necesitar más desde el arranque.

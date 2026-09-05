@@ -512,6 +512,38 @@
     "activo": true
   },
   {
+    "asin": "B0F5VYR2Z4",
+    "nombre": "HEKIWAY Kit de Riego por Goteo 60 ft con Timer Inteligente Incluido",
+    "categoria": "kits-goteo",
+    "precio": 65.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/81nVlG9U7sL._SX342_.jpg",
+    "rating": 4.3,
+    "numResenas": 140,
+    "ranking": 5,
+    "notaTecnica": "A diferencia de los otros kits de este ranking, este SÍ trae el temporizador incluido — es la opción 'todo en uno' para quien no quiere comprar por separado la manguera de goteo y el timer WiFi. Conectores de bronce macizo (más durables que el plástico de kits más baratos), boquillas 360° ajustables y modo Rain Delay de 1 a 15 días. Amazon's Choice, '400+ compras el último mes'. El timer funciona a pilas (no incluidas) y no requiere WiFi ni app — se programa directo en el dispositivo, lo que lo hace más simple pero también más limitado que un controlador WiFi completo.",
+    "idealPara": "Quien quiere resolver el riego de un cantero, huerta elevada o macetas en un solo pedido, sin armar el sistema comprando manguera y timer por separado.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un kit completo de riego por goteo (60 pies de manguera, boquillas ajustables, conectores de bronce) que ya viene con un timer automático a pilas incluido — no hace falta comprar el temporizador aparte como sí pasa con el kit MIXC de este mismo ranking.",
+      "ejemploHogar": "Te vas de vacaciones una semana y programás el timer antes de salir: las plantas de la huerta elevada o las macetas del patio siguen recibiendo agua todos los días sin que nadie tenga que entrar a tu casa a regar.",
+      "ejemploNegocio": "Un vivero o local con jardineras al frente arma el sistema completo en una sola compra, sin tener que combinar piezas de distintos fabricantes que a veces no encajan entre sí.",
+      "puntosClave": [
+        "El timer es a pilas y se programa en el propio dispositivo — no tiene WiFi ni app, así que no podés controlarlo a distancia como sí podés con los controladores WiFi de este sitio.",
+        "Los conectores son de bronce macizo, más resistentes a la intemperie que los conectores plásticos de kits más económicos como el MIXC de este ranking.",
+        "Incluye modo Rain Delay (pausa el riego 1 a 15 días) y bloqueo para niños — útil si tenés chicos que puedan tocar el timer sin querer."
+      ],
+      "consejoInversion": "Cuesta más que comprar manguera y timer mecánico por separado, pero te ahorra el trabajo de armar la combinación vos mismo y las piezas ya vienen pensadas para funcionar juntas — buena opción si preferís resolver el riego de una huerta o cantero en un solo pedido, sin convertirte en experto en compatibilidad de roscas y conectores."
+    },
+    "tags": [
+      "Timer incluido",
+      "Conectores de bronce",
+      "Rain Delay 1-15 días"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0F5VYR2Z4?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-05",
+    "activo": true
+  },
+  {
     "asin": "B07CZ864Y9",
     "nombre": "Rachio 3 — Controlador WiFi 8 Zonas (Weather Intelligence)",
     "categoria": "controladores-wifi",
