@@ -2,6 +2,7 @@
   {
     "asin": "B0F883P8N1",
     "nombre": "Smart Sprinklers Controller WiFi 4 Zonas (Auto Skip lluvia/helada)",
+    "nombreEn": "Smart Sprinkler Controller WiFi 4-Zone (Auto Rain/Freeze Skip)",
     "categoria": "controladores-wifi",
     "precio": 39.99,
     "moneda": "USD",
@@ -10,7 +11,9 @@
     "numResenas": 415,
     "ranking": 1,
     "notaTecnica": "WiFi 2.4GHz únicamente (no 5GHz) — revisa que tu router tenga esa banda antes de comprar. Salta el riego automáticamente si detecta lluvia, helada o viento fuerte, y se instala en unos 10 minutos sin herramientas especiales. Es la variante de 4 zonas de una familia que también viene en 6, 8 y hasta 16 zonas — si vas a crecer el sistema, conviene comprar directamente la versión más grande en vez de duplicar controladores.",
+    "notaTecnicaEn": "2.4GHz WiFi only (no 5GHz) — check that your router broadcasts that band before buying. It automatically skips watering when it detects rain, freezing temps, or high wind, and installs in about 10 minutes with no special tools. This is the 4-zone version of a family that also comes in 6-, 8-, and 16-zone sizes — if you plan to grow the system, it's smarter to buy the larger version upfront instead of running multiple controllers.",
     "idealPara": "Quien arranca con riego automatizado en un jardín chico o mediano (hasta 4 zonas) y quiere controlarlo por app sin instalación complicada.",
+    "idealParaEn": "Anyone starting out with automated irrigation in a small-to-medium yard (up to 4 zones) who wants app control without a complicated install.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Es el \"cerebro\" que decide cuándo y cuánto regar. En vez de abrir y cerrar la llave de paso a mano, este aparato se conecta a tu WiFi y prende o apaga hasta 4 zonas de riego según el horario que le programes desde el celular — y es lo bastante \"inteligente\" como para cancelar el riego solo si el pronóstico anuncia lluvia o frío.",
       "ejemploHogar": "Programás que el jardín se riegue todos los martes y viernes a las 6am, y si esa semana llueve, el controlador salta el riego solo — no tenés que acordarte de cancelarlo vos.",
@@ -22,6 +25,17 @@
       ],
       "consejoInversion": "Frente a un timer mecánico de los que se atornillan a la canilla, este controlador te ahorra el error humano (olvidarte de regar, o regar bajo lluvia) y el agua que ahorra suele pagarlo solo en pocos meses — vale la pena si ya tenés el cableado de válvulas hecho."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "This is the 'brain' that decides when and how much to water. Instead of turning a valve by hand, this device connects to your WiFi and switches up to 4 irrigation zones on and off on the schedule you set from your phone — and it's smart enough to skip watering on its own if the forecast calls for rain or cold.",
+      "ejemploHogar": "You schedule the yard to water every Tuesday and Friday at 6am, and if it rains that week, the controller skips the cycle on its own — you don't have to remember to cancel it.",
+      "ejemploNegocio": "A small nursery or a storefront with planters out front can automate watering across 4 separate zones (pots, beds, lawn) without paying someone to open and close valves every day.",
+      "puntosClave": [
+        "Check that your router broadcasts 2.4GHz WiFi — this model doesn't work with the 5GHz band that newer routers default to.",
+        "Count how many zones you actually need: if you plan to grow past 4, this same family comes in 6-, 8-, and even 16-zone versions.",
+        "Confirm you already have 24V wiring run to your valves — this controller drives electric valves, it doesn't replace the plumbing install."
+      ],
+      "consejoInversion": "Compared to a mechanical hose-bib timer, this controller saves you the human error (forgetting to water, or watering in the rain), and the water it saves usually pays for it within a few months — worth it if your valve wiring is already in place."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0F883P8N1?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
     "activo": true,
@@ -29,11 +43,13 @@
       "WiFi 2.4GHz",
       "4 zonas",
       "Auto rain skip"
-    ]
+    ],
+    "tagsEn": ["2.4GHz WiFi", "4 zones", "Auto rain skip"]
   },
   {
     "asin": "B0GSSJ2KWT",
     "nombre": "WiFi Water Timer con Gateway RF (hasta 64 dispositivos)",
+    "nombreEn": "WiFi Water Timer with RF Gateway (up to 64 Devices)",
     "categoria": "controladores-wifi",
     "precio": 51.99,
     "moneda": "USD",
@@ -42,7 +58,9 @@
     "numResenas": 28,
     "ranking": 2,
     "notaTecnica": "Ojo con la categoría: este es un temporizador a batería con gateway RF (rango de hasta 984 ft), no un controlador cableado a válvulas de 24V AC. Sirve para expandir riego a varios grifos/mangueras sin tender cable, con hasta 8 meses de batería declarados y actualizaciones OTA — pero si tu sistema ya tiene válvulas solenoides fijas, necesitás un controlador cableado, no este tipo de temporizador.",
+    "notaTecnicaEn": "Note the category here: this is a battery-powered timer with an RF gateway (range up to 984 ft), not a controller wired to 24V AC valves. It's built to extend watering to several hose bibs or spigots without running any cable, with up to 8 months of claimed battery life and OTA updates — but if your system already has fixed solenoid valves, you need a wired controller, not this type of timer.",
     "idealPara": "Expandir riego a mangueras o grifos sueltos sin tender cable — no para quien ya tiene válvulas de 24V AC fijas (ahí necesitás un controlador cableado).",
+    "idealParaEn": "Extending watering to loose hoses or spigots without running cable — not for anyone who already has fixed 24V AC valves (you'd need a wired controller for that).",
     "guiaCompra": {
       "queEsYParaQueSirve": "Pensalo como un walkie-talkie para el riego: en vez de un cable que conecta el controlador con la válvula, este sistema usa radiofrecuencia (RF) para hablarle a temporizadores a batería que se atornillan directo a la canilla o manguera, sin abrir zanjas ni tender cable.",
       "ejemploHogar": "Tenés varias mangueras sueltas en distintos rincones del patio (huerta, macetas, lavado del auto) y querés programarlas todas desde el celular sin tender cable hasta cada una.",
@@ -54,6 +72,17 @@
       ],
       "consejoInversion": "Comparado con tender cable enterrado hasta cada canilla (excavación, caños, mano de obra), este sistema RF sale mucho más barato de instalar — el ahorro en obra compensa el precio más alto que un timer simple de canilla."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Think of it as a walkie-talkie for irrigation: instead of a wire connecting the controller to the valve, this system uses radio frequency (RF) to talk to battery-powered timers that screw directly onto a spigot or hose, with no trenching or cable runs needed.",
+      "ejemploHogar": "You've got several loose hoses scattered around the yard (a vegetable patch, potted plants, the spot where you wash the car) and want to schedule them all from your phone without running cable to each one.",
+      "ejemploNegocio": "A small farm or kennel with scattered water points (troughs, plot irrigation) can automate them without any construction work — just screw a battery timer onto each point.",
+      "puntosClave": [
+        "It's battery-powered (up to 8 months of claimed life), not hardwired — if your system already has valves wired to 24V, you need a wired controller, not this.",
+        "Radio range is up to 984 feet (300 meters) in open air — walls and metal structures cut that down significantly.",
+        "Check how many devices the gateway supports (up to 64) if you're planning to scale to many watering points."
+      ],
+      "consejoInversion": "Compared to trenching buried cable out to every spigot (digging, conduit, labor), this RF system is much cheaper to install — the labor savings more than make up for the higher price tag versus a basic hose-bib timer."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0GSSJ2KWT?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
     "activo": true,
@@ -61,11 +90,13 @@
       "RF Gateway",
       "A batería",
       "64 dispositivos"
-    ]
+    ],
+    "tagsEn": ["RF Gateway", "Battery-powered", "64 devices"]
   },
   {
     "asin": "B0F596PTCF",
     "nombre": "RAINPOINT Sensor de Humedad Inalámbrico con Sonda Capacitiva",
+    "nombreEn": "RAINPOINT Wireless Soil Moisture Sensor with Capacitive Probe",
     "categoria": "sensores-humedad",
     "precio": 43.49,
     "moneda": "USD",
@@ -74,7 +105,9 @@
     "numResenas": 53,
     "ranking": 1,
     "notaTecnica": "Usa sonda capacitiva (más duradera que las resistivas económicas, que se corroen con el tiempo) y está pensada para quedar enterrada de forma permanente ('leave-in'), no para mediciones puntuales. Requiere un hub WiFi del mismo fabricante — sin él, el sensor no reporta datos en tiempo real, solo funciona como sonda local.",
+    "notaTecnicaEn": "Uses a capacitive probe (more durable than cheap resistive ones, which corrode over time) and is designed to stay buried permanently ('leave-in'), not for spot checks. It requires a hub from the same manufacturer — without it, the sensor won't report real-time data, it only works as a local probe.",
     "idealPara": "Quien ya tiene o va a comprar el hub WiFi RAINPOINT, o solo necesita la sonda para lectura local sin reportar datos en tiempo real.",
+    "idealParaEn": "Anyone who already has, or plans to buy, the RAINPOINT WiFi hub — or who only needs the probe for local readings without real-time reporting.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Es una sonda que se entierra en la tierra y \"siente\" cuánta agua hay ahí abajo, como un termómetro pero para humedad. Usa una sonda \"capacitiva\" (mide por campo eléctrico, no por corrosión de metal), que dura mucho más que las sondas baratas que se oxidan con el tiempo.",
       "ejemploHogar": "La enterrás cerca de una planta que se te muere seguido por exceso o falta de riego, y así sabés objetivamente si necesita agua en vez de regar \"porque sí\".",
@@ -86,6 +119,17 @@
       ],
       "consejoInversion": "Una sonda capacitiva cuesta más que una resistiva genérica, pero no se corroe con el tiempo (las resistivas sí, y empiezan a dar lecturas falsas a los pocos meses) — para un sensor que va a quedar enterrado años, la durabilidad justifica la diferencia de precio."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a probe you bury in the soil that 'feels' how much water is down there, like a thermometer but for moisture. It uses a 'capacitive' probe (measures via electric field, not metal corrosion), which lasts far longer than cheap probes that rust over time.",
+      "ejemploHogar": "You bury it near a plant that keeps dying from over- or under-watering, and now you know objectively whether it needs water instead of watering 'just because.'",
+      "ejemploNegocio": "A nursery can stick several probes into different beds to know exactly which ones need water that day, instead of watering everything the same and wasting water.",
+      "puntosClave": [
+        "It absolutely needs the same-brand (RAINPOINT) WiFi hub to send data to your phone in real time — without the hub, it only works as a local probe.",
+        "It's designed to stay buried permanently, not to be moved from pot to pot and pulled out afterward.",
+        "If you already have an irrigation controller from another brand, this sensor doesn't connect to it — it's a separate monitoring device."
+      ],
+      "consejoInversion": "A capacitive probe costs more than a generic resistive one, but it doesn't corrode over time (resistive ones do, and start giving false readings within months) — for a sensor that's staying buried for years, the durability justifies the price difference."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0F596PTCF?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
     "activo": true,
@@ -93,11 +137,13 @@
       "Sonda capacitiva",
       "Leave-in",
       "Requiere hub"
-    ]
+    ],
+    "tagsEn": ["Capacitive probe", "Leave-in", "Requires hub"]
   },
   {
     "asin": "B0GH6WJWQK",
     "nombre": "RAINPOINT Kit Sensor de Humedad + Hub WiFi + Alertas",
+    "nombreEn": "RAINPOINT Soil Moisture Sensor + WiFi Hub + Alerts Kit",
     "categoria": "sensores-humedad",
     "precio": 29.99,
     "moneda": "USD",
@@ -106,7 +152,9 @@
     "numResenas": 37,
     "ranking": 2,
     "notaTecnica": "Viene con el hub WiFi incluido (a diferencia del sensor suelto de arriba) y agrega registro histórico de datos y alertas de humedad baja. Se integra directo con el sistema de riego inteligente RAINPOINT — si ya tenés o vas a comprar un controlador de otra marca, confirmá que acepte esta integración antes de comprar, porque es un ecosistema cerrado.",
+    "notaTecnicaEn": "Comes with the WiFi hub included (unlike the standalone sensor above) and adds historical data logging and low-moisture alerts. It integrates directly with the RAINPOINT smart irrigation ecosystem — if you already have or plan to buy a controller from another brand, confirm it supports this integration before buying, since it's a closed ecosystem.",
     "idealPara": "Arrancar de cero con monitoreo de humedad: trae el hub incluido y suma alertas y registro histórico desde el primer día.",
+    "idealParaEn": "Starting from zero with moisture monitoring: it comes with the hub included and adds alerts and historical logging from day one.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Es el mismo tipo de sonda de humedad de arriba, pero en un combo que ya trae el hub WiFi incluido — como comprar el teléfono con el cargador adentro de la caja, en vez de tener que comprarlo aparte.",
       "ejemploHogar": "Arrancás de cero con monitoreo de humedad en el jardín: instalás el hub una sola vez y después podés sumar más sensores compatibles sin comprar otro hub.",
@@ -118,6 +166,17 @@
       ],
       "consejoInversion": "Si estás arrancando de cero, pagar un poco más por el combo con hub sale más barato y simple que comprar el hub y el sensor por separado — y las alertas de humedad baja te evitan perder plantas por descuido."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's the same type of moisture probe as above, but bundled with the WiFi hub already included — like buying a phone with the charger in the box instead of having to buy it separately.",
+      "ejemploHogar": "You're starting from zero with moisture monitoring in the yard: you set up the hub once, and after that you can add more compatible sensors without buying another hub.",
+      "ejemploNegocio": "An urban farming venture can build a network of sensors across different beds and get alerts when one needs watering urgently, instead of checking the soil by hand every day.",
+      "puntosClave": [
+        "Confirm your irrigation controller (if you have one from another brand) supports this integration — it's a closed RAINPOINT ecosystem, not an open standard.",
+        "It includes historical data logging and low-moisture alerts, something the standalone sensor (without a hub) doesn't offer.",
+        "This kit's rating is lower (3.7) than the standalone sensor's — it's worth reading recent reviews before buying."
+      ],
+      "consejoInversion": "If you're starting from scratch, paying a bit more for the hub-included combo works out cheaper and simpler than buying the hub and sensor separately — and the low-moisture alerts save you from losing plants to neglect."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0GH6WJWQK?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
     "activo": true,
@@ -125,11 +184,13 @@
       "Hub incluido",
       "Alertas",
       "Ecosistema RAINPOINT"
-    ]
+    ],
+    "tagsEn": ["Hub included", "Alerts", "RAINPOINT ecosystem"]
   },
   {
     "asin": "B01MG1VV2M",
     "nombre": "Orbit 57280 — Válvula automática 3/4 pulgada FPT",
+    "nombreEn": "Orbit 57280 — 3/4-Inch FPT Automatic Sprinkler Valve",
     "categoria": "valvulas-solenoides",
     "precio": 13.58,
     "moneda": "USD",
@@ -138,7 +199,9 @@
     "numResenas": 2400,
     "ranking": 1,
     "notaTecnica": "Con más de 2.400 reseñas es, por lejos, la válvula más comprada de esta categoría — eso también significa que hay más piezas de repuesto y guías de instalación disponibles si algo falla. Rosca 3/4\" FPT, normalmente cerrada como la mayoría de las válvulas residenciales, y compatible con cualquier controlador de 24V AC, no solo los de la propia marca Orbit.",
+    "notaTecnicaEn": "With over 2,400 reviews, it's by far the best-selling valve in this category — which also means more spare parts and installation guides are available if something fails. 3/4\" FPT thread, normally closed like most residential valves, and compatible with any 24V AC controller, not just Orbit's own.",
     "idealPara": "Reemplazar o instalar una válvula 24V AC estándar y confiable, compatible con cualquier controlador — no solo los de la marca Orbit.",
+    "idealParaEn": "Replacing or installing a standard, reliable 24V AC valve, compatible with any controller — not just Orbit's own brand.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Es la \"canilla eléctrica\" del sistema: un controlador le manda una señal de 24 voltios y esta válvula se abre o cierra sola, dejando pasar o cortando el agua hacia una zona del jardín.",
       "ejemploHogar": "Es la pieza que se instala enterrada, una por cada zona de riego (césped, canteros, huerta), y que el controlador WiFi abre y cierra según el horario programado.",
@@ -150,6 +213,17 @@
       ],
       "consejoInversion": "Con más de 2.400 reseñas, esta es la válvula que más se vende — eso significa que vas a encontrar repuestos, guías de instalación y gente que ya resolvió los mismos problemas que vos, algo que no tenés con una marca genérica sin historial."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's the system's 'electric faucet': a controller sends it a 24-volt signal and this valve opens or closes on its own, letting water through or shutting it off to a section of the yard.",
+      "ejemploHogar": "It's the part buried underground, one per irrigation zone (lawn, flower beds, vegetable garden), that your WiFi controller opens and closes on the schedule you set.",
+      "ejemploNegocio": "A club or sports field needs dozens of these valves spread across the grounds, each controlling watering for one section — and picking the one with the most spare-parts stock means you won't be stuck if one breaks.",
+      "puntosClave": [
+        "Confirm your installation's thread size (this one is 3/4-inch FPT) — not every valve uses the same size.",
+        "It's 'normally closed' (doesn't let water through by default), the type used in 99% of residential systems — confirm yours isn't one of the rare 'normally open' setups.",
+        "It doesn't need to match your controller's brand: any 24V AC valve works with any 24V AC controller."
+      ],
+      "consejoInversion": "With over 2,400 reviews, this is the best-selling valve out there — meaning you'll find replacement parts, installation guides, and people who've already solved the same problems you're facing, something you don't get with an unproven generic brand."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B01MG1VV2M?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
     "activo": true,
@@ -157,11 +231,13 @@
       "3/4\" FPT",
       "24V AC",
       "Normalmente cerrada"
-    ]
+    ],
+    "tagsEn": ["3/4\" FPT", "24V AC", "Normally closed"]
   },
   {
     "asin": "B07T4TNP3B",
     "nombre": "Irritrol R811-24VACG — Solenoide de repuesto (2 unidades)",
+    "nombreEn": "Irritrol R811-24VACG — Replacement Solenoid (2-Pack)",
     "categoria": "valvulas-solenoides",
     "precio": 40.42,
     "moneda": "USD",
@@ -170,7 +246,9 @@
     "numResenas": 160,
     "ranking": 2,
     "notaTecnica": "Importante: esto NO es una válvula completa, es el solenoide (la bobina) de repuesto para válvulas Irritrol de las series 2400, 2500, 2600 y 700. Tiene sentido comprarlo si tu válvula actual dejó de abrir o cerrar pero el cuerpo de la válvula sigue en buen estado — reemplazar solo el solenoide es más barato que cambiar la válvula entera.",
+    "notaTecnicaEn": "Important: this is NOT a complete valve, it's the replacement solenoid (the coil) for Irritrol valves in the 2400, 2500, 2600, and 700 series. It makes sense to buy this if your current valve stopped opening or closing but the valve body is still in good shape — replacing just the solenoid is cheaper than swapping the whole valve.",
     "idealPara": "Reparar una válvula Irritrol (series 2400/2500/2600/700) que dejó de abrir o cerrar, sin cambiar el cuerpo entero de la válvula.",
+    "idealParaEn": "Repairing an Irritrol valve (2400/2500/2600/700 series) that stopped opening or closing, without replacing the entire valve body.",
     "guiaCompra": {
       "queEsYParaQueSirve": "El solenoide es \"la bobina\" de la válvula: la parte eléctrica que recibe la señal del controlador y hace el movimiento mecánico de abrir o cerrar el paso de agua — como el motorcito de una puerta de garage automática, pero para agua.",
       "ejemploHogar": "Tu válvula de riego dejó de abrir de golpe, pero el cuerpo de plástico y las conexiones de agua siguen perfectas — en vez de cambiar la válvula entera, cambiás solo esta pieza y ahorrás plata.",
@@ -182,6 +260,17 @@
       ],
       "consejoInversion": "Cambiar solo el solenoide cuesta una fracción de lo que sale una válvula nueva completa — si el resto de la válvula está sano, este repuesto es la opción más barata y rápida de arreglar el problema."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "The solenoid is the valve's 'coil': the electrical part that receives the signal from the controller and does the mechanical work of opening or closing the water flow — like the little motor on an automatic garage door, but for water.",
+      "ejemploHogar": "Your irrigation valve suddenly stopped opening, but the plastic body and water fittings are still fine — instead of replacing the whole valve, you swap just this part and save money.",
+      "ejemploNegocio": "A parks maintenance crew can keep these replacement solenoids in stock to fix Irritrol valves on the spot, without stopping irrigation on a large field or garden while waiting for a whole new valve.",
+      "puntosClave": [
+        "This is NOT a complete valve — it's only the electrical part. If your valve body is also damaged (leaks, cracks), this alone won't fix it.",
+        "It's only compatible with Irritrol valves in the 2400, 2500, 2600, and 700 series — confirm your current valve's model before buying.",
+        "It comes in a 2-pack, handy if you have more than one Irritrol valve failing or want a spare on hand."
+      ],
+      "consejoInversion": "Replacing just the solenoid costs a fraction of a full new valve — if the rest of the valve is sound, this replacement part is the cheapest and fastest way to fix the problem."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B07T4TNP3B?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
     "activo": true,
@@ -189,11 +278,13 @@
       "Repuesto",
       "24V AC",
       "2 unidades"
-    ]
+    ],
+    "tagsEn": ["Replacement part", "24V AC", "2-pack"]
   },
   {
     "asin": "B0F6Y9CSZP",
     "nombre": "Bonviee Kit de Riego por Goteo 247 ft (Quick Connect)",
+    "nombreEn": "Bonviee 247 ft Drip Irrigation Kit (Quick Connect)",
     "categoria": "kits-goteo",
     "precio": 52.99,
     "moneda": "USD",
@@ -202,7 +293,9 @@
     "numResenas": 848,
     "ranking": 1,
     "notaTecnica": "Trae línea principal de 5/16\" (50 ft) más tubería de 1/4\" y 40 emisores, con conectores rápidos que facilitan agregar o mover goteros sin herramientas. Especificado para 20-45 PSI — la presión de red doméstica suele ser más alta, así que vas a necesitar un regulador de presión en la entrada (revisá la ficha para confirmar si ya lo incluye).",
+    "notaTecnicaEn": "Includes a 5/16\" main line (50 ft) plus 1/4\" tubing and 40 emitters, with quick-connect fittings that make it easy to add or move drippers without tools. Rated for 20-45 PSI — household mains pressure is usually higher than that, so you'll need a pressure regulator at the inlet (check the listing to confirm whether one is included).",
     "idealPara": "Huertas o hileras de plantas donde cada una necesita agua puntual, gota a gota, con conectores rápidos para reordenar el sistema sin herramientas.",
+    "idealParaEn": "Vegetable gardens or plant rows where each plant needs targeted, drop-by-drop watering, with quick-connect fittings to rearrange the layout without tools.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Es un sistema de \"suero\" para plantas: en vez de tirar agua a chorro sobre toda la superficie, una manguerita fina lleva el agua gota a gota directo a la raíz de cada planta, con mucho menos desperdicio que un aspersor.",
       "ejemploHogar": "Armás una huerta con tomates, pimientos y lechugas en hilera, y cada planta recibe su goteo individual sin mojar las hojas ni el pasillo entre canteros.",
@@ -214,6 +307,17 @@
       ],
       "consejoInversion": "Frente a regar con manguera a mano todos los días, este kit se paga solo en el agua que ahorra (el goteo es mucho más eficiente que el riego superficial) y le da a cada planta exactamente lo que necesita, sin ahogar ni secar de más."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's an IV drip for plants: instead of blasting water across the whole surface, a thin tube delivers water drop by drop straight to each plant's roots, with far less waste than a sprinkler.",
+      "ejemploHogar": "You set up a vegetable garden with tomatoes, peppers, and lettuce in rows, and each plant gets its own individual drip without wetting the leaves or the path between beds.",
+      "ejemploNegocio": "A nursery selling plants in rows can keep all of them evenly watered with a single system, saving the labor of hand-watering pot by pot.",
+      "puntosClave": [
+        "Your home's water pressure is probably higher than what this kit is rated for (20-45 PSI) — you'll need a pressure regulator at the inlet if your supply runs higher.",
+        "The quick-connect fittings let you move or add drippers without tools, handy if you keep expanding the garden over time.",
+        "Count how many emitters you actually need (it comes with 40) — more plants than emitters means you'll need a second kit or extra emitters."
+      ],
+      "consejoInversion": "Compared to hand-watering with a hose every day, this kit pays for itself in the water it saves (drip is far more efficient than surface watering) and gives each plant exactly what it needs, without drowning or under-watering it."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0F6Y9CSZP?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
     "activo": true,
@@ -221,11 +325,13 @@
       "247 ft",
       "Quick Connect",
       "40 emisores"
-    ]
+    ],
+    "tagsEn": ["247 ft", "Quick Connect", "40 emitters"]
   },
   {
     "asin": "B0GLM4SYN8",
     "nombre": "Bluepro Kit de Micro-aspersión 200 ft (Boquillas de cobre)",
+    "nombreEn": "Bluepro 200 ft Micro-Sprinkler Kit (Brass Nozzles)",
     "categoria": "kits-goteo",
     "precio": 44.99,
     "moneda": "USD",
@@ -234,7 +340,9 @@
     "numResenas": 263,
     "ranking": 2,
     "notaTecnica": "A diferencia del kit anterior (goteo puro), este usa 32 boquillas de cobre ajustables tipo micro-aspersión/niebla — cubre un área más amplia por punto, mejor para macizos de flores o almácigos que para plantas individuales en maceta. Si buscás goteo localizado gota a gota, el kit de Bonviee de arriba es la opción más precisa.",
+    "notaTecnicaEn": "Unlike the previous kit (pure drip), this one uses 32 adjustable brass nozzles for micro-spray/misting — it covers a wider area per point, better suited to flower beds or seedling trays than individual potted plants. If you're after precise drop-by-drop watering, the Bonviee kit above is the more accurate option.",
     "idealPara": "Macizos de flores o áreas más amplias donde conviene cobertura por zona en vez de goteo localizado planta por planta.",
+    "idealParaEn": "Flower beds or wider areas where zone coverage makes more sense than watering plant by plant.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Parecido al kit de goteo de arriba, pero en vez de gotas puntuales usa boquillas que tiran una neblina fina — como el spray de una planta de interior, pero para cubrir un área más amplia de una vez.",
       "ejemploHogar": "Un macizo de flores o un cantero grande donde no hay plantas individuales bien separadas, sino una masa de plantas que conviene regar por zona en vez de gota por gota.",
@@ -246,6 +354,17 @@
       ],
       "consejoInversion": "Las boquillas de cobre resisten mejor la corrosión y los rayos UV que las de plástico genérico, así que aunque el kit cueste un poco más, vas a tener que reemplazar menos piezas con el tiempo."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Similar to the drip kit above, but instead of individual drops it uses nozzles that produce a fine mist — like a houseplant mister, but for covering a wider area at once.",
+      "ejemploHogar": "A flower bed or large planting area without clearly separated individual plants, but rather a mass of plants better watered by zone than drop by drop.",
+      "ejemploNegocio": "A nursery with seedling trays can use the mist to water evenly without washing away soil or dislodging freshly planted seeds, something precise drip doesn't do as well.",
+      "puntosClave": [
+        "If you're after drop-by-drop precision on well-separated individual plants, the pure drip kit (Bonviee, in this ranking) is a better fit than this one.",
+        "The brass nozzles are adjustable, so you can tune the mist's reach to the size of your bed.",
+        "Check your water pressure just like with any low-pressure irrigation kit — too much pressure can blow the nozzles off."
+      ],
+      "consejoInversion": "Brass nozzles resist corrosion and UV rays much better than generic plastic ones, so even though this kit costs a bit more, you'll end up replacing fewer parts down the road."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0GLM4SYN8?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
     "activo": true,
@@ -253,11 +372,13 @@
       "200 ft",
       "Micro-aspersión",
       "Boquillas cobre"
-    ]
+    ],
+    "tagsEn": ["200 ft", "Micro-spray", "Brass nozzles"]
   },
   {
     "asin": "B00VRUAHLE",
     "nombre": "Módulo de Relé 1 Canal 5V para Arduino/ESP",
+    "nombreEn": "1-Channel 5V Relay Module for Arduino/ESP",
     "categoria": "modulos-rele",
     "precio": 5.69,
     "moneda": "USD",
@@ -266,7 +387,9 @@
     "numResenas": 382,
     "ranking": 1,
     "notaTecnica": "Punto de entrada barato para controlar una sola válvula o bomba desde un microcontrolador (Arduino, ESP32, Raspberry Pi). La ficha de este modelo puntual no confirma aislamiento por optoacoplador — antes de conectarlo a una carga de 24V AC, verificá ese dato con el vendedor o sumale un optoacoplador aparte para no arriesgar el microcontrolador.",
+    "notaTecnicaEn": "A cheap entry point for controlling a single valve or pump from a microcontroller (Arduino, ESP32, Raspberry Pi). This particular model's listing doesn't confirm optocoupler isolation — before wiring it to a 24V AC load, verify that with the seller or add a separate optocoupler so you don't risk frying your microcontroller.",
     "idealPara": "Proyecto DIY simple de una sola válvula o zona con Arduino/ESP32 y presupuesto mínimo — verificá el aislamiento antes de conectarlo a 24V AC.",
+    "idealParaEn": "A simple DIY single-valve or single-zone project on Arduino/ESP32 with a minimal budget — verify isolation before connecting it to 24V AC.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Un relé es un \"interruptor operado a control remoto\": tu Arduino o ESP32 manda una señal chiquita de 5 voltios, y el relé usa esa señal para prender o apagar un circuito de mucha más energía (como una válvula de 24V) sin que la placa toque esa corriente directamente.",
       "ejemploHogar": "Un aficionado a la domótica arma su propio controlador de riego con un Arduino, y usa este relé para que el Arduino pueda abrir y cerrar una sola válvula.",
@@ -278,6 +401,17 @@
       ],
       "consejoInversion": "Para un proyecto de prueba o de una sola zona, este relé cumple a un precio mínimo — pero si tu proyecto va a crecer o va a quedar funcionando todos los días, el módulo de 8 canales con optoacoplador de este ranking es una inversión más segura a largo plazo."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "A relay is a 'remote-controlled switch': your Arduino or ESP32 sends a tiny 5-volt signal, and the relay uses that signal to switch a much higher-power circuit (like a 24V valve) on or off without the board ever touching that current directly.",
+      "ejemploHogar": "A home-automation hobbyist builds their own irrigation controller with an Arduino, and uses this relay so the Arduino can open and close a single valve.",
+      "ejemploNegocio": "A workshop building prototypes can use this cheap relay to test controlling a small motor or pump before investing in a more expensive industrial solution.",
+      "puntosClave": [
+        "This particular model's listing doesn't confirm optocoupler isolation — before wiring it to 24V AC, verify that with the seller or add a separate optocoupler.",
+        "It's single-channel: if you need to control more than one valve, you'll need several of these or go straight to the 8-channel module in this ranking.",
+        "It's the cheapest product in the category — ideal for testing an idea before investing in something bigger."
+      ],
+      "consejoInversion": "For a test project or a single zone, this relay does the job at a minimal price — but if your project is going to grow or run every day long-term, the 8-channel module with optocoupler in this ranking is a safer long-term investment."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B00VRUAHLE?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
     "activo": true,
@@ -285,11 +419,13 @@
       "1 canal",
       "5V",
       "Arduino/ESP"
-    ]
+    ],
+    "tagsEn": ["1 channel", "5V", "Arduino/ESP"]
   },
   {
     "asin": "B09ZQRLD95",
     "nombre": "ELEGOO Módulo de Relé 8 Canales 5V con Optoacoplador",
+    "nombreEn": "ELEGOO 8-Channel 5V Relay Module with Optocoupler",
     "categoria": "modulos-rele",
     "precio": 8.99,
     "moneda": "USD",
@@ -298,7 +434,9 @@
     "numResenas": 154,
     "ranking": 2,
     "notaTecnica": "Con 8 canales podés controlar hasta 8 válvulas/zonas desde un solo microcontrolador — suficiente para armar un controlador de riego DIY completo. Trae optoacoplador (aislamiento eléctrico real entre la lógica de 5V y la carga conmutada) y terminales NO/NC, lo que lo hace más seguro que un módulo de 1 canal sin ese dato confirmado.",
+    "notaTecnicaEn": "With 8 channels you can control up to 8 valves/zones from a single microcontroller — enough to build a complete DIY irrigation controller. It includes an optocoupler (real electrical isolation between the 5V logic and the switched load) and NO/NC terminals, making it safer than a 1-channel module without that isolation confirmed.",
     "idealPara": "Armar un controlador de riego DIY completo de varias zonas, con aislamiento eléctrico real entre la lógica y la carga conmutada.",
+    "idealParaEn": "Building a complete multi-zone DIY irrigation controller, with real electrical isolation between the logic and the switched load.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Es el mismo concepto de \"interruptor a control remoto\" que el relé de 1 canal, pero con 8 interruptores en la misma placa, y con optoacoplador: una separación eléctrica real entre la parte chica (tu Arduino) y la parte grande (el voltaje conmutado), como un guante de goma que te protege de tocar un cable pelado.",
       "ejemploHogar": "Armás un controlador de riego casero de 8 zonas con un solo Arduino o Raspberry Pi, sin comprar 8 relés sueltos.",
@@ -310,6 +448,17 @@
       ],
       "consejoInversion": "El aislamiento eléctrico real de este módulo protege tu Arduino/Raspberry Pi de un pico de voltaje que podría freírlo — pagar un poco más por esa protección es mucho más barato que tener que reemplazar el microcontrolador entero."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's the same 'remote-controlled switch' concept as the 1-channel relay, but with 8 switches on the same board, and with an optocoupler: a real electrical separation between the small side (your Arduino) and the big side (the switched voltage), like a rubber glove protecting you from a bare wire.",
+      "ejemploHogar": "You build a homemade 8-zone irrigation controller with a single Arduino or Raspberry Pi, instead of buying 8 separate relays.",
+      "ejemploNegocio": "A workshop automating small processes (turning 8 lights or motors on and off on a schedule) can use this module as the bridge between the computer's logic and the actual equipment.",
+      "puntosClave": [
+        "Confirm your project actually needs 8 channels — for a single zone, the 1-channel module in this ranking is cheaper.",
+        "NO/NC terminals (normally open / normally closed) give you flexibility to choose how each output behaves by default.",
+        "Optocoupler isolation is exactly what protects your microcontroller — it's the main reason to pick this over a module without that confirmed."
+      ],
+      "consejoInversion": "This module's real electrical isolation protects your Arduino/Raspberry Pi from a voltage spike that could fry it — paying a little more for that protection is much cheaper than having to replace the whole microcontroller."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B09ZQRLD95?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
     "activo": true,
@@ -317,11 +466,13 @@
       "8 canales",
       "Optoacoplador",
       "NO/NC"
-    ]
+    ],
+    "tagsEn": ["8 channels", "Optocoupler", "NO/NC"]
   },
   {
     "asin": "B0C9QCCBVW",
     "nombre": "AQUASTRONG Bomba Sumergible 1 HP — 4.500 GPH",
+    "nombreEn": "AQUASTRONG 1 HP Submersible Pump — 4,500 GPH",
     "categoria": "bombas",
     "precio": 59.39,
     "moneda": "USD",
@@ -330,7 +481,9 @@
     "numResenas": 3300,
     "ranking": 1,
     "notaTecnica": "Es una bomba de achique/extracción (pensada para vaciar piletas, sótanos o pozos), no una bomba de presión constante para aspersores. Sirve bien para subir agua desde una cisterna o aljibe hacia el resto del sistema, pero si necesitás presión estable y sostenida para varios aspersores funcionando a la vez, la bomba de superficie de abajo está mejor especificada para eso.",
+    "notaTecnicaEn": "This is a drainage/removal pump (built to empty pools, basements, or wells), not a constant-pressure pump for sprinklers. It works well for lifting water from a cistern or well into the rest of the system, but if you need steady, sustained pressure for several sprinklers running at once, the surface pump below is better suited for that.",
     "idealPara": "Extraer o trasladar agua desde una cisterna, pozo o aljibe hacia el resto del sistema — no para dar presión constante a aspersores.",
+    "idealParaEn": "Pumping or moving water from a cistern, well, or holding tank into the rest of the system — not for delivering constant pressure to sprinklers.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Es una bomba que va sumergida dentro del agua (por eso \"sumergible\") y la empuja hacia arriba o hacia otro lado — pensala como un buzo que empuja agua hacia la superficie, en vez de aspirarla desde afuera.",
       "ejemploHogar": "Se te llena el sótano o un pozo de agua de lluvia y necesitás vaciarlo rápido, o querés subir agua de un aljibe/cisterna hacia el tanque de tu casa.",
@@ -342,6 +495,17 @@
       ],
       "consejoInversion": "Para achicar agua rápido y de forma confiable, esta bomba de 1HP rinde mucho más que un balde o una bomba manual — el gasto se justifica la primera vez que evita una inundación de sótano."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a pump that sits submerged in the water (hence 'submersible') and pushes it up or over to somewhere else — think of it as a diver pushing water to the surface, instead of sucking it in from outside.",
+      "ejemploHogar": "Your basement or a rainwater pit fills up and you need to drain it fast, or you want to lift water from a cistern into your house's tank.",
+      "ejemploNegocio": "A construction site needs to pump out water pooled in an excavation or trench before work can continue.",
+      "puntosClave": [
+        "It's not a pump for delivering constant pressure to sprinklers — it's for moving water from one point to another (drainage/removal), not sustaining pressure while several sprinklers run at once.",
+        "Check the GPH (gallons per hour, 4,500 on this model) against how much water you need to move and in how much time.",
+        "If your end goal is pressurizing yard sprinklers, the surface pump in this ranking is better suited for that."
+      ],
+      "consejoInversion": "For fast, reliable draining, this 1HP pump does far more than a bucket or a hand pump ever could — the cost pays for itself the first time it prevents a flooded basement."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0C9QCCBVW?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
     "activo": true,
@@ -349,11 +513,13 @@
       "Sumergible",
       "4.500 GPH",
       "1 HP"
-    ]
+    ],
+    "tagsEn": ["Submersible", "4,500 GPH", "1 HP"]
   },
   {
     "asin": "B0C8N8CG9G",
     "nombre": "AQUASTRONG Bomba de Superficie Autocebante 1.5 HP",
+    "nombreEn": "AQUASTRONG 1.5 HP Self-Priming Surface Pump",
     "categoria": "bombas",
     "precio": 349,
     "moneda": "USD",
@@ -362,7 +528,9 @@
     "numResenas": 244,
     "ranking": 2,
     "notaTecnica": "Bomba centrífuga/jet de superficie, autocebante y de cuerpo de hierro fundido, específicamente comercializada para aspersores de césped y riego de jardín — a diferencia de la sumergible de arriba, está diseñada para dar presión constante, no solo para mover agua de un punto a otro. Es notablemente más cara; tiene sentido si tu sistema realmente necesita presión adicional (revisá primero la presión de tu red antes de invertir acá).",
+    "notaTecnicaEn": "A centrifugal/jet surface pump, self-priming with a cast-iron body, specifically marketed for lawn sprinklers and garden irrigation — unlike the submersible pump above, it's built to deliver constant pressure, not just move water from one point to another. It's noticeably more expensive; it makes sense if your system genuinely needs extra pressure (check your mains pressure first before investing here).",
     "idealPara": "Cuando la presión de tu red no alcanza para varios aspersores funcionando a la vez y necesitás presión constante y sostenida.",
+    "idealParaEn": "When your water supply's pressure isn't enough for several sprinklers running at once and you need steady, sustained pressure.",
     "guiaCompra": {
       "queEsYParaQueSirve": "A diferencia de la bomba sumergible de arriba, esta va instalada afuera del agua (en el piso, al lado del tanque o cisterna) y \"chupa\" agua desde una fuente para darle presión constante a la salida — el corazón de tu sistema de riego cuando la presión de la red municipal no alcanza.",
       "ejemploHogar": "Tu casa tiene varios aspersores que deberían regar al mismo tiempo, pero la presión de la canilla baja mucho cuando se abren todos juntos — esta bomba sostiene la presión para que todos rieguen bien.",
@@ -374,6 +542,17 @@
       ],
       "consejoInversion": "Si tu sistema de riego realmente sufre de baja presión, esta bomba autocebante y de cuerpo de hierro fundido es una inversión que se nota enseguida en la uniformidad del riego — y el hierro fundido dura mucho más que las versiones plásticas más baratas del mercado."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Unlike the submersible pump above, this one installs outside the water (on the ground, next to the tank or cistern) and draws water from a source to deliver constant pressure at the outlet — the heart of your irrigation system when municipal water pressure isn't enough.",
+      "ejemploHogar": "Your home has several sprinklers that should run at the same time, but the tap pressure drops sharply when they're all open — this pump holds the pressure so all of them water properly.",
+      "ejemploNegocio": "A large sports field or nursery running many sprinklers simultaneously needs this kind of sustained pressure, which normal mains pressure can't provide.",
+      "puntosClave": [
+        "Before buying, measure your actual water pressure — if it's already enough for your sprinklers, this investment isn't necessary.",
+        "It's noticeably more expensive than the submersible pump in this ranking — make sure your actual need is constant pressure, not just moving water from one point to another.",
+        "The cast-iron body is more durable than plastic, but also heavier — confirm you have a well-ventilated spot to install it."
+      ],
+      "consejoInversion": "If your irrigation system genuinely suffers from low pressure, this self-priming, cast-iron pump is an investment you'll notice immediately in how evenly your yard waters — and cast iron lasts far longer than the cheaper plastic versions on the market."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0C8N8CG9G?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-24",
     "activo": true,
@@ -381,11 +560,13 @@
       "Superficie",
       "Autocebante",
       "1.5 HP"
-    ]
+    ],
+    "tagsEn": ["Surface", "Self-priming", "1.5 HP"]
   },
   {
     "asin": "B01MUVVSSF",
     "nombre": "Rain Bird LNK2 — Módulo WiFi 2da Generación (para controladores existentes)",
+    "nombreEn": "Rain Bird LNK2 — 2nd Generation WiFi Module (for Existing Controllers)",
     "categoria": "controladores-wifi",
     "precio": 104.16,
     "moneda": "USD",
@@ -394,7 +575,9 @@
     "numResenas": 4885,
     "ranking": 3,
     "notaTecnica": "Ojo con la categoría: esto NO es un controlador standalone como los otros dos de este ranking, es un módulo WiFi que se enchufa dentro de un controlador Rain Bird compatible ya instalado (series TRU, ESP-TM2, ESP-ME3, ESP-RZXe o ESP-LXME2, fabricados después del 2 de noviembre de 2016). Si no tenés ya uno de esos controladores Rain Bird, este módulo solo no sirve de nada — necesitás comprar primero el controlador. Si ya lo tenés, agrega control remoto por app, rain delay y manejo de zonas individuales sin cambiar el controlador entero.",
+    "notaTecnicaEn": "Note the category here: this is NOT a standalone controller like the other two in this ranking, it's a WiFi module that plugs into a compatible, already-installed Rain Bird controller (TRU, ESP-TM2, ESP-ME3, ESP-RZXe, or ESP-LXME2 series, manufactured after November 2, 2016). If you don't already own one of those Rain Bird controllers, this module alone does nothing — you need to buy the controller first. If you do have one, it adds app-based remote control, rain delay, and individual zone management without replacing the whole controller.",
     "idealPara": "Quien ya tiene un controlador Rain Bird compatible (TRU, ESP-TM2/ME3/RZXe/LXME2) y solo le falta sumar WiFi — no sirve como controlador nuevo.",
+    "idealParaEn": "Anyone who already has a compatible Rain Bird controller (TRU, ESP-TM2/ME3/RZXe/LXME2) and just needs to add WiFi — it doesn't work as a standalone controller.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Es un \"traductor WiFi\" que se enchufa dentro de un controlador de riego Rain Bird que ya tenés instalado, para que ese controlador (que hasta ahora solo se manejaba con botones en la pared) pueda hablar con una app en tu celular.",
       "ejemploHogar": "Ya tenés un controlador Rain Bird de pared en el garage y estás cansado de tener que ir hasta ahí para cambiar el horario de riego — este módulo te deja hacerlo desde el sofá con el celular.",
@@ -406,11 +589,23 @@
       ],
       "consejoInversion": "Si ya tenés la inversión grande hecha (el controlador Rain Bird y todo el cableado de válvulas), este módulo es una forma barata de sumarle control remoto en vez de comprar un sistema nuevo entero — aprovechás lo que ya tenés."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a 'WiFi translator' that plugs into a Rain Bird irrigation controller you already have installed, so that controller (which until now only worked with buttons on the wall) can talk to an app on your phone.",
+      "ejemploHogar": "You already have a wall-mounted Rain Bird controller in the garage and you're tired of walking over to change the watering schedule — this module lets you do it from the couch with your phone.",
+      "ejemploNegocio": "A property manager overseeing several Rain Bird controllers installed across different homes or sections can manage all of them remotely, without sending someone out to each one in person.",
+      "puntosClave": [
+        "This module is NOT a controller — you need to already have one of the compatible models installed (TRU, ESP-TM2, ESP-ME3, ESP-RZXe, or ESP-LXME2) manufactured after November 2016.",
+        "If you don't own any of those Rain Bird controllers, buying this module is useless on its own — you need the controller first.",
+        "Check your current controller's manufacture date, not just the model — the same models made before that date may not be compatible."
+      ],
+      "consejoInversion": "If you've already made the big investment (the Rain Bird controller and all the valve wiring), this module is a cheap way to add remote control instead of buying an entirely new system — you get to reuse what you already have."
+    },
     "tags": [
       "Módulo WiFi (no standalone)",
       "Requiere controlador Rain Bird",
       "Quick Pair"
     ],
+    "tagsEn": ["WiFi module (not standalone)", "Requires Rain Bird controller", "Quick Pair"],
     "urlAfiliado": "https://www.amazon.com/dp/B01MUVVSSF?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-26",
     "activo": true
@@ -418,6 +613,7 @@
   {
     "asin": "B0DX6G7MSV",
     "nombre": "meross WiFi Water Timer para Manguera (Hub incluido, IP65)",
+    "nombreEn": "meross WiFi Water Timer for Garden Hose (Hub Included, IP65)",
     "categoria": "controladores-wifi",
     "precio": 55.99,
     "moneda": "USD",
@@ -426,7 +622,9 @@
     "numResenas": 218,
     "ranking": 4,
     "notaTecnica": "A diferencia del temporizador con gateway RF de este ranking, este se conecta directo por WiFi con hub incluido, y es compatible con Apple HomeKit además de Alexa y Google Assistant — más abierto que un enchufe atado a un solo asistente de voz. Conectores de entrada y salida en latón (más resistente a la corrosión que el plástico), y un mismo hub soporta hasta 24 temporizadores si vas a escalar. Es un producto más nuevo: 218 reseñas y 4.0 de rating, bastante por debajo del resto del ranking.",
+    "notaTecnicaEn": "Unlike the RF-gateway timer in this ranking, this one connects directly over WiFi with the hub included, and it's compatible with Apple HomeKit in addition to Alexa and Google Assistant — more open than a plug tied to a single voice assistant. Brass inlet and outlet connectors (more corrosion-resistant than plastic), and a single hub supports up to 24 timers if you plan to scale. It's a newer product: 218 reviews and a 4.0 rating, noticeably below the rest of the ranking.",
     "idealPara": "Timer de manguera inteligente compatible con cualquier asistente de voz (HomeKit incluido) y construcción más resistente en latón.",
+    "idealParaEn": "A smart hose timer compatible with any voice assistant (HomeKit included) and a sturdier brass build.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Es un temporizador inteligente que se atornilla directo a la canilla o manguera y se conecta por WiFi, para que puedas prender y apagar el riego desde el celular o con la voz sin instalar válvulas ni un controlador completo.",
       "ejemploHogar": "Tenés una sola manguera para regar el jardín y querés poder activarla remotamente (o que se apague sola después de 20 minutos) sin instalar todo un sistema de válvulas.",
@@ -438,11 +636,23 @@
       ],
       "consejoInversion": "El latón resiste años de sol y lluvia sin corroerse, a diferencia de los timers plásticos económicos que se rompen o pierden agua al año — para algo que va a estar afuera todo el año, vale la pena pagar por esa durabilidad."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a smart timer that screws directly onto a spigot or hose and connects over WiFi, so you can turn watering on and off from your phone or with your voice without installing valves or a full controller.",
+      "ejemploHogar": "You have a single hose to water the yard and want to be able to trigger it remotely (or have it shut off on its own after 20 minutes) without installing a whole valve system.",
+      "ejemploNegocio": "A storefront with a small outdoor planter can automate its single watering point without the investment of a full controller-plus-valves system.",
+      "puntosClave": [
+        "It's compatible with Alexa, Google Assistant, AND Apple HomeKit — if you use HomeKit, this works where others in this ranking don't.",
+        "The connectors are brass, more corrosion-resistant than common plastic, important since it stays exposed outdoors.",
+        "It has fewer reviews (218) and a lower rating than other products in the ranking — it's a newer product with less real-world track record."
+      ],
+      "consejoInversion": "Brass withstands years of sun and rain without corroding, unlike cheap plastic timers that crack or leak within a year — for something that lives outdoors year-round, that durability is worth paying for."
+    },
     "tags": [
       "WiFi 2.4GHz",
       "HomeKit/Alexa/Google",
       "Latón + IP65"
     ],
+    "tagsEn": ["2.4GHz WiFi", "HomeKit/Alexa/Google", "Brass + IP65"],
     "urlAfiliado": "https://www.amazon.com/dp/B0DX6G7MSV?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-26",
     "activo": true
@@ -450,6 +660,7 @@
   {
     "asin": "B00J2NRUBI",
     "nombre": "Raindrip R560DP — Kit de Goteo con Timer para Macetas y Canastos",
+    "nombreEn": "Raindrip R560DP — Drip Kit with Timer for Pots and Hanging Baskets",
     "categoria": "kits-goteo",
     "precio": 35.98,
     "moneda": "USD",
@@ -458,7 +669,9 @@
     "numResenas": 5830,
     "ranking": 3,
     "notaTecnica": "A diferencia de los kits de Bonviee y Bluepro de este ranking (pensados para hileras de plantas en el suelo o macizos), este viene armado específicamente para macetas y canastos colgantes — hasta 20 plantas. Incluye timer mecánico a pila (no WiFi/smart) y 75 ft de tubería de 1/4\", con acoples rápidos para instalar en tres pasos. Si buscás cobertura de jardín en el suelo, los kits de este ranking pensados para hileras son mejor opción.",
+    "notaTecnicaEn": "Unlike the Bonviee and Bluepro kits in this ranking (built for rows of plants in the ground or flower beds), this one is designed specifically for pots and hanging baskets — up to 20 plants. It includes a battery-powered mechanical timer (no WiFi/smart features) and 75 ft of 1/4\" tubing, with quick-connect fittings for a three-step install. If you want ground-level garden coverage, the row-oriented kits in this ranking are the better choice.",
     "idealPara": "Macetas, jardineras y canastos colgantes — no es el kit indicado para hileras de plantas en el suelo (para eso, los otros kits de este ranking).",
+    "idealParaEn": "Pots, planters, and hanging baskets — not the right kit for rows of plants in the ground (for that, the other kits in this ranking).",
     "guiaCompra": {
       "queEsYParaQueSirve": "Es un kit de riego por goteo armado específicamente para macetas y canastos colgantes, con un temporizador mecánico a pila incluido — como ponerle \"piloto automático\" a las plantas de tu balcón o entrada sin cablear nada.",
       "ejemploHogar": "Te vas de vacaciones y tenés 15 macetas en el balcón que normalmente regás a mano — con este kit y el timer, siguen recibiendo agua todos los días aunque no estés.",
@@ -470,11 +683,23 @@
       ],
       "consejoInversion": "Frente a pedirle a un vecino que te riegue las plantas cuando viajás, este kit con timer incluido es una inversión chica que asegura que tus plantas van a seguir recibiendo agua exacta, sin depender de que alguien se acuerde."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a drip irrigation kit built specifically for pots and hanging baskets, with a battery-powered mechanical timer included — like putting your balcony or entryway plants on 'autopilot' without wiring anything.",
+      "ejemploHogar": "You go on vacation and have 15 pots on the balcony you normally water by hand — with this kit and its timer, they keep getting watered every day even while you're away.",
+      "ejemploNegocio": "A storefront with decorative pots and hanging baskets at the entrance can automate their watering without relying on an employee remembering to do it every day.",
+      "puntosClave": [
+        "It's built for pots and baskets, not rows of plants in the ground — for that, the other drip kits in this ranking work better.",
+        "The timer is a battery-powered mechanical one, not WiFi — you won't be able to control it from your phone, only set fixed cycles.",
+        "It comes with up to 20 drippers — count how many pots you have before buying, you may need more than one kit."
+      ],
+      "consejoInversion": "Compared to asking a neighbor to water your plants while you travel, this kit with its included timer is a small investment that guarantees your plants keep getting exact watering, without depending on anyone remembering."
+    },
     "tags": [
       "Timer mecánico incluido",
       "Hasta 20 plantas",
       "Para macetas/canastos"
     ],
+    "tagsEn": ["Timer included", "Up to 20 plants", "For pots/baskets"],
     "urlAfiliado": "https://www.amazon.com/dp/B00J2NRUBI?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-26",
     "activo": true
@@ -482,6 +707,7 @@
   {
     "asin": "B079LFKZX6",
     "nombre": "MIXC Kit de Riego/Niebla 50 ft con 20 Boquillas Ajustables",
+    "nombreEn": "MIXC 50 ft Misting/Irrigation Kit with 20 Adjustable Nozzles",
     "categoria": "kits-goteo",
     "precio": 12.99,
     "moneda": "USD",
@@ -490,7 +716,9 @@
     "numResenas": 2809,
     "ranking": 4,
     "notaTecnica": "La opción más económica de este ranking. Las 20 boquillas se ajustan entre modo chorro y modo niebla según la planta, cubriendo hasta 50 ft de recorrido. A diferencia de los otros kits de este ranking, NO incluye ningún temporizador — el fabricante lo aclara en la ficha, así que si querés automatizarlo del todo necesitás sumar uno de los controladores WiFi de este sitio o un timer mecánico aparte.",
+    "notaTecnicaEn": "The most affordable option in this ranking. The 20 nozzles adjust between jet mode and mist mode depending on the plant, covering up to 50 ft of run. Unlike the other kits in this ranking, it does NOT include any timer — the manufacturer states this clearly in the listing, so if you want to fully automate it you'll need to add one of this site's WiFi controllers or a separate mechanical timer.",
     "idealPara": "La opción más barata para armar un sistema de niebla/goteo ajustable — acordate de sumar un timer aparte, no lo trae incluido.",
+    "idealParaEn": "The cheapest way to put together an adjustable mist/drip system — remember to add a timer separately, it's not included.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Es la versión más económica de un kit de riego/niebla: mangueritas con 20 boquillas ajustables que podés regular entre un chorro fino o una neblina, según lo que necesite cada planta.",
       "ejemploHogar": "Armás tu primer sistema de riego automatizado en el patio sin gastar mucho, ajustando cada boquilla según si es una planta chica (niebla) o más grande (chorro).",
@@ -502,11 +730,23 @@
       ],
       "consejoInversion": "Como punto de entrada al riego automatizado, este kit te deja probar el sistema con una inversión mínima — pero si te das cuenta que lo vas a usar todos los días, conviene sumarle un timer WiFi de este mismo ranking en vez de quedarte abriendo la canilla a mano."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's the most affordable version of a misting/irrigation kit: tubing with 20 adjustable nozzles you can tune between a fine jet or a mist, depending on what each plant needs.",
+      "ejemploHogar": "You set up your first automated irrigation system in the yard without spending much, adjusting each nozzle depending on whether it's a small plant (mist) or a bigger one (jet).",
+      "ejemploNegocio": "A nursery just starting out and wanting to try automated irrigation without a big upfront investment can use this kit as an entry point before scaling up to something bigger.",
+      "puntosClave": [
+        "It does NOT include any timer — if you want to fully automate it, you'll need to add a WiFi timer from this ranking or a separate mechanical one.",
+        "It's the cheapest kit in the category, so the materials are more basic than pricier options.",
+        "It covers up to 50 feet (15 meters) of run — measure your yard before buying to know if one kit is enough or you need two."
+      ],
+      "consejoInversion": "As an entry point into automated irrigation, this kit lets you try the system with a minimal investment — but if you find you're using it every day, it's worth adding a WiFi timer from this same ranking instead of sticking with manually turning the tap."
+    },
     "tags": [
       "20 boquillas ajustables",
       "Modo niebla/chorro",
       "Sin timer incluido"
     ],
+    "tagsEn": ["20 adjustable nozzles", "Mist/jet mode", "No timer included"],
     "urlAfiliado": "https://www.amazon.com/dp/B079LFKZX6?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-26",
     "activo": true
@@ -514,6 +754,7 @@
   {
     "asin": "B0F5VYR2Z4",
     "nombre": "HEKIWAY Kit de Riego por Goteo 60 ft con Timer Inteligente Incluido",
+    "nombreEn": "HEKIWAY 60 ft Drip Irrigation Kit with Smart Timer Included",
     "categoria": "kits-goteo",
     "precio": 65.99,
     "moneda": "USD",
@@ -522,7 +763,9 @@
     "numResenas": 140,
     "ranking": 5,
     "notaTecnica": "A diferencia de los otros kits de este ranking, este SÍ trae el temporizador incluido — es la opción 'todo en uno' para quien no quiere comprar por separado la manguera de goteo y el timer WiFi. Conectores de bronce macizo (más durables que el plástico de kits más baratos), boquillas 360° ajustables y modo Rain Delay de 1 a 15 días. Amazon's Choice, '400+ compras el último mes'. El timer funciona a pilas (no incluidas) y no requiere WiFi ni app — se programa directo en el dispositivo, lo que lo hace más simple pero también más limitado que un controlador WiFi completo.",
+    "notaTecnicaEn": "Unlike the other kits in this ranking, this one DOES include the timer — it's the 'all-in-one' option for anyone who doesn't want to buy the drip line and the WiFi timer separately. Solid brass connectors (more durable than the plastic in cheaper kits), 360° adjustable nozzles, and a Rain Delay mode from 1 to 15 days. Amazon's Choice, '400+ bought in past month.' The timer runs on batteries (not included) and doesn't need WiFi or an app — it's programmed directly on the device, which makes it simpler but also more limited than a full WiFi controller.",
     "idealPara": "Quien quiere resolver el riego de un cantero, huerta elevada o macetas en un solo pedido, sin armar el sistema comprando manguera y timer por separado.",
+    "idealParaEn": "Anyone who wants to solve watering for a bed, raised garden, or pots in a single order, without piecing together tubing and a timer separately.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Es un kit completo de riego por goteo (60 pies de manguera, boquillas ajustables, conectores de bronce) que ya viene con un timer automático a pilas incluido — no hace falta comprar el temporizador aparte como sí pasa con el kit MIXC de este mismo ranking.",
       "ejemploHogar": "Te vas de vacaciones una semana y programás el timer antes de salir: las plantas de la huerta elevada o las macetas del patio siguen recibiendo agua todos los días sin que nadie tenga que entrar a tu casa a regar.",
@@ -534,11 +777,23 @@
       ],
       "consejoInversion": "Cuesta más que comprar manguera y timer mecánico por separado, pero te ahorra el trabajo de armar la combinación vos mismo y las piezas ya vienen pensadas para funcionar juntas — buena opción si preferís resolver el riego de una huerta o cantero en un solo pedido, sin convertirte en experto en compatibilidad de roscas y conectores."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a complete drip irrigation kit (60 feet of tubing, adjustable nozzles, brass connectors) that already comes with a battery-powered automatic timer — no need to buy the timer separately like you would with the MIXC kit in this same ranking.",
+      "ejemploHogar": "You go on vacation for a week and set the timer before leaving: the plants in the raised bed or the pots on the patio keep getting watered every day without anyone needing to come into your home.",
+      "ejemploNegocio": "A nursery or storefront with planters out front puts together the whole system in a single purchase, without having to combine parts from different manufacturers that sometimes don't fit together.",
+      "puntosClave": [
+        "The timer is battery-powered and programmed on the device itself — no WiFi or app, so you can't control it remotely the way you can with this site's WiFi controllers.",
+        "The connectors are solid brass, more weather-resistant than the plastic connectors on cheaper kits like the MIXC in this ranking.",
+        "It includes Rain Delay mode (pauses watering for 1 to 15 days) and a child lock — handy if you have kids who might bump the timer by accident."
+      ],
+      "consejoInversion": "It costs more than buying tubing and a mechanical timer separately, but it saves you the work of putting the combination together yourself, and the parts are already designed to work together — a good option if you'd rather solve watering for a garden bed in one order instead of becoming an expert in thread and connector compatibility."
+    },
     "tags": [
       "Timer incluido",
       "Conectores de bronce",
       "Rain Delay 1-15 días"
     ],
+    "tagsEn": ["Timer included", "Brass connectors", "Rain Delay 1-15 days"],
     "urlAfiliado": "https://www.amazon.com/dp/B0F5VYR2Z4?tag=riegotrazado-20",
     "actualizadoEn": "2026-09-05",
     "activo": true
@@ -546,6 +801,7 @@
   {
     "asin": "B07CZ864Y9",
     "nombre": "Rachio 3 — Controlador WiFi 8 Zonas (Weather Intelligence)",
+    "nombreEn": "Rachio 3 — WiFi 8-Zone Controller (Weather Intelligence)",
     "categoria": "controladores-wifi",
     "precio": 199,
     "moneda": "USD",
@@ -554,7 +810,9 @@
     "numResenas": 8410,
     "ranking": 5,
     "notaTecnica": "Usa \"Weather Intelligence\" (patentado) para ajustar el riego de forma predictiva con datos meteorológicos reales, no solo cancelar si ya está lloviendo — no necesita sensores adicionales para eso. Se instala en unos 30 minutos, compatible con el 99% de los sistemas de riego existentes, y requiere el mismo cableado de 24V AC que cualquier controlador (no es a pilas). Viene también en versión de 16 zonas; si lo instalás afuera, la carcasa weatherproof se vende aparte. Es la marca premium con más historial de reseñas de las tres de este ranking.",
+    "notaTecnicaEn": "Uses proprietary 'Weather Intelligence' to adjust watering predictively using real weather data, not just cancel a cycle once it's already raining — it doesn't need extra sensors for that. It installs in about 30 minutes, is compatible with 99% of existing irrigation systems, and requires the same 24V AC wiring as any controller (it's not battery-powered). It's also available in a 16-zone version; if you install it outdoors, the weatherproof enclosure is sold separately. It's the premium brand with the most review history of the three in this ranking.",
     "idealPara": "Quien ya tiene el cableado de válvulas hecho y quiere el ajuste climático predictivo más probado (más reseñas) de las tres marcas premium, sin depender de sensores adicionales.",
+    "idealParaEn": "Anyone who already has valve wiring in place and wants the most proven (most reviews) predictive weather adjustment of the three premium brands, without relying on extra sensors.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Es un controlador de riego que, además de prender y apagar zonas por horario, ajusta él solo cuánto regar según el clima real de tu zona (lluvia, viento, temperatura) usando su propio algoritmo — no solo cancela si detecta lluvia, como hacen los controladores económicos.",
       "ejemploHogar": "En vez de programar \"regar 15 minutos todos los martes\", el sistema decide regar 9 minutos un día fresco y 18 minutos en una ola de calor, sin que vos tengas que tocar nada.",
@@ -566,11 +824,23 @@
       ],
       "consejoInversion": "Vale la pena pagar la diferencia si tu jardín tiene zonas con necesidades de agua muy distintas o si tu compañía de agua da un reembolso por certificación WaterSense. Si solo buscás horarios fijos y cancelar por lluvia, un controlador económico de este ranking hace lo mismo por una fracción del precio."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's an irrigation controller that, besides turning zones on and off by schedule, adjusts how much to water on its own based on real local weather (rain, wind, temperature) using its own algorithm — not just canceling a cycle when it detects rain, like cheaper controllers do.",
+      "ejemploHogar": "Instead of programming 'water 15 minutes every Tuesday,' the system decides to water 9 minutes on a cool day and 18 minutes during a heat wave, without you having to touch anything.",
+      "ejemploNegocio": "A landscaping maintenance company can manage irrigation across several different clients' properties from a single app, without visiting each house to adjust the schedule for that week's weather.",
+      "puntosClave": [
+        "It requires the same 24V AC wiring to the valves as any controller — it doesn't replace or simplify the existing electrical install.",
+        "If you install it outdoors, you'll need the weatherproof enclosure, which Amazon sells as a separate accessory from the controller.",
+        "It costs roughly 5 times more than a budget controller in this ranking — the real difference is in the weather-prediction algorithm, not the hardware that opens the valve."
+      ],
+      "consejoInversion": "It's worth paying the difference if your yard has zones with very different watering needs, or if your water utility offers a rebate for WaterSense certification. If you just want fixed schedules and rain cancellation, a budget controller in this ranking does the same job for a fraction of the price."
+    },
     "tags": [
       "WiFi",
       "8 zonas",
       "Weather Intelligence"
     ],
+    "tagsEn": ["WiFi", "8 zones", "Weather Intelligence"],
     "urlAfiliado": "https://www.amazon.com/dp/B07CZ864Y9?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-30",
     "activo": true
@@ -578,6 +848,7 @@
   {
     "asin": "B076CZ6DHR",
     "nombre": "Netro Sprite — Controlador WiFi 6 Zonas (Base de Datos de Plantas)",
+    "nombreEn": "Netro Sprite — WiFi 6-Zone Controller (Plant Database)",
     "categoria": "controladores-wifi",
     "precio": 79.99,
     "moneda": "USD",
@@ -586,7 +857,9 @@
     "numResenas": 1375,
     "ranking": 6,
     "notaTecnica": "Es el más económico de las tres marcas premium de este ranking (Rachio, Netro, Hydrawise). Su diferencial es la base de datos de plantas: sugiere humedad, luz y temperatura objetivo según el tipo de planta que le asignes a cada zona, y guarda hasta 60 días de historial de riego. Igual que los otros dos, necesita cableado de 24V AC — no es un timer a pilas. Tiene menos reseñas y un rating levemente menor que Rachio.",
+    "notaTecnicaEn": "It's the most affordable of the three premium brands in this ranking (Rachio, Netro, Hydrawise). Its standout feature is a plant database: it suggests target moisture, light, and temperature based on the plant type you assign to each zone, and stores up to 60 days of watering history. Like the other two, it needs 24V AC wiring — it's not a battery-powered timer. It has fewer reviews and a slightly lower rating than Rachio.",
     "idealPara": "Quien quiere el salto a un controlador de marca reconocida sin pagar el precio de Rachio o Hydrawise, y le interesa que la app sugiera el riego según el tipo de planta de cada zona.",
+    "idealParaEn": "Anyone who wants to step up to a recognized-brand controller without paying Rachio's or Hydrawise's price, and likes the idea of the app suggesting watering based on each zone's plant type.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Además de programar horarios y cancelar por lluvia, este controlador te deja decirle qué tipo de planta tenés en cada zona (césped, flores, huerta) y ajusta la recomendación de riego según esa base de datos, en vez de tratarlas todas igual.",
       "ejemploHogar": "Le asignás \"césped\" a una zona y \"huerta de tomates\" a otra — la app te sugiere un esquema de riego distinto para cada una según lo que esas plantas necesitan, en vez de un horario genérico para todo el jardín.",
@@ -598,11 +871,23 @@
       ],
       "consejoInversion": "Es un buen punto medio si querés probar una marca premium sin pagar el precio de Rachio o Hydrawise — la base de datos de plantas suma valor real solo si tenés zonas con vegetación bien distinta entre sí."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Besides scheduling and canceling for rain, this controller lets you tell it what type of plant is in each zone (lawn, flowers, vegetable garden) and adjusts its watering recommendation based on that database, instead of treating every zone the same.",
+      "ejemploHogar": "You assign 'lawn' to one zone and 'tomato garden' to another — the app suggests a different watering scheme for each based on what those plants actually need, instead of one generic schedule for the whole yard.",
+      "ejemploNegocio": "A nursery with different sections (seedlings, shrubs, potted plants) can use the plant database instead of calculating by hand how much water each section needs.",
+      "puntosClave": [
+        "It's the cheapest of the three premium brands (~$80 vs ~$200), but it has fewer reviews and a slightly lower rating than Rachio.",
+        "The plant database is the standout feature versus a budget controller — it matters most if your zones have a mix of different vegetation.",
+        "It needs the same 24V AC wiring to the valves as any controller in this ranking — it's not plug-and-play without a prior install."
+      ],
+      "consejoInversion": "It's a solid middle ground if you want to try a premium brand without paying Rachio's or Hydrawise's price — the plant database only adds real value if your zones have genuinely different vegetation from each other."
+    },
     "tags": [
       "WiFi",
       "6 zonas",
       "Base de datos de plantas"
     ],
+    "tagsEn": ["WiFi", "6 zones", "Plant database"],
     "urlAfiliado": "https://www.amazon.com/dp/B076CZ6DHR?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-30",
     "activo": true
@@ -610,6 +895,7 @@
   {
     "asin": "B08BJBKW44",
     "nombre": "Hunter HPC400 — Controlador WiFi 4 Zonas con Hydrawise (Expandible a 32)",
+    "nombreEn": "Hunter HPC400 — WiFi 4-Zone Controller with Hydrawise (Expandable to 32)",
     "categoria": "controladores-wifi",
     "precio": 200,
     "moneda": "USD",
@@ -618,7 +904,9 @@
     "numResenas": 156,
     "ranking": 7,
     "notaTecnica": "Usa la app Hydrawise (la misma plataforma que los controladores Hunter Pro-HC de gama más alta) con ajuste de riego por clima. Arranca en 4 zonas y se expande con módulos aparte (no incluidos) hasta 32 zonas totales — útil si pensás crecer el sistema con el tiempo. Pantalla táctil e instalación DIY en unos 30 minutos. Tiene bastante menos reseñas que Rachio (156 vs 8.400+) pese a que Hunter es una marca histórica de riego profesional.",
+    "notaTecnicaEn": "Uses the Hydrawise app (the same platform as Hunter's higher-end Pro-HC controllers) with weather-based watering adjustment. It starts at 4 zones and expands with separate modules (not included) up to 32 zones total — useful if you plan to grow the system over time. Touchscreen and a roughly 30-minute DIY install. It has considerably fewer reviews than Rachio (156 vs 8,400+) despite Hunter being a long-standing professional irrigation brand.",
     "idealPara": "Quien quiere margen para crecer el sistema de riego agregando zonas con el tiempo, sin comprar otro controlador entero, con una marca (Hunter) con historia en riego profesional.",
+    "idealParaEn": "Anyone who wants room to grow their irrigation system by adding zones over time without buying a whole new controller, from a brand (Hunter) with a history in professional irrigation.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Es un controlador que arranca chico (4 zonas) pero está pensado para crecer: le vas sumando módulos de expansión a medida que agregás zonas de riego a tu jardín, en vez de tener que cambiar todo el controlador.",
       "ejemploHogar": "Empezás regando solo el frente de la casa con 4 zonas, y el año que viene sumás el patio trasero comprando un módulo de expansión en vez de comprar un controlador nuevo de más zonas.",
@@ -630,11 +918,23 @@
       ],
       "consejoInversion": "Tiene sentido pagar la diferencia frente a un económico si sabés que vas a ampliar el sistema de riego en el futuro — la posibilidad de expandir sin cambiar el controlador central es la ventaja real frente a Rachio o Netro, que no ofrecen esa modularidad."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a controller that starts small (4 zones) but is built to grow: you add expansion modules as you add irrigation zones to your yard, instead of having to replace the entire controller.",
+      "ejemploHogar": "You start by watering just the front yard with 4 zones, and next year you add the backyard by buying an expansion module instead of buying a whole new, bigger controller.",
+      "ejemploNegocio": "A property maintenance manager for an apartment complex can keep expanding irrigation zones across the grounds with modules, without replacing the central controller every time a new section is added.",
+      "puntosClave": [
+        "It starts at 4 zones, but each expansion module (sold separately, around $48) adds zones up to a maximum of 32 — figure out how much you plan to grow before choosing the base version.",
+        "It has far fewer reviews than Rachio (156 vs 8,400+), so the backing from other buyers on Amazon is thinner, even though Hunter is a long-standing irrigation manufacturer.",
+        "It uses the same Hydrawise app as Hunter's more expensive, semi-professional controllers, so you don't switch platforms if you upgrade within the brand later."
+      ],
+      "consejoInversion": "It's worth paying the difference over a budget controller if you know you'll expand your irrigation system down the road — the ability to expand without replacing the central controller is the real advantage over Rachio or Netro, neither of which offers that modularity."
+    },
     "tags": [
       "WiFi",
       "4 zonas",
       "Expandible a 32"
     ],
+    "tagsEn": ["WiFi", "4 zones", "Expandable to 32"],
     "urlAfiliado": "https://www.amazon.com/dp/B08BJBKW44?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-30",
     "activo": true
@@ -642,6 +942,7 @@
   {
     "asin": "B01D15HOIQ",
     "nombre": "Orbit B-hyve — Controlador WiFi 6 Zonas",
+    "nombreEn": "Orbit B-hyve — WiFi 6-Zone Controller",
     "categoria": "controladores-wifi",
     "precio": 104.77,
     "moneda": "USD",
@@ -650,7 +951,9 @@
     "numResenas": 9416,
     "ranking": 8,
     "notaTecnica": "Es el controlador con más reseñas de todo este catálogo (9.400+), incluso más que Rachio. Ofrece programación por app, carcasa weatherproof para instalación interior o exterior (garage, pared exterior), y viene también en versión de 12 zonas. A diferencia de Rachio, Netro o Hydrawise no destaca un algoritmo propio de predicción climática en su ficha — es un controlador WiFi sólido y de marca reconocida (Orbit), pero sin el marketing de 'riego inteligente por IA' de los otros tres premium.",
+    "notaTecnicaEn": "It's the controller with the most reviews in this entire catalog (9,400+), even more than Rachio. It offers app-based scheduling, a weatherproof enclosure for indoor or outdoor installation (garage, exterior wall), and is also available in a 12-zone version. Unlike Rachio, Netro, or Hydrawise, it doesn't feature a proprietary climate-prediction algorithm in its listing — it's a solid, well-known-brand WiFi controller (Orbit), just without the 'AI-smart irrigation' marketing of the other three premium options.",
     "idealPara": "Quien quiere una marca de riego reconocida (Orbit) con muchísimo respaldo de reseñas, en un precio intermedio entre los controladores económicos y las tres marcas premium de este ranking.",
+    "idealParaEn": "Anyone who wants a recognized irrigation brand (Orbit) with a massive amount of review backing, at a price between budget controllers and this ranking's three premium brands.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Es un controlador de riego WiFi de una marca histórica en irrigación (Orbit), que te deja programar horarios y manejar hasta 6 zonas desde el celular, con una carcasa preparada para instalarse tanto adentro como afuera de la casa.",
       "ejemploHogar": "Instalás el controlador en el garage o contra una pared exterior protegida, programás el riego del jardín delantero y trasero por separado, y lo manejás desde el celular sin tener que ir hasta el aparato.",
@@ -662,11 +965,23 @@
       ],
       "consejoInversion": "Es un punto medio razonable: más barato que las tres marcas premium de este ranking, con una marca y volumen de reseñas más fuerte que los controladores más económicos. Si no te interesa el ajuste climático predictivo y solo querés una marca confiable con historial comprobado, esta es una opción sólida."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a WiFi irrigation controller from a long-standing irrigation brand (Orbit) that lets you schedule and manage up to 6 zones from your phone, with an enclosure built for installation both indoors and outdoors.",
+      "ejemploHogar": "You install the controller in the garage or on a protected exterior wall, schedule the front and back yard separately, and manage it all from your phone without having to walk over to the device.",
+      "ejemploNegocio": "A property manager for a small housing complex can standardize on this brand for its review volume and parts availability, without paying the premium of brands with their own climate algorithm.",
+      "puntosClave": [
+        "It's the most-reviewed product in the entire catalog — a plus if you value the backing of many buyers over extra features.",
+        "It doesn't advertise a proprietary weather-prediction algorithm like Rachio, Netro, or Hydrawise — it handles the basics well (schedules, app-based rain cancellation) without that extra layer.",
+        "It's also available in a 12-zone version if your yard needs more coverage than this model's 6 zones."
+      ],
+      "consejoInversion": "It's a reasonable middle ground: cheaper than the three premium brands in this ranking, with a stronger brand and review volume than budget controllers. If predictive weather adjustment doesn't matter to you and you just want a trusted brand with a proven track record, this is a solid choice."
+    },
     "tags": [
       "WiFi",
       "6 zonas",
       "Weatherproof"
     ],
+    "tagsEn": ["WiFi", "6 zones", "Weatherproof"],
     "urlAfiliado": "https://www.amazon.com/dp/B01D15HOIQ?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-30",
     "activo": true
@@ -674,6 +989,7 @@
   {
     "asin": "B0DQLFC3Q6",
     "nombre": "GoveeLife Detector Inteligente de Fugas de Agua (5 sensores + gateway WiFi)",
+    "nombreEn": "GoveeLife Smart Water Leak Detector (5 Sensors + WiFi Gateway)",
     "categoria": "sensores-humedad",
     "precio": 59.98,
     "moneda": "USD",
@@ -682,7 +998,9 @@
     "numResenas": 2665,
     "ranking": 3,
     "notaTecnica": "No es un sensor de humedad de suelo — es un detector de fugas/inundación para instalar cerca de electrodomésticos, bajo pileta, o en el sótano. Los sensores individuales NO hablan WiFi directo entre sí: usan radio de largo alcance propietaria (hasta 1804 pies) hacia un gateway, y es el gateway el que se conecta a tu WiFi 2.4GHz y manda las alertas por app/SMS/email. GoveeLife vende esta misma línea en variantes con y sin gateway incluido — confirmá en el listado que la que comprás lo incluye, si no tenés uno ya de otro producto GoveeLife compatible (H5059/H5830).",
+    "notaTecnicaEn": "This is not a soil moisture sensor — it's a leak/flood detector meant to be installed near appliances, under a sink, or in the basement. The individual sensors do NOT talk WiFi directly to each other: they use a proprietary long-range radio (up to 1,804 ft) to a gateway, and it's the gateway that connects to your 2.4GHz WiFi and sends alerts via app/SMS/email. GoveeLife sells this same line in variants with and without the gateway included — confirm in the listing that the one you're buying includes it, unless you already have a compatible GoveeLife gateway from another product (H5059/H5830).",
     "idealPara": "Quien quiere anticiparse a daños por agua (pérdidas de calefón, lavarropas, pileta de cocina) en vez de sensores de riego — un complemento de seguridad para la casa, no para el jardín.",
+    "idealParaEn": "Anyone who wants to get ahead of water damage (a leaking water heater, washer, or kitchen sink) rather than soil sensors — a home safety add-on, not a yard product.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Es una alarma que detecta cuando hay agua donde no debería haber — la colocás en el piso cerca del calefón, debajo de la pileta de cocina, o al lado del lavarropas, y te avisa al celular apenas detecta la primera gota, antes de que se convierta en una inundación cara de arreglar.",
       "ejemploHogar": "Ponés uno debajo del calentador de agua y otro bajo la pileta de la cocina — si cualquiera de las dos mangueras empieza a perder, te llega una notificación al celular aunque no estés en casa.",
@@ -694,11 +1012,23 @@
       ],
       "consejoInversion": "El costo de un pack de sensores es una fracción de lo que cuesta reparar un piso o un mueble dañado por una fuga no detectada a tiempo — vale la pena en cualquier punto de la casa donde haya una manguera o conexión de agua escondida (calefón, lavarropas, bajomesada)."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's an alarm that detects water where it shouldn't be — you place it on the floor near the water heater, under the kitchen sink, or next to the washing machine, and it alerts your phone the moment it detects the first drop, before it becomes an expensive flood to fix.",
+      "ejemploHogar": "You place one under the water heater and another under the kitchen sink — if either hose starts leaking, you get a notification on your phone even if you're not home.",
+      "ejemploNegocio": "A short-term rental (Airbnb) or a second home you visit rarely can use several of these sensors to catch a leak before the next guest — or you yourself — notice it weeks later.",
+      "puntosClave": [
+        "It doesn't measure soil moisture for irrigation — it's specifically for detecting water where it shouldn't be (leaks, floods), a different use case from the rest of this category.",
+        "The sensors don't have their own WiFi: they depend on a gateway that connects to your 2.4GHz network — confirm the pack you're buying includes that gateway.",
+        "Battery life is rated up to 5 years by the manufacturer — it's not a device you'll be recharging often like other WiFi sensors."
+      ],
+      "consejoInversion": "The cost of a pack of sensors is a fraction of what it costs to repair a floor or piece of furniture damaged by an undetected leak — it's worth it anywhere in the house with a hidden hose or water connection (water heater, washer, under the sink)."
+    },
     "tags": [
       "Detector de fugas",
       "5 sensores",
       "IP67"
     ],
+    "tagsEn": ["Leak detector", "5 sensors", "IP67"],
     "urlAfiliado": "https://www.amazon.com/dp/B0DQLFC3Q6?tag=riegotrazado-20",
     "actualizadoEn": "2026-09-01",
     "activo": true
@@ -706,6 +1036,7 @@
   {
     "asin": "B00004RAAZ",
     "nombre": "Rain Bird DASASVF075 — Válvula Anti-Sifón 3/4 pulgada",
+    "nombreEn": "Rain Bird DASASVF075 — 3/4-Inch Anti-Siphon Valve",
     "categoria": "valvulas-solenoides",
     "precio": 26.43,
     "moneda": "USD",
@@ -714,7 +1045,9 @@
     "numResenas": 831,
     "ranking": 3,
     "notaTecnica": "A diferencia de la válvula in-line Orbit 57280 de este ranking (que va enterrada), esta es una válvula 'anti-sifón': se instala arriba del nivel del suelo, típicamente atornillada directo sobre una canilla, con rompedor de vacío integrado — exigido por código en muchas zonas cuando la válvula está cerca de una fuente de agua potable. Rosca 3/4\", 24V AC estándar, compatible con cualquier controlador. Casi 900 compradas el último mes.",
+    "notaTecnicaEn": "Unlike the in-line Orbit 57280 valve in this ranking (which goes underground), this is an 'anti-siphon' valve: it installs above ground level, typically screwed directly onto a spigot, with a built-in vacuum breaker — required by code in many areas when a valve sits near a potable water source. 3/4\" thread, standard 24V AC, compatible with any controller. Nearly 900 bought in the past month.",
     "idealPara": "Instalaciones donde el código local exige protección anti-retorno visible cerca de una canilla, o para quien prefiere una válvula fácil de inspeccionar sin cavar.",
+    "idealParaEn": "Installations where local code requires visible backflow protection near a spigot, or for anyone who prefers a valve that's easy to inspect without digging.",
     "guiaCompra": {
       "queEsYParaQueSirve": "A diferencia de la válvula in-line que va enterrada (como la Orbit de este ranking), esta va montada arriba del nivel del suelo, generalmente atornillada directo sobre una canilla — trae integrado un 'rompedor de vacío' que evita que el agua de riego (con tierra, fertilizante) se succione de vuelta hacia la red de agua potable.",
       "ejemploHogar": "La instalás directo sobre la canilla exterior de tu casa, visible y fácil de inspeccionar, en vez de enterrada — ideal si preferís poder revisarla o repararla sin cavar.",
@@ -726,11 +1059,23 @@
       ],
       "consejoInversion": "Con 831 reseñas y casi 900 compradas el último mes, es una de las válvulas anti-sifón más probadas del mercado — si tu instalación exige protección anti-retorno visible, esta cumple la norma sin pagar de más por funciones que no necesitás."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Unlike an in-line valve that's buried underground (like the Orbit valve in this ranking), this one mounts above ground level, usually screwed directly onto a spigot — it has a built-in 'vacuum breaker' that keeps irrigation water (with dirt, fertilizer) from siphoning back into the potable water supply.",
+      "ejemploHogar": "You install it directly on your home's outdoor spigot, visible and easy to inspect, instead of buried underground — ideal if you'd rather be able to check or repair it without digging.",
+      "ejemploNegocio": "An irrigation installer working in areas where plumbing code requires visible backflow protection near the water source can use this type of valve to meet the requirement without installing a separate device.",
+      "puntosClave": [
+        "It mounts above ground level (typically on a spigot), not buried like the in-line valve in this ranking — confirm which one your installation needs.",
+        "It has a built-in vacuum breaker — in many areas it's required by code if the valve sits near a potable water source.",
+        "3/4\" thread and standard 24V AC — compatible with any controller, not just Rain Bird's own."
+      ],
+      "consejoInversion": "With 831 reviews and nearly 900 bought in the past month, it's one of the most proven anti-siphon valves on the market — if your installation requires visible backflow protection, this meets code without paying extra for features you don't need."
+    },
     "tags": [
       "Anti-sifón",
       "3/4\" FPT",
       "24V AC"
     ],
+    "tagsEn": ["Anti-siphon", "3/4\" FPT", "24V AC"],
     "urlAfiliado": "https://www.amazon.com/dp/B00004RAAZ?tag=riegotrazado-20",
     "actualizadoEn": "2026-09-04",
     "activo": true
@@ -738,6 +1083,7 @@
   {
     "asin": "B0BB9M2TS8",
     "nombre": "ECO-WORTHY 33-Series — Bomba Booster de Diafragma 4.0 GPM 50 PSI",
+    "nombreEn": "ECO-WORTHY 33-Series — 4.0 GPM 50 PSI Diaphragm Booster Pump",
     "categoria": "bombas",
     "precio": 68.39,
     "moneda": "USD",
@@ -746,7 +1092,9 @@
     "numResenas": 2129,
     "ranking": 3,
     "notaTecnica": "Bomba de diafragma (no centrífuga como la de superficie de este ranking) — arranca y para sola con presostato integrado, según demanda. A diferencia de la sumergible (achique) y la de superficie autocebante (presión constante para varios aspersores), esta es un booster liviano y portátil para una sola manguera o punto de riego con baja presión: 4.0 GPM, 50 PSI, 110V AC. Trae adaptadores de manguera de jardín incluidos.",
+    "notaTecnicaEn": "A diaphragm pump (not centrifugal like the surface pump in this ranking) — it starts and stops on its own via a built-in pressure switch, on demand. Unlike the submersible (drainage) and self-priming surface pump (constant pressure for multiple sprinklers), this is a lightweight, portable booster for a single hose or low-pressure watering point: 4.0 GPM, 50 PSI, 110V AC. It includes garden hose adapters.",
     "idealPara": "Sumar presión a una sola manguera o punto de riego cuando la presión de la canilla es floja — opción liviana y portátil frente a la bomba de superficie de este ranking.",
+    "idealParaEn": "Boosting pressure to a single hose or watering point when tap pressure is weak — a lightweight, portable alternative to the surface pump in this ranking.",
     "guiaCompra": {
       "queEsYParaQueSirve": "A diferencia de la bomba de superficie de este ranking (pensada para sostener presión de todo un sistema de aspersores), esta es una bomba de diafragma chica y portátil que se conecta en línea con una sola manguera para darle más presión — arranca sola cuando abrís la canilla y para sola cuando la cerrás, gracias a un presostato integrado.",
       "ejemploHogar": "Tenés una manguera con poca presión al final del jardín (lejos de la conexión principal) y esta bomba, conectada en el medio del recorrido, le devuelve la fuerza para que el aspersor funcione bien.",
@@ -758,7 +1106,19 @@
       ],
       "consejoInversion": "Con más de 2.100 reseñas y 'Amazon's Choice', es una forma barata y portátil de resolver baja presión en un punto puntual del jardín — mucho más económica que la bomba de superficie de este ranking, aunque no la reemplaza si necesitás presión para varios aspersores a la vez."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Unlike the surface pump in this ranking (built to hold pressure across a whole sprinkler system), this is a small, portable diaphragm pump that connects in-line with a single hose to boost its pressure — it starts on its own when you open the tap and stops on its own when you close it, thanks to a built-in pressure switch.",
+      "ejemploHogar": "You have a hose with weak pressure at the far end of the yard (far from the main connection), and this pump, connected midway along the run, restores enough force for the sprinkler to work properly.",
+      "ejemploNegocio": "A small nursery with a single watering hose that loses pressure at its farthest point can add this portable pump without redoing the entire pressure setup.",
+      "puntosClave": [
+        "It's a diaphragm pump, not centrifugal like the surface pump in this ranking — built for a single point of use (one hose), not for holding pressure across a whole system with several sprinklers at once.",
+        "It includes garden hose adapters — you don't need to buy extra parts for a basic install.",
+        "It starts and stops on its own based on demand (built-in pressure switch) — no need to turn it on and off manually every time you water."
+      ],
+      "consejoInversion": "With over 2,100 reviews and Amazon's Choice status, it's a cheap, portable way to fix low pressure at one specific spot in the yard — much more affordable than the surface pump in this ranking, though it won't replace it if you need pressure for several sprinklers at once."
+    },
     "tags": ["Diafragma", "Portátil", "4.0 GPM"],
+    "tagsEn": ["Diaphragm", "Portable", "4.0 GPM"],
     "urlAfiliado": "https://www.amazon.com/dp/B0BB9M2TS8?tag=riegotrazado-20",
     "actualizadoEn": "2026-09-04",
     "activo": true
@@ -766,6 +1126,7 @@
   {
     "asin": "B0CGTRGLFC",
     "nombre": "DieseRC Relé WiFi 2 Canales — App eWeLink, sin Arduino",
+    "nombreEn": "DieseRC 2-Channel WiFi Relay — eWeLink App, No Arduino Needed",
     "categoria": "modulos-rele",
     "precio": 15.99,
     "moneda": "USD",
@@ -774,7 +1135,9 @@
     "numResenas": 223,
     "ranking": 3,
     "notaTecnica": "A diferencia de los relés de este ranking (1 canal y 8 canales), que son módulos 'crudos' para conectar a un Arduino/ESP32, este trae su propio WiFi integrado — no necesitás programar ni sumar un microcontrolador aparte, se controla directo desde la app eWeLink (o Alexa/Google) apenas lo conectás a tu red. 2 canales, salida pasiva compatible con 24V, hasta 10A.",
+    "notaTecnicaEn": "Unlike the relays in this ranking (1-channel and 8-channel), which are 'raw' modules meant to connect to an Arduino/ESP32, this one has its own built-in WiFi — you don't need to program anything or add a separate microcontroller, it's controlled directly from the eWeLink app (or Alexa/Google) as soon as you connect it to your network. 2 channels, dry-contact output compatible with 24V, up to 10A.",
     "idealPara": "Controlar 1-2 válvulas de riego por WiFi sin programar nada ni sumar un Arduino — la opción 'app y listo' frente a los módulos de relé DIY de este ranking.",
+    "idealParaEn": "Controlling 1-2 irrigation valves over WiFi without programming anything or adding an Arduino — the 'app and go' option versus the DIY relay modules in this ranking.",
     "guiaCompra": {
       "queEsYParaQueSirve": "A diferencia de los relés de este ranking (que son piezas sueltas para conectar a un Arduino y programar vos mismo), este trae WiFi integrado — lo conectás a tu red con la app eWeLink y ya podés prender/apagar cada canal desde el celular, sin escribir una sola línea de código.",
       "ejemploHogar": "Tenés una sola válvula de riego que hoy abrís y cerrás a mano, y querés controlarla por WiFi sin armar un proyecto de electrónica — este relé hace ese trabajo directo, sin Arduino de por medio.",
@@ -786,7 +1149,19 @@
       ],
       "consejoInversion": "Con más de 220 reseñas y 'Amazon's Choice', es la opción de menor fricción para sumar control WiFi a una válvula suelta — si ya sabés programar Arduino, los relés DIY de este ranking dan más control fino, pero para 'que funcione ya' este es más rápido de poner en marcha."
     },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Unlike the relays in this ranking (which are bare parts meant to connect to an Arduino and program yourself), this one has built-in WiFi — you connect it to your network with the eWeLink app and can immediately turn each channel on and off from your phone, without writing a single line of code.",
+      "ejemploHogar": "You have a single irrigation valve you currently open and close by hand, and want to control it over WiFi without building an electronics project — this relay does that job directly, no Arduino involved.",
+      "ejemploNegocio": "A gardener with just a few clients can add remote control to individual valves at different properties without programming a microcontroller for each one.",
+      "puntosClave": [
+        "Unlike the relays in this ranking, it doesn't need an Arduino or programming — it's controlled directly from the eWeLink app as soon as you connect it to WiFi.",
+        "It has 2 channels — you can control two independent valves or loads with a single module.",
+        "It's compatible with Alexa and Google Home, something the DIY relays in this ranking don't offer on their own."
+      ],
+      "consejoInversion": "With over 220 reviews and Amazon's Choice status, it's the lowest-friction way to add WiFi control to a standalone valve — if you already know how to program Arduino, the DIY relays in this ranking give you finer control, but for 'just make it work,' this one gets running faster."
+    },
     "tags": ["WiFi integrado", "App eWeLink", "2 canales"],
+    "tagsEn": ["Built-in WiFi", "eWeLink app", "2 channels"],
     "urlAfiliado": "https://www.amazon.com/dp/B0CGTRGLFC?tag=riegotrazado-20",
     "actualizadoEn": "2026-09-04",
     "activo": true
