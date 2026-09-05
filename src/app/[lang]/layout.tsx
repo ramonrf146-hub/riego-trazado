@@ -4,7 +4,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import AmazonDisclosureToast from "@/components/AmazonDisclosureToast";
-import "./globals.css";
+import type { Locale } from "@/lib/i18n";
+import "../globals.css";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -37,15 +38,29 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export async function generateStaticParams() {
+  return [{ lang: "es" }, { lang: "en" }];
+}
+
+function normalizarLocale(lang: string): Locale {
+  return lang === "en" ? "en" : "es";
+}
+
+export default async function RootLayout({
+  children,
+  params,
+}: LayoutProps<"/[lang]">) {
+  const { lang } = await params;
+  const locale = normalizarLocale(lang);
+
   return (
-    <html lang="es" className={`${inter.variable} h-full antialiased`}>
+    <html lang={locale} className={`${inter.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-ink text-text-light">
         <GoogleAnalytics />
-        <Header />
+        <Header locale={locale} />
         <main className="flex-1">{children}</main>
-        <Footer />
-        <AmazonDisclosureToast />
+        <Footer locale={locale} />
+        <AmazonDisclosureToast locale={locale} />
       </body>
     </html>
   );

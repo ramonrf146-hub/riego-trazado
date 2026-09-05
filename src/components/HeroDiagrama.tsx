@@ -1,3 +1,31 @@
+import { getDictionary, type Locale } from "@/lib/i18n";
+
+const ETIQUETAS: Record<Locale, {
+  alexa: string; voz: string; app: string; riego: string;
+  controlador: string; controladorSub: string; operativo: string;
+  dashboard: string; sensores: string;
+  humedad: string; lluvia: string; caudal: string; temperatura: string;
+  valvula: string; zona1: string; aspersor: string;
+  comando: string; datos: string; agua: string;
+}> = {
+  es: {
+    alexa: "ALEXA", voz: "voz", app: "APP", riego: "riego",
+    controlador: "CONTROLADOR CENTRAL", controladorSub: "Riego WiFi · Programación", operativo: "OPERATIVO",
+    dashboard: "DASHBOARD", sensores: "SENSORES IOT / TELEMETRÍA",
+    humedad: "HUMEDAD", lluvia: "LLUVIA", caudal: "CAUDAL", temperatura: "TEMPERATURA",
+    valvula: "VÁLVULA", zona1: "ZONA 1", aspersor: "ASPERSOR",
+    comando: "Comando", datos: "Datos", agua: "Agua",
+  },
+  en: {
+    alexa: "ALEXA", voz: "voice", app: "APP", riego: "irrigation",
+    controlador: "CENTRAL CONTROLLER", controladorSub: "WiFi Irrigation · Scheduling", operativo: "ONLINE",
+    dashboard: "DASHBOARD", sensores: "IOT SENSORS / TELEMETRY",
+    humedad: "MOISTURE", lluvia: "RAIN", caudal: "FLOW", temperatura: "TEMPERATURE",
+    valvula: "VALVE", zona1: "ZONE 1", aspersor: "SPRINKLER",
+    comando: "Command", datos: "Data", agua: "Water",
+  },
+};
+
 /**
  * Diagrama de firma del hero: plano técnico animado de un sistema de
  * riego completo — entradas de usuario (Alexa/app) hacia un controlador
@@ -11,12 +39,14 @@
  * regla global en globals.css que congela todas las animaciones del
  * sitio.
  */
-export default function HeroDiagrama() {
+export default function HeroDiagrama({ locale }: { locale: Locale }) {
+  const dict = getDictionary(locale);
+  const et = ETIQUETAS[locale];
   return (
     <svg
       viewBox="0 0 840 440"
       role="img"
-      aria-label="Diagrama de un sistema de riego automatizado: Alexa y una app envían comandos a un controlador WiFi central, que muestra un dashboard, recibe telemetría de sensores, y controla una válvula solenoide por señal de 24V AC hasta el aspersor"
+      aria-label={dict["home.heroDiagramaAlt"]}
       className="w-full h-auto"
     >
       <style>{`
@@ -37,16 +67,16 @@ export default function HeroDiagrama() {
         <rect x="20" y="25" width="110" height="60" rx="6" fill="var(--ink-2)" stroke="var(--accent)" strokeWidth="1.5" />
         <circle cx="45" cy="55" r="10" fill="none" stroke="var(--accent)" strokeWidth="1.5" />
         <circle cx="45" cy="55" r="3" fill="var(--accent)" />
-        <text x="70" y="52" className="font-mono" fontSize="10" fontWeight="700" fill="var(--text-light)">ALEXA</text>
-        <text x="70" y="66" className="font-mono" fontSize="8" fill="var(--text-dim)">voz</text>
+        <text x="70" y="52" className="font-mono" fontSize="10" fontWeight="700" fill="var(--text-light)">{et.alexa}</text>
+        <text x="70" y="66" className="font-mono" fontSize="8" fill="var(--text-dim)">{et.voz}</text>
       </g>
 
       <g>
         <rect x="20" y="110" width="110" height="60" rx="6" fill="var(--ink-2)" stroke="var(--accent)" strokeWidth="1.5" />
         <rect x="35" y="122" width="26" height="36" rx="3" fill="none" stroke="var(--accent)" strokeWidth="1.5" />
         <path d="M41 152 H55" stroke="var(--accent)" strokeWidth="1.5" strokeLinecap="round" />
-        <text x="70" y="137" className="font-mono" fontSize="10" fontWeight="700" fill="var(--text-light)">APP</text>
-        <text x="70" y="151" className="font-mono" fontSize="8" fill="var(--text-dim)">riego</text>
+        <text x="70" y="137" className="font-mono" fontSize="10" fontWeight="700" fill="var(--text-light)">{et.app}</text>
+        <text x="70" y="151" className="font-mono" fontSize="8" fill="var(--text-dim)">{et.riego}</text>
       </g>
 
       {/* ===== Controlador central ===== */}
@@ -58,10 +88,10 @@ export default function HeroDiagrama() {
           strokeWidth="1.5"
           fill="none"
         />
-        <text x="335" y="185" className="font-mono" fontSize="11" fontWeight="700" fill="var(--text-light)">CONTROLADOR CENTRAL</text>
-        <text x="300" y="205" className="font-mono" fontSize="9" fill="var(--text-dim)">Riego WiFi · Programación</text>
+        <text x="335" y="185" className="font-mono" fontSize="11" fontWeight="700" fill="var(--text-light)">{et.controlador}</text>
+        <text x="300" y="205" className="font-mono" fontSize="9" fill="var(--text-dim)">{et.controladorSub}</text>
         <circle cx="300" cy="234" r="3" fill="var(--accent-2)" />
-        <text x="310" y="238" className="font-mono" fontSize="9" fill="var(--accent-2)">OPERATIVO</text>
+        <text x="310" y="238" className="font-mono" fontSize="9" fill="var(--accent-2)">{et.operativo}</text>
       </g>
 
       {/* ===== Controlador -> Dashboard (datos, azul) ===== */}
@@ -72,15 +102,15 @@ export default function HeroDiagrama() {
         <rect x="388" y="60" width="8" height="16" fill="var(--line-dim)" />
         <rect x="400" y="52" width="8" height="24" fill="var(--line-dim)" />
         <rect x="412" y="66" width="8" height="10" fill="var(--line-dim)" />
-        <text x="375" y="19" textAnchor="middle" className="font-mono" fontSize="10" fill="var(--text-dim)">DASHBOARD</text>
+        <text x="375" y="19" textAnchor="middle" className="font-mono" fontSize="10" fill="var(--text-dim)">{et.dashboard}</text>
       </g>
 
       {/* ===== Sensores de telemetría -> Controlador (datos, azul) ===== */}
       {[
-        { x: 290, label: "HUMEDAD" },
-        { x: 400, label: "LLUVIA" },
-        { x: 510, label: "CAUDAL" },
-        { x: 610, label: "TEMPERATURA" },
+        { x: 290, label: et.humedad },
+        { x: 400, label: et.lluvia },
+        { x: 510, label: et.caudal },
+        { x: 610, label: et.temperatura },
       ].map((s) => (
         <g key={s.label}>
           <path
@@ -94,7 +124,7 @@ export default function HeroDiagrama() {
           <text x={s.x + 30} y="358" className="font-mono" fontSize="9" fill="var(--text-light)">{s.label}</text>
         </g>
       ))}
-      <text x="400" y="392" textAnchor="middle" className="font-mono" fontSize="9" fill="var(--text-dim)">SENSORES IOT / TELEMETRÍA</text>
+      <text x="400" y="392" textAnchor="middle" className="font-mono" fontSize="9" fill="var(--text-dim)">{et.sensores}</text>
 
       {/* ===== Controlador -> Válvula (señal 24V AC, verde) ===== */}
       <path d="M 470 195 H 590" className="flujo-24v" strokeWidth="2" fill="none" />
@@ -105,8 +135,8 @@ export default function HeroDiagrama() {
         <path d="M622 195 L640 183 L640 207 Z" fill="var(--accent)" opacity="0.9" />
         <path d="M658 195 L640 183 L640 207 Z" fill="var(--accent)" opacity="0.5" />
         <rect x="614" y="215" width="67" height="20" rx="2" fill="var(--ink)" stroke="var(--accent-2)" strokeWidth="1" />
-        <text x="647" y="229" textAnchor="middle" className="font-mono" fontSize="10" fontWeight="700" fill="var(--accent-2)">ZONA 1</text>
-        <text x="647" y="163" textAnchor="middle" className="font-mono" fontSize="10" fontWeight="700" fill="var(--text-light)">VÁLVULA</text>
+        <text x="647" y="229" textAnchor="middle" className="font-mono" fontSize="10" fontWeight="700" fill="var(--accent-2)">{et.zona1}</text>
+        <text x="647" y="163" textAnchor="middle" className="font-mono" fontSize="10" fontWeight="700" fill="var(--text-light)">{et.valvula}</text>
       </g>
 
       {/* ===== Válvula -> Aspersor (agua, celeste) ===== */}
@@ -122,22 +152,22 @@ export default function HeroDiagrama() {
           strokeLinecap="round"
           opacity="0.85"
         />
-        <text x="785" y="244" textAnchor="middle" className="font-mono" fontSize="10" fill="var(--text-dim)">ASPERSOR</text>
+        <text x="785" y="244" textAnchor="middle" className="font-mono" fontSize="10" fill="var(--text-dim)">{et.aspersor}</text>
       </g>
 
       {/* ===== Leyenda ===== */}
       <g className="font-mono" fontSize="9">
         <path d="M20 422 H40" className="flujo-comando" strokeWidth="2" />
-        <text x="46" y="425" fill="var(--text-dim)">Comando</text>
+        <text x="46" y="425" fill="var(--text-dim)">{et.comando}</text>
 
         <path d="M150 422 H170" className="flujo-datos" strokeWidth="2" />
-        <text x="176" y="425" fill="var(--text-dim)">Datos</text>
+        <text x="176" y="425" fill="var(--text-dim)">{et.datos}</text>
 
         <path d="M260 422 H280" className="flujo-24v" strokeWidth="2" />
         <text x="286" y="425" fill="var(--text-dim)">24V AC</text>
 
         <path d="M370 422 H390" className="flujo-agua" strokeWidth="2" />
-        <text x="396" y="425" fill="var(--text-dim)">Agua</text>
+        <text x="396" y="425" fill="var(--text-dim)">{et.agua}</text>
       </g>
     </svg>
   );

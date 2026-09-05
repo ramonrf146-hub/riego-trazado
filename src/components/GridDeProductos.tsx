@@ -4,6 +4,7 @@ import { useMemo } from "react";
 import type { Producto } from "@/lib/tipos";
 import { useComparador } from "@/lib/useComparador";
 import { calcularInsigniasCatalogo } from "@/lib/insignias";
+import { getDictionary, type Locale } from "@/lib/i18n";
 import ProductCard from "./ProductCard";
 import ComparadorModal from "./ComparadorModal";
 
@@ -12,7 +13,14 @@ import ComparadorModal from "./ComparadorModal";
  * filtradas de antemano) con la misma capacidad de comparación que el
  * slider de la home.
  */
-export default function GridDeProductos({ productos }: { productos: Producto[] }) {
+export default function GridDeProductos({
+  productos,
+  locale,
+}: {
+  productos: Producto[];
+  locale: Locale;
+}) {
+  const dict = getDictionary(locale);
   const comparador = useComparador();
   const insignias = useMemo(() => calcularInsigniasCatalogo(productos), [productos]);
 
@@ -22,6 +30,7 @@ export default function GridDeProductos({ productos }: { productos: Producto[] }
         <ProductCard
           key={producto.asin}
           producto={producto}
+          locale={locale}
           comparando={comparador.estaSeleccionado(producto)}
           comparadorBloqueado={comparador.estaBloqueado(producto)}
           onToggleComparar={() => comparador.toggleSeleccion(producto)}
@@ -33,19 +42,19 @@ export default function GridDeProductos({ productos }: { productos: Producto[] }
       {comparador.seleccionados.length >= 2 && !comparador.modalAbierto && (
         <div className="fixed bottom-4 left-1/2 z-40 flex -translate-x-1/2 items-center gap-3 rounded-full border border-line-dim bg-ink-2 py-2 pl-4 pr-2 shadow-xl">
           <span className="text-sm text-text-light">
-            {comparador.seleccionados.length} seleccionados
+            {comparador.seleccionados.length} {dict["ranking.seleccionados"]}
           </span>
           <button
             type="button"
             onClick={() => comparador.setModalAbierto(true)}
             className="rounded-full bg-accent-2 px-4 py-2 text-xs font-bold text-ink transition-opacity hover:opacity-90"
           >
-            Comparar
+            {dict["ranking.comparar"]}
           </button>
           <button
             type="button"
             onClick={comparador.limpiar}
-            aria-label="Cancelar comparación"
+            aria-label={dict["ranking.cancelarComparacion"]}
             className="flex h-8 w-8 items-center justify-center rounded-full text-text-dim hover:text-text-light"
           >
             ✕
@@ -54,7 +63,7 @@ export default function GridDeProductos({ productos }: { productos: Producto[] }
       )}
 
       {comparador.modalAbierto && (
-        <ComparadorModal productos={comparador.seleccionados} onCerrar={comparador.limpiar} />
+        <ComparadorModal productos={comparador.seleccionados} locale={locale} onCerrar={comparador.limpiar} />
       )}
     </div>
   );

@@ -1,20 +1,46 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getPagina } from "@/lib/contenido";
+import { withLocale, type Locale } from "@/lib/i18n";
 
-export async function generateMetadata(): Promise<Metadata> {
-  const pagina = await getPagina("privacidad");
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://riegocom.uk";
+
+function normalizarLocale(lang: string): Locale {
+  return lang === "en" ? "en" : "es";
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const locale = normalizarLocale(lang);
+  const pagina = await getPagina("privacidad", locale);
   if (!pagina) return {};
 
   return {
     title: pagina.titulo,
     description: pagina.descripcion,
-    alternates: { canonical: "/privacidad" },
+    alternates: {
+      canonical: withLocale("/privacidad", locale),
+      languages: {
+        es: `${SITE_URL}/privacidad`,
+        en: `${SITE_URL}/en/privacidad`,
+        "x-default": `${SITE_URL}/privacidad`,
+      },
+    },
   };
 }
 
-export default async function PrivacidadPage() {
-  const pagina = await getPagina("privacidad");
+export default async function PrivacidadPage({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}) {
+  const { lang } = await params;
+  const locale = normalizarLocale(lang);
+  const pagina = await getPagina("privacidad", locale);
   if (!pagina) notFound();
 
   return (

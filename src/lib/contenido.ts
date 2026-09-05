@@ -10,9 +10,17 @@ import type {
   Pagina,
   PaginaFrontmatter,
 } from "./tipos";
+import type { Locale } from "./i18n";
 
-const DIR_ARTICULOS = path.join(process.cwd(), "content", "articulos");
-const DIR_PAGINAS = path.join(process.cwd(), "content", "paginas");
+const DIRS_ARTICULOS: Record<Locale, string> = {
+  es: path.join(process.cwd(), "content", "articulos"),
+  en: path.join(process.cwd(), "content", "articulos-en"),
+};
+
+const DIRS_PAGINAS: Record<Locale, string> = {
+  es: path.join(process.cwd(), "content", "paginas"),
+  en: path.join(process.cwd(), "content", "paginas-en"),
+};
 
 async function markdownAHtml(markdown: string): Promise<string> {
   // sanitize:false permite HTML crudo (embeds de YouTube) en los .md —
@@ -22,15 +30,16 @@ async function markdownAHtml(markdown: string): Promise<string> {
   return resultado.toString();
 }
 
-export async function getArticulos(): Promise<Articulo[]> {
+export async function getArticulos(locale: Locale = "es"): Promise<Articulo[]> {
+  const dirArticulos = DIRS_ARTICULOS[locale];
   const archivos = fs
-    .readdirSync(DIR_ARTICULOS)
+    .readdirSync(dirArticulos)
     .filter((archivo) => archivo.endsWith(".md"));
 
   const articulos = await Promise.all(
     archivos.map(async (archivo) => {
       const slug = archivo.replace(/\.md$/, "");
-      return getArticuloPorSlug(slug);
+      return getArticuloPorSlug(slug, locale);
     })
   );
 
@@ -39,8 +48,11 @@ export async function getArticulos(): Promise<Articulo[]> {
     .sort((a, b) => (a.fecha < b.fecha ? 1 : -1));
 }
 
-export async function getArticuloPorSlug(slug: string): Promise<Articulo | null> {
-  const rutaArchivo = path.join(DIR_ARTICULOS, `${slug}.md`);
+export async function getArticuloPorSlug(
+  slug: string,
+  locale: Locale = "es"
+): Promise<Articulo | null> {
+  const rutaArchivo = path.join(DIRS_ARTICULOS[locale], `${slug}.md`);
   if (!fs.existsSync(rutaArchivo)) return null;
 
   const raw = fs.readFileSync(rutaArchivo, "utf-8");
@@ -54,8 +66,8 @@ export async function getArticuloPorSlug(slug: string): Promise<Articulo | null>
   };
 }
 
-export async function getPagina(slug: string): Promise<Pagina | null> {
-  const rutaArchivo = path.join(DIR_PAGINAS, `${slug}.md`);
+export async function getPagina(slug: string, locale: Locale = "es"): Promise<Pagina | null> {
+  const rutaArchivo = path.join(DIRS_PAGINAS[locale], `${slug}.md`);
   if (!fs.existsSync(rutaArchivo)) return null;
 
   const raw = fs.readFileSync(rutaArchivo, "utf-8");

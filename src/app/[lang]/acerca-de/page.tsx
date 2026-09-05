@@ -1,20 +1,46 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getPagina } from "@/lib/contenido";
+import { withLocale, type Locale } from "@/lib/i18n";
 
-export async function generateMetadata(): Promise<Metadata> {
-  const pagina = await getPagina("acerca-de");
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://riegocom.uk";
+
+function normalizarLocale(lang: string): Locale {
+  return lang === "en" ? "en" : "es";
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const locale = normalizarLocale(lang);
+  const pagina = await getPagina("acerca-de", locale);
   if (!pagina) return {};
 
   return {
     title: pagina.titulo,
     description: pagina.descripcion,
-    alternates: { canonical: "/acerca-de" },
+    alternates: {
+      canonical: withLocale("/acerca-de", locale),
+      languages: {
+        es: `${SITE_URL}/acerca-de`,
+        en: `${SITE_URL}/en/acerca-de`,
+        "x-default": `${SITE_URL}/acerca-de`,
+      },
+    },
   };
 }
 
-export default async function AcercaDePage() {
-  const pagina = await getPagina("acerca-de");
+export default async function AcercaDePage({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}) {
+  const { lang } = await params;
+  const locale = normalizarLocale(lang);
+  const pagina = await getPagina("acerca-de", locale);
   if (!pagina) notFound();
 
   return (

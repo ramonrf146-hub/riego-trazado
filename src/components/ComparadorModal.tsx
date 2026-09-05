@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import type { Producto } from "@/lib/tipos";
+import { getDictionary, t, type Locale } from "@/lib/i18n";
 
 function IconoCheck() {
   return (
@@ -24,7 +25,7 @@ function IconoCerrar() {
  * rating, reseñas) — nunca texto inventado. Solo se otorgan cuando hay
  * una diferencia real entre los productos comparados.
  */
-function calcularInsignias(productos: Producto[]): Record<string, string[]> {
+function calcularInsignias(productos: Producto[], dict: Record<string, string>): Record<string, string[]> {
   const insignias: Record<string, string[]> = {};
   for (const p of productos) insignias[p.asin] = [];
   if (productos.length < 2) return insignias;
@@ -42,10 +43,10 @@ function calcularInsignias(productos: Producto[]): Record<string, string[]> {
   const empateResenas = resenas.filter((v) => v === resenasMax).length === productos.length;
 
   productos.forEach((p) => {
-    if (!empatePrecio && p.precio === precioMin) insignias[p.asin].push("💰 Precio más bajo");
-    if (!empateRating && p.rating === ratingMax) insignias[p.asin].push("⭐ Mejor valorado");
+    if (!empatePrecio && p.precio === precioMin) insignias[p.asin].push(dict["comparador.precioMasBajo"]);
+    if (!empateRating && p.rating === ratingMax) insignias[p.asin].push(dict["comparador.mejorValorado"]);
     if (!empateResenas && p.numResenas === resenasMax && p.numResenas > 0) {
-      insignias[p.asin].push("🏆 Más reseñado");
+      insignias[p.asin].push(dict["comparador.masResenado"]);
     }
   });
 
@@ -54,11 +55,15 @@ function calcularInsignias(productos: Producto[]): Record<string, string[]> {
 
 export default function ComparadorModal({
   productos,
+  locale,
   onCerrar,
 }: {
   productos: Producto[];
+  locale: Locale;
   onCerrar: () => void;
 }) {
+  const dict = getDictionary(locale);
+
   useEffect(() => {
     document.body.style.overflow = "hidden";
     return () => {
@@ -67,26 +72,27 @@ export default function ComparadorModal({
   }, []);
 
   const todasLasTags = Array.from(
-    new Set(productos.flatMap((p) => p.tags ?? []))
+    new Set(productos.flatMap((p) => (locale === "en" && p.tagsEn ? p.tagsEn : p.tags) ?? []))
   );
-  const insignias = calcularInsignias(productos);
+  const insignias = calcularInsignias(productos, dict);
 
   return (
     <div
       role="dialog"
       aria-modal="true"
-      aria-label="Comparar productos"
+      aria-label={`${dict["comparador.comparando"]} ${productos.length} ${dict["comparador.producto"]}${productos.length > 1 ? "s" : ""}`}
       className="fixed inset-0 z-50 flex items-end justify-center bg-black/70 backdrop-blur-sm sm:items-center sm:p-6"
     >
       <div className="flex max-h-[92vh] w-full flex-col rounded-t-3xl bg-ink-2 sm:max-w-4xl sm:rounded-3xl">
         <div className="flex items-center justify-between border-b border-line-dim/40 px-5 py-4">
           <h2 className="text-lg font-bold text-text-light">
-            Comparando {productos.length} producto{productos.length > 1 ? "s" : ""}
+            {dict["comparador.comparando"]} {productos.length} {dict["comparador.producto"]}
+            {productos.length > 1 ? "s" : ""}
           </h2>
           <button
             type="button"
             onClick={onCerrar}
-            aria-label="Cerrar comparación"
+            aria-label={dict["comparador.cerrarComparacion"]}
             className="flex h-9 w-9 items-center justify-center rounded-full border border-line-dim text-text-dim transition-colors hover:border-line hover:text-line"
           >
             <IconoCerrar />
@@ -98,56 +104,61 @@ export default function ComparadorModal({
             className="grid gap-4"
             style={{ gridTemplateColumns: `repeat(${productos.length}, minmax(220px, 1fr))` }}
           >
-            {productos.map((producto) => (
-              <div key={producto.asin} className="flex flex-col gap-3">
-                <div className="flex h-32 items-center justify-center rounded-xl bg-image-bg p-3">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={producto.imagen} alt={producto.nombre} className="h-full w-full object-contain" />
-                </div>
-                <h3 className="text-sm font-bold leading-snug text-text-light">{producto.nombre}</h3>
-                <p className="text-base font-bold text-text-light">
-                  ${producto.precio.toFixed(2)}
-                  {producto.precioMax && producto.precioMax > producto.precio && (
-                    <span className="text-text-dim"> — ${producto.precioMax.toFixed(2)}</span>
-                  )}
-                </p>
-                <p className="text-xs text-text-dim">
-                  {producto.numResenas > 0
-                    ? `${producto.rating.toFixed(1)} ★ · ${producto.numResenas.toLocaleString("es")} reseñas`
-                    : "Sin reseñas todavía"}
-                </p>
-
-                {insignias[producto.asin]?.length > 0 && (
-                  <div className="flex flex-wrap gap-1.5">
-                    {insignias[producto.asin].map((insignia) => (
-                      <span
-                        key={insignia}
-                        className="rounded-full bg-accent-2/15 px-2 py-1 text-[11px] font-semibold text-accent-2"
-                      >
-                        {insignia}
-                      </span>
-                    ))}
+            {productos.map((producto) => {
+              const nombre = t(producto.nombre, producto.nombreEn, locale);
+              const idealPara = t(producto.idealPara ?? "", producto.idealParaEn, locale);
+              const notaTecnica = t(producto.notaTecnica, producto.notaTecnicaEn, locale);
+              return (
+                <div key={producto.asin} className="flex flex-col gap-3">
+                  <div className="flex h-32 items-center justify-center rounded-xl bg-image-bg p-3">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={producto.imagen} alt={nombre} className="h-full w-full object-contain" />
                   </div>
-                )}
-
-                {producto.idealPara && (
-                  <p className="rounded-lg bg-line-dim/40 px-2.5 py-2 text-xs leading-snug text-text-light">
-                    <span className="font-semibold text-text-dim">Ideal para: </span>
-                    {producto.idealPara}
+                  <h3 className="text-sm font-bold leading-snug text-text-light">{nombre}</h3>
+                  <p className="text-base font-bold text-text-light">
+                    ${producto.precio.toFixed(2)}
+                    {producto.precioMax && producto.precioMax > producto.precio && (
+                      <span className="text-text-dim"> — ${producto.precioMax.toFixed(2)}</span>
+                    )}
                   </p>
-                )}
+                  <p className="text-xs text-text-dim">
+                    {producto.numResenas > 0
+                      ? `${producto.rating.toFixed(1)} ★ · ${producto.numResenas.toLocaleString(locale)} ${dict["producto.resenas"]}`
+                      : dict["producto.sinResenas"]}
+                  </p>
 
-                {producto.notaTecnica && (
-                  <p className="text-xs leading-relaxed text-text-dim">{producto.notaTecnica}</p>
-                )}
-              </div>
-            ))}
+                  {insignias[producto.asin]?.length > 0 && (
+                    <div className="flex flex-wrap gap-1.5">
+                      {insignias[producto.asin].map((insignia) => (
+                        <span
+                          key={insignia}
+                          className="rounded-full bg-accent-2/15 px-2 py-1 text-[11px] font-semibold text-accent-2"
+                        >
+                          {insignia}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+
+                  {producto.idealPara && (
+                    <p className="rounded-lg bg-line-dim/40 px-2.5 py-2 text-xs leading-snug text-text-light">
+                      <span className="font-semibold text-text-dim">{dict["comparador.idealPara"]}</span>
+                      {idealPara}
+                    </p>
+                  )}
+
+                  {notaTecnica && (
+                    <p className="text-xs leading-relaxed text-text-dim">{notaTecnica}</p>
+                  )}
+                </div>
+              );
+            })}
           </div>
 
           {todasLasTags.length > 0 && (
             <div className="mt-6 border-t border-line-dim/40 pt-4">
               <p className="mb-3 text-xs font-semibold uppercase tracking-wide text-text-dim">
-                Especificaciones
+                {dict["comparador.especificaciones"]}
               </p>
               <div className="space-y-1">
                 {todasLasTags.map((tag) => (
@@ -157,15 +168,18 @@ export default function ComparadorModal({
                     style={{ gridTemplateColumns: `180px repeat(${productos.length}, minmax(220px, 1fr))` }}
                   >
                     <span className="text-xs text-text-dim">{tag}</span>
-                    {productos.map((producto) => (
-                      <span key={producto.asin} className="flex items-center">
-                        {producto.tags?.includes(tag) ? (
-                          <IconoCheck />
-                        ) : (
-                          <span className="text-text-dim/40">—</span>
-                        )}
-                      </span>
-                    ))}
+                    {productos.map((producto) => {
+                      const tagsProducto = (locale === "en" && producto.tagsEn ? producto.tagsEn : producto.tags) ?? [];
+                      return (
+                        <span key={producto.asin} className="flex items-center">
+                          {tagsProducto.includes(tag) ? (
+                            <IconoCheck />
+                          ) : (
+                            <span className="text-text-dim/40">—</span>
+                          )}
+                        </span>
+                      );
+                    })}
                   </div>
                 ))}
               </div>
@@ -184,7 +198,7 @@ export default function ComparadorModal({
                 rel="nofollow sponsored noopener noreferrer"
                 className="flex items-center justify-center rounded-xl bg-accent px-3 py-3 text-center text-sm font-bold text-ink transition-opacity hover:opacity-90"
               >
-                Ver en Amazon
+                {dict["producto.verEnAmazon"]}
               </a>
             ))}
           </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { getDictionary, type Locale } from "@/lib/i18n";
 
 const CLAVE_VISTO = "ht-disclosure-toast-visto";
 
@@ -10,7 +11,8 @@ const CLAVE_VISTO = "ht-disclosure-toast-visto";
  * siempre después — Amazon exige que el disclosure esté accesible, no
  * solo que destelle una vez.
  */
-export default function AmazonDisclosureToast() {
+export default function AmazonDisclosureToast({ locale = "es" }: { locale?: Locale }) {
+  const dict = getDictionary(locale);
   const [mostrarToast, setMostrarToast] = useState(false);
   const [mostrarInfo, setMostrarInfo] = useState(false);
 
@@ -48,15 +50,14 @@ export default function AmazonDisclosureToast() {
           role="status"
           className="fixed bottom-4 left-4 right-4 z-40 mx-auto max-w-sm rounded-2xl border border-line-dim/60 bg-ink-2/95 px-4 py-3 text-center text-xs text-text-dim shadow-xl backdrop-blur transition-transform sm:left-auto sm:right-4"
         >
-          Como Afiliado de Amazon, HidroLab gana por compras calificadas.
-          Los precios están sujetos a confirmación en Amazon.
+          {dict["disclosure.toast"]}
         </div>
       )}
 
       <button
         type="button"
         onClick={() => setMostrarInfo((v) => !v)}
-        aria-label="Ver aviso de afiliación de Amazon"
+        aria-label={dict["disclosure.verAviso"]}
         className="fixed bottom-4 right-4 z-30 flex h-9 w-9 items-center justify-center rounded-full border border-line-dim/60 bg-ink-2/90 text-sm font-bold text-text-dim shadow-lg backdrop-blur transition-colors hover:text-accent"
       >
         i
@@ -65,15 +66,11 @@ export default function AmazonDisclosureToast() {
       {mostrarInfo && (
         <div
           role="dialog"
-          aria-label="Aviso de afiliación de Amazon"
+          aria-label={dict["disclosure.verAviso"]}
           className="fixed bottom-16 right-4 z-30 max-w-xs rounded-2xl border border-line-dim/60 bg-ink-2 p-4 text-xs leading-relaxed text-text-dim shadow-xl"
         >
-          <strong className="text-text-light">Aviso de afiliación:</strong>{" "}
-          HidroLab es un participante en el Programa de Afiliados de Amazon
-          Services LLC. Ganamos comisión por compras calificadas realizadas
-          a través de nuestros enlaces, sin costo adicional para vos. Los
-          precios mostrados son referenciales — el precio real solo se
-          confirma en Amazon.
+          <strong className="text-text-light">{dict["disclosure.aviso"]}</strong>{" "}
+          {dict["disclosure.texto"]}
         </div>
       )}
     </>
