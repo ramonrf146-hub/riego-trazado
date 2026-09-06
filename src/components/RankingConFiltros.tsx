@@ -9,7 +9,7 @@ import { getDictionary, t, type Locale } from "@/lib/i18n";
 import ProductCard from "./ProductCard";
 import ComparadorModal from "./ComparadorModal";
 
-const PASO_SCROLL = 300; // ancho de tarjeta (280px) + gap (20px) en desktop
+const PASO_SCROLL = 240; // ancho de tarjeta (220px) + gap (20px) en desktop
 
 function IconoChevron({ direccion }: { direccion: "izquierda" | "derecha" }) {
   return (
@@ -127,7 +127,7 @@ export default function RankingConFiltros({
               {productosFiltrados.map((producto) => (
                 <div
                   key={producto.asin}
-                  className="w-[70vw] max-w-xs shrink-0 snap-start sm:w-[280px]"
+                  className="w-[62vw] max-w-[220px] shrink-0 snap-start sm:w-[220px]"
                 >
                   <ProductCard
                     producto={producto}
