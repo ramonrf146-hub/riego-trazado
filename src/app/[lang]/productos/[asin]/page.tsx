@@ -111,9 +111,13 @@ export default async function ProductoPage({ params }: Props) {
       </nav>
 
       <div className="mt-6 flex flex-col gap-6 sm:flex-row sm:items-start">
-        <div className="flex h-48 w-full items-center justify-center rounded-2xl bg-image-bg p-4 sm:h-40 sm:w-40 sm:shrink-0">
+        <div className="flex h-48 w-full items-center justify-center overflow-hidden rounded-2xl bg-image-bg p-4 sm:h-40 sm:w-40 sm:shrink-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={producto.imagen} alt={nombre} className="h-full w-full object-contain" />
+          <img
+            src={producto.imagen}
+            alt={nombre}
+            className="h-full w-full object-contain transition-transform duration-300 ease-out hover:scale-110"
+          />
         </div>
         <div>
           <h1 className="text-2xl font-bold leading-snug text-text-light sm:text-3xl">

@@ -110,9 +110,13 @@ export default function ComparadorModal({
               const notaTecnica = t(producto.notaTecnica, producto.notaTecnicaEn, locale);
               return (
                 <div key={producto.asin} className="flex flex-col gap-3">
-                  <div className="flex h-32 items-center justify-center rounded-xl bg-image-bg p-3">
+                  <div className="flex h-32 items-center justify-center overflow-hidden rounded-xl bg-image-bg p-3">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={producto.imagen} alt={nombre} className="h-full w-full object-contain" />
+                    <img
+                      src={producto.imagen}
+                      alt={nombre}
+                      className="h-full w-full object-contain transition-transform duration-300 ease-out hover:scale-110"
+                    />
                   </div>
                   <h3 className="text-sm font-bold leading-snug text-text-light">{nombre}</h3>
                   <p className="text-base font-bold text-text-light">

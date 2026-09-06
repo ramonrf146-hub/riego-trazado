@@ -94,20 +94,20 @@ export default function ProductCard({
   const notaTecnica = t(producto.notaTecnica, producto.notaTecnicaEn, locale);
 
   return (
-    <article className="flex h-full flex-col overflow-hidden rounded-3xl border border-line-dim/60 bg-ink-2 shadow-xl shadow-black/20">
-      <div className="relative flex h-56 items-center justify-center bg-image-bg p-5 sm:h-64">
-        <span className="absolute left-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-ink text-base font-extrabold text-text-light shadow-lg shadow-black/30">
+    <article className="group flex h-full flex-col overflow-hidden rounded-3xl border border-line-dim/60 bg-ink-2 shadow-xl shadow-black/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-line/10">
+      <div className="relative flex h-36 items-center justify-center overflow-hidden bg-image-bg p-3 sm:h-40">
+        <span className="absolute left-3 top-3 flex h-8 w-8 items-center justify-center rounded-full bg-ink text-sm font-extrabold text-text-light shadow-lg shadow-black/30">
           #{producto.ranking}
         </span>
         {(masVendido || mejorValorado) && (
-          <div className="absolute right-4 top-4 flex flex-col items-end gap-1.5">
+          <div className="absolute right-3 top-3 flex flex-col items-end gap-1">
             {masVendido && (
-              <span className="rounded-full bg-accent-2 px-2.5 py-1 text-[11px] font-bold text-ink shadow-lg shadow-black/30">
+              <span className="rounded-full bg-accent-2 px-2 py-0.5 text-[10px] font-bold text-ink shadow-lg shadow-black/30">
                 {dict["producto.masVendido"]}
               </span>
             )}
             {mejorValorado && (
-              <span className="rounded-full bg-accent px-2.5 py-1 text-[11px] font-bold text-ink shadow-lg shadow-black/30">
+              <span className="rounded-full bg-accent px-2 py-0.5 text-[10px] font-bold text-ink shadow-lg shadow-black/30">
                 {dict["producto.mejorValorado"]}
               </span>
             )}
@@ -118,21 +118,21 @@ export default function ProductCard({
           src={producto.imagen}
           alt={nombre}
           loading="lazy"
-          className="h-full w-full object-contain"
+          className="h-full w-full object-contain transition-transform duration-500 ease-out group-hover:scale-105"
         />
       </div>
 
-      <div className="flex flex-1 flex-col gap-4 p-5 sm:p-6">
-        <h3 className="text-lg font-bold leading-snug text-text-light sm:text-xl">
+      <div className="flex flex-1 flex-col gap-2.5 p-4">
+        <h3 className="text-base font-bold leading-snug text-text-light transition-colors duration-300 group-hover:text-line">
           {nombre}
         </h3>
 
         {tags && tags.length > 0 && (
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-1.5">
             {tags.map((tag) => (
               <span
                 key={tag}
-                className="rounded-md bg-line-dim px-2.5 py-1 text-xs font-medium text-text-light"
+                className="rounded-md bg-line-dim px-2 py-0.5 text-[11px] font-medium text-text-light"
               >
                 {tag}
               </span>
@@ -171,13 +171,13 @@ export default function ProductCard({
         )}
 
         {notaTecnica && (
-          <p className="flex-1 text-sm leading-relaxed text-text-dim">
+          <p className="line-clamp-4 flex-1 text-xs leading-relaxed text-text-dim">
             {notaTecnica}
           </p>
         )}
 
-        <div className="mt-auto space-y-3">
-          <p className="text-lg font-bold text-text-light">
+        <div className="mt-auto space-y-2">
+          <p className="text-base font-bold text-text-light">
             {producto.precioMax && producto.precioMax > producto.precio ? (
               <>
                 {dict["producto.desde"]} ${producto.precio.toFixed(2)}{" "}
@@ -196,7 +196,7 @@ export default function ProductCard({
             target="_blank"
             rel="nofollow sponsored noopener noreferrer"
             onClick={() => registrarClicAfiliado(producto)}
-            className="flex items-center justify-center gap-2 rounded-2xl bg-accent px-5 py-4 text-base font-bold text-ink shadow-lg shadow-accent/30 transition-transform active:scale-[0.98]"
+            className="flex items-center justify-center gap-2 rounded-xl bg-accent px-4 py-3 text-sm font-bold text-ink shadow-lg shadow-accent/30 transition-transform active:scale-[0.98]"
           >
             {cta}
             <IconoFlecha />
