@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import type { Producto } from "@/lib/tipos";
+import { getCategoriaPorSlug } from "@/lib/categorias";
 import { getDictionary, t, type Locale } from "@/lib/i18n";
 
 function IconoCheck() {
@@ -71,10 +72,17 @@ export default function ComparadorModal({
     };
   }, []);
 
-  const todasLasTags = Array.from(
-    new Set(productos.flatMap((p) => (locale === "en" && p.tagsEn ? p.tagsEn : p.tags) ?? []))
+  const tagsPorProducto = productos.map(
+    (p) => new Set((locale === "en" && p.tagsEn ? p.tagsEn : p.tags) ?? [])
   );
+  const todasLasTags = Array.from(new Set(tagsPorProducto.flatMap((s) => Array.from(s))));
+  const tagsComunes = todasLasTags.filter((tag) => tagsPorProducto.every((s) => s.has(tag)));
+  const tagsDistintos = todasLasTags.filter((tag) => !tagsComunes.includes(tag));
   const insignias = calcularInsignias(productos, dict);
+
+  const categorias = productos.map((p) => getCategoriaPorSlug(p.categoria));
+  const mismaCategoria =
+    productos.length > 1 && categorias.every((c) => c?.slug === categorias[0]?.slug);
 
   return (
     <div
@@ -100,6 +108,29 @@ export default function ComparadorModal({
         </div>
 
         <div className="overflow-x-auto overflow-y-auto p-5">
+          {(mismaCategoria || tagsComunes.length > 0) && (
+            <div className="mb-5 rounded-xl border border-accent-2/30 bg-accent-2/10 p-4">
+              <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-accent-2">
+                {dict["comparador.enComun"]}
+              </p>
+              <div className="flex flex-wrap gap-1.5">
+                {mismaCategoria && categorias[0] && (
+                  <span className="rounded-full bg-accent-2/20 px-2.5 py-1 text-[11px] font-semibold text-accent-2">
+                    {t(categorias[0].nombre, categorias[0].nombreEn, locale)}
+                  </span>
+                )}
+                {tagsComunes.map((tag) => (
+                  <span
+                    key={tag}
+                    className="rounded-full bg-accent-2/20 px-2.5 py-1 text-[11px] font-semibold text-accent-2"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
           <div
             className="grid gap-4"
             style={{ gridTemplateColumns: `repeat(${productos.length}, minmax(220px, 1fr))` }}
@@ -108,6 +139,8 @@ export default function ComparadorModal({
               const nombre = t(producto.nombre, producto.nombreEn, locale);
               const idealPara = t(producto.idealPara ?? "", producto.idealParaEn, locale);
               const notaTecnica = t(producto.notaTecnica, producto.notaTecnicaEn, locale);
+              const guia = locale === "en" && producto.guiaCompraEn ? producto.guiaCompraEn : producto.guiaCompra;
+              const categoria = getCategoriaPorSlug(producto.categoria);
               return (
                 <div key={producto.asin} className="flex flex-col gap-3">
                   <div className="flex h-32 items-center justify-center overflow-hidden rounded-xl bg-image-bg p-3">
@@ -119,6 +152,12 @@ export default function ComparadorModal({
                     />
                   </div>
                   <h3 className="text-sm font-bold leading-snug text-text-light">{nombre}</h3>
+                  {categoria && (
+                    <p className="-mt-2 text-[11px] text-text-dim">
+                      {dict["comparador.rankingEnCategoria"]}: #{producto.ranking}
+                      {!mismaCategoria && ` · ${t(categoria.nombre, categoria.nombreEn, locale)}`}
+                    </p>
+                  )}
                   <p className="text-base font-bold text-text-light">
                     ${producto.precio.toFixed(2)}
                     {producto.precioMax && producto.precioMax > producto.precio && (
@@ -154,6 +193,15 @@ export default function ComparadorModal({
                   {notaTecnica && (
                     <p className="text-xs leading-relaxed text-text-dim">{notaTecnica}</p>
                   )}
+
+                  {guia?.consejoInversion && (
+                    <p className="rounded-lg border border-line-dim/60 px-2.5 py-2 text-xs leading-relaxed text-text-dim">
+                      <span className="font-semibold text-text-light">
+                        {dict["producto.consejoDeInversion"]}:{" "}
+                      </span>
+                      {guia.consejoInversion}
+                    </p>
+                  )}
                 </div>
               );
             })}
@@ -162,10 +210,13 @@ export default function ComparadorModal({
           {todasLasTags.length > 0 && (
             <div className="mt-6 border-t border-line-dim/40 pt-4">
               <p className="mb-3 text-xs font-semibold uppercase tracking-wide text-text-dim">
-                {dict["comparador.especificaciones"]}
+                {dict["comparador.diferencias"]}
               </p>
+              {tagsDistintos.length === 0 ? (
+                <p className="text-xs text-text-dim">{dict["comparador.sinDiferenciasDeSpecs"]}</p>
+              ) : (
               <div className="space-y-1">
-                {todasLasTags.map((tag) => (
+                {tagsDistintos.map((tag) => (
                   <div
                     key={tag}
                     className="grid items-center gap-4 border-b border-line-dim/20 py-2"
@@ -187,6 +238,7 @@ export default function ComparadorModal({
                   </div>
                 ))}
               </div>
+              )}
             </div>
           )}
 
