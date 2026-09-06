@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import { CATEGORIAS } from "@/lib/categorias";
 
 interface ProductoAdmin {
   asin: string;
@@ -24,13 +25,44 @@ export default function AdminPage() {
   const [guardando, setGuardando] = useState(false);
   const [mensaje, setMensaje] = useState<{ tipo: "ok" | "error"; texto: string } | null>(null);
   const [filtro, setFiltro] = useState("");
+  const [mostrarNuevo, setMostrarNuevo] = useState(false);
+  const [guardandoNuevo, setGuardandoNuevo] = useState(false);
 
-  useEffect(() => {
-    fetch("/api/admin/productos")
+  function cargarProductos() {
+    setCargando(true);
+    return fetch("/api/admin/productos")
       .then((r) => r.json())
       .then((datos) => setProductos(datos.productos ?? []))
       .finally(() => setCargando(false));
+  }
+
+  useEffect(() => {
+    cargarProductos();
   }, []);
+
+  async function agregarProducto(nuevo: Record<string, unknown>) {
+    setGuardandoNuevo(true);
+    setMensaje(null);
+    try {
+      const respuesta = await fetch("/api/admin/productos", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(nuevo),
+      });
+      const datos = await respuesta.json();
+      if (!respuesta.ok) {
+        setMensaje({ tipo: "error", texto: datos.error ?? "No se pudo agregar." });
+        return;
+      }
+      setMensaje({ tipo: "ok", texto: "Producto agregado. El sitio se va a actualizar solo en 1-2 minutos." });
+      setMostrarNuevo(false);
+      await cargarProductos();
+    } catch {
+      setMensaje({ tipo: "error", texto: "No se pudo conectar con el servidor." });
+    } finally {
+      setGuardandoNuevo(false);
+    }
+  }
 
   async function cerrarSesion() {
     await fetch("/api/admin/logout", { method: "POST" });
@@ -76,6 +108,17 @@ export default function AdminPage() {
           Cerrar sesión
         </button>
       </div>
+
+      <button
+        onClick={() => setMostrarNuevo((v) => !v)}
+        className="mt-6 w-full rounded-xl border border-dashed border-line px-4 py-3 text-sm font-semibold text-line hover:bg-line/10"
+      >
+        {mostrarNuevo ? "✕ Cancelar" : "+ Agregar producto nuevo"}
+      </button>
+
+      {mostrarNuevo && (
+        <FormNuevoProducto guardando={guardandoNuevo} onGuardar={agregarProducto} />
+      )}
 
       <input
         type="text"
@@ -221,6 +264,199 @@ function FilaProducto({
             Cancelar
           </button>
         </div>
+      </div>
+    </div>
+  );
+}
+
+function FormNuevoProducto({
+  guardando,
+  onGuardar,
+}: {
+  guardando: boolean;
+  onGuardar: (nuevo: Record<string, unknown>) => void;
+}) {
+  const [asin, setAsin] = useState("");
+  const [nombre, setNombre] = useState("");
+  const [categoria, setCategoria] = useState<string>(CATEGORIAS[0].slug);
+  const [precio, setPrecio] = useState("");
+  const [precioMax, setPrecioMax] = useState("");
+  const [imagen, setImagen] = useState("");
+  const [rating, setRating] = useState("");
+  const [numResenas, setNumResenas] = useState("");
+  const [notaTecnica, setNotaTecnica] = useState("");
+  const [idealPara, setIdealPara] = useState("");
+  const [tags, setTags] = useState("");
+  const [errorLocal, setErrorLocal] = useState<string | null>(null);
+
+  function enviar() {
+    if (!asin.trim() || !nombre.trim() || !precio || !imagen.trim() || !rating || !numResenas || !notaTecnica.trim()) {
+      setErrorLocal("Completá al menos ASIN, nombre, precio, imagen, rating, reseñas y nota técnica.");
+      return;
+    }
+    setErrorLocal(null);
+    onGuardar({
+      asin: asin.trim().toUpperCase(),
+      nombre: nombre.trim(),
+      categoria,
+      precio: Number(precio),
+      ...(precioMax ? { precioMax: Number(precioMax) } : {}),
+      imagen: imagen.trim(),
+      rating: Number(rating),
+      numResenas: Number(numResenas),
+      notaTecnica: notaTecnica.trim(),
+      ...(idealPara.trim() ? { idealPara: idealPara.trim() } : {}),
+      ...(tags.trim()
+        ? { tags: tags.split(",").map((t) => t.trim()).filter(Boolean) }
+        : {}),
+    });
+  }
+
+  return (
+    <div className="mt-4 rounded-2xl border border-line bg-ink-2 p-4">
+      <p className="text-sm font-bold text-text-light">Cargar producto nuevo</p>
+      <p className="mt-1 text-xs text-text-dim">
+        Buscá el producto en Amazon, confirmá que esté en stock, y mantené presionada la imagen
+        principal para copiar su dirección (&quot;Copiar dirección de la imagen&quot;) — pegala
+        abajo. El ranking dentro de la categoría se calcula solo.
+      </p>
+
+      <div className="mt-4 flex flex-col gap-3">
+        <label className="text-xs text-text-dim">
+          ASIN *
+          <input
+            type="text"
+            value={asin}
+            onChange={(e) => setAsin(e.target.value)}
+            placeholder="B0XXXXXXXX"
+            className="mt-1 w-full rounded-lg border border-line-dim bg-ink px-3 py-2 text-sm text-text-light"
+          />
+        </label>
+
+        <label className="text-xs text-text-dim">
+          Nombre *
+          <input
+            type="text"
+            value={nombre}
+            onChange={(e) => setNombre(e.target.value)}
+            className="mt-1 w-full rounded-lg border border-line-dim bg-ink px-3 py-2 text-sm text-text-light"
+          />
+        </label>
+
+        <label className="text-xs text-text-dim">
+          Categoría *
+          <select
+            value={categoria}
+            onChange={(e) => setCategoria(e.target.value)}
+            className="mt-1 w-full rounded-lg border border-line-dim bg-ink px-3 py-2 text-sm text-text-light"
+          >
+            {CATEGORIAS.map((c) => (
+              <option key={c.slug} value={c.slug}>
+                {c.nombre}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <div className="flex gap-3">
+          <label className="flex-1 text-xs text-text-dim">
+            Precio (USD) *
+            <input
+              type="number"
+              step="0.01"
+              value={precio}
+              onChange={(e) => setPrecio(e.target.value)}
+              className="mt-1 w-full rounded-lg border border-line-dim bg-ink px-3 py-2 text-sm text-text-light"
+            />
+          </label>
+          <label className="flex-1 text-xs text-text-dim">
+            Precio máx. (opcional)
+            <input
+              type="number"
+              step="0.01"
+              value={precioMax}
+              onChange={(e) => setPrecioMax(e.target.value)}
+              className="mt-1 w-full rounded-lg border border-line-dim bg-ink px-3 py-2 text-sm text-text-light"
+            />
+          </label>
+        </div>
+
+        <label className="text-xs text-text-dim">
+          URL de la imagen *
+          <input
+            type="text"
+            value={imagen}
+            onChange={(e) => setImagen(e.target.value)}
+            placeholder="https://m.media-amazon.com/images/..."
+            className="mt-1 w-full rounded-lg border border-line-dim bg-ink px-3 py-2 text-sm text-text-light"
+          />
+        </label>
+
+        <div className="flex gap-3">
+          <label className="flex-1 text-xs text-text-dim">
+            Rating (0-5) *
+            <input
+              type="number"
+              step="0.1"
+              min="0"
+              max="5"
+              value={rating}
+              onChange={(e) => setRating(e.target.value)}
+              className="mt-1 w-full rounded-lg border border-line-dim bg-ink px-3 py-2 text-sm text-text-light"
+            />
+          </label>
+          <label className="flex-1 text-xs text-text-dim">
+            N° de reseñas *
+            <input
+              type="number"
+              value={numResenas}
+              onChange={(e) => setNumResenas(e.target.value)}
+              className="mt-1 w-full rounded-lg border border-line-dim bg-ink px-3 py-2 text-sm text-text-light"
+            />
+          </label>
+        </div>
+
+        <label className="text-xs text-text-dim">
+          Nota técnica *
+          <textarea
+            value={notaTecnica}
+            onChange={(e) => setNotaTecnica(e.target.value)}
+            rows={4}
+            placeholder="Qué lo distingue, para quién sirve, qué no hace..."
+            className="mt-1 w-full rounded-lg border border-line-dim bg-ink px-3 py-2 text-sm text-text-light"
+          />
+        </label>
+
+        <label className="text-xs text-text-dim">
+          Ideal para (opcional)
+          <textarea
+            value={idealPara}
+            onChange={(e) => setIdealPara(e.target.value)}
+            rows={2}
+            className="mt-1 w-full rounded-lg border border-line-dim bg-ink px-3 py-2 text-sm text-text-light"
+          />
+        </label>
+
+        <label className="text-xs text-text-dim">
+          Tags (opcional, separados por coma)
+          <input
+            type="text"
+            value={tags}
+            onChange={(e) => setTags(e.target.value)}
+            placeholder="WiFi 2.4GHz, 4 zonas, Auto rain skip"
+            className="mt-1 w-full rounded-lg border border-line-dim bg-ink px-3 py-2 text-sm text-text-light"
+          />
+        </label>
+
+        {errorLocal && <p className="text-xs text-red-400">{errorLocal}</p>}
+
+        <button
+          disabled={guardando}
+          onClick={enviar}
+          className="rounded-full bg-accent px-4 py-2.5 text-xs font-bold text-ink disabled:opacity-50"
+        >
+          {guardando ? "Guardando..." : "Agregar al catálogo"}
+        </button>
       </div>
     </div>
   );
