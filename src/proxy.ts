@@ -29,7 +29,20 @@ export function proxy(request: NextRequest) {
     return NextResponse.next();
   }
 
-  if (pathname.startsWith("/api/") || pathname.startsWith("/_next/") || /\.[a-zA-Z0-9]+$/.test(pathname)) {
+  const RUTAS_METADATA_SIN_EXTENSION = [
+    "/icon",
+    "/apple-icon",
+    "/opengraph-image",
+    "/icon-192",
+    "/icon-512",
+  ];
+
+  if (
+    pathname.startsWith("/api/") ||
+    pathname.startsWith("/_next/") ||
+    /\.[a-zA-Z0-9]+$/.test(pathname) ||
+    RUTAS_METADATA_SIN_EXTENSION.includes(pathname)
+  ) {
     return NextResponse.next();
   }
 
