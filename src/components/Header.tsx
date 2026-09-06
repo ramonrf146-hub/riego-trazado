@@ -5,43 +5,6 @@ import Link from "next/link";
 import { CATEGORIAS } from "@/lib/categorias";
 import { getDictionary, t, withLocale, type Locale } from "@/lib/i18n";
 
-function LogoValvula() {
-  return (
-    <svg
-      width="32"
-      height="32"
-      viewBox="0 0 100 100"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      aria-hidden="true"
-    >
-      <defs>
-        <linearGradient id="logoBg" x1="0" y1="0" x2="100" y2="100">
-          <stop offset="0%" stopColor="#5eead4" />
-          <stop offset="100%" stopColor="#0891b2" />
-        </linearGradient>
-      </defs>
-      <rect width="100" height="100" rx="26" fill="url(#logoBg)" />
-      <path
-        d="M50 16 C50 16 26 46 26 63 C26 77 37 88 50 88 C63 88 74 77 74 63 C74 46 50 16 50 16 Z"
-        fill="#ffffff"
-      />
-      <path d="M50 16 C46 10 38 8 33 11 C38 14 42 18 44 23 Z" fill="#22c55e" />
-      <path d="M50 16 C54 9 63 8 68 12 C62 14 57 19 55 24 Z" fill="#4ade80" />
-      <path
-        d="M50 50 L40 60 M50 50 L60 60 M40 60 L50 72 M60 60 L50 72"
-        stroke="#0891b2"
-        strokeWidth="4"
-        strokeLinecap="round"
-      />
-      <circle cx="50" cy="50" r="4.5" fill="#0891b2" />
-      <circle cx="40" cy="60" r="4.5" fill="#0891b2" />
-      <circle cx="60" cy="60" r="4.5" fill="#0891b2" />
-      <circle cx="50" cy="72" r="4.5" fill="#0891b2" />
-    </svg>
-  );
-}
-
 function IconoMenu({ abierto }: { abierto: boolean }) {
   return (
     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
@@ -76,7 +39,12 @@ export default function Header({ locale }: { locale: Locale }) {
           className="flex items-center gap-2.5 shrink-0"
           onClick={() => setMenuAbierto(false)}
         >
-          <LogoValvula />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/hidrolab-logo-icon.png"
+            alt=""
+            className="h-12 w-12 shrink-0 sm:h-14 sm:w-14"
+          />
           <span className="text-base font-extrabold tracking-tight text-text-light">
             HIDRO<span className="text-accent">_</span>LAB
           </span>
