@@ -24,16 +24,16 @@ export default function NewsletterBand({ locale }: { locale: Locale }) {
   }
 
   return (
-    <section className="bg-paper text-ink">
+    <section className="bg-paper text-text-light">
       <div className="mx-auto flex max-w-6xl flex-col items-start gap-6 px-4 py-14 sm:flex-row sm:items-center sm:justify-between sm:px-6">
         <div>
-          <p className="font-mono text-xs uppercase tracking-wide text-ink/60">
+          <p className="font-mono text-xs uppercase tracking-wide text-text-light/60">
             {dict["newsletter.eyebrow"]}
           </p>
           <h2 className="mt-2 max-w-md text-xl font-semibold sm:text-2xl">
             {dict["newsletter.titulo"]}
           </h2>
-          <p className="mt-2 max-w-md text-sm text-ink/70">
+          <p className="mt-2 max-w-md text-sm text-text-light/70">
             {locale === "en" ? (
               <>
                 Terms like <em>backflow preventer</em>, <em>rain sensor</em>, or
@@ -78,7 +78,7 @@ export default function NewsletterBand({ locale }: { locale: Locale }) {
               type="email"
               required
               placeholder={dict["newsletter.emailPlaceholder"]}
-              className="w-full rounded-sm border border-ink/20 bg-paper-dim px-3 py-2.5 text-sm text-ink placeholder:text-ink/40 focus:border-ink/50 focus:outline-none"
+              className="w-full rounded-sm border border-text-light/20 bg-paper-dim px-3 py-2.5 text-sm text-text-light placeholder:text-text-light/40 focus:border-text-light/50 focus:outline-none"
             />
             <button
               type="submit"
