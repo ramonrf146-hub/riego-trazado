@@ -43,7 +43,7 @@ export default function Header({ locale }: { locale: Locale }) {
           <img
             src="/hidrolab-logo-icon.png"
             alt=""
-            className="h-12 w-12 shrink-0 sm:h-14 sm:w-14"
+            className="h-14 w-14 shrink-0 sm:h-16 sm:w-16"
           />
           <span className="text-base font-extrabold tracking-tight text-text-light">
             HIDRO<span className="text-accent">_</span>LAB
