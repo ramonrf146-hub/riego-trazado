@@ -98,6 +98,10 @@ const es = {
   "comparador.mismaCategoria": "Los {n} son de la misma categoría:",
   "comparador.rankingEnCategoria": "Puesto en su categoría",
   "comparador.sinDiferenciasDeSpecs": "No se cargaron tags técnicos distintos para comparar.",
+  "comparador.precio": "Precio",
+  "comparador.calificacion": "Calificación",
+  "comparador.numResenas": "N° de reseñas",
+  "comparador.categoria": "Categoría",
 
   "metodologia.eyebrow": "Metodología",
   "metodologia.titulo": "Cómo armamos el ranking",
@@ -231,6 +235,10 @@ const en: Dictionary = {
   "comparador.mismaCategoria": "All {n} are in the same category:",
   "comparador.rankingEnCategoria": "Rank within its category",
   "comparador.sinDiferenciasDeSpecs": "No differing spec tags were loaded to compare.",
+  "comparador.precio": "Price",
+  "comparador.calificacion": "Rating",
+  "comparador.numResenas": "Number of reviews",
+  "comparador.categoria": "Category",
 
   "metodologia.eyebrow": "Methodology",
   "metodologia.titulo": "How we build the ranking",

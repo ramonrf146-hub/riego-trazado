@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, type ReactNode } from "react";
 import type { Producto } from "@/lib/tipos";
 import { getCategoriaPorSlug } from "@/lib/categorias";
 import { getDictionary, t, type Locale } from "@/lib/i18n";
@@ -18,6 +18,27 @@ function IconoCerrar() {
     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
       <path d="M4 4l12 12M16 4L4 16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
     </svg>
+  );
+}
+
+/** Una fila de la tabla de especificaciones: etiqueta a la izquierda, un valor por producto a la derecha. */
+function FilaEspecificacion({
+  label,
+  columnas,
+  children,
+}: {
+  label: string;
+  columnas: number;
+  children: ReactNode;
+}) {
+  return (
+    <div
+      className="grid items-center gap-4 border-b border-line-dim/20 py-2"
+      style={{ gridTemplateColumns: `180px repeat(${columnas}, minmax(220px, 1fr))` }}
+    >
+      <span className="text-xs text-text-dim">{label}</span>
+      {children}
+    </div>
   );
 }
 
@@ -207,40 +228,77 @@ export default function ComparadorModal({
             })}
           </div>
 
-          {todasLasTags.length > 0 && (
-            <div className="mt-6 border-t border-line-dim/40 pt-4">
-              <p className="mb-3 text-xs font-semibold uppercase tracking-wide text-text-dim">
-                {dict["comparador.diferencias"]}
-              </p>
-              {tagsDistintos.length === 0 ? (
-                <p className="text-xs text-text-dim">{dict["comparador.sinDiferenciasDeSpecs"]}</p>
-              ) : (
-              <div className="space-y-1">
-                {tagsDistintos.map((tag) => (
-                  <div
-                    key={tag}
-                    className="grid items-center gap-4 border-b border-line-dim/20 py-2"
-                    style={{ gridTemplateColumns: `180px repeat(${productos.length}, minmax(220px, 1fr))` }}
-                  >
-                    <span className="text-xs text-text-dim">{tag}</span>
-                    {productos.map((producto) => {
-                      const tagsProducto = (locale === "en" && producto.tagsEn ? producto.tagsEn : producto.tags) ?? [];
-                      return (
-                        <span key={producto.asin} className="flex items-center">
-                          {tagsProducto.includes(tag) ? (
-                            <IconoCheck />
-                          ) : (
-                            <span className="text-text-dim/40">—</span>
-                          )}
-                        </span>
-                      );
-                    })}
-                  </div>
+          <div className="mt-6 border-t border-line-dim/40 pt-4">
+            <p className="mb-3 text-xs font-semibold uppercase tracking-wide text-text-dim">
+              {dict["comparador.especificaciones"]}
+            </p>
+            <div className="space-y-1">
+              <FilaEspecificacion label={dict["comparador.precio"]} columnas={productos.length}>
+                {productos.map((producto) => (
+                  <span key={producto.asin} className="text-xs text-text-light">
+                    ${producto.precio.toFixed(2)}
+                    {producto.precioMax && producto.precioMax > producto.precio
+                      ? ` – $${producto.precioMax.toFixed(2)}`
+                      : ""}
+                  </span>
                 ))}
-              </div>
+              </FilaEspecificacion>
+
+              <FilaEspecificacion label={dict["comparador.calificacion"]} columnas={productos.length}>
+                {productos.map((producto) => (
+                  <span key={producto.asin} className="text-xs text-text-light">
+                    {producto.numResenas > 0 ? `${producto.rating.toFixed(1)} ★` : "—"}
+                  </span>
+                ))}
+              </FilaEspecificacion>
+
+              <FilaEspecificacion label={dict["comparador.numResenas"]} columnas={productos.length}>
+                {productos.map((producto) => (
+                  <span key={producto.asin} className="text-xs text-text-light">
+                    {producto.numResenas > 0 ? producto.numResenas.toLocaleString(locale) : "—"}
+                  </span>
+                ))}
+              </FilaEspecificacion>
+
+              <FilaEspecificacion label={dict["comparador.rankingEnCategoria"]} columnas={productos.length}>
+                {productos.map((producto) => (
+                  <span key={producto.asin} className="text-xs text-text-light">
+                    #{producto.ranking}
+                  </span>
+                ))}
+              </FilaEspecificacion>
+
+              {!mismaCategoria && (
+                <FilaEspecificacion label={dict["comparador.categoria"]} columnas={productos.length}>
+                  {productos.map((producto) => {
+                    const cat = getCategoriaPorSlug(producto.categoria);
+                    return (
+                      <span key={producto.asin} className="text-xs text-text-light">
+                        {cat ? t(cat.nombre, cat.nombreEn, locale) : "—"}
+                      </span>
+                    );
+                  })}
+                </FilaEspecificacion>
               )}
+
+              {tagsDistintos.map((tag) => (
+                <FilaEspecificacion key={tag} label={tag} columnas={productos.length}>
+                  {productos.map((producto) => {
+                    const tagsProducto = (locale === "en" && producto.tagsEn ? producto.tagsEn : producto.tags) ?? [];
+                    return (
+                      <span key={producto.asin} className="flex items-center">
+                        {tagsProducto.includes(tag) ? (
+                          <IconoCheck />
+                        ) : (
+                          <span className="text-text-dim/40">—</span>
+                        )}
+                      </span>
+                    );
+                  })}
+                </FilaEspecificacion>
+              ))}
             </div>
-          )}
+          </div>
 
           <div
             className="mt-6 grid gap-4 border-t border-line-dim/40 pt-4"
