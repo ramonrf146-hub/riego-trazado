@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { getPagina } from "@/lib/contenido";
 import { withLocale, type Locale } from "@/lib/i18n";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://riegocom.uk";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.riegocom.uk";
 
 function normalizarLocale(lang: string): Locale {
   return lang === "en" ? "en" : "es";

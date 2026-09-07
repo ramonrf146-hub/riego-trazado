@@ -3,7 +3,7 @@ import { CATEGORIAS } from "@/lib/categorias";
 import { getArticulos } from "@/lib/contenido";
 import { getProductos } from "@/lib/productos";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://riegocom.uk";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.riegocom.uk";
 
 /** Emite la URL sin prefijo (es, ruta histórica) y la equivalente /en para
  * cada ruta — así el sitemap cubre ambos locales sin duplicar la lista de

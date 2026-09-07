@@ -13,7 +13,7 @@ const inter = Inter({
   weight: ["400", "500", "600", "700", "800"],
 });
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://riegocom.uk";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.riegocom.uk";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

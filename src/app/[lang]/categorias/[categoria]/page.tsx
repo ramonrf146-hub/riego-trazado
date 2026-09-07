@@ -6,7 +6,7 @@ import { getProductosPorCategoria } from "@/lib/productos";
 import { getDictionary, t, withLocale, type Locale } from "@/lib/i18n";
 import GridDeProductos from "@/components/GridDeProductos";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://riegocom.uk";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.riegocom.uk";
 
 function normalizarLocale(lang: string): Locale {
   return lang === "en" ? "en" : "es";
