@@ -22,6 +22,10 @@ No todos los kits de riego por goteo son iguales, y la diferencia clave antes de
 - El [MIXC de 50 ft](/productos/B079LFKZX6) es el más económico del catálogo, pero el fabricante aclara que **no incluye ningún temporizador** — si lo comprás pensando que vas a automatizar el riego para el viaje y no sumás un timer aparte, vas a llegar a destino con el sistema armado pero sin encender solo.
 - El [HEKIWAY con timer incluido](/productos/B0F5VYR2Z4) resuelve esto en una sola compra: manguera, boquillas y el temporizador ya vienen juntos, así que no hay riesgo de armar todo y darte cuenta en el aeropuerto de que falta la pieza que hace que funcione sin vos.
 
+## El accesorio que nadie piensa hasta que revienta una manguera con vos de viaje
+
+Tanto el MIXC como el Bonviee están especificados para 20-45 PSI, pero la canilla de una casa promedio suele entregar entre 40 y 80 PSI — bastante más de lo que el kit tolera. Con vos en el patio te das cuenta enseguida si un emisor empieza a chorrear en vez de gotear; de viaje, no hay quien lo note hasta que volvés y encontrás una zona encharcada (o seca, si la línea se despresurizó) y el resto de las macetas sin haber recibido una gota. Antes de irte, sumar un [regulador de presión con filtro incluido](/productos/B00G5KHQBA) en la entrada, entre la canilla y el kit, resuelve esto de raíz: fija la presión en 30 PSI (dentro del rango que ambos kits soportan) y de paso filtra el sedimento que podría tapar los emisores mientras no hay nadie para destaparlos. Es una pieza barata comparada con el daño de una línea reventada goteando sin control durante dos semanas.
+
 ## Si tenés césped o un jardín más grande (no solo macetas)
 
 Un kit de goteo alcanza para macetas, canteros y huertas elevadas, pero no reemplaza un sistema de riego por zonas para césped. Si tu viaje coincide con el verano y tenés superficie de pasto que cuidar, un [controlador WiFi de 4 u 8 zonas](/articulos/como-elegir-controlador-riego-wifi) con función de auto-skip por lluvia es la inversión que realmente te deja viajar tranquilo — cancela el riego solo si llueve mientras estás lejos, en vez de regar bajo la lluvia como haría un timer fijo.

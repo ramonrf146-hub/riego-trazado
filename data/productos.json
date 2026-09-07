@@ -1208,5 +1208,48 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0CGTRGLFC?tag=riegotrazado-20",
     "actualizadoEn": "2026-09-04",
     "activo": true
+  },
+  {
+    "asin": "B00G5KHQBA",
+    "nombre": "Orbit 67798 — Regulador de Presión + Filtro 30 PSI 3-en-1 (1\" MPT)",
+    "nombreEn": "Orbit 67798 — 30 PSI Pressure Regulator + Filter 3-in-1 (1\" MPT)",
+    "categoria": "kits-goteo",
+    "precio": 15.28,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71P-FKcJaPL._AC_UL320_.jpg",
+    "rating": 4.2,
+    "numResenas": 63,
+    "ranking": 6,
+    "notaTecnica": "Es el accesorio que faltaba en esta categoría: los dos kits de goteo de este ranking (Bonviee y MIXC) advierten en su ficha que están especificados para 20-45 PSI, muy por debajo de los 40-80 PSI típicos de una red domiciliaria — sin regular esa presión antes de la manguera, los emisores terminan chorreando en vez de gotear, o directamente revientan. Este es un 3-en-1: regulador fijo a 30 PSI, filtro de sedimento y adaptador Drip-Lock, todo en una sola pieza con rosca de 1\" MPT (se atornilla a la canilla o salida de la válvula). No es ajustable — sale de fábrica fijo en 30 PSI.",
+    "notaTecnicaEn": "This is the accessory this category was missing: the two drip kits in this ranking (Bonviee and MIXC) both note in their specs that they're rated for 20-45 PSI, well below the 40-80 PSI typical of household mains — without regulating that pressure before the tubing, emitters end up spraying instead of dripping, or blow out entirely. This is a 3-in-1: a fixed 30 PSI regulator, a sediment filter, and a Drip-Lock adapter, all in one piece with a 1\" MPT thread (screws onto a spigot or valve outlet). It's not adjustable — it ships fixed at 30 PSI.",
+    "idealPara": "Sumarlo a la entrada de cualquier kit de goteo de este sitio cuando la presión de tu canilla supera el rango que el kit soporta (20-45 PSI) — el problema que la Bonviee y la MIXC de este ranking mencionan explícitamente en su ficha.",
+    "idealParaEn": "Adding it at the inlet of any drip kit on this site when your tap pressure exceeds what the kit is rated for (20-45 PSI) — the exact issue the Bonviee and MIXC kits in this ranking call out in their specs.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es una pieza que se atornilla entre la canilla y la manguera de goteo, y \"frena\" la presión del agua antes de que llegue a los emisores — pensalo como el regulador de un tanque de gas, que evita que la llama salga descontrolada aunque la garrafa tenga mucha presión adentro. La red de agua de una casa suele traer entre 40 y 80 PSI, mucho más de lo que un kit de goteo (pensado para 20-45 PSI) puede tolerar sin romperse.",
+      "ejemploHogar": "Instalaste el kit de goteo Bonviee o MIXC de este sitio y notás que algunos emisores escupen agua con fuerza en vez de gotear de a poco — no es que el kit esté fallado, es que la presión de tu canilla es más alta de lo que soporta, y este regulador resuelve eso en la entrada, antes de que el agua llegue a la manguera.",
+      "ejemploNegocio": "Un vivero que conecta varias líneas de goteo a la misma canilla de alta presión puede instalar uno de estos reguladores en cada salida para que todas las líneas reciban una presión pareja de 30 PSI, en vez de que la línea más cercana al grifo reciba de más presión y la más lejana de menos.",
+      "puntosClave": [
+        "Confirmá el diámetro de rosca de tu canilla o válvula (este modelo es 1\" MPT) — si tu instalación usa 3/4\", necesitás la versión correspondiente o un adaptador aparte.",
+        "Ya trae el filtro de sedimento integrado, así que no hace falta comprarlo por separado — protege los emisores de partículas que podrían taparlos con el tiempo.",
+        "Regula a 30 PSI fijo, no es ajustable — confirmá que ese valor esté dentro del rango que soporta tu kit de goteo (el Bonviee de este ranking, por ejemplo, admite hasta 45 PSI, así que 30 PSI entra sin problema)."
+      ],
+      "consejoInversion": "Cuesta una fracción de lo que sale reemplazar los emisores rotos de un kit entero por exceso de presión, y evita el desperdicio de agua de un sistema que riega más fuerte de lo necesario — para cualquier kit de goteo conectado directo a la canilla de la casa, es una pieza que se paga sola la primera vez que evita romper una línea."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a fitting that screws in between the spigot and the drip tubing, and 'holds back' the water pressure before it reaches the emitters — think of it like the regulator on a propane tank, which keeps the flame from roaring out of control even though the tank itself holds a lot of pressure. A home's water mains typically run 40 to 80 PSI, far more than a drip kit (rated for 20-45 PSI) can handle without breaking.",
+      "ejemploHogar": "You installed the Bonviee or MIXC drip kit from this site and notice some emitters spraying water forcefully instead of dripping slowly — the kit isn't defective, your tap pressure is simply higher than it's rated for, and this regulator fixes that at the inlet, before water ever reaches the tubing.",
+      "ejemploNegocio": "A nursery connecting several drip lines to the same high-pressure spigot can install one of these regulators on each outlet so every line gets an even 30 PSI, instead of the line closest to the tap getting too much pressure and the farthest one too little.",
+      "puntosClave": [
+        "Check your spigot or valve's thread size (this model is 1\" MPT) — if your setup uses 3/4\", you'll need the matching version or a separate adapter.",
+        "It already includes a sediment filter, so you don't need to buy one separately — it protects the emitters from particles that could clog them over time.",
+        "It regulates to a fixed 30 PSI, not adjustable — confirm that's within your drip kit's supported range (the Bonviee kit in this ranking, for example, handles up to 45 PSI, so 30 PSI fits fine)."
+      ],
+      "consejoInversion": "It costs a fraction of what it takes to replace an entire kit's emitters after they blow out from excess pressure, and it stops the water waste of a system running harder than it needs to — for any drip kit connected straight to a home spigot, this is a part that pays for itself the first time it saves a line from bursting."
+    },
+    "tags": ["30 PSI", "Filtro incluido", "Drip-Lock 1\""],
+    "tagsEn": ["30 PSI", "Filter included", "1\" Drip-Lock"],
+    "urlAfiliado": "https://www.amazon.com/dp/B00G5KHQBA?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-07",
+    "activo": true
   }
 ]
