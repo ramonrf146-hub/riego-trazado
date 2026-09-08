@@ -42,6 +42,14 @@ Most residential irrigation kits use 3/4-inch valves. If your main line is 1 inc
 
 Confirm 24V AC, normally closed (unless you have a specific reason otherwise), and the correct diameter for your piping. On installation, respect the flow-direction arrow, protect the valve from the weather, and seal the electrical connections properly — that alone prevents 90% of the premature failures reported in product reviews.
 
+## Video: replacing the solenoid without swapping the whole valve
+
+If your valve stopped opening or closing (point 3 above: it's almost always the electrical connection or the solenoid, not the valve body), this official Orbit tutorial walks through the replacement step by step — the same procedure applies to any brand with a standard threaded solenoid, like the [Irritrol R811-24VACG](/en/productos/B07T4TNP3B) in this ranking.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/2QamLhSylec" title="How To Replace A Sprinkler Valve Solenoid — Orbit Lawn Garden Life" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## Real examples from this ranking
 
 - **Complete valve, 3/4":** the [Orbit 57280](/en/productos/B01MG1VV2M) already comes in the 3/4" FPT thread that's the standard for most residential kits.

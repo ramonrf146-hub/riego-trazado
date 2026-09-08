@@ -42,6 +42,14 @@ La mayoría de los kits de riego residencial usan válvulas de 3/4 de pulgada. S
 
 Confirma 24V AC, normalmente cerrada (salvo caso específico), y el diámetro correcto de tu tubería. En instalación, respeta la flecha de dirección, protege la válvula del clima, y sella bien las conexiones eléctricas — eso evita el 90% de las fallas prematuras que se reportan en reseñas de producto.
 
+## Video: cómo reemplazar el solenoide sin cambiar toda la válvula
+
+Si tu válvula dejó de abrir o cerrar (el punto 3 de arriba: casi siempre es la conexión eléctrica o el solenoide, no el cuerpo de la válvula), este tutorial oficial de Orbit muestra el reemplazo paso a paso — el mismo procedimiento aplica a cualquier marca con solenoide roscado estándar, como el [Irritrol R811-24VACG](/productos/B07T4TNP3B) de este ranking.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/2QamLhSylec" title="How To Replace A Sprinkler Valve Solenoid — Orbit Lawn Garden Life" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## Ejemplos reales de este ranking
 
 - **Válvula completa, 3/4":** la [Orbit 57280](/productos/B01MG1VV2M) ya viene en la rosca de 3/4" FPT que es el estándar de la mayoría de los kits residenciales.
