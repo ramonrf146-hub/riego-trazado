@@ -7,6 +7,7 @@ import remarkHtml from "remark-html";
 import type {
   Articulo,
   ArticuloFrontmatter,
+  FaqItem,
   Pagina,
   PaginaFrontmatter,
 } from "./tipos";
@@ -21,6 +22,29 @@ const DIRS_PAGINAS: Record<Locale, string> = {
   es: path.join(process.cwd(), "content", "paginas"),
   en: path.join(process.cwd(), "content", "paginas-en"),
 };
+
+/**
+ * Extrae los pares pregunta/respuesta de la sección "## Preguntas frecuentes"
+ * (o "## Frequently asked questions") de un artículo, para armar el schema
+ * FAQPage. Depende del formato consistente `**Pregunta?**\nRespuesta.` que
+ * usamos en todos los artículos — si un artículo no sigue ese formato exacto,
+ * simplemente no aporta FAQs al schema (no rompe nada).
+ */
+function extraerFaqs(markdown: string): FaqItem[] {
+  const normalizado = markdown.replace(/\r\n/g, "\n");
+  const marcador = /##\s*(Preguntas frecuentes|Frequently asked questions)\s*\n([\s\S]*)$/i;
+  const match = normalizado.match(marcador);
+  if (!match) return [];
+
+  const bloque = match[2].split(/\n##\s+/)[0];
+  const items: FaqItem[] = [];
+  const regexItem = /\*\*(.+?)\*\*\n([^\n]+(?:\n(?!\n)[^\n]+)*)/g;
+  let m: RegExpExecArray | null;
+  while ((m = regexItem.exec(bloque))) {
+    items.push({ pregunta: m[1].trim(), respuesta: m[2].trim().replace(/\n/g, " ") });
+  }
+  return items;
+}
 
 async function markdownAHtml(markdown: string): Promise<string> {
   // sanitize:false permite HTML crudo (embeds de YouTube) en los .md —
@@ -58,10 +82,12 @@ export async function getArticuloPorSlug(
   const raw = fs.readFileSync(rutaArchivo, "utf-8");
   const { data, content } = matter(raw);
   const contenidoHtml = await markdownAHtml(content);
+  const faqs = extraerFaqs(content);
 
   return {
     slug,
     contenidoHtml,
+    faqs,
     ...(data as ArticuloFrontmatter),
   };
 }

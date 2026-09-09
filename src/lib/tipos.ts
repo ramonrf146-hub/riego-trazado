@@ -70,9 +70,15 @@ export interface ArticuloFrontmatter {
   categoria?: CategoriaSlug;
 }
 
+export interface FaqItem {
+  pregunta: string;
+  respuesta: string;
+}
+
 export interface Articulo extends ArticuloFrontmatter {
   slug: string;
   contenidoHtml: string;
+  faqs: FaqItem[];
 }
 
 export interface PaginaFrontmatter {

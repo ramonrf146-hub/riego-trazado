@@ -77,6 +77,18 @@ export default async function ArticuloPage({ params }: Props) {
     mainEntityOfPage: `${SITE_URL}${withLocale(`/articulos/${slug}`, locale)}`,
   };
 
+  const faqJsonLd = articulo.faqs.length
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: articulo.faqs.map((faq) => ({
+          "@type": "Question",
+          name: faq.pregunta,
+          acceptedAnswer: { "@type": "Answer", text: faq.respuesta },
+        })),
+      }
+    : null;
+
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -111,6 +123,12 @@ export default async function ArticuloPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
 
       <nav className="font-mono text-xs uppercase tracking-wide text-text-dim">
         <Link href={withLocale("/articulos", locale)} className="hover:text-line">
