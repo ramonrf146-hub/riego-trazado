@@ -28,6 +28,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const articulo = await getArticuloPorSlug(slug, locale);
   if (!articulo) return {};
 
+  const imagenDestacada = articulo.categoria
+    ? (await getProductosPorCategoria(articulo.categoria))[0]?.imagen
+    : undefined;
+
   return {
     title: articulo.titulo,
     description: articulo.descripcion,
@@ -44,6 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: articulo.titulo,
       description: articulo.descripcion,
       publishedTime: articulo.fecha,
+      images: imagenDestacada ? [imagenDestacada] : undefined,
     },
   };
 }
@@ -66,6 +71,34 @@ export default async function ArticuloPage({ params }: Props) {
     headline: articulo.titulo,
     description: articulo.descripcion,
     datePublished: articulo.fecha,
+    image: productosRelacionados[0]?.imagen,
+    author: { "@type": "Organization", name: "Riego Trazado" },
+    publisher: { "@type": "Organization", name: "Riego Trazado" },
+    mainEntityOfPage: `${SITE_URL}${withLocale(`/articulos/${slug}`, locale)}`,
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: dict["nav.guias"], item: `${SITE_URL}${withLocale("/articulos", locale)}` },
+      ...(categoria
+        ? [
+            {
+              "@type": "ListItem",
+              position: 2,
+              name: t(categoria.nombre, categoria.nombreEn, locale),
+              item: `${SITE_URL}${withLocale(`/categorias/${categoria.slug}`, locale)}`,
+            },
+          ]
+        : []),
+      {
+        "@type": "ListItem",
+        position: categoria ? 3 : 2,
+        name: articulo.titulo,
+        item: `${SITE_URL}${withLocale(`/articulos/${slug}`, locale)}`,
+      },
+    ],
   };
 
   return (
@@ -73,6 +106,10 @@ export default async function ArticuloPage({ params }: Props) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articuloJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
 
       <nav className="font-mono text-xs uppercase tracking-wide text-text-dim">

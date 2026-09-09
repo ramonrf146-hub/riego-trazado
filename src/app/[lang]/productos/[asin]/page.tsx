@@ -42,6 +42,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         "x-default": `${SITE_URL}/productos/${producto.asin}`,
       },
     },
+    openGraph: {
+      type: "website",
+      title: nombre,
+      description: guia?.queEsYParaQueSirve ?? notaTecnica,
+      images: producto.imagen ? [producto.imagen] : undefined,
+    },
   };
 }
 
@@ -88,11 +94,39 @@ export default async function ProductoPage({ params }: Props) {
           },
   };
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: dict["nav.inicio"], item: `${SITE_URL}${withLocale("/", locale)}` },
+      ...(categoria
+        ? [
+            {
+              "@type": "ListItem",
+              position: 2,
+              name: t(categoria.nombre, categoria.nombreEn, locale),
+              item: `${SITE_URL}${withLocale(`/categorias/${categoria.slug}`, locale)}`,
+            },
+          ]
+        : []),
+      {
+        "@type": "ListItem",
+        position: categoria ? 3 : 2,
+        name: nombre,
+        item: `${SITE_URL}${withLocale(`/productos/${producto.asin}`, locale)}`,
+      },
+    ],
+  };
+
   return (
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productoJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
 
       <nav className="font-mono text-xs uppercase tracking-wide text-text-dim">
