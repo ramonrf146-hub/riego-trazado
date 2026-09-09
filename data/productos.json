@@ -1475,5 +1475,56 @@
       "Waterproof",
       "40-pack"
     ]
+  },
+  {
+    "asin": "B07BR52P26",
+    "nombre": "SONKIR Medidor de Suelo 3 en 1 (Humedad, Luz y pH) — Sin Batería",
+    "nombreEn": "SONKIR 3-in-1 Soil Meter (Moisture, Light & pH) — No Battery Needed",
+    "categoria": "sensores-humedad",
+    "precio": 9.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/610E2mTP4gL._SX342_.jpg",
+    "rating": 4.1,
+    "numResenas": 46831,
+    "ranking": 4,
+    "notaTecnica": "Medidor analógico 3 en 1 (humedad, luz y pH aproximado) sin batería, modelo SONKIR MS02. Best-seller de Amazon con más de 46.000 valoraciones — la opción manual y económica frente a las sondas capacitivas con hub WiFi de este catálogo. Se clava directo en la tierra y da una lectura aproximada en segundos, ideal para diagnóstico rápido antes de decidir si conviene automatizar.",
+    "notaTecnicaEn": "Analog 3-in-1 meter (moisture, light and approximate pH) with no battery, SONKIR MS02 model. Amazon best-seller with 46,000+ ratings — the manual, budget option next to this catalog's capacitive probes with WiFi hub. Push it straight into the soil for a reading in seconds, ideal for a quick check before deciding whether automation is worth it.",
+    "idealPara": "Quien quiere confirmar rápido y barato si una planta realmente necesita agua antes de invertir en un sensor permanente, o simplemente prefiere revisar manualmente sin depender de apps ni WiFi.",
+    "idealParaEn": "Anyone who wants a quick, cheap way to confirm whether a plant actually needs water before investing in a permanent sensor, or who simply prefers a manual check with no app or WiFi involved.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un medidor manual de tres funciones en un solo instrumento: le clavás las dos varillas metálicas a la tierra y una aguja te muestra si el suelo está seco, húmedo o empapado — como un velocímetro, pero de agua en vez de velocidad — además de indicar luz y pH aproximado. No usa batería ni pantalla digital: funciona con la corriente eléctrica mínima que genera la propia tierra húmeda.",
+      "ejemploHogar": "Antes de regar una planta de interior, lo clavás 5-10 cm en la tierra y en segundos sabés si realmente necesita agua o si todavía tiene humedad de la última vez, en vez de regar por calendario sin chequear.",
+      "ejemploNegocio": "Un vivero o paisajista lo usa para revisar rápido varios canteros o macetas grandes antes de decidir en cuáles vale la pena instalar un sensor permanente con hub WiFi como el RAINPOINT — es la herramienta de diagnóstico rápido antes de invertir en automatización.",
+      "puntosClave": [
+        "A diferencia de las sondas capacitivas de este catálogo, esta es una lectura puntual manual, no un monitoreo continuo — no sirve para dejarlo enterrado ni para recibir alertas en el celular.",
+        "Funciona sin pilas ni batería, lo cual es cómodo, pero la aguja analógica es menos precisa que una lectura digital: tratala como una guía aproximada, no como una medición exacta.",
+        "Limpiá bien las varillas metálicas después de cada uso y evitá suelos con mucha sal o fertilizante recién aplicado, porque distorsionan tanto la lectura de humedad como la de pH."
+      ],
+      "consejoInversion": "A $9.99 es prácticamente una inversión sin riesgo comparada con los $43 o más de un sensor con sonda capacitiva y hub WiFi de este mismo catálogo — tiene sentido comprarlo primero, confirmar con datos reales qué plantas o zonas tienen problemas de riego, y recién ahí decidir si conviene sumar un sensor permanente en esos puntos específicos. Evita gastar en automatización donde ni siquiera hace falta."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a manual, three-in-one instrument: you push the two metal probes into the soil and a needle shows whether it's dry, moist, or wet — like a speedometer, but for water instead of speed — plus rough light and pH readings. No battery or digital screen: it runs on the tiny electrical current the damp soil itself generates.",
+      "ejemploHogar": "Before watering a houseplant, you push it 5-10 cm into the soil and know within seconds whether it actually needs water or still has moisture from last time, instead of watering on a fixed schedule without checking.",
+      "ejemploNegocio": "A nursery or landscaper uses it to quickly check several beds or large pots before deciding which ones are worth fitting with a permanent WiFi-hub sensor like the RAINPOINT — it's the quick-diagnosis tool before investing in automation.",
+      "puntosClave": [
+        "Unlike this catalog's capacitive probes, this is a manual spot check, not continuous monitoring — it's not meant to stay buried or to send alerts to your phone.",
+        "It runs with no batteries, which is convenient, but the analog needle is less precise than a digital reading — treat it as a rough guide, not an exact measurement.",
+        "Clean the metal probes well after each use and avoid soil with heavy salt or freshly applied fertilizer, since both throw off the moisture and pH readings."
+      ],
+      "consejoInversion": "At $9.99, it's practically a risk-free purchase next to the $43+ a capacitive-probe sensor with a WiFi hub costs in this same catalog — it makes sense to buy this first, confirm with real data which plants or zones actually have watering problems, and only then decide whether a permanent sensor is worth adding at those specific spots. It saves you from automating where it isn't even needed."
+    },
+    "tags": [
+      "Manual",
+      "Sin batería",
+      "3 en 1"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B07BR52P26?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-09",
+    "activo": true,
+    "tagsEn": [
+      "Manual",
+      "No battery",
+      "3-in-1"
+    ]
   }
 ]

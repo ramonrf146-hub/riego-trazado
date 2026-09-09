@@ -33,11 +33,20 @@ El riesgo real del temporizador no es que riegue de más ocasionalmente — es q
 
 No es todo o nada. Muchos controladores modernos aceptan un sensor de lluvia simple (mucho más barato que uno de humedad de suelo) como "interruptor de veto": el horario sigue siendo fijo, pero el sensor cancela el riego programado si detecta lluvia reciente. Es un punto medio razonable en costo y complejidad para quien no quiere calibrar un sensor de suelo pero tampoco quiere regar bajo la lluvia.
 
+## Antes de automatizar: probá primero a mano
+
+Ni temporizador ni sensor conectado — hay una tercera opción para cuando ni siquiera sabés todavía si tenés un problema real de riego. Un medidor manual como el [SONKIR 3 en 1](/productos/B07BR52P26) se clava directo en la tierra y en segundos te dice si está seca, húmeda o empapada, sin batería, sin app y por menos de $10. A diferencia de las sondas capacitivas de este ranking (pensadas para quedar enterradas y reportar por WiFi), este es un chequeo puntual: lo usás para confirmar con datos reales qué plantas o canteros tienen problemas antes de gastar en un sensor permanente ahí.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/048w2vC_LPo" title="SONKIR Soil pH Meter, MS02 3 in 1 Soil Moisture Light pH Tester Gardening Tool Kits Review" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## En resumen
 
-Si tu prioridad es simplicidad y costo, un temporizador con buen horario ajustado por estación funciona bien. Si tu prioridad es ahorro de agua y precisión, o tienes plantas sensibles al exceso de riego, el sensor de humedad se paga solo con el tiempo. Y si no estás seguro, el sensor de lluvia como veto es el punto de entrada más barato a un sistema más inteligente.
+Si tu prioridad es simplicidad y costo, un temporizador con buen horario ajustado por estación funciona bien. Si tu prioridad es ahorro de agua y precisión, o tienes plantas sensibles al exceso de riego, el sensor de humedad se paga solo con el tiempo. Y si no estás seguro, empezá con el medidor manual o el sensor de lluvia como veto — son los puntos de entrada más baratos a un sistema más inteligente.
 
 ## Ejemplos reales de este ranking
 
 - **Temporizador con veto por lluvia:** el [Smart Sprinklers Controller](/productos/B0F883P8N1) ya trae esa función de "interruptor de veto" incorporada — programás el horario fijo y el controlador cancela solo si su app detecta lluvia, sin que tengas que sumar un sensor físico aparte.
-- **Sensor de humedad de suelo:** el [RAINPOINT con sonda capacitiva](/productos/B0F596PTCF) mide directamente el suelo, o si además querés recibir alertas en el celular, el [RAINPOINT con hub WiFi](/productos/B0GH6WJWQK) suma esa capa de notificaciones.
+- **Medidor manual, sin batería:** el [SONKIR 3 en 1](/productos/B07BR52P26) es la forma más barata de confirmar si una planta necesita agua antes de decidir si vale la pena automatizar esa zona.
+- **Sensor de humedad de suelo:** el [RAINPOINT con sonda capacitiva](/productos/B0F596PTCF) mide directamente el suelo de forma permanente, o si además querés recibir alertas en el celular, el [RAINPOINT con hub WiFi](/productos/B0GH6WJWQK) suma esa capa de notificaciones.

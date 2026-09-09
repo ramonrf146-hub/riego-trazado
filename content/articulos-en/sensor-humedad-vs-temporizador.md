@@ -33,11 +33,20 @@ The real risk with a timer isn't that it occasionally overwaters — it's that i
 
 It isn't all or nothing. Many modern controllers accept a simple rain sensor (much cheaper than a soil moisture sensor) as a "veto switch": the schedule stays fixed, but the sensor cancels the programmed cycle if it detects recent rain. It's a reasonable middle ground in cost and complexity for anyone who doesn't want to calibrate a soil sensor but also doesn't want to water in the rain.
 
+## Before you automate: check by hand first
+
+Neither a timer nor a connected sensor — there's a third option for when you don't even know yet whether you have a real watering problem. A manual meter like the [SONKIR 3-in-1](/en/productos/B07BR52P26) goes straight into the soil and tells you in seconds whether it's dry, moist, or wet, with no battery, no app, and for under $10. Unlike this ranking's capacitive probes (built to stay buried and report over WiFi), this is a spot check: use it to confirm with real data which plants or beds actually have a problem before spending on a permanent sensor there.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/048w2vC_LPo" title="SONKIR Soil pH Meter, MS02 3 in 1 Soil Moisture Light pH Tester Gardening Tool Kits Review" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## The bottom line
 
-If your priority is simplicity and cost, a timer with a schedule well adjusted for the season works fine. If your priority is water savings and precision, or you have plants sensitive to overwatering, the moisture sensor pays for itself over time. And if you're not sure, a rain sensor as a veto switch is the cheapest entry point into a smarter system.
+If your priority is simplicity and cost, a timer with a schedule well adjusted for the season works fine. If your priority is water savings and precision, or you have plants sensitive to overwatering, the moisture sensor pays for itself over time. And if you're not sure, start with the manual meter or a rain sensor as a veto switch — they're the cheapest entry points into a smarter system.
 
 ## Real examples from this ranking
 
 - **Timer with rain veto:** the [Smart Sprinklers Controller](/en/productos/B0F883P8N1) already has that "veto switch" function built in — you set the fixed schedule and the controller cancels it on its own if its app detects rain, without you needing to add a separate physical sensor.
-- **Soil moisture sensor:** the [RAINPOINT with capacitive probe](/en/productos/B0F596PTCF) measures the soil directly, or if you also want alerts on your phone, the [RAINPOINT with WiFi hub](/en/productos/B0GH6WJWQK) adds that layer of notifications.
+- **Manual meter, no battery:** the [SONKIR 3-in-1](/en/productos/B07BR52P26) is the cheapest way to confirm whether a plant needs water before deciding if it's worth automating that zone.
+- **Soil moisture sensor:** the [RAINPOINT with capacitive probe](/en/productos/B0F596PTCF) measures the soil permanently, or if you also want alerts on your phone, the [RAINPOINT with WiFi hub](/en/productos/B0GH6WJWQK) adds that layer of notifications.
