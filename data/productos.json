@@ -44,7 +44,11 @@
       "4 zonas",
       "Auto rain skip"
     ],
-    "tagsEn": ["2.4GHz WiFi", "4 zones", "Auto rain skip"]
+    "tagsEn": [
+      "2.4GHz WiFi",
+      "4 zones",
+      "Auto rain skip"
+    ]
   },
   {
     "asin": "B0GSSJ2KWT",
@@ -91,7 +95,11 @@
       "A batería",
       "64 dispositivos"
     ],
-    "tagsEn": ["RF Gateway", "Battery-powered", "64 devices"]
+    "tagsEn": [
+      "RF Gateway",
+      "Battery-powered",
+      "64 devices"
+    ]
   },
   {
     "asin": "B0F596PTCF",
@@ -138,7 +146,11 @@
       "Leave-in",
       "Requiere hub"
     ],
-    "tagsEn": ["Capacitive probe", "Leave-in", "Requires hub"]
+    "tagsEn": [
+      "Capacitive probe",
+      "Leave-in",
+      "Requires hub"
+    ]
   },
   {
     "asin": "B0GH6WJWQK",
@@ -185,7 +197,11 @@
       "Alertas",
       "Ecosistema RAINPOINT"
     ],
-    "tagsEn": ["Hub included", "Alerts", "RAINPOINT ecosystem"]
+    "tagsEn": [
+      "Hub included",
+      "Alerts",
+      "RAINPOINT ecosystem"
+    ]
   },
   {
     "asin": "B01MG1VV2M",
@@ -232,7 +248,11 @@
       "24V AC",
       "Normalmente cerrada"
     ],
-    "tagsEn": ["3/4\" FPT", "24V AC", "Normally closed"]
+    "tagsEn": [
+      "3/4\" FPT",
+      "24V AC",
+      "Normally closed"
+    ]
   },
   {
     "asin": "B07T4TNP3B",
@@ -279,7 +299,11 @@
       "24V AC",
       "2 unidades"
     ],
-    "tagsEn": ["Replacement part", "24V AC", "2-pack"]
+    "tagsEn": [
+      "Replacement part",
+      "24V AC",
+      "2-pack"
+    ]
   },
   {
     "asin": "B0F6Y9CSZP",
@@ -326,7 +350,11 @@
       "Quick Connect",
       "40 emisores"
     ],
-    "tagsEn": ["247 ft", "Quick Connect", "40 emitters"]
+    "tagsEn": [
+      "247 ft",
+      "Quick Connect",
+      "40 emitters"
+    ]
   },
   {
     "asin": "B0GLM4SYN8",
@@ -373,7 +401,11 @@
       "Micro-aspersión",
       "Boquillas cobre"
     ],
-    "tagsEn": ["200 ft", "Micro-spray", "Brass nozzles"]
+    "tagsEn": [
+      "200 ft",
+      "Micro-spray",
+      "Brass nozzles"
+    ]
   },
   {
     "asin": "B00VRUAHLE",
@@ -420,7 +452,11 @@
       "5V",
       "Arduino/ESP"
     ],
-    "tagsEn": ["1 channel", "5V", "Arduino/ESP"]
+    "tagsEn": [
+      "1 channel",
+      "5V",
+      "Arduino/ESP"
+    ]
   },
   {
     "asin": "B09ZQRLD95",
@@ -467,7 +503,11 @@
       "Optoacoplador",
       "NO/NC"
     ],
-    "tagsEn": ["8 channels", "Optocoupler", "NO/NC"]
+    "tagsEn": [
+      "8 channels",
+      "Optocoupler",
+      "NO/NC"
+    ]
   },
   {
     "asin": "B0C9QCCBVW",
@@ -514,7 +554,11 @@
       "4.500 GPH",
       "1 HP"
     ],
-    "tagsEn": ["Submersible", "4,500 GPH", "1 HP"]
+    "tagsEn": [
+      "Submersible",
+      "4,500 GPH",
+      "1 HP"
+    ]
   },
   {
     "asin": "B0C8N8CG9G",
@@ -561,7 +605,11 @@
       "Autocebante",
       "1.5 HP"
     ],
-    "tagsEn": ["Surface", "Self-priming", "1.5 HP"]
+    "tagsEn": [
+      "Surface",
+      "Self-priming",
+      "1.5 HP"
+    ]
   },
   {
     "asin": "B01MUVVSSF",
@@ -605,7 +653,11 @@
       "Requiere controlador Rain Bird",
       "Quick Pair"
     ],
-    "tagsEn": ["WiFi module (not standalone)", "Requires Rain Bird controller", "Quick Pair"],
+    "tagsEn": [
+      "WiFi module (not standalone)",
+      "Requires Rain Bird controller",
+      "Quick Pair"
+    ],
     "urlAfiliado": "https://www.amazon.com/dp/B01MUVVSSF?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-26",
     "activo": true
@@ -652,7 +704,11 @@
       "HomeKit/Alexa/Google",
       "Latón + IP65"
     ],
-    "tagsEn": ["2.4GHz WiFi", "HomeKit/Alexa/Google", "Brass + IP65"],
+    "tagsEn": [
+      "2.4GHz WiFi",
+      "HomeKit/Alexa/Google",
+      "Brass + IP65"
+    ],
     "urlAfiliado": "https://www.amazon.com/dp/B0DX6G7MSV?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-26",
     "activo": true
@@ -699,7 +755,11 @@
       "Hasta 20 plantas",
       "Para macetas/canastos"
     ],
-    "tagsEn": ["Timer included", "Up to 20 plants", "For pots/baskets"],
+    "tagsEn": [
+      "Timer included",
+      "Up to 20 plants",
+      "For pots/baskets"
+    ],
     "urlAfiliado": "https://www.amazon.com/dp/B00J2NRUBI?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-26",
     "activo": true
@@ -746,7 +806,11 @@
       "Modo niebla/chorro",
       "Sin timer incluido"
     ],
-    "tagsEn": ["20 adjustable nozzles", "Mist/jet mode", "No timer included"],
+    "tagsEn": [
+      "20 adjustable nozzles",
+      "Mist/jet mode",
+      "No timer included"
+    ],
     "urlAfiliado": "https://www.amazon.com/dp/B079LFKZX6?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-26",
     "activo": true
@@ -793,7 +857,11 @@
       "Conectores de bronce",
       "Rain Delay 1-15 días"
     ],
-    "tagsEn": ["Timer included", "Brass connectors", "Rain Delay 1-15 days"],
+    "tagsEn": [
+      "Timer included",
+      "Brass connectors",
+      "Rain Delay 1-15 days"
+    ],
     "urlAfiliado": "https://www.amazon.com/dp/B0F5VYR2Z4?tag=riegotrazado-20",
     "actualizadoEn": "2026-09-05",
     "activo": true
@@ -840,7 +908,11 @@
       "8 zonas",
       "Weather Intelligence"
     ],
-    "tagsEn": ["WiFi", "8 zones", "Weather Intelligence"],
+    "tagsEn": [
+      "WiFi",
+      "8 zones",
+      "Weather Intelligence"
+    ],
     "urlAfiliado": "https://www.amazon.com/dp/B07CZ864Y9?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-30",
     "activo": true
@@ -887,7 +959,11 @@
       "6 zonas",
       "Base de datos de plantas"
     ],
-    "tagsEn": ["WiFi", "6 zones", "Plant database"],
+    "tagsEn": [
+      "WiFi",
+      "6 zones",
+      "Plant database"
+    ],
     "urlAfiliado": "https://www.amazon.com/dp/B076CZ6DHR?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-30",
     "activo": true
@@ -934,7 +1010,11 @@
       "4 zonas",
       "Expandible a 32"
     ],
-    "tagsEn": ["WiFi", "4 zones", "Expandable to 32"],
+    "tagsEn": [
+      "WiFi",
+      "4 zones",
+      "Expandable to 32"
+    ],
     "urlAfiliado": "https://www.amazon.com/dp/B08BJBKW44?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-30",
     "activo": true
@@ -981,7 +1061,11 @@
       "6 zonas",
       "Weatherproof"
     ],
-    "tagsEn": ["WiFi", "6 zones", "Weatherproof"],
+    "tagsEn": [
+      "WiFi",
+      "6 zones",
+      "Weatherproof"
+    ],
     "urlAfiliado": "https://www.amazon.com/dp/B01D15HOIQ?tag=riegotrazado-20",
     "actualizadoEn": "2026-08-30",
     "activo": true
@@ -1028,7 +1112,11 @@
       "5 sensores",
       "IP67"
     ],
-    "tagsEn": ["Leak detector", "5 sensors", "IP67"],
+    "tagsEn": [
+      "Leak detector",
+      "5 sensors",
+      "IP67"
+    ],
     "urlAfiliado": "https://www.amazon.com/dp/B0DQLFC3Q6?tag=riegotrazado-20",
     "actualizadoEn": "2026-09-01",
     "activo": true
@@ -1075,7 +1163,11 @@
       "3/4\" FPT",
       "24V AC"
     ],
-    "tagsEn": ["Anti-siphon", "3/4\" FPT", "24V AC"],
+    "tagsEn": [
+      "Anti-siphon",
+      "3/4\" FPT",
+      "24V AC"
+    ],
     "urlAfiliado": "https://www.amazon.com/dp/B00004RAAZ?tag=riegotrazado-20",
     "actualizadoEn": "2026-09-04",
     "activo": true
@@ -1117,8 +1209,16 @@
       ],
       "consejoInversion": "If your installation is simple and standard, the Orbit 57280 in this ranking does the same job for less money. This Pro version pays for itself if you have a zone that needs fine flow adjustment or your water source carries sediment — in any other case, it's extra cost without real benefit."
     },
-    "tags": ["3/4\" FPT", "24V AC", "Control de caudal"],
-    "tagsEn": ["3/4\" FPT", "24V AC", "Flow control"],
+    "tags": [
+      "3/4\" FPT",
+      "24V AC",
+      "Control de caudal"
+    ],
+    "tagsEn": [
+      "3/4\" FPT",
+      "24V AC",
+      "Flow control"
+    ],
     "urlAfiliado": "https://www.amazon.com/dp/B0DHN374J5?tag=riegotrazado-20",
     "actualizadoEn": "2026-09-06",
     "activo": true
@@ -1160,8 +1260,16 @@
       ],
       "consejoInversion": "With over 2,100 reviews and Amazon's Choice status, it's a cheap, portable way to fix low pressure at one specific spot in the yard — much more affordable than the surface pump in this ranking, though it won't replace it if you need pressure for several sprinklers at once."
     },
-    "tags": ["Diafragma", "Portátil", "4.0 GPM"],
-    "tagsEn": ["Diaphragm", "Portable", "4.0 GPM"],
+    "tags": [
+      "Diafragma",
+      "Portátil",
+      "4.0 GPM"
+    ],
+    "tagsEn": [
+      "Diaphragm",
+      "Portable",
+      "4.0 GPM"
+    ],
     "urlAfiliado": "https://www.amazon.com/dp/B0BB9M2TS8?tag=riegotrazado-20",
     "actualizadoEn": "2026-09-04",
     "activo": true
@@ -1203,8 +1311,16 @@
       ],
       "consejoInversion": "With over 220 reviews and Amazon's Choice status, it's the lowest-friction way to add WiFi control to a standalone valve — if you already know how to program Arduino, the DIY relays in this ranking give you finer control, but for 'just make it work,' this one gets running faster."
     },
-    "tags": ["WiFi integrado", "App eWeLink", "2 canales"],
-    "tagsEn": ["Built-in WiFi", "eWeLink app", "2 channels"],
+    "tags": [
+      "WiFi integrado",
+      "App eWeLink",
+      "2 canales"
+    ],
+    "tagsEn": [
+      "Built-in WiFi",
+      "eWeLink app",
+      "2 channels"
+    ],
     "urlAfiliado": "https://www.amazon.com/dp/B0CGTRGLFC?tag=riegotrazado-20",
     "actualizadoEn": "2026-09-04",
     "activo": true
@@ -1246,10 +1362,118 @@
       ],
       "consejoInversion": "It costs a fraction of what it takes to replace an entire kit's emitters after they blow out from excess pressure, and it stops the water waste of a system running harder than it needs to — for any drip kit connected straight to a home spigot, this is a part that pays for itself the first time it saves a line from bursting."
     },
-    "tags": ["30 PSI", "Filtro incluido", "Drip-Lock 1\""],
-    "tagsEn": ["30 PSI", "Filter included", "1\" Drip-Lock"],
+    "tags": [
+      "30 PSI",
+      "Filtro incluido",
+      "Drip-Lock 1\""
+    ],
+    "tagsEn": [
+      "30 PSI",
+      "Filter included",
+      "1\" Drip-Lock"
+    ],
     "urlAfiliado": "https://www.amazon.com/dp/B00G5KHQBA?tag=riegotrazado-20",
     "actualizadoEn": "2026-09-07",
     "activo": true
+  },
+  {
+    "asin": "B000IBN9M2",
+    "nombre": "NDS 117BC — Caja de Válvulas Jumbo Rectangular (15\" x 22\")",
+    "categoria": "valvulas-solenoides",
+    "precio": 63.25,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/81xOj1kFioL._AC_SY450_.jpg",
+    "rating": 4.7,
+    "numResenas": 724,
+    "ranking": 5,
+    "notaTecnica": "Caja protectora de polipropileno para enterrar sobre las válvulas solenoides — la pieza que la guía de válvulas de este catálogo recomienda como buena práctica (\"no dejar las válvulas expuestas a la intemperie\") pero que hasta ahora no teníamos listada. Overall Pick de Amazon, 400+ compradas el último mes. Tamaño jumbo (15\"x22\"x12\"H): entra más de una válvula, así que si solo tenés una, la versión más chica de 14\"x19\" de la misma línea sale más barata.",
+    "idealPara": "Proteger una o más válvulas solenoides enterradas del clima, el tránsito peatonal y el desgaste — especialmente relevante en climas húmedos como el de Florida, donde la humedad acelera las fallas eléctricas del solenoide.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es una caja plástica que se entierra a nivel del suelo, cubriendo la válvula solenoide y sus conexiones — permite acceder para mantenimiento levantando la tapa, sin tener que cavar cada vez que hay que revisar o cambiar algo.",
+      "ejemploHogar": "La instalás sobre la válvula enterrada de tu sistema de riego, dejando la tapa a ras del pasto — cuando necesitás revisar el solenoide o una conexión, solo levantás la tapa con un destornillador plano, sin cavar.",
+      "ejemploNegocio": "Un instalador de riego la usa como estándar en cada válvula que entierra, porque evita reclamos por fallas prematuras causadas por humedad o daño mecánico de equipos de jardinería pasando por encima.",
+      "puntosClave": [
+        "Es de tamaño jumbo (15\"x22\") — pensada para varias válvulas juntas o un kit de zona completo, no para una sola válvula chica.",
+        "La tapa es de encastre superpuesto (overlapping), diseñada para que no entre tierra ni pasto entre la caja y la tapa.",
+        "Tiene refuerzos estructurales para soportar el paso de equipos de jardinería y tránsito peatonal ocasional por encima."
+      ],
+      "consejoInversion": "A $63 es más cara que las cajas chicas de una sola válvula, pero si tu instalación tiene 2 o más válvulas juntas (lo más común en sistemas por zonas), sale más barato que comprar varias cajas individuales — y la marca NDS es el estándar de la industria en accesorios de riego, no una marca genérica sin trayectoria."
+    },
+    "tags": [
+      "Caja de válvulas",
+      "Jumbo",
+      "NDS"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B000IBN9M2?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-08",
+    "nombreEn": "NDS 117BC — Jumbo Rectangular Valve Box (15\" x 22\")",
+    "notaTecnicaEn": "A polypropylene protective box for burying over solenoid valves — the part this catalog's valve guide recommends as best practice (\"don't leave valves exposed to the weather\") but that wasn't listed until now. Amazon Overall Pick, 400+ bought in the past month. Jumbo size (15\"x22\"x12\"H): fits more than one valve, so if you only have one, the smaller 14\"x19\" version in the same line is cheaper.",
+    "idealParaEn": "Protecting one or more buried solenoid valves from weather, foot traffic, and wear — especially relevant in humid climates like Florida's, where moisture speeds up electrical failures in the solenoid.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a plastic box buried at ground level, covering the solenoid valve and its connections — it lets you access it for maintenance by lifting the lid, without having to dig every time you need to check or replace something.",
+      "ejemploHogar": "You install it over your buried irrigation valve, leaving the lid flush with the grass — when you need to check the solenoid or a connection, you just lift the lid with a flathead screwdriver, no digging required.",
+      "ejemploNegocio": "An irrigation installer uses it as the standard for every valve they bury, because it avoids callbacks from premature failures caused by moisture or mechanical damage from lawn equipment driving over it.",
+      "puntosClave": [
+        "It's jumbo-sized (15\"x22\") — built for several valves together or a full zone kit, not a single small valve.",
+        "The lid is an overlapping design, meant to keep dirt and grass from settling between the box and the cover.",
+        "It has structural reinforcing ribs to withstand lawn equipment and occasional foot traffic passing over it."
+      ],
+      "consejoInversion": "At $63 it costs more than small single-valve boxes, but if your setup has 2 or more valves together (the most common case in zoned systems), it works out cheaper than buying several individual boxes — and NDS is the industry-standard brand for irrigation accessories, not an unproven generic brand."
+    },
+    "tagsEn": [
+      "Valve box",
+      "Jumbo",
+      "NDS"
+    ]
+  },
+  {
+    "asin": "B09H7DQN1V",
+    "nombre": "Tondiamo Conectores Impermeables de Gel (40 unidades)",
+    "categoria": "valvulas-solenoides",
+    "precio": 9.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71OQpas5Q+L._SX342_.jpg",
+    "rating": 4.5,
+    "numResenas": 384,
+    "ranking": 6,
+    "notaTecnica": "Conectores de empalme con gel sellante, para las conexiones eléctricas de la válvula solenoide — la guía de válvulas de este catálogo señala que la mayoría de las fallas son eléctricas, no mecánicas, y recomienda explícitamente \"conectores impermeables tipo gel\" sin tener hasta ahora uno listado. Overall Pick de Amazon, 300+ comprados el último mes. Compatibles con calibres 12 a 22 AWG, aptos para enterrar directo.",
+    "idealPara": "Sellar el empalme entre el cable del controlador y el solenoide de la válvula — el punto de falla eléctrica más común en sistemas de riego enterrados.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un conector de rosca (tipo \"wire nut\") relleno de gel sellante — al insertar los cables y girar la tapa, el gel rodea el empalme y lo protege de la humedad, sin necesitar cinta aislante ni pasos extra.",
+      "ejemploHogar": "Lo usás para empalmar el cable de 24V que va del controlador a la válvula, en el punto donde ese empalme queda enterrado o expuesto a la humedad del jardín.",
+      "ejemploNegocio": "Un instalador de riego los usa como estándar en cada empalme enterrado, porque reduce los reclamos por válvulas que \"dejan de responder\" al año siguiente por corrosión en la conexión.",
+      "puntosClave": [
+        "A diferencia de una cinta aislante envuelta a mano, el gel se activa solo con la instalación — no depende de qué tan bien quede envuelta la cinta.",
+        "Soporta hasta 600V y un rango de temperatura de -40°F a 392°F — muy por encima de lo que exige un circuito de riego a 24V, así que no es el factor limitante.",
+        "Vienen 40 unidades por paquete — alcanza para varias temporadas de mantenimiento, no solo la instalación inicial."
+      ],
+      "consejoInversion": "A $9.99 por 40 unidades (25 centavos cada uno), es una de las inversiones más baratas de todo este catálogo frente al costo real de una válvula que falla por una conexión mal sellada — no hay razón para seguir usando cinta aislante sola en un empalme que va a quedar enterrado."
+    },
+    "tags": [
+      "Gel sellante",
+      "Impermeable",
+      "Pack de 40"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B09H7DQN1V?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-08",
+    "nombreEn": "Tondiamo Gel-Filled Waterproof Wire Connectors (40-Pack)",
+    "notaTecnicaEn": "Gel-filled splice connectors for the solenoid valve's electrical connections — this catalog's valve guide notes that most failures are electrical, not mechanical, and explicitly recommends \"gel-type waterproof connectors\" without one listed until now. Amazon Overall Pick, 300+ bought in the past month. Compatible with 12 to 22 AWG wire, direct-burial rated.",
+    "idealParaEn": "Sealing the splice between the controller's wire and the valve's solenoid — the most common electrical failure point in buried irrigation systems.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a twist-on connector (a \"wire nut\") filled with sealing gel — as you insert the wires and twist the cap, the gel surrounds the splice and protects it from moisture, no electrical tape or extra steps needed.",
+      "ejemploHogar": "You use it to splice the 24V wire running from the controller to the valve, at the point where that splice ends up buried or exposed to garden moisture.",
+      "ejemploNegocio": "An irrigation installer uses these as the standard for every buried splice, because it cuts down on callbacks for valves that \"stop responding\" the following year due to corrosion at the connection.",
+      "puntosClave": [
+        "Unlike hand-wrapped electrical tape, the gel activates just from installation — it doesn't depend on how well the tape was wrapped.",
+        "Rated up to 600V and a temperature range of -40°F to 392°F — well above what a 24V irrigation circuit needs, so it's not the limiting factor.",
+        "Comes with 40 units per pack — enough for several seasons of maintenance, not just the initial install."
+      ],
+      "consejoInversion": "At $9.99 for 40 units (25 cents each), it's one of the cheapest investments in this whole catalog against the real cost of a valve failing from a poorly sealed connection — there's no reason to keep using electrical tape alone on a splice that's going underground."
+    },
+    "tagsEn": [
+      "Gel-filled",
+      "Waterproof",
+      "40-pack"
+    ]
   }
 ]

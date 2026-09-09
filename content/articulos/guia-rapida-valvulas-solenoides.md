@@ -34,8 +34,8 @@ La mayoría de los kits de riego residencial usan válvulas de 3/4 de pulgada. S
 ## Errores de instalación más comunes
 
 1. **Instalar la válvula al revés**: casi todas tienen una flecha en el cuerpo que indica dirección del flujo. Instalarla al revés puede hacer que no cierre correctamente o directamente no funcione.
-2. **No usar una caja de válvulas**: dejar las válvulas expuestas a la intemperie sin protección acelera el desgaste del solenoide y las conexiones eléctricas, especialmente en climas húmedos como el de Florida.
-3. **Conexiones eléctricas sin sellar**: la mayoría de las fallas de válvulas no son mecánicas sino eléctricas — humedad que entra en el empalme del cable. Usa conectores impermeables (los de gel, tipo "wire nuts" sellados) sin excepción.
+2. **No usar una caja de válvulas**: dejar las válvulas expuestas a la intemperie sin protección acelera el desgaste del solenoide y las conexiones eléctricas, especialmente en climas húmedos como el de Florida. La [caja de válvulas jumbo NDS](/productos/B000IBN9M2) de este ranking resuelve esto — es el estándar de la industria, no una marca genérica.
+3. **Conexiones eléctricas sin sellar**: la mayoría de las fallas de válvulas no son mecánicas sino eléctricas — humedad que entra en el empalme del cable. Usa conectores impermeables (los de gel, tipo "wire nuts" sellados) sin excepción — los [conectores de gel Tondiamo](/productos/B09H7DQN1V) de este ranking cuestan 25 centavos cada uno, frente al costo real de una válvula que falla por una conexión mal sellada.
 4. **No instalar una válvula de retención (check valve) en terrenos con desnivel**: si tu sistema tiene zonas más bajas que otras, el agua puede seguir drenando por gravedad después de que la válvula cierra, causando encharcamiento en el aspersor más bajo.
 
 ## En resumen

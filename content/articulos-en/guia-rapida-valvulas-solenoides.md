@@ -34,8 +34,8 @@ Most residential irrigation kits use 3/4-inch valves. If your main line is 1 inc
 ## Most common installation mistakes
 
 1. **Installing the valve backwards**: almost all of them have an arrow on the body indicating flow direction. Installing it backwards can keep it from closing properly, or stop it from working at all.
-2. **Skipping a valve box**: leaving valves exposed to the weather without protection speeds up wear on the solenoid and the electrical connections, especially in humid climates like Florida's.
-3. **Unsealed electrical connections**: most valve failures aren't mechanical — they're electrical, from moisture getting into the wire splice. Use waterproof connectors (the sealed gel-filled "wire nuts" type), no exceptions.
+2. **Skipping a valve box**: leaving valves exposed to the weather without protection speeds up wear on the solenoid and the electrical connections, especially in humid climates like Florida's. The [NDS jumbo valve box](/en/productos/B000IBN9M2) in this ranking solves this — it's the industry-standard brand, not a generic one.
+3. **Unsealed electrical connections**: most valve failures aren't mechanical — they're electrical, from moisture getting into the wire splice. Use waterproof connectors (the sealed gel-filled "wire nuts" type), no exceptions — the [Tondiamo gel connectors](/en/productos/B09H7DQN1V) in this ranking cost 25 cents each, against the real cost of a valve failing from a poorly sealed connection.
 4. **Skipping a check valve on sloped terrain**: if your system has zones lower than others, water can keep draining downhill by gravity after the valve closes, causing pooling at the lowest sprinkler head.
 
 ## The bottom line
