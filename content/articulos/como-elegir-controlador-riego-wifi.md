@@ -45,3 +45,14 @@ No siempre hace falta un controlador WiFi completo. Si el problema puntual es "m
 - **Pensando en el futuro (criterio 1):** el [Hunter HPC400](/productos/B08BJBKW44) arranca en 4 zonas pero se expande con módulos hasta 32 — resuelve directamente el problema de comprar de menos. El [Rachio 3](/productos/B07CZ864Y9) también viene en versión de 16 zonas si sabés que vas a necesitar más desde el arranque.
 - **Respaldo de otros compradores:** el [Orbit B-hyve](/productos/B01D15HOIQ) es el controlador con más reseñas de todo este ranking (más de 9.000) — no es sinónimo de "mejor" en cada criterio técnico, pero sí de que mucha gente lo usó sin problemas graves.
 - **Protocolo:** todos los controladores de este ranking son WiFi puro — si tu instalación queda lejos del router, revisá el alcance de tu red antes de comprar cualquiera de ellos, ya que ninguno incluye un repetidor propio.
+
+## Preguntas frecuentes
+
+**¿Puedo usar un sensor de humedad de otra marca con cualquier controlador WiFi?**
+No siempre — depende de si el controlador tiene una entrada física para sensor externo (criterio 3 de esta guía) o si solo acepta sensores de su propio ecosistema por app. Antes de comprar un sensor aparte, como los [RAINPOINT](/productos/B0F596PTCF) de este catálogo, confirmá en la ficha del controlador si acepta sensores genéricos o solo los de su misma marca.
+
+**¿Vale la pena pagar más por Rachio, Netro o Hydrawise en vez de un controlador económico?**
+Depende de tu jardín y de si tu compañía de agua da reembolsos por certificación EPA WaterSense. Lo desarrollamos con más detalle en la guía de [controladores premium vs. económicos](/articulos/rachio-netro-hydrawise-vs-controladores-economicos).
+
+**¿Qué pasa si mi router no tiene WiFi de 2.4GHz?**
+La mayoría de los controladores económicos, incluido el [Smart Sprinklers Controller](/productos/B0F883P8N1) de este ranking, solo funcionan con la banda de 2.4GHz, no con 5GHz. Si tu router es "dual band", normalmente podés crear una red separada de 2.4GHz desde su configuración — revisá el manual de tu router antes de asumir que el controlador es incompatible.

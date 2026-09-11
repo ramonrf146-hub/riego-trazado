@@ -45,3 +45,14 @@ You don't always need a full WiFi controller. If the immediate problem is "I'm g
 - **Thinking ahead (criterion 1):** the [Hunter HPC400](/en/productos/B08BJBKW44) starts at 4 zones but expands with modules up to 32 — it directly solves the problem of under-buying. The [Rachio 3](/en/productos/B07CZ864Y9) also comes in a 16-zone version if you already know you'll need more from the start.
 - **Backing from other buyers:** the [Orbit B-hyve](/en/productos/B01D15HOIQ) is the controller with the most reviews in this entire ranking (over 9,000) — that isn't the same as "best" on every technical criterion, but it does mean a lot of people have used it without major issues.
 - **Protocol:** every controller in this ranking is plain WiFi — if your install sits far from the router, check your network's range before buying any of them, since none of them ship with their own repeater.
+
+## Frequently asked questions
+
+**Can I use a moisture sensor from a different brand with any WiFi controller?**
+Not always — it depends on whether the controller has a physical input for an external sensor (criterion 3 above) or only accepts sensors from its own app-based ecosystem. Before buying a separate sensor, like the [RAINPOINT](/en/productos/B0F596PTCF) units in this catalog, check the controller's spec sheet to see whether it accepts generic sensors or only its own brand.
+
+**Is it worth paying more for Rachio, Netro, or Hydrawise instead of a budget controller?**
+It depends on your yard and on whether your water utility offers rebates for EPA WaterSense certification. We cover this in more detail in the guide on [premium vs. budget controllers](/en/articulos/rachio-netro-hydrawise-vs-controladores-economicos).
+
+**What if my router doesn't broadcast 2.4GHz WiFi?**
+Most budget controllers, including the [Smart Sprinklers Controller](/en/productos/B0F883P8N1) in this ranking, only work on the 2.4GHz band, not 5GHz. If your router is dual-band, you can usually create a separate 2.4GHz network from its settings — check your router's manual before assuming the controller is incompatible.
