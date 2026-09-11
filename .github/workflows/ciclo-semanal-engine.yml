@@ -1,0 +1,53 @@
+name: Ciclo semanal autonomo (Trazado Engine)
+
+# BLOQUEADO hasta tener acceso aprobado a PA-API (ver ESTADO_ACTUAL.md y
+# Trazado_Engine/ESTADO_ACTUAL.md) - igual que el cron mensual de
+# actualizar-productos.yml, este workflow va a fallar en el paso de
+# busqueda hasta que las credenciales de PA-API sean reales. Se deja
+# commiteado y listo a proposito, no hace falta esperar para mergearlo.
+
+on:
+  schedule:
+    # Todos los lunes, 08:00 UTC.
+    - cron: "0 8 * * 1"
+  workflow_dispatch: {} # permite correrlo manualmente desde la pestaña Actions
+
+permissions:
+  contents: write
+
+jobs:
+  ciclo-semanal:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout riego-trazado
+        uses: actions/checkout@v4
+
+      - name: Checkout trazado-engine
+        uses: actions/checkout@v4
+        with:
+          repository: ramonrf146-hub/trazado-engine
+          token: ${{ secrets.ENGINE_REPO_PAT }}
+          path: trazado-engine
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Instalar dependencias del engine
+        run: npm ci
+        working-directory: trazado-engine
+
+      - name: Instalar dependencias del sitio (necesario para el build de verificacion)
+        run: npm ci
+
+      - name: Correr ciclo semanal
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AMAZON_ACCESS_KEY: ${{ secrets.AMAZON_ACCESS_KEY }}
+          AMAZON_SECRET_KEY: ${{ secrets.AMAZON_SECRET_KEY }}
+          AMAZON_PARTNER_TAG: ${{ secrets.AMAZON_PARTNER_TAG }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EMAIL_DESTINO: ${{ secrets.EMAIL_DESTINO }}
+        run: node trazado-engine/src/cli.mjs ciclo-semanal --sitio hidrolab --sitio-dir .

@@ -8,7 +8,8 @@ Catálogo en `data/productos.json`, artículos en `content/articulos/` (ES) y `c
 
 ## Pendiente
 - Ninguna tarea abierta específica de este sitio en este momento.
-- Workflow automático de PA-API: falla todos los meses por falta de credenciales. Es intencional — el usuario está esperando acceso, previsto para octubre 2026. No desactivar ni "arreglar" sin que lo pida.
+- Workflow automático de PA-API (precios, mensual): falla todos los meses por falta de credenciales. Es intencional — el usuario está esperando acceso, previsto para octubre 2026. No desactivar ni "arreglar" sin que lo pida.
+- Workflow nuevo `.github/workflows/ciclo-semanal-engine.yml` (piloto de Trazado Engine, Paso 3): construido y commiteado, pero **también bloqueado por el mismo motivo** (necesita PA-API para descubrir candidatos). No activar/probar en GitHub hasta tener el acceso — ver `C:\Projects\Trazado_Engine\ESTADO_ACTUAL.md` para el detalle completo.
 
 ## Últimos cambios importantes
 - 2026-09-11: agregado SONOFF 4CH Pro R3 (B08BHWF8KD) a `modulos-rele` (la categoría más floja del sitio, sin artículo propio) — **primer producto agregado con el CLI de Trazado Engine** (`node src/cli.mjs agregar-producto`) en vez del script scratch de siempre. Linkeado en `sensor-humedad-vs-temporizador.md` y `guia-rapida-valvulas-solenoides.md` (ES/EN), donde ya se mencionaba "tu propio relé" sin ningún producto. Manifiesto de Pines actualizado a v11 (ver [[project_trazado_engine]] para el detalle del bug encontrado y arreglado en `gitOps.mjs` durante esta prueba).
