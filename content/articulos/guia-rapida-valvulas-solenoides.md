@@ -9,7 +9,7 @@ La válvula solenoide es la pieza que realmente abre y cierra el paso de agua �
 
 ## Voltaje: 24V AC es el estándar
 
-Casi todos los controladores de riego residencial, tanto los tradicionales como los WiFi, operan a 24V AC (corriente alterna, no continua). Antes de comprar una válvula, confirma que tu controlador entrega ese voltaje — es el caso en la gran mayoría de modelos, pero vale la pena verificarlo en la ficha técnica, especialmente si estás integrando componentes de distintos fabricantes o armando tu propio sistema con relés.
+Casi todos los controladores de riego residencial, tanto los tradicionales como los WiFi, operan a 24V AC (corriente alterna, no continua). Antes de comprar una válvula, confirma que tu controlador entrega ese voltaje — es el caso en la gran mayoría de modelos, pero vale la pena verificarlo en la ficha técnica, especialmente si estás integrando componentes de distintos fabricantes o armando tu propio sistema con relés — para esto último, un relé como el [SONOFF 4CH Pro R3](/productos/B08BHWF8KD) controla la alimentación de 120V del transformador o la bomba, no el solenoide de 24V AC directamente.
 
 ## Normalmente cerrada (NC) vs. normalmente abierta (NA)
 

@@ -9,7 +9,7 @@ The solenoid valve is the part that actually opens and closes the water flow —
 
 ## Voltage: 24V AC is the standard
 
-Almost every residential irrigation controller, traditional or WiFi, runs on 24V AC (alternating current, not direct). Before buying a valve, confirm your controller supplies that voltage — it's true for the vast majority of models, but it's worth verifying on the spec sheet, especially if you're mixing components from different manufacturers or building your own system with relays.
+Almost every residential irrigation controller, traditional or WiFi, runs on 24V AC (alternating current, not direct). Before buying a valve, confirm your controller supplies that voltage — it's true for the vast majority of models, but it's worth verifying on the spec sheet, especially if you're mixing components from different manufacturers or building your own system with relays — for that last case, a relay like the [SONOFF 4CH Pro R3](/en/productos/B08BHWF8KD) controls the transformer's or pump's 120V power, not the 24V AC solenoid directly.
 
 ## Normally closed (NC) vs. normally open (NO)
 
