@@ -1577,5 +1577,57 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0956QKMJ2?tag=riegotrazado-20",
     "actualizadoEn": "2026-09-10",
     "activo": true
+  },
+  {
+    "asin": "B08BHWF8KD",
+    "nombre": "SONOFF 4CH Pro R3 Interruptor WiFi de 4 Canales (Montaje en Riel DIN)",
+    "categoria": "modulos-rele",
+    "precio": 29.9,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/51NuapejOoL._SX342_.jpg",
+    "rating": 4.5,
+    "numResenas": 320,
+    "ranking": 4,
+    "notaTecnica": "A diferencia de los dos módulos de relé de este catálogo pensados para programar con Arduino (el de 1 canal y el ELEGOO de 8), este SONOFF es un interruptor inteligente terminado: se monta en riel DIN dentro de un tablero eléctrico y se controla por WiFi, app, voz (Alexa/Google) o control remoto RF 433MHz, sin escribir una sola línea de código. Amazon's Choice, 320 reseñas, 4.5 estrellas. Tiene modo interlock (al encender un canal, apaga los otros 3 automáticamente) — útil para alternar zonas de riego sin lógica extra. Limitación real, según el resumen de reseñas de Amazon: varios compradores reportan problemas de conectividad WiFi intermitente, algo a tener en cuenta si tu router está lejos del tablero.",
+    "idealPara": "Automatizar el encendido de bombas, transformadores de válvulas u otros equipos de 120V desde una app o por voz, sin programar un microcontrolador — instalación en tablero eléctrico, no en una protoboard.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un interruptor inteligente de 4 canales que se instala en el riel DIN de un tablero eléctrico y reemplaza interruptores manuales — cada canal se prende/apaga por WiFi, app, voz o control remoto RF, sin necesitar programar nada.",
+      "ejemploHogar": "Lo instalás en el tablero para controlar 4 zonas de riego (bombas o transformadores de válvula) desde el celular o por voz, con modo interlock para que solo una zona riegue a la vez sin que se solapen.",
+      "ejemploNegocio": "Un instalador de sistemas de riego lo usa como salida de control en tableros donde el cliente pidió automatización pero no quiere depender de un microcontrolador programado a medida — instalación estándar de electricista, no de hobbista.",
+      "puntosClave": [
+        "No requiere programar Arduino ni ESP32 — a diferencia de los otros 2 módulos de relé de este catálogo, viene listo para usar con la app eWeLink.",
+        "Varios compradores reportan cortes de conectividad WiFi intermitentes — conviene un buen router cerca del tablero antes de confiar en el modo remoto para riego crítico.",
+        "El modo interlock (1 canal prendido apaga los otros 3) es una ventaja real para alternar zonas de riego sin sumar lógica de control aparte."
+      ],
+      "consejoInversion": "A $29.90 es más caro que un módulo de relé para Arduino (~$8-15), pero ese extra paga la instalación en riel DIN, la app lista, y el control por voz/RF sin programar nada — tiene sentido si no querés meterte a programar un microcontrolador. Si ya sabés programar y buscás el menor costo, los módulos de Arduino de este catálogo rinden más por dólar."
+    },
+    "tags": [
+      "WiFi",
+      "Riel DIN",
+      "4 canales",
+      "Sin programar"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B08BHWF8KD?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-11",
+    "nombreEn": "SONOFF 4CH Pro R3 4-Channel WiFi Switch (DIN Rail Mount)",
+    "notaTecnicaEn": "Unlike the two relay modules in this catalog meant for Arduino programming (the 1-channel one and the ELEGOO 8-channel), this SONOFF is a finished smart switch: it mounts on a DIN rail inside an electrical panel and is controlled via WiFi, app, voice (Alexa/Google), or a 433MHz RF remote, without writing a single line of code. Amazon's Choice, 320 reviews, 4.5 stars. It has an interlock mode (turning on one channel automatically shuts off the other 3) — useful for alternating irrigation zones with no extra logic needed. Real limitation, per Amazon's review summary: several buyers report intermittent WiFi connectivity issues, worth considering if your router is far from the panel.",
+    "idealParaEn": "Automating pumps, valve transformers, or other 120V equipment from an app or by voice, without programming a microcontroller — panel installation, not a protoboard project.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a 4-channel smart switch that mounts on an electrical panel's DIN rail and replaces manual switches — each channel turns on/off via WiFi, app, voice, or RF remote, no programming needed.",
+      "ejemploHogar": "You install it in the panel to control 4 irrigation zones (pumps or valve transformers) from your phone or by voice, with interlock mode so only one zone waters at a time without overlap.",
+      "ejemploNegocio": "An irrigation installer uses it as the control output in panels where the client wants automation but doesn't want to depend on a custom-programmed microcontroller — standard electrician-grade install, not a hobbyist one.",
+      "puntosClave": [
+        "No Arduino or ESP32 programming required — unlike the other 2 relay modules in this catalog, it comes ready to use with the eWeLink app.",
+        "Several buyers report intermittent WiFi drops — a solid router near the panel is worth having before relying on remote control for critical irrigation.",
+        "Interlock mode (one channel on shuts off the other 3) is a real advantage for alternating irrigation zones without adding separate control logic."
+      ],
+      "consejoInversion": "At $29.90 it costs more than an Arduino relay module (~$8-15), but that premium buys DIN-rail installation, a ready-made app, and voice/RF control with zero programming — worth it if you don't want to get into microcontroller code. If you already know how to program and want the lowest cost per channel, the Arduino modules in this catalog give more for your money."
+    },
+    "tagsEn": [
+      "WiFi",
+      "DIN Rail",
+      "4-channel",
+      "No coding required"
+    ]
   }
 ]
