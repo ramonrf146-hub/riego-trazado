@@ -1680,5 +1680,57 @@
       "2-wire hardwired",
       "Universal 24V AC"
     ]
+  },
+  {
+    "asin": "B01D15HOTU",
+    "nombre": "Orbit B-hyve Controlador WiFi de 12 Zonas (Interior/Exterior, Resistente al Agua)",
+    "categoria": "controladores-wifi",
+    "precio": 138,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71MUUpAk4wL._AC_SX450_.jpg",
+    "rating": 4.4,
+    "numResenas": 6886,
+    "ranking": 9,
+    "notaTecnica": "El hermano grande del Orbit B-hyve de 6 zonas que ya está en este catálogo — mismo ecosistema y app, pero con 12 zonas fijas de fábrica en vez de 6. Amazon's Choice, más de 1.000 comprados el último mes, una de las fichas mejor calificadas de esta categoría. Limitación real: 12 zonas es mucho para la gran mayoría de jardines residenciales (la mayoría de las casas usan entre 4 y 8) — pagás por capacidad que probablemente no vas a usar salvo que tengas una propiedad grande con múltiples sectores de riego. Si tu sistema tiene 6 zonas o menos, el B-hyve de 6 zonas de este catálogo rinde lo mismo por menos plata.",
+    "idealPara": "Propiedades grandes con muchos sectores de riego separados (jardín delantero, trasero, macizos, huerta, etc.) que realmente necesitan más de 6-8 zonas independientes — no para un jardín residencial estándar.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un controlador de riego WiFi de 12 zonas, con carcasa resistente al agua para instalación interior o exterior, que se programa y monitorea desde una app.",
+      "ejemploHogar": "Una casa con parque grande dividido en muchos sectores (césped delantero, césped trasero, cantero de flores, huerta, macetas) que necesita más de las 6-8 zonas típicas de un controlador estándar.",
+      "ejemploNegocio": "Un paisajista que instala sistemas de riego en propiedades grandes (countries, clubes, edificios con jardines extensos) donde 6 zonas se quedan cortas.",
+      "puntosClave": [
+        "12 zonas fijas de fábrica — no expandible como el Hunter HPC400 de este catálogo, pero tampoco necesita módulos adicionales para llegar a esa capacidad.",
+        "Mismo ecosistema y app que el B-hyve de 6 zonas ya listado — si ya tenés uno, la curva de aprendizaje es cero.",
+        "Programación por app con ajuste estacional básico — no tiene la inteligencia climática avanzada del Rachio 3 de este catálogo, que ajusta el riego según pronóstico en tiempo real."
+      ],
+      "consejoInversion": "Solo tiene sentido si de verdad necesitás más de 6-8 zonas — para la mayoría de los jardines residenciales, el B-hyve de 6 zonas (más barato) o cualquiera de los controladores de 4-8 zonas de este catálogo cubren la necesidad real sin pagar de más por capacidad ociosa."
+    },
+    "tags": [
+      "12 zonas",
+      "WiFi",
+      "Resistente al agua",
+      "Orbit"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B01D15HOTU?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-12",
+    "nombreEn": "Orbit B-hyve 12-Zone WiFi Sprinkler Controller (Indoor/Outdoor, Weatherproof)",
+    "notaTecnicaEn": "The bigger sibling of the 6-zone Orbit B-hyve already in this catalog — same ecosystem and app, but with 12 fixed zones out of the box instead of 6. Amazon's Choice, over 1,000 bought in the past month, one of the best-rated listings in this category. Real limitation: 12 zones is overkill for most residential yards (most homes use 4 to 8 zones) — you're paying for capacity you likely won't use unless you have a large property with many separate irrigation sectors. If your system has 6 zones or fewer, the 6-zone B-hyve in this catalog does the same job for less money.",
+    "idealParaEn": "Large properties with many separate irrigation sectors (front yard, backyard, flower beds, vegetable garden, etc.) that genuinely need more than 6-8 independent zones — not a standard residential yard.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "A 12-zone WiFi irrigation controller with a weatherproof case for indoor or outdoor installation, programmed and monitored from an app.",
+      "ejemploHogar": "A house with a large yard split into many sectors (front lawn, backyard, flower beds, vegetable garden, potted plants) that needs more than the typical 6-8 zones of a standard controller.",
+      "ejemploNegocio": "A landscaper installing irrigation systems on large properties (gated communities, clubs, buildings with extensive gardens) where 6 zones falls short.",
+      "puntosClave": [
+        "12 fixed zones out of the box — not expandable like this catalog's Hunter HPC400, but also doesn't need extra modules to reach that capacity.",
+        "Same ecosystem and app as the 6-zone B-hyve already listed — if you already own one, there's zero learning curve.",
+        "App-based scheduling with basic seasonal adjustment — it doesn't have the advanced weather intelligence of this catalog's Rachio 3, which adjusts watering based on real-time forecasts."
+      ],
+      "consejoInversion": "Only makes sense if you genuinely need more than 6-8 zones — for most residential yards, the cheaper 6-zone B-hyve or any of this catalog's 4-8 zone controllers cover the real need without paying extra for idle capacity."
+    },
+    "tagsEn": [
+      "12-zone",
+      "WiFi",
+      "Weatherproof",
+      "Orbit"
+    ]
   }
 ]
