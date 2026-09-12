@@ -1784,5 +1784,59 @@
       "large pots",
       "XLUX"
     ]
+  },
+  {
+    "asin": "B0CQCHS2QS",
+    "nombre": "Shelly 1 Mini Gen3 — Relé WiFi/Matter de 1 Canal (Compacto, Sin Riel DIN)",
+    "categoria": "modulos-rele",
+    "precio": 17.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/81t4rMXz+IL._SX342_.jpg",
+    "rating": 4.5,
+    "numResenas": 4757,
+    "ranking": 5,
+    "notaTecnica": "A diferencia del SONOFF 4CH Pro R3 de este catálogo (4 canales, montaje en riel DIN dentro de un tablero), este Shelly es un relé de 1 canal minúsculo pensado para instalarse empotrado, cerca del propio dispositivo a controlar — el fabricante lo menciona explícitamente para automatizar sistemas de riego según el clima. WiFi + Matter, contactos secos, hasta 8A, funciona también como extensor de WiFi. 100+ comprados el último mes, 4.5 estrellas. Limitación real: viene sin gabinete propio — el mismo fabricante aclara que para uso cerca del panel de riego hay que instalarlo dentro de una caja resistente al agua aparte, no es plug-and-play como el DieseRC de este catálogo.",
+    "idealPara": "Automatizar un solo punto (una bomba, un solenoide, una luz) con un relé chico que se instala empotrado cerca del dispositivo, no en un tablero central — necesita una caja resistente al agua propia si va a exteriores.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Un relé inteligente de 1 canal, WiFi y Matter, de tamaño muy reducido, que se instala empotrado (en una caja de pared, cerca del motor o bomba a controlar) y se maneja por app o asistentes de voz.",
+      "ejemploHogar": "Instalarlo cerca del panel de control de un sistema de riego para poder prenderlo/apagarlo por app, o para automatizar un portón de garage sin sumar un módulo externo voluminoso.",
+      "ejemploNegocio": "Un instalador que necesita un relé chico y barato para un solo punto de control, sin justificar un módulo de 4 canales de riel DIN cuando solo hay un dispositivo que automatizar.",
+      "puntosClave": [
+        "Un canal, hasta 8A — a diferencia del SONOFF 4CH de este catálogo, no sirve para controlar varios dispositivos desde un mismo punto.",
+        "No trae gabinete propio — el fabricante recomienda una caja resistente al agua aparte para instalaciones a la intemperie, a diferencia del DieseRC ya listo para usar de este catálogo.",
+        "Funciona también como extensor de WiFi y gateway Bluetooth — una función extra que ningún otro relé de este catálogo ofrece."
+      ],
+      "consejoInversion": "Tiene sentido cuando necesitás controlar un solo dispositivo cerca de donde está instalado (no en un tablero central) y valorás el tamaño chico por sobre la comodidad de un gabinete incluido. Si necesitás varios canales o instalación en tablero, el SONOFF 4CH Pro R3 de este catálogo es la opción correcta."
+    },
+    "tags": [
+      "1 canal",
+      "WiFi",
+      "Matter",
+      "compacto",
+      "Shelly"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0CQCHS2QS?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-12",
+    "nombreEn": "Shelly 1 Mini Gen3 — 1-Channel WiFi/Matter Relay (Compact, No DIN Rail)",
+    "notaTecnicaEn": "Unlike this catalog's SONOFF 4CH Pro R3 (4 channels, DIN-rail mounted inside a panel), this Shelly is a tiny single-channel relay meant to be flush-mounted right next to the device it controls — the manufacturer specifically calls out weather-based irrigation automation as a use case. WiFi + Matter, dry contacts, up to 8A, also works as a WiFi range extender. 100+ bought in the past month, 4.5 stars. Real limitation: it ships with no enclosure of its own — the manufacturer itself notes that for use near an irrigation panel it needs a separate waterproof housing, unlike this catalog's plug-and-play DieseRC.",
+    "idealParaEn": "Automating a single point (a pump, a solenoid, a light) with a tiny relay installed flush-mounted near the device itself, not in a central panel — needs its own weatherproof enclosure for outdoor use.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "A single-channel WiFi and Matter smart relay, very compact, flush-mounted (in a wall box, near the motor or pump it controls) and operated via app or voice assistants.",
+      "ejemploHogar": "Install it near an irrigation control panel to turn it on/off via app, or automate a garage door without adding a bulky external module.",
+      "ejemploNegocio": "An installer needing a small, cheap relay for a single control point, without justifying a 4-channel DIN-rail module when there's only one device to automate.",
+      "puntosClave": [
+        "One channel, up to 8A — unlike this catalog's SONOFF 4CH, it can't control several devices from the same point.",
+        "No enclosure included — the manufacturer recommends a separate waterproof box for outdoor installs, unlike this catalog's ready-to-use DieseRC.",
+        "Also works as a WiFi range extender and Bluetooth gateway — an extra function no other relay in this catalog offers."
+      ],
+      "consejoInversion": "Makes sense when you need to control a single device near where it's installed (not from a central panel) and value the small size over the convenience of an included enclosure. If you need multiple channels or panel installation, this catalog's SONOFF 4CH Pro R3 is the right pick."
+    },
+    "tagsEn": [
+      "1-channel",
+      "WiFi",
+      "Matter",
+      "compact",
+      "Shelly"
+    ]
   }
 ]
