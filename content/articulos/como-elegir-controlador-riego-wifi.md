@@ -9,7 +9,7 @@ Un controlador de riego WiFi hace una sola cosa: decidir cuándo abrir y cerrar 
 
 ## 1. Número de zonas — pero piensa en el futuro, no en el presente
 
-La mayoría de las casas necesitan entre 4 y 8 zonas. Si compras exactamente lo que necesitas hoy, te quedas corto en cuanto agregues un área de jardín o un segundo circuito de goteo. La regla práctica: compra 2 zonas más de las que usas actualmente.
+La mayoría de las casas necesitan entre 4 y 8 zonas. Si compras exactamente lo que necesitas hoy, te quedas corto en cuanto agregues un área de jardín o un segundo circuito de goteo. La regla práctica: compra 2 zonas más de las que usas actualmente. Si tu propiedad ya es grande y sabés que vas a necesitar bastante más que 8 zonas desde el arranque, el [Orbit B-hyve de 12 Zonas](/productos/B01D15HOTU) te ahorra el paso intermedio de "comprar de nuevo en dos años" — aunque para el jardín residencial típico es capacidad de sobra que no vas a usar.
 
 ## 2. ¿Depende de la nube o funciona local?
 

@@ -9,7 +9,7 @@ A WiFi irrigation controller does exactly one thing: decide when to open and clo
 
 ## 1. Number of zones — think ahead, not just about today
 
-Most homes need somewhere between 4 and 8 zones. If you buy exactly what you need today, you'll come up short the moment you add a garden bed or a second drip circuit. Rule of thumb: buy 2 more zones than you're currently using.
+Most homes need somewhere between 4 and 8 zones. If you buy exactly what you need today, you'll come up short the moment you add a garden bed or a second drip circuit. Rule of thumb: buy 2 more zones than you're currently using. If your property is already large and you know you'll need well past 8 zones from day one, the [Orbit B-hyve 12-Zone](/en/productos/B01D15HOTU) skips the "buy again in two years" step — though for a typical residential yard that's more capacity than you'll ever use.
 
 ## 2. Does it depend on the cloud, or does it run locally?
 
