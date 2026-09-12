@@ -27,7 +27,7 @@ The real risk with a timer isn't that it occasionally overwaters — it's that i
 - Climates with unpredictable rain, where watering on a fixed schedule often means watering in the rain.
 - Large or lawn zones, where the water wasted by overwatering adds up economically.
 - Plants sensitive to excess moisture (many succulents, certain fruit trees).
-- If you already have experience with DIY automation projects, a moisture sensor with an analog output wired to your own relay gives you full control without locking you into a brand's closed ecosystem — if you'd rather not program a microcontroller, the [SONOFF 4CH Pro R3](/en/productos/B08BHWF8KD) is a ready-to-use 4-channel relay controlled over WiFi/app, no code required.
+- If you already have experience with DIY automation projects, a moisture sensor with an analog output wired to your own relay gives you full control without locking you into a brand's closed ecosystem — if you'd rather not program a microcontroller, the [SONOFF 4CH Pro R3](/en/productos/B08BHWF8KD) is a ready-to-use 4-channel relay controlled over WiFi/app, no code required, meant for panel installation. If you only need to control one point (a pump, a valve) and prefer something small to install right next to the device, the [Shelly 1 Mini Gen3](/en/productos/B0CQCHS2QS) is the pick — same no-code approach, but single-channel and with no enclosure of its own.
 
 ## The middle option almost no one mentions
 

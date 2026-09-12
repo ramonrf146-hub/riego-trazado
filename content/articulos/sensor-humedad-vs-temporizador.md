@@ -27,7 +27,7 @@ El riesgo real del temporizador no es que riegue de más ocasionalmente — es q
 - Climas con lluvia impredecible, donde regar en horario fijo significa regar bajo la lluvia con frecuencia.
 - Zonas grandes o de césped, donde el desperdicio de agua por sobre-riego es económicamente significativo.
 - Plantas sensibles a exceso de humedad (muchas suculentas, ciertos árboles frutales).
-- Si ya tienes experiencia con proyectos DIY de automatización, un sensor de humedad con salida analógica conectado a tu propio relé te da control total sin depender de un ecosistema cerrado de una marca — si no querés programar un microcontrolador, el [SONOFF 4CH Pro R3](/productos/B08BHWF8KD) es un relé de 4 canales listo para usar por WiFi/app, sin código de por medio.
+- Si ya tienes experiencia con proyectos DIY de automatización, un sensor de humedad con salida analógica conectado a tu propio relé te da control total sin depender de un ecosistema cerrado de una marca — si no querés programar un microcontrolador, el [SONOFF 4CH Pro R3](/productos/B08BHWF8KD) es un relé de 4 canales listo para usar por WiFi/app, sin código de por medio, pensado para instalar en un tablero. Si en cambio solo necesitás controlar un punto (una bomba, una válvula) y preferís algo chico para instalar cerca del propio dispositivo, el [Shelly 1 Mini Gen3](/productos/B0CQCHS2QS) es la opción — mismo enfoque sin código, pero de 1 canal y sin gabinete propio.
 
 ## La opción intermedia que casi nadie menciona
 
