@@ -1629,5 +1629,56 @@
       "4-channel",
       "No coding required"
     ]
+  },
+  {
+    "asin": "B000A7SPPU",
+    "nombre": "Orbit 57069 — Sensor de Lluvia y Helada Cableado para Controladores de Riego",
+    "categoria": "sensores-humedad",
+    "precio": 14.23,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71LKkOuTzXL._AC_UL320_.jpg",
+    "rating": 4.6,
+    "numResenas": 1323,
+    "ranking": 5,
+    "notaTecnica": "Se instala en serie con el cableado de sensor de cualquier controlador de 24V AC (no es exclusivo de Orbit: funciona con Rachio, Hunter, Rain Bird y la mayoría de controladores residenciales) mediante una conexión simple de 2 hilos — no reemplaza el cableado existente, se agrega al circuito del sensor externo. Usa un disco absorbente que se hincha con la lluvia real y corta la señal de riego hasta que se seca; un termistor hace lo mismo ante heladas. Es la versión cableada (no wireless) de este tipo de sensor. Según el resumen de reseñas de Amazon, los compradores lo encuentran fácil de instalar y destacan el ahorro de agua, pero la función de monitoreo recibe opiniones mixtas: algunos reportan que subestima la cantidad de lluvia real, y la sensibilidad ajustable también genera comentarios dispares.",
+    "idealPara": "Agregar un veto físico por lluvia/helada a un controlador de riego tradicional (sin WiFi) o a cualquier controlador de 24V AC que no tenga ya esa función por software.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un \"interruptor de veto\" físico: se conecta en el mismo circuito que activa el riego, y si detecta lluvia real (no un pronóstico de app) o temperatura de helada, corta esa señal para que el controlador no riegue aunque el horario programado diga que sí. Es la versión física y barata de la función \"auto-skip por lluvia\" que algunos controladores WiFi traen por software — acá la decide un disco que se hincha con el agua, no un algoritmo meteorológico.",
+      "ejemploHogar": "Tenés un controlador de riego tradicional de pared, sin WiFi ni app, y no querés que el césped se riegue durante una tormenta ni sobre tierra congelada — instalás este sensor en el cableado y el controlador deja de regar solo, sin que tengas que acordarte de cancelarlo a mano.",
+      "ejemploNegocio": "Un administrador de un complejo de casas con varios controladores viejos (sin conectividad) instalados en distintos sectores puede sumarle este sensor a cada uno para evitar que el riego siga funcionando durante una tormenta, sin reemplazar los controladores enteros por modelos WiFi.",
+      "puntosClave": [
+        "Es cableado (conexión de 2 hilos), no wireless — necesitás poder tender cable desde donde se monta el sensor (un alero o zona abierta) hasta el controlador; si buscás una versión sin cables, existen variantes wireless de este tipo de sensor, pero no es este modelo.",
+        "No mide la lluvia con la precisión de una estación meteorológica — según reseñas de compradores, en algunos casos subestima cuánto llovió realmente, así que conviene tratarlo como un interruptor de sí/no, no como un pluviómetro de precisión.",
+        "Funciona con cualquier controlador de 24V AC porque se conecta al circuito de sensor externo estándar, no a un protocolo propietario — confirmá que tu controlador tenga ese par de terminales para sensor antes de comprar."
+      ],
+      "consejoInversion": "Frente a confiar solo en el pronóstico de una app (que puede estar mal, sobre todo en microclimas), este sensor reacciona a la lluvia real que está cayendo sobre tu jardín, no a lo que dice el clima a varios kilómetros de distancia — por poco más de $14 evitás el desgaste de regar bajo lluvia o sobre césped congelado, algo que con el tiempo cuesta más en agua y en raíces dañadas que el sensor mismo."
+    },
+    "tags": [
+      "Sensor de lluvia/helada",
+      "Cableado 2 hilos",
+      "24V AC universal"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B000A7SPPU?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-12",
+    "activo": true,
+    "nombreEn": "Orbit 57069 — Wired Rain & Freeze Sensor for Sprinkler Controllers",
+    "notaTecnicaEn": "It installs in series with the sensor wiring of any 24V AC controller (not exclusive to Orbit: it works with Rachio, Hunter, Rain Bird, and most residential controllers) via a simple 2-wire connection — it doesn't replace the existing wiring, it adds into the external sensor circuit. It uses an absorbent disk that swells with real rainfall and cuts the watering signal until it dries out; a thermistor does the same during freezing temps. This is the wired (not wireless) version of this type of sensor. Per Amazon's review summary, buyers find it easy to install and note the water savings, but the monitoring feature gets mixed feedback: some report it underestimates actual rainfall, and the adjustable sensitivity also draws mixed comments.",
+    "idealParaEn": "Adding a physical rain/freeze veto to a traditional (non-WiFi) irrigation controller, or to any 24V AC controller that doesn't already have that function in software.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a physical 'veto switch': it wires into the same circuit that triggers watering, and if it detects real rainfall (not an app forecast) or freezing temperatures, it cuts that signal so the controller doesn't water even if the programmed schedule says to. It's the cheap, physical version of the 'rain auto-skip' function some WiFi controllers offer in software — here a water-swelling disk makes the call, not a weather algorithm.",
+      "ejemploHogar": "You have a traditional wall-mounted irrigation controller with no WiFi or app, and you don't want the lawn watered during a storm or over frozen ground — you wire this sensor in, and the controller stops watering on its own, without you needing to remember to cancel it by hand.",
+      "ejemploNegocio": "A property manager overseeing several old (non-connected) controllers installed across different sections of a housing complex can add this sensor to each one to stop irrigation from running during a storm, without replacing the entire controllers with WiFi models.",
+      "puntosClave": [
+        "It's wired (2-wire connection), not wireless — you need to be able to run cable from where the sensor mounts (an eave or open area) to the controller; if you want a cable-free version, wireless variants of this sensor type exist, but this isn't one of them.",
+        "It doesn't measure rainfall with the precision of a weather station — per buyer reviews, it sometimes underestimates how much it actually rained, so treat it as a yes/no switch, not a precision rain gauge.",
+        "It works with any 24V AC controller because it wires into the standard external sensor circuit, not a proprietary protocol — confirm your controller has that sensor terminal pair before buying."
+      ],
+      "consejoInversion": "Compared to relying solely on an app's forecast (which can be wrong, especially in microclimates), this sensor reacts to the actual rain falling on your yard, not what the weather says several miles away — for just over $14 you avoid the wear of watering in the rain or over frozen turf, which over time costs more in water and damaged roots than the sensor itself."
+    },
+    "tagsEn": [
+      "Rain/freeze sensor",
+      "2-wire hardwired",
+      "Universal 24V AC"
+    ]
   }
 ]

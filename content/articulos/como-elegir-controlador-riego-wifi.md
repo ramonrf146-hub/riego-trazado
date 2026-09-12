@@ -22,7 +22,7 @@ Si el fabricante no menciona explícitamente cómo funciona sin internet, asume 
 
 ## 3. Compatibilidad con sensores externos
 
-Un buen controlador debe poder recibir la señal de un sensor de lluvia o de humedad de suelo y saltarse el riego automáticamente cuando no es necesario. Revisa si el modelo tiene una entrada física para sensor (no solo integración por app con sensores de la misma marca) — eso te da la libertad de usar sensores más baratos o genéricos después.
+Un buen controlador debe poder recibir la señal de un sensor de lluvia o de humedad de suelo y saltarse el riego automáticamente cuando no es necesario. Revisa si el modelo tiene una entrada física para sensor (no solo integración por app con sensores de la misma marca) — eso te da la libertad de usar sensores más baratos o genéricos después. Un ejemplo concreto de esto es el [Orbit 57069](/productos/B000A7SPPU): es un sensor de lluvia/helada cableado de unos $14 que se conecta a esa misma entrada física en cualquier controlador de 24V AC, no solo en los de la marca Orbit — mucho más barato que depender únicamente del auto-skip por pronóstico que traen por software los controladores económicos de este ranking.
 
 ## 4. Protocolo de comunicación
 
@@ -49,7 +49,7 @@ No siempre hace falta un controlador WiFi completo. Si el problema puntual es "m
 ## Preguntas frecuentes
 
 **¿Puedo usar un sensor de humedad de otra marca con cualquier controlador WiFi?**
-No siempre — depende de si el controlador tiene una entrada física para sensor externo (criterio 3 de esta guía) o si solo acepta sensores de su propio ecosistema por app. Antes de comprar un sensor aparte, como los [RAINPOINT](/productos/B0F596PTCF) de este catálogo, confirmá en la ficha del controlador si acepta sensores genéricos o solo los de su misma marca.
+No siempre — depende de si el controlador tiene una entrada física para sensor externo (criterio 3 de esta guía) o si solo acepta sensores de su propio ecosistema por app. Antes de comprar un sensor aparte, como los [RAINPOINT](/productos/B0F596PTCF) de este catálogo o el [sensor de lluvia/helada Orbit 57069](/productos/B000A7SPPU), confirmá en la ficha del controlador si acepta sensores genéricos o solo los de su misma marca.
 
 **¿Vale la pena pagar más por Rachio, Netro o Hydrawise en vez de un controlador económico?**
 Depende de tu jardín y de si tu compañía de agua da reembolsos por certificación EPA WaterSense. Lo desarrollamos con más detalle en la guía de [controladores premium vs. económicos](/articulos/rachio-netro-hydrawise-vs-controladores-economicos).

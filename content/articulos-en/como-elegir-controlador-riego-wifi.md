@@ -22,7 +22,7 @@ If the manufacturer doesn't explicitly say how it behaves without internet, assu
 
 ## 3. Compatibility with external sensors
 
-A good controller should be able to receive a signal from a rain sensor or a soil moisture sensor and skip watering automatically when it isn't needed. Check whether the model has a physical sensor input (not just app-based integration with sensors from the same brand) — that gives you the freedom to use cheaper or generic sensors later.
+A good controller should be able to receive a signal from a rain sensor or a soil moisture sensor and skip watering automatically when it isn't needed. Check whether the model has a physical sensor input (not just app-based integration with sensors from the same brand) — that gives you the freedom to use cheaper or generic sensors later. A concrete example of this is the [Orbit 57069](/en/productos/B000A7SPPU): a roughly $14 wired rain/freeze sensor that wires into that same physical input on any 24V AC controller, not just Orbit's own — much cheaper than relying solely on the forecast-based auto-skip this ranking's budget controllers offer in software.
 
 ## 4. Communication protocol
 
@@ -49,7 +49,7 @@ You don't always need a full WiFi controller. If the immediate problem is "I'm g
 ## Frequently asked questions
 
 **Can I use a moisture sensor from a different brand with any WiFi controller?**
-Not always — it depends on whether the controller has a physical input for an external sensor (criterion 3 above) or only accepts sensors from its own app-based ecosystem. Before buying a separate sensor, like the [RAINPOINT](/en/productos/B0F596PTCF) units in this catalog, check the controller's spec sheet to see whether it accepts generic sensors or only its own brand.
+Not always — it depends on whether the controller has a physical input for an external sensor (criterion 3 above) or only accepts sensors from its own app-based ecosystem. Before buying a separate sensor, like the [RAINPOINT](/en/productos/B0F596PTCF) units in this catalog or the [Orbit 57069 rain/freeze sensor](/en/productos/B000A7SPPU), check the controller's spec sheet to see whether it accepts generic sensors or only its own brand.
 
 **Is it worth paying more for Rachio, Netro, or Hydrawise instead of a budget controller?**
 It depends on your yard and on whether your water utility offers rebates for EPA WaterSense certification. We cover this in more detail in the guide on [premium vs. budget controllers](/en/articulos/rachio-netro-hydrawise-vs-controladores-economicos).

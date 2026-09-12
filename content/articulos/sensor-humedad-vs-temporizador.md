@@ -31,7 +31,7 @@ El riesgo real del temporizador no es que riegue de más ocasionalmente — es q
 
 ## La opción intermedia que casi nadie menciona
 
-No es todo o nada. Muchos controladores modernos aceptan un sensor de lluvia simple (mucho más barato que uno de humedad de suelo) como "interruptor de veto": el horario sigue siendo fijo, pero el sensor cancela el riego programado si detecta lluvia reciente. Es un punto medio razonable en costo y complejidad para quien no quiere calibrar un sensor de suelo pero tampoco quiere regar bajo la lluvia.
+No es todo o nada. Muchos controladores modernos aceptan un sensor de lluvia simple (mucho más barato que uno de humedad de suelo) como "interruptor de veto": el horario sigue siendo fijo, pero el sensor cancela el riego programado si detecta lluvia reciente. Es un punto medio razonable en costo y complejidad para quien no quiere calibrar un sensor de suelo pero tampoco quiere regar bajo la lluvia. El [Orbit 57069](/productos/B000A7SPPU) es justamente ese sensor: se cablea al circuito de sensor externo de cualquier controlador de 24V AC (no solo Orbit) por unos $14, y a diferencia de los controladores WiFi de este catálogo que cancelan el riego por pronóstico de app, este reacciona a la lluvia real que está cayendo sobre tu jardín — la contra es que no mide la cantidad con precisión de estación meteorológica, así que funciona como un sí/no, no como un pluviómetro.
 
 ## Antes de automatizar: probá primero a mano
 
@@ -50,3 +50,4 @@ Si tu prioridad es simplicidad y costo, un temporizador con buen horario ajustad
 - **Temporizador con veto por lluvia:** el [Smart Sprinklers Controller](/productos/B0F883P8N1) ya trae esa función de "interruptor de veto" incorporada — programás el horario fijo y el controlador cancela solo si su app detecta lluvia, sin que tengas que sumar un sensor físico aparte.
 - **Medidor manual, sin batería:** el [SONKIR 3 en 1](/productos/B07BR52P26) es la forma más barata de confirmar si una planta necesita agua antes de decidir si vale la pena automatizar esa zona.
 - **Sensor de humedad de suelo:** el [RAINPOINT con sonda capacitiva](/productos/B0F596PTCF) mide directamente el suelo de forma permanente, o si además querés recibir alertas en el celular, el [RAINPOINT con hub WiFi](/productos/B0GH6WJWQK) suma esa capa de notificaciones.
+- **Sensor de lluvia como veto (la opción intermedia):** el [Orbit 57069](/productos/B000A7SPPU) es un sensor cableado de lluvia/helada, mucho más barato que cualquier sensor de suelo de este ranking — no mide humedad del suelo, solo veta el riego cuando está lloviendo o helando de verdad.

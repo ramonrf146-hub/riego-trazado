@@ -31,7 +31,7 @@ The real risk with a timer isn't that it occasionally overwaters — it's that i
 
 ## The middle option almost no one mentions
 
-It isn't all or nothing. Many modern controllers accept a simple rain sensor (much cheaper than a soil moisture sensor) as a "veto switch": the schedule stays fixed, but the sensor cancels the programmed cycle if it detects recent rain. It's a reasonable middle ground in cost and complexity for anyone who doesn't want to calibrate a soil sensor but also doesn't want to water in the rain.
+It isn't all or nothing. Many modern controllers accept a simple rain sensor (much cheaper than a soil moisture sensor) as a "veto switch": the schedule stays fixed, but the sensor cancels the programmed cycle if it detects recent rain. It's a reasonable middle ground in cost and complexity for anyone who doesn't want to calibrate a soil sensor but also doesn't want to water in the rain. The [Orbit 57069](/en/productos/B000A7SPPU) is exactly that sensor: it wires into the external sensor circuit of any 24V AC controller (not just Orbit's) for around $14, and unlike this catalog's WiFi controllers that cancel watering based on an app forecast, this one reacts to the actual rain falling on your yard — the downside is it doesn't measure amount with weather-station precision, so it works as a yes/no switch, not a precision rain gauge.
 
 ## Before you automate: check by hand first
 
@@ -50,3 +50,4 @@ If your priority is simplicity and cost, a timer with a schedule well adjusted f
 - **Timer with rain veto:** the [Smart Sprinklers Controller](/en/productos/B0F883P8N1) already has that "veto switch" function built in — you set the fixed schedule and the controller cancels it on its own if its app detects rain, without you needing to add a separate physical sensor.
 - **Manual meter, no battery:** the [SONKIR 3-in-1](/en/productos/B07BR52P26) is the cheapest way to confirm whether a plant needs water before deciding if it's worth automating that zone.
 - **Soil moisture sensor:** the [RAINPOINT with capacitive probe](/en/productos/B0F596PTCF) measures the soil permanently, or if you also want alerts on your phone, the [RAINPOINT with WiFi hub](/en/productos/B0GH6WJWQK) adds that layer of notifications.
+- **Rain sensor as a veto (the middle option):** the [Orbit 57069](/en/productos/B000A7SPPU) is a wired rain/freeze sensor, far cheaper than any soil sensor in this ranking — it doesn't measure soil moisture, it just vetoes watering when it's genuinely raining or freezing out.
