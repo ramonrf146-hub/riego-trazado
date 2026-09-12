@@ -1732,5 +1732,57 @@
       "Weatherproof",
       "Orbit"
     ]
+  },
+  {
+    "asin": "B099R6BQHB",
+    "nombre": "XLUX Medidor de Humedad de Suelo de Sonda Larga (Macetas Grandes/Profundas)",
+    "categoria": "sensores-humedad",
+    "precio": 14.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71WwgKakqAL._AC_SY450_.jpg",
+    "rating": 4.4,
+    "numResenas": 10263,
+    "ranking": 6,
+    "notaTecnica": "A diferencia del SONKIR 3 en 1 de este catálogo (sonda corta, pensada para un chequeo rápido en macetas chicas), este XLUX tiene una sonda 14cm más larga que el estándar — llega al fondo de macetas grandes o canteros profundos donde un medidor corto solo lee la humedad superficial. Sin batería, dial analógico de lectura inmediata. Más de 10.000 reseñas y 5.000 comprados el último mes. Limitación real que aclara el propio fabricante: no dejar la sonda metálica clavada más de 5 minutos, porque se corroe con el tiempo — es un instrumento de chequeo puntual, no un sensor permanente (para eso están las sondas capacitivas RAINPOINT de este catálogo).",
+    "idealPara": "Macetas grandes, canteros profundos o árboles en maceta donde un medidor de sonda corta solo te dice cómo está la superficie, no el fondo de la tierra donde realmente están las raíces.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Un medidor de humedad de suelo con sonda metálica larga y dial analógico — se clava en la tierra y muestra al instante si está seca, húmeda o empapada, sin batería ni app.",
+      "ejemploHogar": "Un árbol frutal en maceta grande o un cantero profundo donde no alcanza con tocar la superficie de la tierra para saber si necesita agua — la sonda larga llega hasta donde están las raíces de verdad.",
+      "ejemploNegocio": "Un vivero que chequea rápido la humedad real de decenas de macetas grandes sin instalar un sensor permanente en cada una.",
+      "puntosClave": [
+        "Sonda 14cm más larga que el estándar — pensada específicamente para macetas grandes o profundas, no para macetas chicas.",
+        "Sin batería, lectura analógica inmediata — pero no dejar clavada más de 5 minutos, la punta metálica se corroe con el uso prolongado.",
+        "Es un chequeo puntual, no un sensor permanente — para monitoreo continuo, las sondas capacitivas RAINPOINT de este catálogo son la opción correcta."
+      ],
+      "consejoInversion": "Si tus macetas o canteros son chicos, el SONKIR 3 en 1 de este catálogo alcanza y de paso mide luz y pH. Pagá la diferencia de sonda larga solo si de verdad tenés macetas grandes o profundas donde un medidor corto te miente sobre el estado real de la tierra."
+    },
+    "tags": [
+      "sonda larga",
+      "sin batería",
+      "macetas grandes",
+      "XLUX"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B099R6BQHB?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-12",
+    "nombreEn": "XLUX Long Probe Soil Moisture Meter (Large/Deep Pots)",
+    "notaTecnicaEn": "Unlike this catalog's SONKIR 3-in-1 (a short probe meant for a quick check in small pots), this XLUX has a probe 14cm longer than standard — it reaches the bottom of large pots or deep beds where a short meter only reads surface moisture. No battery needed, instant analog dial reading. Over 10,000 reviews and 5,000 bought in the past month. Real limitation the manufacturer itself notes: don't leave the metal probe in the soil for more than 5 minutes, as it will corrode over time — it's a spot-check tool, not a permanent sensor (for that, this catalog's RAINPOINT capacitive probes are the right pick).",
+    "idealParaEn": "Large pots, deep garden beds, or potted trees where a short-probe meter only tells you about the surface, not the bottom of the soil where the roots actually are.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "A soil moisture meter with a long metal probe and analog dial — insert it into the soil and it instantly shows dry, moist, or wet, no battery or app needed.",
+      "ejemploHogar": "A fruit tree in a large pot or a deep garden bed where touching the soil surface doesn't tell you whether it actually needs water — the long probe reaches down to where the real roots are.",
+      "ejemploNegocio": "A nursery quickly checking real moisture across dozens of large pots without installing a permanent sensor in each one.",
+      "puntosClave": [
+        "Probe 14cm longer than standard — built specifically for large or deep pots, not small ones.",
+        "No battery, instant analog reading — but don't leave it inserted more than 5 minutes, the metal tip corrodes with prolonged use.",
+        "It's a spot-check tool, not a permanent sensor — for continuous monitoring, this catalog's RAINPOINT capacitive probes are the right choice."
+      ],
+      "consejoInversion": "If your pots or beds are small, this catalog's SONKIR 3-in-1 is enough and also measures light and pH. Pay extra for the long probe only if you genuinely have large or deep pots where a short meter would give you a misleading reading."
+    },
+    "tagsEn": [
+      "long probe",
+      "no battery",
+      "large pots",
+      "XLUX"
+    ]
   }
 ]
