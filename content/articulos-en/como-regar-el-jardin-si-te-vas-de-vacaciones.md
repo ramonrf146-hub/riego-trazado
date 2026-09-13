@@ -26,6 +26,10 @@ Not all drip kits are the same, and the key difference before a trip is simple: 
 
 Both the MIXC and the Bonviee kits are rated for 20-45 PSI, but an average home's tap usually delivers 40 to 80 PSI — well above what the kit can handle. When you're around, you notice right away if an emitter starts spraying instead of dripping; while you're traveling, nobody catches it until you get back to a flooded bed (or a dry one, if the line lost pressure) and the rest of the pots never got a drop. Adding a [pressure regulator with a built-in filter](/en/productos/B00G5KHQBA) at the inlet, between the spigot and the kit, before you leave fixes this at the source: it locks the pressure at 30 PSI (within what both kits are rated for) and filters out the sediment that could clog emitters while there's no one around to unclog them. It's a cheap part next to the damage of a burst line running unchecked for two weeks.
 
+## If your situation is specifically a raised bed or a vegetable garden
+
+The kits above (MIXC, HEKIWAY) are built for general garden use — pots, beds, scattered plants. If your specific case is a raised garden bed or a vegetable patch, the [CARPATHEN 100 ft kit](/en/productos/B08CRSYCQS) is built specifically for that: 30 adjustable emitters, a thicker mainline (5/16 instead of the standard 1/4), and it throws in a digital vegetable-growing guide — handy if, on top of automating watering, you want the garden to actually produce while you're away. Like the MIXC and Bonviee, it's limited to 20-45 PSI and 40 GPH, so the same pressure-gauge advice above applies before you travel.
+
 ## If you have a lawn or a bigger yard (not just pots)
 
 A drip kit is enough for pots, garden beds, and raised vegetable gardens, but it doesn't replace a zoned irrigation system for a lawn. If your trip falls during summer and you have grass to look after, a [4- or 8-zone WiFi controller](/en/articulos/como-elegir-controlador-riego-wifi) with rain auto-skip is the investment that actually lets you travel worry-free — it cancels watering on its own if it rains while you're away, instead of watering in the rain the way a fixed timer would.

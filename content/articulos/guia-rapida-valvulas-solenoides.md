@@ -29,7 +29,7 @@ Si tu instalación va a quedar enterrada, necesitás una in-line. Si conecta dir
 
 ## Tamaño de rosca: 3/4" es el más común
 
-La mayoría de los kits de riego residencial usan válvulas de 3/4 de pulgada. Si tu tubería principal es de 1 pulgada, existen válvulas de ese tamaño, pero es menos común encontrarlas en el rango de precio económico. Mide tu tubería antes de comprar — no asumas.
+La mayoría de los kits de riego residencial usan válvulas de 3/4 de pulgada. Si tu tubería principal es de 1 pulgada, existen válvulas de ese tamaño, pero es menos común encontrarlas en el rango de precio económico. Mide tu tubería antes de comprar — no asumas. La [Hunter PGV de 1 pulgada](/productos/B000678LWQ) de este ranking es un ejemplo real de válvula en ese diámetro mayor, con control de caudal integrado — no es un reemplazo directo de las válvulas de 3/4" de este mismo ranking, así que confirmá el diámetro de tu tubería antes de comprarla.
 
 ## Errores de instalación más comunes
 
@@ -65,3 +65,4 @@ Si tenés el problema del punto 4 (un aspersor bajo que queda encharcado o gotea
 - **Válvula anti-sifón, 3/4":** si tu instalación va sobre una canilla o el código local exige protección anti-retorno visible, la [Rain Bird DASASVF075](/productos/B00004RAAZ) es una anti-sifón con rompedor de vacío integrado, a diferencia de la Orbit in-line de arriba.
 - **Válvula con control de caudal:** si una zona necesita menos presión que otra (por ejemplo, goteo junto a aspersores), la [Orbit 57290 Pro](/productos/B0DHN374J5) es la misma válvula in-line de arriba con un tornillo de ajuste de caudal integrado — evita sumar una válvula reguladora aparte, a costa de pagar un poco más que la 57280 estándar.
 - **Válvula de retención para terreno con desnivel:** la [Hunter HC75F75M](/productos/B00FYQWTUE) no reemplaza ninguna de las válvulas de arriba — se suma en el aspersor más bajo de una zona con pendiente para evitar el encharcamiento del punto 4, algo que ninguna válvula solenoide de este ranking resuelve por sí sola.
+- **Válvula de 1 pulgada con control de caudal:** si tu tubería principal es de 1" en vez de 3/4", la [Hunter PGV](/productos/B000678LWQ) trae control de caudal integrado y es de las mejor calificadas de todo el ranking (4.8 estrellas, 1.063 reseñas) — pero no es intercambiable con las válvulas de 3/4" de arriba sin un adaptador.

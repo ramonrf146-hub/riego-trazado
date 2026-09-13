@@ -29,7 +29,7 @@ If your install is going underground, you need an in-line valve. If it connects 
 
 ## Thread size: 3/4" is the most common
 
-Most residential irrigation kits use 3/4-inch valves. If your main line is 1 inch, valves in that size exist, but they're less common in the budget price range. Measure your piping before buying — don't assume.
+Most residential irrigation kits use 3/4-inch valves. If your main line is 1 inch, valves in that size exist, but they're less common in the budget price range. Measure your piping before buying — don't assume. The [Hunter PGV 1-inch valve](/en/productos/B000678LWQ) in this ranking is a real example in that larger diameter, with built-in flow control — it isn't a direct drop-in for this ranking's 3/4" valves, so confirm your pipe diameter before buying it.
 
 ## Most common installation mistakes
 
@@ -64,3 +64,4 @@ If you're dealing with the issue in point 4 (a low sprinkler head that keeps flo
 - **Replacement solenoid, 24V AC:** if your valve is still mechanically sound but the solenoid failed (the most common cause, per point 3 above), the [Irritrol R811-24VACG](/en/productos/B07T4TNP3B) is a 24V AC replacement solenoid — it comes as a 2-pack, handy for keeping a spare on hand before the next one fails.
 - **Anti-siphon valve, 3/4":** if your install sits over a spigot or local code requires visible backflow protection, the [Rain Bird DASASVF075](/en/productos/B00004RAAZ) is an anti-siphon valve with a built-in vacuum breaker, unlike the in-line Orbit valve above.
 - **Check valve for sloped terrain:** the [Hunter HC75F75M](/en/productos/B00FYQWTUE) doesn't replace any of the valves above — it's added at the lowest sprinkler in a sloped zone to prevent the flooding described in point 4, something no solenoid valve in this ranking fixes on its own.
+- **1-inch valve with flow control:** if your main line is 1" instead of 3/4", the [Hunter PGV](/en/productos/B000678LWQ) has built-in flow control and is one of the best-rated valves in the whole ranking (4.8 stars, 1,063 reviews) — but it isn't interchangeable with the 3/4" valves above without an adapter.

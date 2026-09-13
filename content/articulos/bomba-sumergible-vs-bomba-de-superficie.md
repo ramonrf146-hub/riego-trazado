@@ -21,6 +21,8 @@ Va literalmente sumergida dentro del agua que tiene que mover — un pozo, una c
 
 El [AQUASTRONG Bomba Sumergible 1 HP (4.500 GPH)](/productos/B0C9QCCBVW) de este ranking es justamente esto: pensada para achique y extracción, no para dar presión a aspersores. Si tu plan es usarla para alimentar directamente un sistema de riego por goteo o aspersión, probablemente te va a faltar presión sostenida — para eso está la siguiente opción.
 
+Si el trabajo es más chico — una ventana de sótano inundada, vaciar una pileta o un estanque — no hace falta pagar por los 4.500 GPH de la de 1 HP. La [AQUASTRONG Bomba Sumergible 1/2 HP (3.159 GPH)](/productos/B0C9Q7V9GB) es la misma marca a menor potencia y precio, aunque con bastante menos historial (152 reseñas contra miles de la versión de 1 HP) — para pozos profundos o sótanos grandes inundados, la de 1 HP sigue siendo la apuesta más probada.
+
 ## Bomba de superficie: presión constante para todo el sistema
 
 Se instala fuera del agua (de ahí "de superficie"), succiona desde una fuente y empuja con presión constante hacia toda la red de riego. Es la que necesitás cuando la presión de tu red municipal o de tu pozo no alcanza para que dos o tres aspersores funcionen a la vez sin que cada uno pierda fuerza.

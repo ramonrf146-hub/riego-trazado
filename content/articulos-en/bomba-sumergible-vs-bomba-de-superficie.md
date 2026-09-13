@@ -21,6 +21,8 @@ It sits literally submerged in the water it needs to move — a well, a cistern,
 
 The [AQUASTRONG Submersible Pump 1 HP (4,500 GPH)](/en/productos/B0C9QCCBVW) in this ranking is exactly that: built for drainage and extraction, not for pressurizing sprinklers. If your plan is to feed a drip or sprinkler irrigation system directly with it, you'll likely come up short on sustained pressure — that's what the next option is for.
 
+For smaller jobs — a flooded basement window well, draining a pool or a small pond — you don't need to pay for the 1 HP version's 4,500 GPH. The [AQUASTRONG Submersible Pump 1/2 HP (3,159 GPH)](/en/productos/B0C9Q7V9GB) is the same brand at lower power and price, though with a much shorter track record (152 reviews versus thousands for the 1 HP version) — for deep wells or large flooded basements, the 1 HP remains the more proven bet.
+
 ## Surface pump: constant pressure for the whole system
 
 It sits outside the water source (hence "surface"), draws from it, and pushes with constant pressure across the whole irrigation network. This is what you need when your municipal or well pressure isn't enough for two or three sprinklers to run at once without each one losing force.
