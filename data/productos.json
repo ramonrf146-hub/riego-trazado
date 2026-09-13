@@ -1941,5 +1941,57 @@
       "budget",
       "AQUASTRONG"
     ]
+  },
+  {
+    "asin": "B000678LWQ",
+    "nombre": "Hunter PGV Válvula de Riego 1 Pulgada con Control de Caudal",
+    "categoria": "valvulas-solenoides",
+    "precio": 17.97,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/51O6nzl1K6L._AC_SX425_.jpg",
+    "rating": 4.8,
+    "numResenas": 1063,
+    "ranking": 8,
+    "notaTecnica": "A diferencia de las válvulas de 3/4 pulgada de este catálogo (Orbit 57280, Rain Bird DASASVF075), esta Hunter es de 1 pulgada — rosca hembra más grande, para zonas con mayor caudal. Marca Hunter, la misma que ya está en este catálogo como fabricante de controladores WiFi. 'Overall Pick' de Amazon, 1.063 reseñas, 4.8 estrellas, 1.000+ compradas el último mes — de las fichas mejor calificadas de toda la categoría. Limitación real: al ser de 1 pulgada, no sirve como reemplazo directo en una instalación de 3/4 pulgada sin adaptadores — confirmá el diámetro de tu tubería antes de comprar.",
+    "idealPara": "Zonas de riego con tubería de 1 pulgada o que necesitan mayor caudal que una válvula estándar de 3/4 pulgada — sistemas residenciales grandes o instalaciones que ya usan ese diámetro.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Una válvula solenoide de riego de 1 pulgada con control de caudal integrado y rosca hembra, que se activa con un solenoide de 24V AC compatible con cualquier controlador estándar (no solo Hunter).",
+      "ejemploHogar": "Reemplazar una válvula de 1 pulgada que falló en un sistema residencial grande, o armar una zona nueva con ese diámetro de tubería para mayor caudal.",
+      "ejemploNegocio": "Un instalador que trabaja con sistemas de riego comerciales o residenciales grandes, donde el diámetro de 1 pulgada es más común que 3/4.",
+      "puntosClave": [
+        "1 pulgada de rosca, más grande que las válvulas de 3/4 pulgada de este catálogo — no son intercambiables sin adaptador.",
+        "Control de caudal integrado — permite ajustar la presión de salida sin sumar una válvula reguladora aparte.",
+        "Solenoide de 24V AC estándar — funciona con cualquier controlador de riego, no solo los de marca Hunter."
+      ],
+      "consejoInversion": "Si tu sistema ya usa tubería de 3/4 pulgada, las válvulas Orbit o Rain Bird de este catálogo son la opción correcta y más barata. Esta Hunter tiene sentido específicamente cuando tu instalación es de 1 pulgada o necesitás más caudal por zona."
+    },
+    "tags": [
+      "1 pulgada",
+      "control de caudal",
+      "Hunter",
+      "24V AC"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B000678LWQ?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-13",
+    "nombreEn": "Hunter PGV 1-Inch Sprinkler Valve with Flow Control",
+    "notaTecnicaEn": "Unlike this catalog's 3/4-inch valves (Orbit 57280, Rain Bird DASASVF075), this Hunter is 1 inch — a larger female thread for higher-flow zones. Hunter brand, the same one already in this catalog as a WiFi controller manufacturer. Amazon's 'Overall Pick', 1,063 reviews, 4.8 stars, 1,000+ bought in the past month — one of the best-rated listings in the whole category. Real limitation: being 1 inch, it isn't a direct drop-in replacement for a 3/4-inch install without adapters — confirm your pipe diameter before buying.",
+    "idealParaEn": "Irrigation zones with 1-inch pipe or that need more flow than a standard 3/4-inch valve — large residential systems or installs that already use that diameter.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "A 1-inch irrigation solenoid valve with built-in flow control and female threading, activated by a standard 24V AC solenoid compatible with any controller (not just Hunter).",
+      "ejemploHogar": "Replacing a failed 1-inch valve in a large residential system, or building a new zone with that pipe diameter for more flow.",
+      "ejemploNegocio": "An installer working on commercial or large residential irrigation systems, where 1-inch diameter is more common than 3/4.",
+      "puntosClave": [
+        "1-inch threading, larger than this catalog's 3/4-inch valves — not interchangeable without an adapter.",
+        "Built-in flow control — lets you adjust outlet pressure without adding a separate regulating valve.",
+        "Standard 24V AC solenoid — works with any irrigation controller, not just Hunter-brand ones."
+      ],
+      "consejoInversion": "If your system already uses 3/4-inch pipe, this catalog's Orbit or Rain Bird valves are the correct, cheaper pick. This Hunter makes sense specifically when your install is 1 inch or you need more flow per zone."
+    },
+    "tagsEn": [
+      "1-inch",
+      "flow control",
+      "Hunter",
+      "24V AC"
+    ]
   }
 ]
