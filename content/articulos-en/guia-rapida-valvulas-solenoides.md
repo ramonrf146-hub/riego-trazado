@@ -36,7 +36,7 @@ Most residential irrigation kits use 3/4-inch valves. If your main line is 1 inc
 1. **Installing the valve backwards**: almost all of them have an arrow on the body indicating flow direction. Installing it backwards can keep it from closing properly, or stop it from working at all.
 2. **Skipping a valve box**: leaving valves exposed to the weather without protection speeds up wear on the solenoid and the electrical connections, especially in humid climates like Florida's. The [NDS jumbo valve box](/en/productos/B000IBN9M2) in this ranking solves this — it's the industry-standard brand, not a generic one.
 3. **Unsealed electrical connections**: most valve failures aren't mechanical — they're electrical, from moisture getting into the wire splice. Use waterproof connectors (the sealed gel-filled "wire nuts" type), no exceptions — the [Tondiamo gel connectors](/en/productos/B09H7DQN1V) in this ranking cost 25 cents each, against the real cost of a valve failing from a poorly sealed connection.
-4. **Skipping a check valve on sloped terrain**: if your system has zones lower than others, water can keep draining downhill by gravity after the valve closes, causing pooling at the lowest sprinkler head.
+4. **Skipping a check valve on sloped terrain**: if your system has zones lower than others, water can keep draining downhill by gravity after the valve closes, causing pooling at the lowest sprinkler head. This isn't fixed by tweaking the controller or swapping the solenoid valve — it's fixed by adding a separate part at that low point, like the [Hunter HC75F75M](/en/productos/B00FYQWTUE): it installs between the riser and the lowest sprinkler and holds back 4 to 32 feet of elevation change without letting water keep draining.
 
 ## The bottom line
 
@@ -50,8 +50,17 @@ If your valve stopped opening or closing (point 3 above: it's almost always the 
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2QamLhSylec" title="How To Replace A Sprinkler Valve Solenoid — Orbit Lawn Garden Life" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
+## Video: how to install a check valve
+
+If you're dealing with the issue in point 4 (a low sprinkler head that keeps flooding or dripping after watering ends), this video shows how to install a Hunter HCV-type check valve directly between the riser and the sprinkler head — the same procedure applies to this ranking's [Hunter HC75F75M](/en/productos/B00FYQWTUE).
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/3qEGGMSYRys" title="How To Install Check Valves for the Hunter PGP and I-20 Sprinklers — SprinklerSupplyStore.com" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## Real examples from this ranking
 
 - **Complete valve, 3/4":** the [Orbit 57280](/en/productos/B01MG1VV2M) already comes in the 3/4" FPT thread that's the standard for most residential kits.
 - **Replacement solenoid, 24V AC:** if your valve is still mechanically sound but the solenoid failed (the most common cause, per point 3 above), the [Irritrol R811-24VACG](/en/productos/B07T4TNP3B) is a 24V AC replacement solenoid — it comes as a 2-pack, handy for keeping a spare on hand before the next one fails.
 - **Anti-siphon valve, 3/4":** if your install sits over a spigot or local code requires visible backflow protection, the [Rain Bird DASASVF075](/en/productos/B00004RAAZ) is an anti-siphon valve with a built-in vacuum breaker, unlike the in-line Orbit valve above.
+- **Check valve for sloped terrain:** the [Hunter HC75F75M](/en/productos/B00FYQWTUE) doesn't replace any of the valves above — it's added at the lowest sprinkler in a sloped zone to prevent the flooding described in point 4, something no solenoid valve in this ranking fixes on its own.

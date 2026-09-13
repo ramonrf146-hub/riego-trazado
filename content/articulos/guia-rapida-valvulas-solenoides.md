@@ -36,7 +36,7 @@ La mayoría de los kits de riego residencial usan válvulas de 3/4 de pulgada. S
 1. **Instalar la válvula al revés**: casi todas tienen una flecha en el cuerpo que indica dirección del flujo. Instalarla al revés puede hacer que no cierre correctamente o directamente no funcione.
 2. **No usar una caja de válvulas**: dejar las válvulas expuestas a la intemperie sin protección acelera el desgaste del solenoide y las conexiones eléctricas, especialmente en climas húmedos como el de Florida. La [caja de válvulas jumbo NDS](/productos/B000IBN9M2) de este ranking resuelve esto — es el estándar de la industria, no una marca genérica.
 3. **Conexiones eléctricas sin sellar**: la mayoría de las fallas de válvulas no son mecánicas sino eléctricas — humedad que entra en el empalme del cable. Usa conectores impermeables (los de gel, tipo "wire nuts" sellados) sin excepción — los [conectores de gel Tondiamo](/productos/B09H7DQN1V) de este ranking cuestan 25 centavos cada uno, frente al costo real de una válvula que falla por una conexión mal sellada.
-4. **No instalar una válvula de retención (check valve) en terrenos con desnivel**: si tu sistema tiene zonas más bajas que otras, el agua puede seguir drenando por gravedad después de que la válvula cierra, causando encharcamiento en el aspersor más bajo.
+4. **No instalar una válvula de retención (check valve) en terrenos con desnivel**: si tu sistema tiene zonas más bajas que otras, el agua puede seguir drenando por gravedad después de que la válvula cierra, causando encharcamiento en el aspersor más bajo. Esto no se arregla ajustando el controlador ni cambiando la válvula solenoide — se soluciona sumando una pieza aparte en ese punto bajo, como la [Hunter HC75F75M](/productos/B00FYQWTUE): se instala entre el elevador y el aspersor de más abajo y sostiene entre 4 y 32 pies de desnivel sin dejar que el agua siga drenando.
 
 ## En resumen
 
@@ -50,9 +50,18 @@ Si tu válvula dejó de abrir o cerrar (el punto 3 de arriba: casi siempre es la
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2QamLhSylec" title="How To Replace A Sprinkler Valve Solenoid — Orbit Lawn Garden Life" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
+## Video: cómo instalar una válvula de retención (check valve)
+
+Si tenés el problema del punto 4 (un aspersor bajo que queda encharcado o goteando después de que termina el riego), este video muestra la instalación de una válvula de retención tipo Hunter HCV directo entre el elevador y el aspersor — el mismo procedimiento aplica a la [Hunter HC75F75M](/productos/B00FYQWTUE) de este ranking.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/3qEGGMSYRys" title="How To Install Check Valves for the Hunter PGP and I-20 Sprinklers — SprinklerSupplyStore.com" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## Ejemplos reales de este ranking
 
 - **Válvula completa, 3/4":** la [Orbit 57280](/productos/B01MG1VV2M) ya viene en la rosca de 3/4" FPT que es el estándar de la mayoría de los kits residenciales.
 - **Solenoide de repuesto, 24V AC:** si tu válvula sigue en buen estado mecánico pero el solenoide falló (el motivo más común, según el punto 3 de arriba), el [Irritrol R811-24VACG](/productos/B07T4TNP3B) es un solenoide de reemplazo a 24V AC — viene de a 2 unidades, útil para tener uno de repuesto antes de que falle el siguiente.
 - **Válvula anti-sifón, 3/4":** si tu instalación va sobre una canilla o el código local exige protección anti-retorno visible, la [Rain Bird DASASVF075](/productos/B00004RAAZ) es una anti-sifón con rompedor de vacío integrado, a diferencia de la Orbit in-line de arriba.
 - **Válvula con control de caudal:** si una zona necesita menos presión que otra (por ejemplo, goteo junto a aspersores), la [Orbit 57290 Pro](/productos/B0DHN374J5) es la misma válvula in-line de arriba con un tornillo de ajuste de caudal integrado — evita sumar una válvula reguladora aparte, a costa de pagar un poco más que la 57280 estándar.
+- **Válvula de retención para terreno con desnivel:** la [Hunter HC75F75M](/productos/B00FYQWTUE) no reemplaza ninguna de las válvulas de arriba — se suma en el aspersor más bajo de una zona con pendiente para evitar el encharcamiento del punto 4, algo que ninguna válvula solenoide de este ranking resuelve por sí sola.

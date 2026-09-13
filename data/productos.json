@@ -1838,5 +1838,56 @@
       "compact",
       "Shelly"
     ]
+  },
+  {
+    "asin": "B00FYQWTUE",
+    "nombre": "Hunter HC75F75M — Válvula de Retención (Check Valve) 3/4\"",
+    "categoria": "valvulas-solenoides",
+    "precio": 12.17,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71mMd6f2c9L._AC_UY218_.jpg",
+    "rating": 4.3,
+    "numResenas": 353,
+    "ranking": 7,
+    "notaTecnica": "Se instala entre el elevador y el aspersor (no reemplaza la válvula solenoide, la complementa) y evita que el agua siga drenando por gravedad después de que la válvula principal cierra — el problema de encharcamiento en el aspersor más bajo que ya se menciona en la guía de válvulas de este sitio sin tener, hasta ahora, ningún producto que lo resolviera. Sostiene entre 4 y 32 pies de desnivel según el ajuste (destornillador plano), rosca 3/4\" hembra por 3/4\" macho, y es compatible con cualquier aspersor o válvula de 24V AC, no solo de la marca Hunter.",
+    "idealPara": "Terrenos con desnivel donde el aspersor más bajo queda encharcado o sigue goteando después de que el riego termina — no reemplaza la válvula principal, la complementa en el punto más bajo de la zona.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Pensá en una manguera larga cuesta abajo: cuando cerrás la canilla arriba, el agua que quedó adentro sigue bajando por gravedad y sale goteando por el otro extremo, aunque la canilla ya esté cerrada. Eso mismo le pasa a un sistema de riego con desnivel — la válvula solenoide cierra arriba, pero el agua que quedó en el caño sigue bajando y empapa el aspersor más bajo. Esta pieza es una especie de \"tope\" que se instala junto a ese aspersor bajo y no deja que el agua siga drenando ni retroceda, aunque el resto del caño se vacíe.",
+      "ejemploHogar": "Tu jardín tiene una pendiente y notás que, minutos después de que el riego termina, el aspersor de más abajo sigue chorreando o deja un charco — instalás esta válvula en ese aspersor puntual y el goteo se corta.",
+      "ejemploNegocio": "Un campo de golf o un parque con terreno ondulado tiene decenas de aspersores a distintas alturas; sin esta pieza en los puntos bajos, el drenaje por gravedad erosiona el pasto alrededor de esos aspersores y desperdicia agua en cada ciclo de riego sin que nadie lo note.",
+      "puntosClave": [
+        "No reemplaza la válvula solenoide principal — se instala además, específicamente en el aspersor o tramo más bajo de la zona con desnivel.",
+        "Confirmá el desnivel real entre el punto más alto y más bajo de tu instalación: este modelo sostiene entre 4 y 32 pies según cómo lo ajustes con un destornillador plano.",
+        "La rosca es 3/4\" hembra por 3/4\" macho — medí la tuya antes de comprar, igual que con cualquier pieza roscada del sistema."
+      ],
+      "consejoInversion": "Cuesta apenas unos dólares más que un caño o conector común, pero evitar el encharcamiento constante en el mismo punto previene la erosión del césped y el desperdicio de agua día tras día — sin esta pieza, el problema se repite en cada ciclo de riego para siempre, no una sola vez."
+    },
+    "tags": [
+      "Check valve",
+      "3/4\" NPT",
+      "Anti-drenaje"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B00FYQWTUE?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-13",
+    "activo": true,
+    "nombreEn": "Hunter HC75F75M — 3/4-Inch Check Valve (Anti-Drain)",
+    "notaTecnicaEn": "Installs between the riser and the sprinkler head (it doesn't replace the solenoid valve, it complements it) and stops water from continuing to drain downhill by gravity after the main valve closes — the low-point flooding issue already mentioned in this site's valve guide, without any product on the site to actually solve it until now. It holds back 4 to 32 feet of elevation change depending on adjustment (flat-blade screwdriver), has a 3/4\" female-by-male thread, and works with any 24V AC valve or sprinkler, not just Hunter's own.",
+    "idealParaEn": "Sloped yards where the lowest sprinkler keeps flooding or dripping after watering ends — it doesn't replace the main valve, it complements it at the zone's lowest point.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Picture a long hose running downhill: when you shut the tap at the top, the water still inside keeps sliding down by gravity and drips out the other end, even though the tap is already closed. The same thing happens in a sloped irrigation system — the solenoid valve closes up top, but the water left in the pipe keeps flowing down and soaks the lowest sprinkler. This part acts like a kind of 'stopper' installed right at that low sprinkler, and it keeps water from draining or flowing back, even after the rest of the pipe empties out.",
+      "ejemploHogar": "Your yard slopes, and you notice that minutes after watering ends, the lowest sprinkler keeps trickling or leaves a puddle — you install this valve at that specific sprinkler and the dripping stops.",
+      "ejemploNegocio": "A golf course or park with rolling terrain has dozens of sprinklers at different elevations; without this part at the low points, gravity drainage erodes the grass around those heads and wastes water on every single cycle without anyone noticing.",
+      "puntosClave": [
+        "It doesn't replace the main solenoid valve — it installs in addition to it, specifically at the lowest sprinkler or section of a sloped zone.",
+        "Confirm the actual elevation change between your system's highest and lowest points: this model holds back 4 to 32 feet depending on how you adjust it with a flat-blade screwdriver.",
+        "The thread is 3/4\" female by 3/4\" male — measure yours before buying, same as with any threaded fitting in the system."
+      ],
+      "consejoInversion": "It costs just a few dollars more than a plain pipe fitting, but preventing constant flooding at the same spot stops the grass erosion and daily water waste that, without this part, repeats on every single watering cycle forever, not just once."
+    },
+    "tagsEn": [
+      "Check valve",
+      "3/4\" NPT",
+      "Anti-drain"
+    ]
   }
 ]
