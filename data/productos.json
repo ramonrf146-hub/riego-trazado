@@ -1993,5 +1993,57 @@
       "Hunter",
       "24V AC"
     ]
+  },
+  {
+    "asin": "B08CRSYCQS",
+    "nombre": "CARPATHEN Kit de Riego por Goteo 100 ft (Canteros Elevados)",
+    "categoria": "kits-goteo",
+    "precio": 39.87,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/81qS+0iTxTL._SX342_.jpg",
+    "rating": 4.4,
+    "numResenas": 1698,
+    "ranking": 8,
+    "notaTecnica": "A diferencia de los kits de este catálogo pensados para jardín general (Bonviee, Bluepro, MIXC), este CARPATHEN está armado específicamente para canteros elevados y huertas — 30 emisores ajustables, línea principal 5/16 más gruesa que la de goteo estándar, e incluye una guía digital de cultivo de hortalizas. 'Overall Pick', 1.698 reseñas, 1.000+ comprados el último mes. Limitación real: 40 GPH máximo y 20-45 PSI de rango — no está pensado para céspedes grandes ni para presión muy alta o muy baja, es para el tamaño de un cantero o huerta chica/mediana.",
+    "idealPara": "Canteros elevados, huertas de verduras o macizos de flores — no céspedes grandes ni jardines con muchas plantas dispersas.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Un kit de riego por goteo con línea principal de 5/16, tubing de 1/4 para las ramificaciones, y hasta 30 emisores ajustables — armado específicamente para canteros elevados y huertas, no para césped.",
+      "ejemploHogar": "Un cantero elevado con verduras o un macizo de flores donde cada planta necesita su propio gotero ajustable, en vez de un aspersor que moje todo por igual.",
+      "ejemploNegocio": "Un vivero o huerta comercial chica que arma canteros de prueba antes de invertir en un sistema de riego más grande.",
+      "puntosClave": [
+        "30 emisores ajustables con línea principal 5/16 — más robusta que la línea de goteo estándar de 1/4 de otros kits.",
+        "Rango de 20-45 PSI y hasta 40 GPH — no sirve para céspedes grandes ni presiones fuera de ese rango.",
+        "Incluye guía digital de cultivo de hortalizas — un extra que ningún otro kit de este catálogo trae."
+      ],
+      "consejoInversion": "Si tu proyecto es un cantero elevado o una huerta chica, este kit está pensado exactamente para eso. Para regar césped o un jardín grande y disperso, el Bonviee o el MIXC de este catálogo (pensados para cobertura más amplia) rinden mejor."
+    },
+    "tags": [
+      "canteros elevados",
+      "huerta",
+      "30 emisores",
+      "CARPATHEN"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B08CRSYCQS?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-13",
+    "nombreEn": "CARPATHEN Drip Irrigation Kit 100 ft (Raised Garden Beds)",
+    "notaTecnicaEn": "Unlike this catalog's general-garden kits (Bonviee, Bluepro, MIXC), this CARPATHEN is built specifically for raised garden beds and vegetable gardens — 30 adjustable emitters, a thicker 5/16 mainline than standard drip tubing, and a bonus digital vegetable-growing guide. Amazon's 'Overall Pick', 1,698 reviews, 1,000+ bought in the past month. Real limitation: 40 GPH max and a 20-45 PSI range — not meant for large lawns or very high/low pressure, it's sized for a garden bed or small-to-medium vegetable patch.",
+    "idealParaEn": "Raised garden beds, vegetable gardens, or flower beds — not large lawns or gardens with widely scattered plants.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "A drip irrigation kit with a 5/16 mainline, 1/4 branch tubing, and up to 30 adjustable emitters — built specifically for raised beds and vegetable gardens, not lawns.",
+      "ejemploHogar": "A raised bed with vegetables or a flower bed where each plant needs its own adjustable dripper, instead of a sprinkler that waters everything equally.",
+      "ejemploNegocio": "A small nursery or commercial garden testing raised beds before investing in a larger irrigation system.",
+      "puntosClave": [
+        "30 adjustable emitters with a 5/16 mainline — sturdier than the standard 1/4 drip line other kits use.",
+        "20-45 PSI range and up to 40 GPH — not suited for large lawns or pressures outside that range.",
+        "Includes a digital vegetable-growing guide — a bonus no other kit in this catalog has."
+      ],
+      "consejoInversion": "If your project is a raised bed or a small vegetable garden, this kit is built for exactly that. For watering a lawn or a large, spread-out garden, this catalog's Bonviee or MIXC (built for wider coverage) perform better."
+    },
+    "tagsEn": [
+      "raised garden beds",
+      "vegetable garden",
+      "30 emitters",
+      "CARPATHEN"
+    ]
   }
 ]
