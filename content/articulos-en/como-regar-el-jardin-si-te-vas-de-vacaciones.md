@@ -9,7 +9,7 @@ Every year it's the same story: you book the trip, and at some point before leav
 
 ## How long you're away changes the answer
 
-**A long weekend (2-4 days):** most potted plants can handle going without water that long, especially if you move them into the shade before leaving. If you're not sure, a simple drip kit with a mechanical timer already solves the problem without overspending.
+**A long weekend (2-4 days):** most potted plants can handle going without water that long, especially if you move them into the shade before leaving. If you're not sure, you don't need a full drip kit for such a short trip — a garden hose plus the [Orbit 62034](/en/productos/B006FLGHGE) is enough, a mechanical faucet timer under $10: wind the dial to the time you want (15 to 120 minutes) and it shuts the water off on its own, no batteries or WiFi involved. One catch — it's single-cycle, it doesn't repeat the schedule every day like the digital timer in the HEKIWAY kit below, so it's built for this one short trip, not for running for weeks.
 
 **One to two weeks:** at this point, "hanging in there" isn't enough — you need a system that actually waters every day, at the right time, without anyone touching anything. This is the scenario where a kit with a built-in timer, like the [HEKIWAY 60ft with timer](/en/productos/B0F5VYR2Z4), makes more sense than putting together the hose and timer separately: you set it up once and forget about it.
 
@@ -39,6 +39,14 @@ A drip kit is enough for pots, garden beds, and raised vegetable gardens, but it
 1. **Test the system 2-3 days ahead of time**, not the night before your flight — that gives you room to fix a misaligned nozzle or a timer that didn't save the schedule.
 2. **Group your thirstiest pots along the same drip line** — it's easier to adjust the flow for a whole zone than for one lone pot.
 3. **If you're using a battery timer, swap the batteries before you leave**, not when they're already dying — it's the number-one reason an "automatic" system quietly shuts off mid-trip.
+
+## Video: how to install the mechanical faucet timer
+
+If your plan is the short trip from point 1 (a long weekend with a simple timer instead of a full kit), this video shows the real installation and use of the Orbit 62034 on a standard hose faucet.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/A51l-lEfAlk" title="Orbit Mechanical Watering Hose Timer 62034 — MACH 1 TIPS" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Our pick of the month
 

@@ -2045,5 +2045,56 @@
       "30 emitters",
       "CARPATHEN"
     ]
+  },
+  {
+    "asin": "B006FLGHGE",
+    "nombre": "Orbit 62034 — Temporizador Mecánico de Canilla (Sin Pilas)",
+    "nombreEn": "Orbit 62034 — Mechanical Hose Faucet Timer (Battery-Free)",
+    "categoria": "kits-goteo",
+    "precio": 9.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71Yq9E8p+pL._AC_UL320_.jpg",
+    "rating": 4.3,
+    "numResenas": 17258,
+    "ranking": 9,
+    "notaTecnica": "Es un temporizador mecánico de un solo ciclo (no digital, no WiFi): girás el dial hasta el tiempo que querés (15 a 120 minutos) y un mecanismo de relojería cierra el paso de agua solo al cumplirse, sin pilas ni electrónica de por medio. Se atornilla directo sobre cualquier canilla con rosca estándar de manguera (GHT) y trae palanca de bypass manual para regar sin límite de tiempo si hace falta. Limitación real: no repite el horario todos los días solo como un timer digital o un controlador WiFi — hay que volver a darle cuerda para cada riego, así que sirve para un uso puntual (un fin de semana, un riego mientras no estás un rato), no para un programa diario automatizado.",
+    "notaTecnicaEn": "This is a single-cycle mechanical timer (not digital, not WiFi): you turn the dial to the time you want (15 to 120 minutes) and a clockwork mechanism shuts the water off on its own once that time is up, with no batteries or electronics involved. It screws directly onto any standard garden hose thread (GHT) faucet and includes a manual bypass lever for unlimited watering when needed. Real limitation: unlike a digital timer or a WiFi controller, it doesn't repeat the schedule automatically day after day — you have to rewind the dial for each watering, so it's built for a one-off use (a weekend, a single watering while you're out) rather than an automated daily program.",
+    "idealPara": "Fines de semana largos o ausencias cortas donde alcanza con un corte automático simple sobre una sola canilla, sin batería ni WiFi — no repite el horario solo, hay que resetear el dial para cada riego.",
+    "idealParaEn": "Long weekends or short absences where a simple automatic shutoff on a single faucet is enough, no battery or WiFi required — it doesn't repeat the schedule on its own, you reset the dial for each watering.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un 'reloj de cocina' pero para la canilla: le das cuerda girando el dial hasta el tiempo que querés (entre 15 y 120 minutos), se atornilla directo sobre cualquier canilla estándar de manguera, y cuando se cumple el tiempo cierra el paso de agua solo — sin pilas, sin electrónica, sin conectarlo a nada.",
+      "ejemploHogar": "Te vas un fin de semana largo y dejás la manguera o el kit de goteo puesto con el timer en 60 minutos: el jardín recibe su riego una vez y el agua se corta sola, sin que nadie tenga que estar ahí para cerrarla ni acordarse de hacerlo.",
+      "ejemploNegocio": "Una cuadrilla de mantenimiento de parques o un vivero lo usa para regar un cantero puntual durante la jornada sin tener que asignar a alguien para volver más tarde y cerrar la canilla a mano cuando termina el ciclo.",
+      "puntosClave": [
+        "Es de un solo ciclo: gira el dial, riega ese tiempo y se cierra — no repite el horario todos los días solo, hay que volver a darle cuerda para el próximo riego.",
+        "Es de una sola salida (una canilla), no reemplaza un controlador de varias zonas — si necesitás automatizar más de un punto o un horario diario real, conviene un kit con timer digital (como el HEKIWAY de este ranking) o un controlador WiFi.",
+        "Confirmá que tu canilla tenga rosca estándar de manguera de jardín (GHT) — no está pensado para roscas de tubería (FPT/MPT) como las válvulas solenoides de este catálogo."
+      ],
+      "consejoInversion": "Frente a dejar la canilla abierta y confiar en acordarte de cerrarla (o peor, olvidarte), este timer mecánico cuesta menos de $10 y evita el desperdicio de agua de una canilla olvidada horas o días de viaje — y al no tener batería ni placa electrónica, no se degrada ni se queda sin pilas justo cuando te vas, a diferencia de un timer digital."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Think of it as a kitchen timer for your faucet: you wind the dial to the time you want (15 to 120 minutes), it screws directly onto any standard garden hose faucet, and once that time is up it shuts the water off on its own — no batteries, no electronics, nothing to wire up.",
+      "ejemploHogar": "You leave for a long weekend and leave the hose or drip kit connected with the timer set to 60 minutes: the yard gets watered once and the water shuts off by itself, with no one needing to be there to close it or remember to do so.",
+      "ejemploNegocio": "A parks maintenance crew or a nursery uses it to water a specific bed during the workday without having to send someone back later to close the faucet by hand once the cycle ends.",
+      "puntosClave": [
+        "It's single-cycle: turn the dial, it waters for that time, then shuts off — it doesn't repeat the schedule every day on its own, you have to rewind it for the next watering.",
+        "It's single-outlet (one faucet), it doesn't replace a multi-zone controller — if you need to automate more than one point or a real daily schedule, a kit with a digital timer (like the HEKIWAY in this ranking) or a WiFi controller is the better fit.",
+        "Confirm your faucet has standard garden hose thread (GHT) — it's not built for pipe thread (FPT/MPT) like the solenoid valves in this catalog."
+      ],
+      "consejoInversion": "Compared to leaving the faucet open and trusting yourself to remember to close it (or worse, forgetting), this mechanical timer costs under $10 and prevents the water waste of a forgotten faucet running for hours or days of travel — and since it has no battery or circuit board, it can't die or run out of charge right when you leave, unlike a digital timer."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B006FLGHGE?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-14",
+    "activo": true,
+    "tags": [
+      "Sin pilas",
+      "Rosca de canilla",
+      "17K+ reseñas"
+    ],
+    "tagsEn": [
+      "Battery-free",
+      "Hose bib thread",
+      "17K+ reviews"
+    ]
   }
 ]

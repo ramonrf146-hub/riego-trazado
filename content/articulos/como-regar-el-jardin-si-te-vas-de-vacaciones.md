@@ -9,7 +9,7 @@ Todos los años pasa lo mismo: reservás el viaje, y en algún momento antes de 
 
 ## Cuánto tiempo te vas cambia la respuesta
 
-**Fin de semana largo (2-4 días):** la mayoría de las plantas de maceta aguantan sin regar ese tiempo, sobre todo si las movés a la sombra antes de salir. Si tenés dudas, un kit de riego por goteo simple con timer mecánico ya resuelve el problema sin gastar de más.
+**Fin de semana largo (2-4 días):** la mayoría de las plantas de maceta aguantan sin regar ese tiempo, sobre todo si las movés a la sombra antes de salir. Si tenés dudas, no hace falta armar un kit de goteo completo para un viaje tan corto — alcanza con dejar la manguera puesta y sumar el [Orbit 62034](/productos/B006FLGHGE), un timer mecánico de canilla de menos de $10: le das cuerda hasta el tiempo que querés (15 a 120 minutos) y corta el agua solo, sin pilas ni WiFi de por medio. Eso sí, es de un solo ciclo — no repite el horario todos los días como el timer digital del kit HEKIWAY de abajo, así que sirve para este viaje corto puntual, no para dejarlo funcionando semanas.
 
 **Una a dos semanas:** acá ya no alcanza con "aguantar" — necesitás un sistema que riegue de verdad todos los días, en el horario correcto, sin que nadie tenga que tocar nada. Es el escenario donde un kit con timer incluido, como el [HEKIWAY 60ft con timer](/productos/B0F5VYR2Z4), tiene más sentido que armar la manguera y el timer por separado: llegás, programás una vez, y te olvidás.
 
@@ -39,6 +39,14 @@ Un kit de goteo alcanza para macetas, canteros y huertas elevadas, pero no reemp
 1. **Probá el sistema con 2-3 días de anticipación**, no la noche antes de viajar — así tenés tiempo de corregir si una boquilla quedó mal orientada o el timer no guardó el horario.
 2. **Agrupá las macetas más sedientas cerca de una misma línea de goteo** — es más fácil ajustar el caudal de una zona completa que de una maceta suelta.
 3. **Si usás un timer a pilas, cambiá las pilas antes de viajar**, no cuando ya están gastadas — es la causa número uno de que un sistema "automático" se apague a mitad de viaje sin que nadie se entere.
+
+## Video: cómo instalar el temporizador mecánico de canilla
+
+Si tu plan es el viaje corto del punto 1 (fin de semana largo con un timer simple en vez de un kit completo), este video muestra la instalación y el uso real del Orbit 62034 en una canilla estándar.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/A51l-lEfAlk" title="Orbit Mechanical Watering Hose Timer 62034 — MACH 1 TIPS" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Nuestra recomendación del mes
 
