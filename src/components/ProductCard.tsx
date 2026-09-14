@@ -113,18 +113,42 @@ export default function ProductCard({
             )}
           </div>
         )}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={producto.imagen}
-          alt={nombre}
-          loading="lazy"
-          className="h-full w-full object-contain transition-transform duration-500 ease-out group-hover:scale-105"
-        />
+        {producto.guiaCompra ? (
+          <Link
+            href={withLocale(`/productos/${producto.asin}`, locale)}
+            className="flex h-full w-full items-center justify-center"
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={producto.imagen}
+              alt={nombre}
+              loading="lazy"
+              className="h-full w-full object-contain transition-transform duration-500 ease-out group-hover:scale-105"
+            />
+          </Link>
+        ) : (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={producto.imagen}
+            alt={nombre}
+            loading="lazy"
+            className="h-full w-full object-contain transition-transform duration-500 ease-out group-hover:scale-105"
+          />
+        )}
       </div>
 
       <div className="flex flex-1 flex-col gap-1.5 p-3">
         <h3 className="text-sm font-bold leading-snug text-text-light transition-colors duration-300 group-hover:text-line">
-          {nombre}
+          {producto.guiaCompra ? (
+            <Link
+              href={withLocale(`/productos/${producto.asin}`, locale)}
+              className="hover:underline"
+            >
+              {nombre}
+            </Link>
+          ) : (
+            nombre
+          )}
         </h3>
 
         {tags && tags.length > 0 && (
