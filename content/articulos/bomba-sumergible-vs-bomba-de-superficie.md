@@ -29,6 +29,16 @@ Se instala fuera del agua (de ahí "de superficie"), succiona desde una fuente y
 
 El [AQUASTRONG Bomba de Superficie Autocebante 1.5 HP](/productos/B0C8N8CG9G) de este ranking es específicamente para esto — cuerpo de hierro fundido, autocebante (no hay que llenarla de agua manualmente para arrancarla cada vez), comercializada puntualmente para aspersores de césped. Es notablemente más cara que la sumergible ($349 vs. $59) y que la booster — antes de comprarla, medí la presión real de tu red con un [manómetro barato](/productos/B0956QKMJ2) en la salida de la canilla (se atornilla directo, sin herramientas, y cuesta menos de $10). Si tenés 40-50 PSI y varios aspersores abiertos a la vez pierden presión, ahí es donde esta bomba se paga sola. Si tu presión ya es buena, estás pagando por un problema que no tenés — el manómetro es justamente lo que te evita gastar $349 a ciegas.
 
+Si tu fuente de agua es específicamente un **pozo somero propio** (no la red municipal, y no más de 25 pies de profundidad), la [WAYNE SWS50](/productos/B000CQ1Y7A) de este ranking resuelve extracción y presión con un solo equipo más chico y más barato que la AQUASTRONG de arriba — 1/2 HP, cuerpo de hierro fundido también, $299.89. La diferencia real frente a la AQUASTRONG: no es autocebante lista para usar, hay que llenarle la carcasa de agua por un puerto de cebado antes del primer arranque y sumarle una válvula de pie en la punta de la manguera de succión, y viene configurada de fábrica en 240V, así que revisá el selector de voltaje antes de enchufarla en un tomacorriente doméstico de 120V. Si tu pozo es más profundo que 25 pies, ninguna de las dos te sirve — ahí necesitás una bomba sumergible de pozo profundo, que no es la misma sumergible de arriba (esa es para achique, no para pozo profundo).
+
+## Video: cómo es una bomba jet de pozo somero en la práctica
+
+Si tu caso es el del pozo somero del punto anterior, este video muestra el funcionamiento real de una Wayne SWS50 — la misma bomba de este ranking — incluido el arranque y el ciclo del interruptor de presión.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/yaK-uZXA6Uo" title="Wayne Heavy-Duty Shallow Well Jet Pump - 1/2 HP, 385 GPH, Model# SWS50 — Northern Tool" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## Bomba booster de diafragma: el punto intermedio para un solo punto de riego
 
 Esta es la opción que casi nadie menciona porque no es tan conocida como las otras dos: es liviana, portátil, y en vez de presurizar todo el sistema, refuerza la presión de una sola manguera o punto de riego. Arranca y para sola con un presostato integrado — cuando abrís la canilla, arranca; cuando cerrás, se apaga.
@@ -43,6 +53,7 @@ El [ECO-WORTHY 33-Series Bomba Booster de Diafragma (4.0 GPM, 50 PSI)](/producto
 | Varios aspersores pierden presión al usarse juntos | De superficie |
 | Solo una manguera o punto anda con presión floja | Booster de diafragma |
 | Necesitás presión Y mover agua desde una fuente lejana | Sumergible para trasladar + de superficie para presurizar (dos bombas, no una) |
+| Tenés tu propio pozo somero (hasta 25 pies) y necesitás extraer y presurizar en un solo equipo | Jet de pozo somero |
 
 ## Un error común: comprar de más "por las dudas"
 

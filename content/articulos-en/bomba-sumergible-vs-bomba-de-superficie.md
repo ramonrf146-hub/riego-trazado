@@ -29,6 +29,16 @@ It sits outside the water source (hence "surface"), draws from it, and pushes wi
 
 The [AQUASTRONG Self-Priming Surface Pump 1.5 HP](/en/productos/B0C8N8CG9G) in this ranking is built specifically for this — cast iron housing, self-priming (no need to manually fill it with water before every start), marketed specifically for lawn sprinklers. It's notably more expensive than the submersible ($349 vs. $59) and the booster — before buying it, measure your actual line pressure with a cheap gauge at the spigot. If you're at 40-50 PSI and several open sprinklers lose pressure together, that's where this pump pays for itself. If your pressure is already fine, you're paying to solve a problem you don't have.
 
+If your water source is specifically **your own shallow well** (not the mains, and no deeper than 25 feet), the [WAYNE SWS50](/en/productos/B000CQ1Y7A) in this ranking handles extraction and pressure in one smaller, cheaper unit than the AQUASTRONG above — 1/2 HP, also cast iron, $299.89. The real difference versus the AQUASTRONG: it isn't self-priming out of the box — you fill the housing with water through a priming port before the first start and add a foot valve at the end of the suction hose, and it ships factory-set to 240V, so check the voltage selector before plugging it into a standard 120V household outlet. If your well is deeper than 25 feet, neither of these works for you — you'd need a deep-well submersible pump, which is not the same submersible listed above (that one is for drainage, not deep wells).
+
+## Video: what a shallow well jet pump looks like in practice
+
+If your case is the shallow well one from above, this video shows a Wayne SWS50 actually running — the same pump listed in this ranking — including startup and the pressure switch cycle.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/yaK-uZXA6Uo" title="Wayne Heavy-Duty Shallow Well Jet Pump - 1/2 HP, 385 GPH, Model# SWS50 — Northern Tool" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## Diaphragm booster pump: the middle ground almost nobody mentions
 
 This is the option almost nobody brings up because it's less known than the other two: it's lightweight, portable, and instead of pressurizing the whole system, it boosts pressure on a single hose or watering point. It starts and stops on its own via a built-in pressure switch — open the tap and it starts, close it and it shuts off.
@@ -43,6 +53,7 @@ The [ECO-WORTHY 33-Series Diaphragm Booster Pump (4.0 GPM, 50 PSI)](/en/producto
 | Several sprinklers lose pressure when used together | Surface |
 | Only one hose or point has weak pressure | Diaphragm booster |
 | You need both to move water AND pressurize from a distant source | Submersible to move it + surface to pressurize it (two pumps, not one) |
+| You have your own shallow well (up to 25 ft) and need extraction and pressure in one unit | Shallow well jet pump |
 
 ## A common mistake: overbuying "just in case"
 

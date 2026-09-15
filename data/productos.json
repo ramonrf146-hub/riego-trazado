@@ -2096,5 +2096,56 @@
       "Hose bib thread",
       "17K+ reviews"
     ]
+  },
+  {
+    "asin": "B000CQ1Y7A",
+    "nombre": "WAYNE SWS50 — Bomba Jet de Pozo Somero 1/2 HP (Cuerpo de Hierro Fundido)",
+    "nombreEn": "WAYNE SWS50 — 1/2 HP Cast Iron Shallow Well Jet Pump",
+    "categoria": "bombas",
+    "precio": 299.89,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71DaWFduyuL._AC_UL320_.jpg",
+    "rating": 4.3,
+    "numResenas": 259,
+    "ranking": 5,
+    "notaTecnica": "Es una bomba tipo 'jet' para pozo somero (hasta 25 pies / 7,6 m de profundidad): a diferencia de la sumergible de este ranking, que va adentro del pozo, esta se instala afuera y 'chupa' el agua hacia arriba por una manguera de succión, empujándola después con presión constante — un interruptor de presión preconfigurado a 30-50 PSI la prende y apaga sola, igual que el tanque hidroneumático de una casa con pozo propio. Cuerpo de hierro fundido, 1/2 HP, hasta 420 galones por hora. Limitación real: a diferencia de la AQUASTRONG autocebante de este ranking, no arranca lista de fábrica — hay que llenar la carcasa de agua por un puerto de cebado antes del primer uso y sumar una válvula de pie en la punta de la manguera de succión, y viene preconfigurada de fábrica en 240V, así que hay que revisar el selector de voltaje antes de enchufarla en un tomacorriente doméstico estándar de 120V.",
+    "notaTecnicaEn": "This is a 'jet'-type pump for a shallow well (up to 25 ft / 7.6 m deep): unlike the submersible pump in this ranking, which sits inside the well, this one installs outside and 'sucks' water upward through a suction hose, then pushes it out with constant pressure — a pressure switch preset to 30-50 PSI turns it on and off on its own, just like the pressure tank in a house with its own well. Cast-iron body, 1/2 HP, up to 420 gallons per hour. Real limitation: unlike the self-priming AQUASTRONG in this ranking, it doesn't arrive ready to run out of the box — you have to fill the housing with water through a dedicated priming port before first use and add a foot valve at the end of the suction hose, and it ships factory-set to 240V, so you need to check the voltage selector before plugging it into a standard 120V household outlet.",
+    "idealPara": "Pozos someros de patio (hasta 25 pies de profundidad) donde necesitás extraer agua y darle presión en un solo equipo, a menor precio y potencia que la bomba de superficie de 1.5 HP de este ranking — requiere cebado manual la primera vez y revisar el selector de voltaje antes de enchufarla.",
+    "idealParaEn": "Shallow backyard wells (up to 25 feet deep) where you need to pull water out and pressurize it with a single unit, at a lower price and power than the 1.5 HP surface pump in this ranking — requires manual priming the first time and checking the voltage selector before plugging it in.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Pensá en esta bomba como una pajita con fuerza: en vez de tomar agua ya presurizada de la red, se instala afuera del pozo o la cisterna y usa un sistema de chorro (jet) para succionar el agua desde abajo y empujarla después con presión constante hacia tu sistema de riego — un interruptor de presión la prende y apaga sola, igual que el tanque de una casa con pozo propio.",
+      "ejemploHogar": "Tu casa tiene un pozo somero en el patio (no muy profundo, hasta unos 7 metros) que hoy no usás para nada — esta bomba lo convierte en la fuente de agua de tu sistema de riego, sin depender de la presión ni del consumo de agua de la red municipal.",
+      "ejemploNegocio": "Un vivero chico o una finca con su propio pozo somero de baja profundidad resuelve extracción y presión con un solo equipo compacto, sin necesitar la instalación fija y el mayor costo de una bomba sumergible de pozo profundo.",
+      "puntosClave": [
+        "Es de pozo SOMERO (hasta 25 pies / 7,6 m de profundidad) — si tu pozo es más profundo que eso, esta bomba no va a poder levantar el agua; necesitás una bomba sumergible de pozo profundo, no esta.",
+        "A diferencia de la AQUASTRONG de este ranking, no es autocebante lista para usar: hay que llenar la carcasa de agua por el puerto de cebado antes del primer arranque, y sumar una válvula de pie en la punta de la manguera de succión para que el agua no se drene de vuelta entre usos.",
+        "Viene configurada de fábrica en 240V — la mayoría de los tomacorrientes domésticos en EE.UU. son de 120V, así que confirmá el selector de voltaje (o consultá un electricista) antes de enchufarla; no asumas que anda directo en cualquier toma."
+      ],
+      "consejoInversion": "Frente a pagar los 1.5 HP completos de la AQUASTRONG de este ranking cuando tu necesidad real es más chica (un pozo somero de patio, no una red grande de aspersores), esta bomba de hierro fundido cuesta unos $50 menos, tiene un respaldo de reseñas similar (259 contra 244) y el hierro fundido dura mucho más que las carcasas plásticas del mercado — el cebado manual inicial es un trámite de una sola vez, no un costo recurrente, así que no compensa pagar de más por una potencia que tu pozo somero no va a aprovechar."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Think of this pump as a straw with muscle: instead of taking already-pressurized water from the mains, it sits outside the well or cistern and uses a jet system to suck water up from below and then push it out with constant pressure toward your irrigation system — a pressure switch turns it on and off on its own, just like the tank in a house with its own well.",
+      "ejemploHogar": "Your home has a shallow well in the backyard (not very deep, up to about 23 feet) that you don't currently use for anything — this pump turns it into your irrigation system's water source, without depending on municipal pressure or water usage.",
+      "ejemploNegocio": "A small nursery or farm with its own shallow well handles both extraction and pressure with one compact unit, without needing the fixed installation and higher cost of a deep-well submersible pump.",
+      "puntosClave": [
+        "It's for a SHALLOW well only (up to 25 ft / 7.6 m deep) — if your well is deeper than that, this pump won't be able to lift the water; you need a deep-well submersible pump instead.",
+        "Unlike the AQUASTRONG in this ranking, it isn't self-priming out of the box: you have to fill the housing with water through the priming port before the first start, and add a foot valve at the end of the suction hose so water doesn't drain back between uses.",
+        "It ships factory-set to 240V — most US household outlets are 120V, so check the voltage selector (or have an electrician do it) before plugging it in; don't assume it runs straight off any standard outlet."
+      ],
+      "consejoInversion": "Compared to paying for the full 1.5 HP of the AQUASTRONG in this ranking when your actual need is smaller (a backyard shallow well, not a large sprinkler network), this cast-iron pump costs about $50 less, has a similar review base (259 versus 244), and cast iron lasts far longer than the plastic housings on the market — the one-time manual priming step is a single setup task, not a recurring cost, so it doesn't pay to overspend on power your shallow well won't use anyway."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B000CQ1Y7A?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-15",
+    "activo": true,
+    "tags": [
+      "Pozo somero",
+      "Hierro fundido",
+      "1/2 HP"
+    ],
+    "tagsEn": [
+      "Shallow well",
+      "Cast iron",
+      "1/2 HP"
+    ]
   }
 ]
