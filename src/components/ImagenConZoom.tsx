@@ -5,12 +5,12 @@ import { useState } from "react";
 interface Props {
   src: string;
   alt: string;
-  className?: string;
+  contenedorClassName?: string;
 }
 
 const ESCALA_ZOOM = 2.2;
 
-export default function ImagenConZoom({ src, alt, className }: Props) {
+export default function ImagenConZoom({ src, alt, contenedorClassName }: Props) {
   const [activo, setActivo] = useState(false);
   const [origen, setOrigen] = useState("50% 50%");
 
@@ -23,7 +23,9 @@ export default function ImagenConZoom({ src, alt, className }: Props) {
 
   return (
     <div
-      className="relative h-full w-full overflow-hidden"
+      className={`relative flex items-center justify-center rounded-2xl bg-image-bg p-4 ${
+        activo ? "z-30 overflow-visible" : "overflow-hidden"
+      } ${contenedorClassName ?? ""}`}
       onMouseEnter={() => setActivo(true)}
       onMouseLeave={() => setActivo(false)}
       onMouseMove={manejarMovimiento}
@@ -32,7 +34,7 @@ export default function ImagenConZoom({ src, alt, className }: Props) {
       <img
         src={src}
         alt={alt}
-        className={`h-full w-full cursor-zoom-in object-contain transition-transform duration-150 ease-out ${className ?? ""}`}
+        className="h-full w-full cursor-zoom-in object-contain transition-transform duration-150 ease-out"
         style={{
           transform: activo ? `scale(${ESCALA_ZOOM})` : "scale(1)",
           transformOrigin: origen,

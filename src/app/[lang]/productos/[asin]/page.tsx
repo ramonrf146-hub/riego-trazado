@@ -146,9 +146,11 @@ export default async function ProductoPage({ params }: Props) {
       </nav>
 
       <div className="mt-6 flex flex-col gap-6 sm:flex-row sm:items-start">
-        <div className="flex h-48 w-full items-center justify-center overflow-hidden rounded-2xl bg-image-bg p-4 sm:h-40 sm:w-40 sm:shrink-0">
-          <ImagenConZoom src={producto.imagen} alt={nombre} />
-        </div>
+        <ImagenConZoom
+          src={producto.imagen}
+          alt={nombre}
+          contenedorClassName="h-48 w-full sm:h-40 sm:w-40 sm:shrink-0"
+        />
         <div>
           <h1 className="text-2xl font-bold leading-snug text-text-light sm:text-3xl">
             {nombre}
