@@ -95,12 +95,12 @@ export default function ProductCard({
 
   return (
     <article className="group flex h-full flex-col overflow-hidden rounded-3xl border border-line-dim/60 bg-ink-2 shadow-xl shadow-black/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-line/10">
-      <div className="relative flex h-28 items-center justify-center overflow-hidden bg-image-bg p-2 sm:h-32">
-        <span className="absolute left-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-ink text-[11px] font-extrabold text-text-light shadow-lg shadow-black/30">
+      <div className="group/imagen relative flex h-28 items-center justify-center overflow-hidden bg-image-bg p-2 sm:h-32">
+        <span className="absolute left-2 top-2 z-10 flex h-6 w-6 items-center justify-center rounded-full bg-ink text-[11px] font-extrabold text-text-light shadow-lg shadow-black/30">
           #{producto.ranking}
         </span>
         {(masVendido || mejorValorado) && (
-          <div className="absolute right-2 top-2 flex flex-col items-end gap-1">
+          <div className="absolute right-2 top-2 z-10 flex flex-col items-end gap-1">
             {masVendido && (
               <span className="rounded-full bg-accent-2 px-1.5 py-0.5 text-[9px] font-bold text-ink shadow-lg shadow-black/30">
                 {dict["producto.masVendido"]}
@@ -123,7 +123,7 @@ export default function ProductCard({
               src={producto.imagen}
               alt={nombre}
               loading="lazy"
-              className="h-full w-full object-contain transition-transform duration-500 ease-out group-hover:scale-105"
+              className="h-full w-full cursor-zoom-in object-contain transition-transform duration-300 ease-out group-hover/imagen:scale-150"
             />
           </Link>
         ) : (
@@ -132,7 +132,7 @@ export default function ProductCard({
             src={producto.imagen}
             alt={nombre}
             loading="lazy"
-            className="h-full w-full object-contain transition-transform duration-500 ease-out group-hover:scale-105"
+            className="h-full w-full object-contain transition-transform duration-300 ease-out group-hover/imagen:scale-150"
           />
         )}
       </div>
