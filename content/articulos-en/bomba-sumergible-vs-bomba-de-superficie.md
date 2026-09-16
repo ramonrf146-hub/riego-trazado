@@ -29,7 +29,11 @@ It sits outside the water source (hence "surface"), draws from it, and pushes wi
 
 The [AQUASTRONG Self-Priming Surface Pump 1.5 HP](/en/productos/B0C8N8CG9G) in this ranking is built specifically for this — cast iron housing, self-priming (no need to manually fill it with water before every start), marketed specifically for lawn sprinklers. It's notably more expensive than the submersible ($349 vs. $59) and the booster — before buying it, measure your actual line pressure with a cheap gauge at the spigot. If you're at 40-50 PSI and several open sprinklers lose pressure together, that's where this pump pays for itself. If your pressure is already fine, you're paying to solve a problem you don't have.
 
-If your water source is specifically **your own shallow well** (not the mains, and no deeper than 25 feet), the [WAYNE SWS50](/en/productos/B000CQ1Y7A) in this ranking handles extraction and pressure in one smaller, cheaper unit than the AQUASTRONG above — 1/2 HP, also cast iron, $299.89. The real difference versus the AQUASTRONG: it isn't self-priming out of the box — you fill the housing with water through a priming port before the first start and add a foot valve at the end of the suction hose, and it ships factory-set to 240V, so check the voltage selector before plugging it into a standard 120V household outlet. If your well is deeper than 25 feet, neither of these works for you — you'd need a deep-well submersible pump, which is not the same submersible listed above (that one is for drainage, not deep wells).
+If your water source is specifically **your own shallow well** (not the mains, and no deeper than 25 feet), the [WAYNE SWS50](/en/productos/B000CQ1Y7A) in this ranking handles extraction and pressure in one smaller, cheaper unit than the AQUASTRONG above — 1/2 HP, also cast iron, $299.89. The real difference versus the AQUASTRONG: it isn't self-priming out of the box — you fill the housing with water through a priming port before the first start and add a foot valve at the end of the suction hose, and it ships factory-set to 240V, so check the voltage selector before plugging it into a standard 120V household outlet. If your well is deeper than 25 feet, neither of these works for you — you'd need a **deep-well** submersible pump, which is not the same submersible listed above (that one is for drainage, not deep wells).
+
+### Deep drilled well (over 25 feet): a different pump, a different certification
+
+A jet pump like the WAYNE and the drainage submersible above both fall short of the lifting force needed at greater depths, and neither is certified for drinking water. The [Red Lion RL12G05-2W1V](/en/productos/B005VEL5EU) in this ranking is a submersible pump that hangs entirely inside the drilled well itself (not outside, like the WAYNE), and it comes NSF/ANSI 372 certified for potable water — the key difference from the AQUASTRONG submersible above, which is built only for drainage and carries no such certification. It delivers 12 GPM at 40 feet of depth, with up to 212 feet of maximum lift. It's noticeably pricier ($468.69) and, unlike the other three pumps in this ranking, it isn't a weekend project: it doesn't include a pressure tank or pressure switch, and installation (drop pipe, safety cable, an underwater electrical splice) is best left to a licensed well driller or plumber in most cases.
 
 ## Video: what a shallow well jet pump looks like in practice
 
@@ -37,6 +41,14 @@ If your case is the shallow well one from above, this video shows a Wayne SWS50 
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/yaK-uZXA6Uo" title="Wayne Heavy-Duty Shallow Well Jet Pump - 1/2 HP, 385 GPH, Model# SWS50 — Northern Tool" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+## Video: what a deep-well submersible pump looks like inside
+
+This review covers the 1 HP sibling model from the same Red Lion RL family (the one in this ranking is the 1/2 HP version) — the diameter, the safety cable, and the in-well installation steps are the same; only the power and voltage differ.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/eHs3yTt8Pvs" title="Red Lion RL12G10-2W2V 1-HP 12-GPM 2-Wire 230-Volt Submersible Deep Well Pump Review" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## Diaphragm booster pump: the middle ground almost nobody mentions
@@ -54,6 +66,7 @@ The [ECO-WORTHY 33-Series Diaphragm Booster Pump (4.0 GPM, 50 PSI)](/en/producto
 | Only one hose or point has weak pressure | Diaphragm booster |
 | You need both to move water AND pressurize from a distant source | Submersible to move it + surface to pressurize it (two pumps, not one) |
 | You have your own shallow well (up to 25 ft) and need extraction and pressure in one unit | Shallow well jet pump |
+| You have a drilled well deeper than 25 ft and need certified potable water | Deep-well submersible (NSF/ANSI 372) |
 
 ## A common mistake: overbuying "just in case"
 
@@ -73,3 +86,6 @@ If it's self-priming (like the one in this ranking), no — it primes itself on 
 
 **Does the diaphragm booster work for the whole yard?**
 No — it's built for one point or hose, not for pressurizing a full sprinkler network. If you try to use it for that, you'll come up short on flow.
+
+**Can I use the drainage submersible (AQUASTRONG) in a deep drilled well to draw drinking water?**
+It's not recommended: it isn't NSF/ANSI 372 certified for potable water like the deep-well Red Lion in this ranking, and its power is built for pumping out standing water, not lifting it with constant pressure from 40, 80, or 120 feet down.

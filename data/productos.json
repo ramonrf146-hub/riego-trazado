@@ -2147,5 +2147,56 @@
       "Cast iron",
       "1/2 HP"
     ]
+  },
+  {
+    "asin": "B005VEL5EU",
+    "nombre": "Red Lion RL12G05-2W1V — Bomba Sumergible de Pozo Profundo 1/2 HP (Certificada NSF para Agua Potable)",
+    "nombreEn": "Red Lion RL12G05-2W1V — 1/2 HP Deep Well Submersible Pump (NSF Certified for Potable Water)",
+    "categoria": "bombas",
+    "precio": 468.69,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71HImbQ3IpL._AC_UL320_.jpg",
+    "rating": 4,
+    "numResenas": 63,
+    "ranking": 6,
+    "notaTecnica": "Bomba sumergible de pozo PROFUNDO (no confundir con la sumergible de achique de este ranking): cuerpo de 3,9\" de diámetro para pozos perforados de 4\" o más, certificada NSF/ANSI 372 para agua potable. Entrega 12 GPM a 40 pies de profundidad (30 PSI), con una altura máxima de bombeo de 212 pies. Es de tecnología '2 hilos' (el mecanismo de arranque va integrado en la propia bomba, sin gabinete de control aparte). Limitación real: no incluye tanque de presión ni presostato, y la instalación (tubería de bajada, cable de seguridad, empalme eléctrico sumergible) suele requerir un plomero o perforista matriculado, a diferencia de las otras bombas de este ranking que son instalables por cuenta propia.",
+    "notaTecnicaEn": "A DEEP well submersible pump (not to be confused with the drainage submersible in this ranking): 3.9\" diameter housing for 4\"-or-larger drilled wells, NSF/ANSI 372 certified for potable water. Delivers 12 GPM at 40 feet of depth (30 PSI), with a maximum lift of 212 feet. It uses '2-wire' technology (the starting mechanism is built into the pump itself, no separate control box needed). Real limitation: it doesn't include a pressure tank or pressure switch, and installation (drop pipe, safety cable, an underwater electrical splice) usually calls for a licensed plumber or well driller, unlike the other pumps in this ranking, which are DIY-installable.",
+    "idealPara": "Pozos perforados de 4 pulgadas o más, de hasta unos 120-200 pies de profundidad, para agua doméstica potable — no sirve para achique ni para pozos someros de patio (ahí conviene la WAYNE SWS50 de este ranking).",
+    "idealParaEn": "Drilled wells 4 inches or wider, up to roughly 120-200 feet deep, for potable household water — not for drainage jobs or shallow backyard wells (the WAYNE SWS50 in this ranking is the better fit there).",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es una bomba que se descuelga entera dentro de un pozo perforado angosto (de 4 pulgadas de diámetro o más) sostenida por una tubería y un cable de seguridad, y desde el fondo empuja el agua hacia arriba y hacia tu casa — como un buzo que sube con un balde de agua atado a una soga, en vez de aspirarla desde afuera. A diferencia de las sumergibles de achique de este mismo ranking (pensadas para vaciar un sótano o una pileta), esta viene certificada para que el agua que toca sea segura para tomar, así que es la que corresponde cuando el pozo perforado ES la fuente de agua potable de la casa, no un extra para el jardín.",
+      "ejemploHogar": "Tu casa no tiene conexión a la red municipal y depende de un pozo perforado profundo (más de 25 pies, donde ya no alcanza una bomba jet de pozo somero) para el agua de la canilla, la ducha y el riego — esta bomba se cuelga dentro de ese pozo y sube el agua hasta el tanque de presión de la casa.",
+      "ejemploNegocio": "Una finca o un criadero alejado de la red de agua municipal perfora su propio pozo profundo para no depender de camiones cisterna, y usa una bomba de este tipo para abastecer tanto las canillas como el sistema de riego de los cultivos, con un solo pozo y una sola bomba.",
+      "puntosClave": [
+        "Medí el diámetro de tu pozo perforado antes de comprar: esta bomba mide 3,9 pulgadas y necesita un pozo de 4 pulgadas o más — en uno más angosto directamente no entra.",
+        "Es de '2 hilos' (el arranque va integrado en la propia bomba, sin gabinete de control aparte) — existen versiones de '3 hilos' de la misma familia que sí necesitan un control box separado; no mezcles el cableado de una con la instalación de la otra.",
+        "No trae tanque de presión ni presostato incluidos: son piezas aparte que necesitás para que el sistema funcione como el de una casa con pozo propio, así que sumalas al presupuesto antes de comprar solo la bomba."
+      ],
+      "consejoInversion": "Frente a usar una bomba de achique barata para intentar alimentar la canilla de la casa (algo que de hecho circula como mala práctica en foros de bricolaje), esta Red Lion certificada NSF/ANSI 372 marca la diferencia entre agua segura para tomar y un riesgo sanitario real — el certificado no es un detalle de marketing, es la garantía de que los materiales en contacto con el agua no contaminan lo que después sale de tu canilla. Para un equipo que va a quedar colgado en el fondo de un pozo durante años, sin acceso fácil para repararlo, pagar por una marca con historial y certificación sale mucho más barato a largo plazo que tener que sacar toda la instalación por haber ahorrado en la bomba equivocada."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a pump that hangs entirely inside a narrow drilled well (4 inches wide or more), suspended by pipe and a safety cable, pushing water up from the bottom toward your house — like a diver rising with a bucket of water tied to a rope, instead of sucking it in from outside. Unlike the drainage submersibles in this same ranking (built to empty a basement or a pool), this one is certified so the water it touches is safe to drink, making it the right call when the drilled well IS the house's drinking-water source, not just an extra for the garden.",
+      "ejemploHogar": "Your home has no municipal water connection and relies on a deep drilled well (deeper than 25 feet, past what a shallow-well jet pump can handle) for the tap, the shower, and irrigation — this pump hangs inside that well and lifts the water up to the house's pressure tank.",
+      "ejemploNegocio": "A farm or kennel far from municipal water drills its own deep well to avoid depending on water-delivery trucks, and uses a pump like this to supply both the taps and the crop irrigation system from a single well and a single pump.",
+      "puntosClave": [
+        "Measure your drilled well's diameter before buying: this pump is 3.9 inches wide and needs a well of 4 inches or more — it simply won't fit down a narrower one.",
+        "It's a '2-wire' model (the starting mechanism is built into the pump itself, no separate control box) — '3-wire' versions in the same family do need a separate control box; don't mix up the wiring between the two.",
+        "It doesn't include a pressure tank or pressure switch: those are separate parts you need for the system to work like a proper home well setup, so budget for them before buying just the pump."
+      ],
+      "consejoInversion": "Compared to using a cheap drainage pump to try to feed the house's tap (something that actually circulates as bad advice in DIY forums), this NSF/ANSI 372-certified Red Lion is the difference between water that's genuinely safe to drink and a real health risk — the certification isn't a marketing detail, it's the guarantee that the materials touching the water don't contaminate what eventually comes out of your faucet. For a unit that's going to hang at the bottom of a well for years with no easy access to fix it, paying for a brand with a track record and certification is far cheaper long-term than pulling the whole installation because you skimped on the wrong pump."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B005VEL5EU?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-16",
+    "activo": true,
+    "tags": [
+      "Pozo profundo",
+      "NSF potable",
+      "1/2 HP"
+    ],
+    "tagsEn": [
+      "Deep well",
+      "NSF potable",
+      "1/2 HP"
+    ]
   }
 ]

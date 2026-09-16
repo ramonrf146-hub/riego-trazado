@@ -29,7 +29,11 @@ Se instala fuera del agua (de ahí "de superficie"), succiona desde una fuente y
 
 El [AQUASTRONG Bomba de Superficie Autocebante 1.5 HP](/productos/B0C8N8CG9G) de este ranking es específicamente para esto — cuerpo de hierro fundido, autocebante (no hay que llenarla de agua manualmente para arrancarla cada vez), comercializada puntualmente para aspersores de césped. Es notablemente más cara que la sumergible ($349 vs. $59) y que la booster — antes de comprarla, medí la presión real de tu red con un [manómetro barato](/productos/B0956QKMJ2) en la salida de la canilla (se atornilla directo, sin herramientas, y cuesta menos de $10). Si tenés 40-50 PSI y varios aspersores abiertos a la vez pierden presión, ahí es donde esta bomba se paga sola. Si tu presión ya es buena, estás pagando por un problema que no tenés — el manómetro es justamente lo que te evita gastar $349 a ciegas.
 
-Si tu fuente de agua es específicamente un **pozo somero propio** (no la red municipal, y no más de 25 pies de profundidad), la [WAYNE SWS50](/productos/B000CQ1Y7A) de este ranking resuelve extracción y presión con un solo equipo más chico y más barato que la AQUASTRONG de arriba — 1/2 HP, cuerpo de hierro fundido también, $299.89. La diferencia real frente a la AQUASTRONG: no es autocebante lista para usar, hay que llenarle la carcasa de agua por un puerto de cebado antes del primer arranque y sumarle una válvula de pie en la punta de la manguera de succión, y viene configurada de fábrica en 240V, así que revisá el selector de voltaje antes de enchufarla en un tomacorriente doméstico de 120V. Si tu pozo es más profundo que 25 pies, ninguna de las dos te sirve — ahí necesitás una bomba sumergible de pozo profundo, que no es la misma sumergible de arriba (esa es para achique, no para pozo profundo).
+Si tu fuente de agua es específicamente un **pozo somero propio** (no la red municipal, y no más de 25 pies de profundidad), la [WAYNE SWS50](/productos/B000CQ1Y7A) de este ranking resuelve extracción y presión con un solo equipo más chico y más barato que la AQUASTRONG de arriba — 1/2 HP, cuerpo de hierro fundido también, $299.89. La diferencia real frente a la AQUASTRONG: no es autocebante lista para usar, hay que llenarle la carcasa de agua por un puerto de cebado antes del primer arranque y sumarle una válvula de pie en la punta de la manguera de succión, y viene configurada de fábrica en 240V, así que revisá el selector de voltaje antes de enchufarla en un tomacorriente doméstico de 120V. Si tu pozo es más profundo que 25 pies, ninguna de las dos te sirve — ahí necesitás una bomba sumergible de **pozo profundo**, que no es la misma sumergible de arriba (esa es para achique, no para pozo profundo).
+
+### Pozo perforado profundo (más de 25 pies): otro equipo, otra certificación
+
+Acá no alcanza con una bomba jet como la WAYNE ni con la sumergible de achique de arriba — ambas se quedan cortas de fuerza para levantar agua desde más profundidad, y ninguna de las dos está certificada para agua de consumo humano. La [Red Lion RL12G05-2W1V](/productos/B005VEL5EU) de este ranking es una bomba sumergible que se descuelga entera dentro del pozo perforado (no afuera, como la WAYNE) y sí viene certificada NSF/ANSI 372 para agua potable — la diferencia clave frente a la sumergible AQUASTRONG de arriba, pensada solo para achique y sin esa certificación. Entrega 12 GPM a 40 pies de profundidad, con hasta 212 pies de altura máxima de bombeo. Es notablemente más cara ($468.69) y, a diferencia de las otras tres bombas de este ranking, no es un proyecto de fin de semana: no trae tanque de presión ni presostato incluidos, y la instalación (tubería de bajada, cable de seguridad, empalme eléctrico sumergible) en la mayoría de los casos conviene dejarla en manos de un perforista o plomero matriculado.
 
 ## Video: cómo es una bomba jet de pozo somero en la práctica
 
@@ -37,6 +41,14 @@ Si tu caso es el del pozo somero del punto anterior, este video muestra el funci
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/yaK-uZXA6Uo" title="Wayne Heavy-Duty Shallow Well Jet Pump - 1/2 HP, 385 GPH, Model# SWS50 — Northern Tool" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+## Video: cómo es una bomba sumergible de pozo profundo por dentro
+
+Este review muestra el modelo hermano de 1 HP de la misma familia Red Lion RL (la de este ranking es la versión de 1/2 HP) — el diámetro, el cable de seguridad y el procedimiento de instalación dentro del pozo son iguales, solo cambian la potencia y el voltaje.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/eHs3yTt8Pvs" title="Red Lion RL12G10-2W2V 1-HP 12-GPM 2-Wire 230-Volt Submersible Deep Well Pump Review" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## Bomba booster de diafragma: el punto intermedio para un solo punto de riego
@@ -54,6 +66,7 @@ El [ECO-WORTHY 33-Series Bomba Booster de Diafragma (4.0 GPM, 50 PSI)](/producto
 | Solo una manguera o punto anda con presión floja | Booster de diafragma |
 | Necesitás presión Y mover agua desde una fuente lejana | Sumergible para trasladar + de superficie para presurizar (dos bombas, no una) |
 | Tenés tu propio pozo somero (hasta 25 pies) y necesitás extraer y presurizar en un solo equipo | Jet de pozo somero |
+| Tenés un pozo perforado de más de 25 pies y necesitás agua potable certificada | Sumergible de pozo profundo (NSF/ANSI 372) |
 
 ## Un error común: comprar de más "por las dudas"
 
@@ -73,3 +86,6 @@ Si es autocebante (como la de este ranking), no — se autoceba al arrancar. Las
 
 **¿La booster de diafragma sirve para todo el jardín?**
 No — está pensada para un punto o una manguera, no para presurizar una red completa de aspersores. Si tratás de usarla para eso, vas a quedarte corto de caudal.
+
+**¿Puedo usar la sumergible de achique (AQUASTRONG) en un pozo perforado profundo para tomar agua de ahí?**
+No es recomendable: no está certificada para agua potable (NSF/ANSI 372) como la Red Lion de pozo profundo de este ranking, y su fuerza está pensada para achicar agua acumulada, no para levantarla con presión constante desde 40, 80 o 120 pies de profundidad.
