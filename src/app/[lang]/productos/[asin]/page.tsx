@@ -5,6 +5,7 @@ import { getCategoriaPorSlug } from "@/lib/categorias";
 import { getProductos, getProductoPorAsin } from "@/lib/productos";
 import { getDictionary, t, withLocale, type Locale } from "@/lib/i18n";
 import GlosarioDeCampo from "@/components/GlosarioDeCampo";
+import ImagenConZoom from "@/components/ImagenConZoom";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.riegocom.uk";
 
@@ -146,12 +147,7 @@ export default async function ProductoPage({ params }: Props) {
 
       <div className="mt-6 flex flex-col gap-6 sm:flex-row sm:items-start">
         <div className="flex h-48 w-full items-center justify-center overflow-hidden rounded-2xl bg-image-bg p-4 sm:h-40 sm:w-40 sm:shrink-0">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={producto.imagen}
-            alt={nombre}
-            className="h-full w-full object-contain transition-transform duration-300 ease-out hover:scale-110"
-          />
+          <ImagenConZoom src={producto.imagen} alt={nombre} />
         </div>
         <div>
           <h1 className="text-2xl font-bold leading-snug text-text-light sm:text-3xl">
