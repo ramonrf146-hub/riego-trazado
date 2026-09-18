@@ -2198,5 +2198,56 @@
       "NSF potable",
       "1/2 HP"
     ]
+  },
+  {
+    "asin": "B000BQSERE",
+    "nombre": "Square D FSG2J24CP — Interruptor de Presión Pumptrol para Bomba de Pozo (40-60 PSI)",
+    "nombreEn": "Square D FSG2J24CP — Pumptrol Pressure Switch for Well Pumps (40-60 PSI)",
+    "categoria": "bombas",
+    "precio": 27.11,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71WsMkIbZPL._AC_UL320_.jpg",
+    "rating": 4.7,
+    "numResenas": 1105,
+    "ranking": 7,
+    "notaTecnica": "Es el interruptor de presión que prende y apaga automáticamente una bomba de pozo (jet o sumergible) según la presión del agua en la tubería — la marca Square D/Telemecanique es la referencia de la industria para esta pieza en EE.UU., con más de 1.100 reseñas que la respaldan. Viene preconfigurado de fábrica en el rango 40-60 PSI (encendido a 40, apagado a 60), ajustable con la tuerca del resorte si tu bomba necesita otro rango. Limitación real: esto NO es un tanque de presión, es solo el interruptor — tanto la Red Lion como la WAYNE SWS50 de este ranking no incluyen presostato ni tanque, y sin un tanque hidroneumático sumado aparte, la bomba va a prender y apagar cada pocos segundos (ciclado corto), lo que acorta mucho la vida útil del motor.",
+    "notaTecnicaEn": "This is the pressure switch that automatically turns a well pump (jet or submersible) on and off based on the water pressure in the pipe — the Square D/Telemecanique brand is the industry reference for this part in the US, backed by over 1,100 reviews. It ships factory-set to the 40-60 PSI range (on at 40, off at 60), adjustable via the range-spring nut if your pump needs a different setting. Real limitation: this is NOT a pressure tank, it's only the switch — both the Red Lion and the WAYNE SWS50 in this ranking ship without a pressure switch or tank, and without a separate pressure tank added to the system, the pump will short-cycle (turn on and off every few seconds), which significantly shortens motor life.",
+    "idealPara": "Reemplazar un interruptor de presión roto o completar la instalación de una bomba de pozo que no trae presostato incluido, como la Red Lion o la WAYNE SWS50 de este ranking — igual necesitás sumar un tanque de presión aparte.",
+    "idealParaEn": "Replacing a failed pressure switch or completing the install of a well pump that doesn't ship with one, like the Red Lion or the WAYNE SWS50 in this ranking — you'll still need to add a separate pressure tank.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es el 'termostato' de la bomba, pero para presión en vez de temperatura: mide la presión del agua en la tubería y le manda la señal eléctrica a la bomba para que arranque apenas la presión baja de cierto punto (por ejemplo, al abrir una canilla) y se apague cuando vuelve a subir. Sin esta pieza, una bomba de pozo no tiene forma de saber cuándo prender o apagarse sola.",
+      "ejemploHogar": "Instalaste la WAYNE SWS50 o la Red Lion de este ranking y te diste cuenta de que ninguna de las dos trae este interruptor incluido — sin él, tendrías que prender y apagar la bomba a mano cada vez que necesitás agua; con este switch, el sistema arranca solo al abrir la canilla y corta solo al cerrarla.",
+      "ejemploNegocio": "Un plomero que instala sistemas de pozo para varios clientes elige este modelo puntual en vez de una marca genérica sin historial, porque sabe que va a conseguir repuestos y soporte técnico durante años — algo que no puede garantizar con un interruptor sin marca reconocida.",
+      "puntosClave": [
+        "Esto NO es un tanque de presión, es solo el interruptor — si tu instalación no tiene ya un tanque hidroneumático, necesitás sumar uno aparte para evitar que la bomba arranque y pare cada pocos segundos.",
+        "Viene preconfigurado en el rango 40-60 PSI; si tu bomba necesita otro rango (por ejemplo, 30-50 PSI, el preset de fábrica de la WAYNE SWS50 de este ranking), hay que reajustarlo a mano con la tuerca del resorte — no llega calibrado para cualquier bomba.",
+        "Confirmá que tu instalación usa la conexión estándar de 1/4\" NPSF antes de comprar — es la más común en sistemas residenciales, pero si la tuya es distinta vas a necesitar un adaptador aparte."
+      ],
+      "consejoInversion": "Frente a un interruptor genérico sin marca reconocida (hay varios por $15-20 en Amazon sin historial de reseñas), Square D/Telemecanique es la marca que eligen los plomeros profesionales para esta pieza puntual — con más de 1.100 reseñas y 4.7 estrellas de respaldo, y contactos de plata que resisten mejor el arco eléctrico de encendidos repetidos que los contactos genéricos más baratos. Para una pieza que se prende y apaga cientos de veces por semana y que, si falla, te deja sin agua en toda la casa, no es el lugar para ahorrarte los $10 de diferencia."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's the pump's 'thermostat,' but for pressure instead of temperature: it measures the water pressure in the pipe and sends the electrical signal that starts the pump the moment pressure drops below a set point (like when you open a faucet) and shuts it off once pressure climbs back up. Without this part, a well pump has no way of knowing when to turn itself on or off.",
+      "ejemploHogar": "You installed the WAYNE SWS50 or the Red Lion from this ranking and realized neither one ships with this switch — without it, you'd have to turn the pump on and off by hand every time you need water; with this switch, the system starts on its own when you open the faucet and cuts off when you close it.",
+      "ejemploNegocio": "A plumber installing well systems for multiple clients picks this specific model over an unbranded generic one because they know replacement parts and technical support will be available for years — something they can't guarantee with an unrecognized-brand switch.",
+      "puntosClave": [
+        "This is NOT a pressure tank, it's only the switch — if your setup doesn't already have a pressure tank, you need to add one separately to keep the pump from short-cycling every few seconds.",
+        "It ships factory-set to the 40-60 PSI range; if your pump needs a different range (like the 30-50 PSI factory preset on the WAYNE SWS50 in this ranking), you'll need to manually readjust it with the range-spring nut — it doesn't arrive pre-tuned for every pump.",
+        "Confirm your setup uses the standard 1/4\" NPSF connection before buying — it's the most common in residential systems, but if yours is different you'll need a separate adapter."
+      ],
+      "consejoInversion": "Compared to an unbranded generic switch (there are several for $15-20 on Amazon with no review history), Square D/Telemecanique is the brand professional plumbers reach for on this specific part — backed by over 1,100 reviews and a 4.7-star rating, with silver contacts that hold up better against the electrical arcing of repeated cycling than cheaper generic contacts. For a part that switches on and off hundreds of times a week and, if it fails, leaves the whole house without water, this isn't where you want to save the $10 difference."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B000BQSERE?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-18",
+    "activo": true,
+    "tags": [
+      "Presostato",
+      "40-60 PSI",
+      "Square D"
+    ],
+    "tagsEn": [
+      "Pressure switch",
+      "40-60 PSI",
+      "Square D"
+    ]
   }
 ]

@@ -33,7 +33,7 @@ If your water source is specifically **your own shallow well** (not the mains, a
 
 ### Deep drilled well (over 25 feet): a different pump, a different certification
 
-A jet pump like the WAYNE and the drainage submersible above both fall short of the lifting force needed at greater depths, and neither is certified for drinking water. The [Red Lion RL12G05-2W1V](/en/productos/B005VEL5EU) in this ranking is a submersible pump that hangs entirely inside the drilled well itself (not outside, like the WAYNE), and it comes NSF/ANSI 372 certified for potable water — the key difference from the AQUASTRONG submersible above, which is built only for drainage and carries no such certification. It delivers 12 GPM at 40 feet of depth, with up to 212 feet of maximum lift. It's noticeably pricier ($468.69) and, unlike the other three pumps in this ranking, it isn't a weekend project: it doesn't include a pressure tank or pressure switch, and installation (drop pipe, safety cable, an underwater electrical splice) is best left to a licensed well driller or plumber in most cases.
+A jet pump like the WAYNE and the drainage submersible above both fall short of the lifting force needed at greater depths, and neither is certified for drinking water. The [Red Lion RL12G05-2W1V](/en/productos/B005VEL5EU) in this ranking is a submersible pump that hangs entirely inside the drilled well itself (not outside, like the WAYNE), and it comes NSF/ANSI 372 certified for potable water — the key difference from the AQUASTRONG submersible above, which is built only for drainage and carries no such certification. It delivers 12 GPM at 40 feet of depth, with up to 212 feet of maximum lift. It's noticeably pricier ($468.69) and, unlike the other three pumps in this ranking, it isn't a weekend project: it doesn't include a pressure tank or pressure switch, and installation (drop pipe, safety cable, an underwater electrical splice) is best left to a licensed well driller or plumber in most cases. The pressure switch in particular is easy to underestimate: without one, the pump has no way of knowing when to turn itself on or off — the [Square D FSG2J24CP](/en/productos/B000BQSERE) in this ranking is exactly that part, the same brand professional plumbers reach for, though it ships preset to 40-60 PSI and needs manual readjustment if your setup requires a different range (like the WAYNE SWS50's 30-50 PSI factory preset below). And the switch alone isn't enough either — without also adding a separate pressure tank, the pump will turn on and off every few seconds, which shortens the motor's lifespan.
 
 ## Video: what a shallow well jet pump looks like in practice
 
@@ -49,6 +49,14 @@ This review covers the 1 HP sibling model from the same Red Lion RL family (the 
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/eHs3yTt8Pvs" title="Red Lion RL12G10-2W2V 1-HP 12-GPM 2-Wire 230-Volt Submersible Deep Well Pump Review" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+## Video: how to install the pressure switch
+
+If this is the missing piece to finish the Red Lion install (or any well pump that ships without one), this official tutorial from Telemecanique Sensors (the same brand behind the Square D FSG2J24CP in this ranking) walks through the install step by step.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/7_HfvvOASnk" title="Tutorial – Install your Pumptrol Pressure Switch — Telemecanique Sensors" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## Diaphragm booster pump: the middle ground almost nobody mentions
@@ -89,3 +97,6 @@ No — it's built for one point or hose, not for pressurizing a full sprinkler n
 
 **Can I use the drainage submersible (AQUASTRONG) in a deep drilled well to draw drinking water?**
 It's not recommended: it isn't NSF/ANSI 372 certified for potable water like the deep-well Red Lion in this ranking, and its power is built for pumping out standing water, not lifting it with constant pressure from 40, 80, or 120 feet down.
+
+**I bought a well pump (Red Lion or WAYNE) and it didn't come with a pressure switch — do I really need one?**
+Yes, no way around it: it's the part that tells the pump when to turn itself on and off based on water pressure. The [Square D FSG2J24CP](/en/productos/B000BQSERE) in this ranking is a valid replacement or add-on for either pump — but remember the switch alone isn't enough, you also need a separate pressure tank so the pump doesn't short-cycle every few seconds.

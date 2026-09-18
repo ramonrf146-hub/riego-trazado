@@ -33,7 +33,7 @@ Si tu fuente de agua es específicamente un **pozo somero propio** (no la red mu
 
 ### Pozo perforado profundo (más de 25 pies): otro equipo, otra certificación
 
-Acá no alcanza con una bomba jet como la WAYNE ni con la sumergible de achique de arriba — ambas se quedan cortas de fuerza para levantar agua desde más profundidad, y ninguna de las dos está certificada para agua de consumo humano. La [Red Lion RL12G05-2W1V](/productos/B005VEL5EU) de este ranking es una bomba sumergible que se descuelga entera dentro del pozo perforado (no afuera, como la WAYNE) y sí viene certificada NSF/ANSI 372 para agua potable — la diferencia clave frente a la sumergible AQUASTRONG de arriba, pensada solo para achique y sin esa certificación. Entrega 12 GPM a 40 pies de profundidad, con hasta 212 pies de altura máxima de bombeo. Es notablemente más cara ($468.69) y, a diferencia de las otras tres bombas de este ranking, no es un proyecto de fin de semana: no trae tanque de presión ni presostato incluidos, y la instalación (tubería de bajada, cable de seguridad, empalme eléctrico sumergible) en la mayoría de los casos conviene dejarla en manos de un perforista o plomero matriculado.
+Acá no alcanza con una bomba jet como la WAYNE ni con la sumergible de achique de arriba — ambas se quedan cortas de fuerza para levantar agua desde más profundidad, y ninguna de las dos está certificada para agua de consumo humano. La [Red Lion RL12G05-2W1V](/productos/B005VEL5EU) de este ranking es una bomba sumergible que se descuelga entera dentro del pozo perforado (no afuera, como la WAYNE) y sí viene certificada NSF/ANSI 372 para agua potable — la diferencia clave frente a la sumergible AQUASTRONG de arriba, pensada solo para achique y sin esa certificación. Entrega 12 GPM a 40 pies de profundidad, con hasta 212 pies de altura máxima de bombeo. Es notablemente más cara ($468.69) y, a diferencia de las otras tres bombas de este ranking, no es un proyecto de fin de semana: no trae tanque de presión ni presostato incluidos, y la instalación (tubería de bajada, cable de seguridad, empalme eléctrico sumergible) en la mayoría de los casos conviene dejarla en manos de un perforista o plomero matriculado. El presostato en particular es fácil de subestimar: sin uno, la bomba no tiene forma de saber cuándo prender ni apagarse sola — el [Square D FSG2J24CP](/productos/B000BQSERE) de este ranking es justamente esa pieza, la misma marca que eligen los plomeros profesionales, aunque viene preconfigurado a 40-60 PSI y hay que reajustarlo a mano si tu instalación necesita otro rango (por ejemplo, los 30-50 PSI de fábrica de la WAYNE SWS50 de abajo). Y ojo: el interruptor por sí solo no alcanza — sin sumar además un tanque de presión aparte, la bomba va a prender y apagar cada pocos segundos, lo que le acorta la vida útil al motor.
 
 ## Video: cómo es una bomba jet de pozo somero en la práctica
 
@@ -49,6 +49,14 @@ Este review muestra el modelo hermano de 1 HP de la misma familia Red Lion RL (l
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/eHs3yTt8Pvs" title="Red Lion RL12G10-2W2V 1-HP 12-GPM 2-Wire 230-Volt Submersible Deep Well Pump Review" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+## Video: cómo instalar el interruptor de presión
+
+Si te falta esta pieza para completar la instalación de la Red Lion (o de cualquier bomba de pozo sin presostato incluido), este tutorial oficial de Telemecanique Sensors (la misma marca del Square D FSG2J24CP de este ranking) muestra la instalación paso a paso.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/7_HfvvOASnk" title="Tutorial – Install your Pumptrol Pressure Switch — Telemecanique Sensors" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## Bomba booster de diafragma: el punto intermedio para un solo punto de riego
@@ -89,3 +97,6 @@ No — está pensada para un punto o una manguera, no para presurizar una red co
 
 **¿Puedo usar la sumergible de achique (AQUASTRONG) en un pozo perforado profundo para tomar agua de ahí?**
 No es recomendable: no está certificada para agua potable (NSF/ANSI 372) como la Red Lion de pozo profundo de este ranking, y su fuerza está pensada para achicar agua acumulada, no para levantarla con presión constante desde 40, 80 o 120 pies de profundidad.
+
+**Compré una bomba de pozo (Red Lion o WAYNE) y no venía con presostato — ¿lo necesito sí o sí?**
+Sí, sin excepción: es la pieza que le dice a la bomba cuándo prender y apagarse sola según la presión del agua. El [Square D FSG2J24CP](/productos/B000BQSERE) de este ranking es un reemplazo o complemento válido para cualquiera de las dos — pero recordá que el presostato solo no alcanza, también necesitás un tanque de presión aparte para que la bomba no cicle cada pocos segundos.
