@@ -2249,5 +2249,56 @@
       "40-60 PSI",
       "Square D"
     ]
+  },
+  {
+    "asin": "B00WOUTDJ8",
+    "nombre": "Amtrol WX-202 — Tanque de Presión Hidroneumático 20 Galones (Well-X-Trol)",
+    "nombreEn": "Amtrol WX-202 — 20-Gallon Pre-Charged Pressure Tank (Well-X-Trol)",
+    "categoria": "bombas",
+    "precio": 330,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/31n6IVyPMJL._AC_UL320_.jpg",
+    "rating": 4.6,
+    "numResenas": 225,
+    "ranking": 8,
+    "notaTecnica": "Tanque hidroneumático con diafragma de butilo, precargado de fábrica a 38 PSI — 2 PSI por debajo del punto de arranque de un interruptor de 40-60 PSI, como el Square D FSG2J24CP de este ranking, que es justamente el rango para el que viene calibrado de fábrica. Conexión de sistema 1\" NPT, presión máxima de trabajo 125 PSI. Limitación real: 20 galones es el tamaño residencial estándar, pero si tu casa tiene varios baños o usa agua en varios puntos a la vez, la familia Well-X-Trol también viene en tamaños más grandes — este puede quedarse corto en esos casos.",
+    "notaTecnicaEn": "A pre-charged bladder tank with a butyl-rubber diaphragm, factory pre-charged to 38 PSI — 2 PSI below the cut-in point of a 40-60 PSI switch, like the Square D FSG2J24CP in this ranking, which is exactly the range it ships calibrated for. System connection is 1\" NPT, max working pressure 125 PSI. Real limitation: 20 gallons is the standard residential size, but if your home has multiple bathrooms or draws water at several points at once, the Well-X-Trol family also comes in larger sizes — this one can fall short in those cases.",
+    "idealPara": "Completar la instalación de una bomba de pozo (jet o sumergible) que no trae tanque de presión incluido, evitando el ciclado corto del motor — especialmente si ya tenés o vas a instalar el interruptor Square D FSG2J24CP de este ranking, porque el precargado de fábrica (38 PSI) está pensado exactamente para ese rango de 40-60 PSI.",
+    "idealParaEn": "Completing the install of a well pump (jet or submersible) that doesn't ship with a pressure tank, preventing motor short-cycling — especially if you already have, or plan to install, the Square D FSG2J24CP switch from this ranking, since the factory pre-charge (38 PSI) is set up exactly for that 40-60 PSI range.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es el \"amortiguador\" de agua del sistema: una vejiga de goma (el diafragma) adentro de un tanque metálico se llena de agua a presión cada vez que la bomba arranca, como un globo que se infla. Cuando abrís una canilla, el agua sale primero de ese globo presurizado, no directamente de la bomba — así la bomba no tiene que prender cada vez que alguien abre una canilla por dos segundos, sino solo cuando la reserva del tanque baja de verdad.",
+      "ejemploHogar": "Instalaste la WAYNE SWS50 o la Red Lion de este ranking junto con el interruptor de presión Square D, pero sin este tanque la bomba prende y para cada pocos segundos apenas alguien abre una canilla — con el tanque sumado, la bomba arranca solo un puñado de veces al día en vez de cientos.",
+      "ejemploNegocio": "Un plomero que instala sistemas de pozo residenciales sabe que un tanque subdimensionado es la causa número uno de motores de bomba quemados antes de tiempo por ciclado corto — elegir el tamaño correcto desde el arranque le ahorra al cliente una llamada de garantía a los pocos meses.",
+      "puntosClave": [
+        "El precargado de fábrica de este tanque es 38 PSI — tiene que quedar 2 PSI por debajo de la presión de arranque (\"cut-in\") de tu interruptor. Si el tuyo es de 40-60 PSI (como el Square D FSG2J24CP de este ranking), este tanque ya viene calibrado correctamente; si es de otro rango, vas a necesitar reajustar el precargado con una bomba de aire de neumático antes de instalarlo.",
+        "20 galones es el tamaño residencial estándar, pero el volumen útil real (drawdown) es bastante menor — si tu casa tiene varios baños o electrodomésticos que usan agua a la vez, calculá cuántos galones por minuto necesitás sostener antes de asumir que este tamaño alcanza; la familia Well-X-Trol también viene en versiones más grandes.",
+        "La conexión de este modelo es de 1\" NPT — confirmá que coincide con la tubería de tu instalación antes de comprar, o vas a necesitar un adaptador de rosca."
+      ],
+      "consejoInversion": "Frente a un tanque genérico sin marca reconocida o, peor, un sistema sin tanque de presión, este equipo evita el ciclado corto que es la causa más común de que un motor de bomba se queme antes de tiempo — reemplazar un motor de bomba de pozo cuesta varias veces lo que sale este tanque, así que la inversión se paga sola con solo evitar un service prematuro. El diafragma de butilo de Amtrol (marca líder de la industria en este tipo de tanque) también dura más que los tanques viejos sin vejiga, que se empantanan con agua y pierden presión de aire con el tiempo."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Think of it as the system's 'water shock absorber': a rubber bladder (the diaphragm) inside a metal tank fills with pressurized water every time the pump runs, like a balloon inflating. When you open a faucet, water comes out of that pressurized balloon first, not straight from the pump — so the pump doesn't have to switch on every time someone opens a faucet for two seconds, only when the tank's reserve actually runs low.",
+      "ejemploHogar": "You installed the WAYNE SWS50 or the Red Lion from this ranking along with the Square D pressure switch, but without this tank the pump turns on and off every few seconds the moment someone opens a faucet — add the tank and the pump only kicks on a handful of times a day instead of hundreds.",
+      "ejemploNegocio": "A plumber installing residential well systems knows an undersized tank is the number-one cause of pump motors burning out early from short-cycling — picking the right size upfront saves the customer a warranty callback a few months later.",
+      "puntosClave": [
+        "This tank's factory pre-charge is 38 PSI — it needs to sit 2 PSI below your switch's 'cut-in' pressure. If your switch is 40-60 PSI (like the Square D FSG2J24CP in this ranking), this tank already ships calibrated correctly; if yours is a different range, you'll need to readjust the pre-charge with a tire pump before installing it.",
+        "20 gallons is the standard residential size, but the actual usable volume (drawdown) is considerably smaller — if your home has multiple bathrooms or appliances drawing water at once, work out how many gallons per minute you need to sustain before assuming this size is enough; the Well-X-Trol family also comes in larger sizes.",
+        "This model's connection is 1\" NPT — confirm it matches your installation's piping before buying, or you'll need a thread adapter."
+      ],
+      "consejoInversion": "Compared to an unbranded generic tank — or worse, no pressure tank at all — this unit prevents the short-cycling that's the most common reason a well pump motor burns out early; replacing a well pump motor costs several times what this tank runs, so the investment pays for itself just by avoiding one premature service call. Amtrol's butyl-rubber diaphragm (the industry-leading brand for this type of tank) also outlasts old bladderless tanks, which waterlog and lose their air charge over time."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B00WOUTDJ8?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-19",
+    "activo": true,
+    "tags": [
+      "Tanque de presión",
+      "20 galones",
+      "Precarga 38 PSI"
+    ],
+    "tagsEn": [
+      "Pressure tank",
+      "20 gallons",
+      "38 PSI pre-charge"
+    ]
   }
 ]
