@@ -2300,5 +2300,56 @@
       "20 gallons",
       "38 PSI pre-charge"
     ]
+  },
+  {
+    "asin": "B07953S2FD",
+    "nombre": "TP-Link EAP225-Outdoor — Punto de Acceso WiFi Exterior AC1200 (Omada, IP65, con Inyector PoE)",
+    "nombreEn": "TP-Link EAP225-Outdoor — AC1200 Outdoor Wireless Access Point (Omada, IP65, w/ PoE Injector)",
+    "categoria": "controladores-wifi",
+    "precio": 69.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/41O-IwgGonL._AC_UL320_.jpg",
+    "rating": 4.1,
+    "numResenas": 4458,
+    "ranking": 10,
+    "notaTecnica": "Punto de acceso WiFi exterior de TP-Link (línea profesional Omada), clase AC1200 (867 Mbps en 5GHz + 300 Mbps en 2.4GHz), con inyector PoE incluido — un solo cable de red lleva datos y alimentación al mismo tiempo, sin necesitar un tomacorriente cerca del equipo. Certificación IP65 (resiste lluvia, polvo y temperaturas de -30°C a 70°C) y alcance declarado de hasta 200m en 2.4GHz y 300m en 5GHz al aire libre. Funciona en modo standalone, sin necesitar el controlador Omada completo, para la mayoría de los usos hogareños. Limitación real: no es un repetidor WiFi inalámbrico que se enchufa y listo — necesita que le tiendas un cable de red (Ethernet) hasta donde vaya instalado; si no podés pasar cable hasta el garage o cobertizo, un repetidor mesh inalámbrico es más simple de instalar, aunque da una señal menos estable que este equipo.",
+    "notaTecnicaEn": "An outdoor WiFi access point from TP-Link's professional Omada line, AC1200 class (867 Mbps on 5GHz + 300 Mbps on 2.4GHz), with a PoE injector included — a single network cable carries both data and power, so no outlet is needed near the unit. IP65-rated (rain, dust, and -30°C to 70°C temperatures) with a claimed range of up to 200m on 2.4GHz and 300m on 5GHz outdoors. It runs in standalone mode, without needing the full Omada controller, for most home uses. Real limitation: this isn't a plug-and-play wireless repeater — you need to run a network (Ethernet) cable out to wherever it's installed; if you can't run cable to the garage or shed, a wireless mesh extender is easier to install, though it delivers a less stable signal than this unit.",
+    "idealPara": "Llevar WiFi confiable hasta un garage, cobertizo o punto del jardín alejado del router donde vaya instalado un controlador de riego WiFi — a costa de tener que tender un cable Ethernet hasta ahí.",
+    "idealParaEn": "Bringing reliable WiFi to a garage, shed, or far corner of the yard where a WiFi irrigation controller will sit — at the cost of having to run an Ethernet cable out there.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es una \"antena repetidora profesional\": en vez de esperar que la señal WiFi del router de la casa atraviese paredes y distancia hasta el garage o cobertizo donde instalaste tu controlador de riego, este equipo se instala ahí mismo, conectado por un cable de red al router, y retransmite una señal WiFi fuerte justo en el lugar — como poner un enchufe de WiFi directo ahí en vez de esperar que la señal llegue sola desde lejos.",
+      "ejemploHogar": "Tu controlador de riego WiFi quedó instalado en el garage al fondo del patio y la señal del router de la casa le llega débil o se corta — instalás este punto de acceso en el garage, conectado por un cable de red, y el controlador (y cualquier otro dispositivo cercano) recibe señal fuerte como si estuviera al lado del router.",
+      "ejemploNegocio": "Un vivero o finca con varios puntos de riego automatizado repartidos en el terreno puede instalar dos o tres de estos puntos de acceso en modo mesh para tener cobertura WiFi pareja en toda la propiedad, en vez de depender de un solo router central que no llega a los extremos.",
+      "puntosClave": [
+        "No es un repetidor inalámbrico enchufable: necesita un cable Ethernet tendido hasta donde lo instalés (el inyector PoE que trae hace que ese mismo cable también lo alimente, así que no hace falta un tomacorriente ahí).",
+        "El alcance declarado (200m en 2.4GHz, 300m en 5GHz) es en exterior sin obstáculos — paredes, árboles y estructuras metálicas reducen ese número bastante en la práctica.",
+        "Funciona en modo standalone sin necesitar el controlador Omada completo, pero si pensás sumar varios puntos de acceso para cubrir un terreno grande, vale la pena entender el ecosistema Omada (gratuito) desde el principio."
+      ],
+      "consejoInversion": "Frente a un repetidor WiFi genérico que se enchufa a un tomacorriente, este punto de acceso cableado da una señal mucho más estable y con menos pérdida de velocidad (los repetidores inalámbricos suelen perder buena parte del ancho de banda al retransmitir por aire) — para un controlador de riego que depende de estar siempre conectado para ejecutar sus horarios y recibir alertas de clima, esa estabilidad vale la diferencia de precio frente a un repetidor barato genérico."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Think of it as a 'professional repeater antenna': instead of hoping the house router's WiFi signal makes it through walls and distance to the garage or shed where you installed your irrigation controller, this unit gets installed right there, wired to the router by a network cable, and broadcasts a strong WiFi signal on the spot — like plugging WiFi in directly instead of waiting for the signal to reach that far on its own.",
+      "ejemploHogar": "Your WiFi irrigation controller ended up installed in the garage at the back of the yard, and the house router's signal reaches it weak or drops out — you install this access point in the garage, wired with a network cable, and the controller (plus any other nearby devices) gets a strong signal as if it were sitting right next to the router.",
+      "ejemploNegocio": "A nursery or small farm with several automated irrigation points scattered across the property can install two or three of these access points in mesh mode for even WiFi coverage across the whole site, instead of relying on a single central router that can't reach the far corners.",
+      "puntosClave": [
+        "This isn't a plug-in wireless repeater: it needs an Ethernet cable run out to wherever you install it (the included PoE injector powers it over that same cable, so no outlet is needed there).",
+        "The claimed range (200m on 2.4GHz, 300m on 5GHz) is outdoors with no obstructions — walls, trees, and metal structures cut that down quite a bit in practice.",
+        "It runs in standalone mode without needing the full Omada controller, but if you're planning to add several access points to cover a large property, it's worth learning the (free) Omada ecosystem from the start."
+      ],
+      "consejoInversion": "Compared to a generic plug-in WiFi extender, this wired access point delivers a far more stable signal with much less speed loss (wireless repeaters typically lose a good chunk of bandwidth retransmitting over the air) — for an irrigation controller that depends on staying connected to run its schedules and receive weather alerts, that stability is worth the price difference over a cheap generic extender."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B07953S2FD?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-20",
+    "activo": true,
+    "tags": [
+      "Exterior IP65",
+      "PoE incluido",
+      "AC1200"
+    ],
+    "tagsEn": [
+      "Outdoor IP65",
+      "PoE included",
+      "AC1200"
+    ]
   }
 ]

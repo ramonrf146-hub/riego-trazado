@@ -26,7 +26,13 @@ Un buen controlador debe poder recibir la señal de un sensor de lluvia o de hum
 
 ## 4. Protocolo de comunicación
 
-La mayoría son WiFi puro, lo cual funciona bien si el controlador está cerca del router. Si vas a instalarlo en un cobertizo o zona de patio alejada, considera modelos con opción de extensión (repetidor incluido) o que soporten un protocolo de menor consumo como Zigbee vía hub — aunque esto último es menos común en controladores de riego que en el resto de la domótica.
+La mayoría son WiFi puro, lo cual funciona bien si el controlador está cerca del router. Si vas a instalarlo en un cobertizo o zona de patio alejada, considera modelos con opción de extensión (repetidor incluido) o que soporten un protocolo de menor consumo como Zigbee vía hub — aunque esto último es menos común en controladores de riego que en el resto de la domótica. Ninguno de los controladores de este ranking trae esa extensión incluida, así que si el garage o cobertizo donde va a quedar el tuyo está lejos del router, la solución real es sumar un punto de acceso aparte como el [TP-Link EAP225-Outdoor](/productos/B07953S2FD): se cablea con un solo cable de red (que también lo alimenta, vía PoE) hasta el lugar y ahí retransmite señal fuerte — a diferencia de un repetidor inalámbrico enchufable, no pierde ancho de banda por retransmitir por aire, algo que sí importa para un controlador que necesita estar siempre conectado.
+
+### Video: probando el TP-Link EAP225-Outdoor en exterior
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/LYiJBfUH0co" title="Should Be The Best Outdoor Wifi Extender, But Is It? TP-Link EAP225 — Toolsdoctor" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## 5. Qué pasa si el fabricante desaparece
 
@@ -44,7 +50,7 @@ No siempre hace falta un controlador WiFi completo. Si el problema puntual es "m
 
 - **Pensando en el futuro (criterio 1):** el [Hunter HPC400](/productos/B08BJBKW44) arranca en 4 zonas pero se expande con módulos hasta 32 — resuelve directamente el problema de comprar de menos. El [Rachio 3](/productos/B07CZ864Y9) también viene en versión de 16 zonas si sabés que vas a necesitar más desde el arranque.
 - **Respaldo de otros compradores:** el [Orbit B-hyve](/productos/B01D15HOIQ) es el controlador con más reseñas de todo este ranking (más de 9.000) — no es sinónimo de "mejor" en cada criterio técnico, pero sí de que mucha gente lo usó sin problemas graves.
-- **Protocolo:** todos los controladores de este ranking son WiFi puro — si tu instalación queda lejos del router, revisá el alcance de tu red antes de comprar cualquiera de ellos, ya que ninguno incluye un repetidor propio.
+- **Protocolo:** todos los controladores de este ranking son WiFi puro — si tu instalación queda lejos del router, revisá el alcance de tu red antes de comprar cualquiera de ellos, ya que ninguno incluye un repetidor propio. El [TP-Link EAP225-Outdoor](/productos/B07953S2FD) de este catálogo es la forma de resolverlo sin depender del auto-skip por pronóstico: lleva WiFi fuerte hasta el punto exacto donde instalaste el controlador, en vez de esperar que la señal de la casa llegue sola.
 
 ## Preguntas frecuentes
 
@@ -56,3 +62,6 @@ Depende de tu jardín y de si tu compañía de agua da reembolsos por certificac
 
 **¿Qué pasa si mi router no tiene WiFi de 2.4GHz?**
 La mayoría de los controladores económicos, incluido el [Smart Sprinklers Controller](/productos/B0F883P8N1) de este ranking, solo funcionan con la banda de 2.4GHz, no con 5GHz. Si tu router es "dual band", normalmente podés crear una red separada de 2.4GHz desde su configuración — revisá el manual de tu router antes de asumir que el controlador es incompatible.
+
+**El garage donde instalé el controlador queda lejos del router y la señal le llega débil, ¿qué hago?**
+Un repetidor WiFi enchufable genérico funciona, pero pierde buena parte del ancho de banda al retransmitir por aire y suele ser poco estable para un dispositivo que necesita estar siempre conectado. La alternativa más confiable es un punto de acceso cableado como el [TP-Link EAP225-Outdoor](/productos/B07953S2FD): requiere tender un cable de red hasta el garage o cobertizo (el mismo cable lo alimenta vía PoE, sin necesitar un tomacorriente ahí), pero a cambio da una señal fuerte y estable en el lugar exacto donde está el controlador.

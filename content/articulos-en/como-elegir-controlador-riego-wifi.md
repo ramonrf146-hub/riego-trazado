@@ -26,7 +26,13 @@ A good controller should be able to receive a signal from a rain sensor or a soi
 
 ## 4. Communication protocol
 
-Most are plain WiFi, which works fine if the controller sits close to the router. If you're installing it in a shed or a far corner of the yard, look for models with a range-extension option (a repeater included) or that support a lower-power protocol like Zigbee via a hub — though that's less common in irrigation controllers than in the rest of home automation.
+Most are plain WiFi, which works fine if the controller sits close to the router. If you're installing it in a shed or a far corner of the yard, look for models with a range-extension option (a repeater included) or that support a lower-power protocol like Zigbee via a hub — though that's less common in irrigation controllers than in the rest of home automation. None of the controllers in this ranking ship with that extension built in, so if the garage or shed where yours will sit is far from the router, the real fix is adding a separate access point like the [TP-Link EAP225-Outdoor](/en/productos/B07953S2FD): it's wired with a single network cable (which also powers it, via PoE) out to the location and broadcasts a strong signal there — unlike a plug-in wireless repeater, it doesn't lose bandwidth retransmitting over the air, which matters for a controller that needs to stay connected at all times.
+
+### Video: testing the TP-Link EAP225-Outdoor outdoors
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/LYiJBfUH0co" title="Should Be The Best Outdoor Wifi Extender, But Is It? TP-Link EAP225 — Toolsdoctor" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## 5. What happens if the manufacturer disappears
 
@@ -44,7 +50,7 @@ You don't always need a full WiFi controller. If the immediate problem is "I'm g
 
 - **Thinking ahead (criterion 1):** the [Hunter HPC400](/en/productos/B08BJBKW44) starts at 4 zones but expands with modules up to 32 — it directly solves the problem of under-buying. The [Rachio 3](/en/productos/B07CZ864Y9) also comes in a 16-zone version if you already know you'll need more from the start.
 - **Backing from other buyers:** the [Orbit B-hyve](/en/productos/B01D15HOIQ) is the controller with the most reviews in this entire ranking (over 9,000) — that isn't the same as "best" on every technical criterion, but it does mean a lot of people have used it without major issues.
-- **Protocol:** every controller in this ranking is plain WiFi — if your install sits far from the router, check your network's range before buying any of them, since none of them ship with their own repeater.
+- **Protocol:** every controller in this ranking is plain WiFi — if your install sits far from the router, check your network's range before buying any of them, since none of them ship with their own repeater. The [TP-Link EAP225-Outdoor](/en/productos/B07953S2FD) in this catalog is how to fix that without relying on forecast-based auto-skip: it brings strong WiFi to the exact spot where you installed the controller, instead of hoping the house signal reaches that far on its own.
 
 ## Frequently asked questions
 
@@ -56,3 +62,6 @@ It depends on your yard and on whether your water utility offers rebates for EPA
 
 **What if my router doesn't broadcast 2.4GHz WiFi?**
 Most budget controllers, including the [Smart Sprinklers Controller](/en/productos/B0F883P8N1) in this ranking, only work on the 2.4GHz band, not 5GHz. If your router is dual-band, you can usually create a separate 2.4GHz network from its settings — check your router's manual before assuming the controller is incompatible.
+
+**The garage where I installed the controller is far from the router and the signal is weak — what do I do?**
+A generic plug-in WiFi repeater works, but it loses a good chunk of bandwidth retransmitting over the air and tends to be unreliable for a device that needs to stay connected at all times. The more reliable fix is a wired access point like the [TP-Link EAP225-Outdoor](/en/productos/B07953S2FD): it requires running a network cable out to the garage or shed (that same cable powers it via PoE, so no outlet is needed there), but in exchange it gives you a strong, stable signal right where the controller sits.
