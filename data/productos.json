@@ -2351,5 +2351,56 @@
       "PoE included",
       "AC1200"
     ]
+  },
+  {
+    "asin": "B087KZZ5NZ",
+    "nombre": "H2O PRO Válvula de Pie de Bronce 3/4\" — Retención con Filtro para Bombas de Pozo",
+    "nombreEn": "H2O PRO Brass Foot Valve 3/4\" — Check Valve with Strainer for Well Jet Pumps",
+    "categoria": "bombas",
+    "precio": 24.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61sVIGAM63L._AC_UL320_.jpg",
+    "rating": 4.5,
+    "numResenas": 44,
+    "ranking": 9,
+    "notaTecnica": "Se instala en la punta de la manguera o caño de succión, adentro del pozo o cisterna — no en la bomba misma. Es una válvula de retención de un solo sentido (deja pasar el agua hacia la bomba, pero no de vuelta) con un filtro/colador integrado que bloquea sedimento grueso. Sin esta pieza, una bomba jet no autocebante como la WAYNE SWS50 de este ranking pierde el cebado cada vez que se apaga, porque el agua de la manguera de succión se escurre de nuevo hacia el pozo por gravedad. Rosca 3/4\" NPT (también existe en 1\" para instalaciones de mayor caudal — confirmá el diámetro de tu manguera de succión antes de comprar). Limitación real: es de bronce, no de plástico reforzado, así que pesa más y hay que apoyarla bien en el fondo del pozo/cisterna para que el filtro no se tape con barro suelto.",
+    "notaTecnicaEn": "Installs at the end of the suction hose or pipe, inside the well or cistern — not on the pump itself. It's a one-way check valve (lets water flow toward the pump, but not back) with a built-in strainer that blocks coarse sediment. Without this part, a non-self-priming jet pump like the WAYNE SWS50 in this ranking loses its prime every time it shuts off, because water in the suction hose drains back down into the well by gravity. 3/4\" NPT thread (also sold in 1\" for higher-flow setups — confirm your suction hose diameter before buying). Real limitation: it's brass, not reinforced plastic, so it's heavier and needs to sit properly on the bottom of the well/cistern so the strainer doesn't clog with loose silt.",
+    "idealPara": "Completar la instalación de una bomba jet de pozo somero no autocebante, como la WAYNE SWS50 de este ranking, que necesita mantener la manguera de succión llena de agua entre arranque y arranque.",
+    "idealParaEn": "Completing the install of a non-self-priming shallow-well jet pump, like the WAYNE SWS50 in this ranking, which needs to keep the suction hose full of water between runs.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Pensalo como la tapa de una pajita que solo deja pasar el líquido en un sentido: se atornilla en la punta de la manguera que baja hasta el agua del pozo y funciona como una válvula de un solo sentido — el agua sube hacia la bomba, pero no puede bajar de nuevo por gravedad cuando la bomba se apaga. Así la manguera de succión queda siempre llena (\"cebada\"), lista para el próximo arranque, en vez de vaciarse cada vez. Además trae un colador que frena piedras, hojas o barro grueso antes de que entren a la bomba.",
+      "ejemploHogar": "Instalaste una bomba jet de pozo somero como la WAYNE SWS50 y notaste que cada vez que se apaga por un rato largo, al prenderla de nuevo tarda en sacar agua o directamente no arranca — señal clásica de que perdió el cebado porque la manguera de succión se vació. La válvula de pie resuelve exactamente eso: la manguera se queda llena de agua entre uso y uso.",
+      "ejemploNegocio": "Un instalador de sistemas de riego que arma bombas de pozo para varios clientes la suma como pieza estándar en cada instalación con bomba jet no autocebante, porque sabe que omitirla significa una llamada de garantía casi garantizada en las primeras semanas por \"la bomba no agarra agua\".",
+      "puntosClave": [
+        "Medí el diámetro de tu manguera o caño de succión antes de comprar: este modelo es de 3/4\" NPT, pero existe también en 1\" — no son intercambiables sin un adaptador.",
+        "Confirmá que tu bomba realmente la necesita: una bomba autocebante como la AQUASTRONG de superficie de este ranking no depende de una válvula de pie para mantener el cebado, así que sumarla ahí no aporta nada.",
+        "Es de bronce macizo, no de plástico — pesa lo suficiente como para hundirse sola en el fondo del pozo, pero hay que apoyarla sobre algo (una piedra plana, un soporte) para que el filtro no quede pegado al barro del fondo."
+      ],
+      "consejoInversion": "Frente a una válvula de pie de plástico genérico sin marca (las hay por $8-10 sin historial de reseñas), el bronce macizo de este modelo resiste mucho mejor la corrosión constante de estar sumergido en agua de pozo, que suele traer minerales disueltos que carcomen el plástico barato en un par de temporadas. Reemplazar una válvula de pie corroída significa sacar toda la manguera de succión del pozo otra vez — un trabajo incómodo que conviene hacer una sola vez con una pieza que dure, no cada año con la más barata."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Think of it like the cap on a straw that only lets liquid flow one way: it screws onto the end of the hose that runs down into the well water and acts as a one-way check valve — water flows up toward the pump, but can't drain back down by gravity once the pump shuts off. That keeps the suction hose permanently full (\"primed\"), ready for the next startup, instead of emptying out every time. It also has a built-in strainer that blocks rocks, leaves, or coarse silt before they reach the pump.",
+      "ejemploHogar": "You installed a shallow-well jet pump like the WAYNE SWS50 and noticed that after it sits off for a while, turning it back on takes forever to pull water — or it doesn't start at all. That's the classic sign it lost its prime because the suction hose drained empty. A foot valve fixes exactly that: the hose stays full of water between runs.",
+      "ejemploNegocio": "An irrigation installer setting up well pumps for multiple clients treats this as a standard part on every non-self-priming jet pump install, because skipping it almost guarantees a warranty callback within the first few weeks for 'the pump won't pull water.'",
+      "puntosClave": [
+        "Measure your suction hose or pipe diameter before buying: this model is 3/4\" NPT, but it also comes in 1\" — they're not interchangeable without an adapter.",
+        "Confirm your pump actually needs one: a self-priming pump like the AQUASTRONG surface pump in this ranking doesn't rely on a foot valve to hold its prime, so adding one there doesn't help.",
+        "It's solid brass, not plastic — heavy enough to sink on its own to the bottom of the well, but you should rest it on something (a flat rock, a support) so the strainer doesn't sit directly in loose bottom silt."
+      ],
+      "consejoInversion": "Compared to an unbranded generic plastic foot valve (there are several for $8-10 with no review history), this model's solid brass body holds up far better against the constant corrosion of sitting submerged in well water, which usually carries dissolved minerals that eat through cheap plastic within a couple of seasons. Replacing a corroded foot valve means pulling the entire suction hose back out of the well — an awkward job worth doing once with a part that lasts, not every year with the cheapest option."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B087KZZ5NZ?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-21",
+    "activo": true,
+    "tags": [
+      "Válvula de pie",
+      "Bronce 3/4\"",
+      "Retención + filtro"
+    ],
+    "tagsEn": [
+      "Foot valve",
+      "3/4\" brass",
+      "Check valve + strainer"
+    ]
   }
 ]

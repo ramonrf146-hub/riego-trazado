@@ -29,7 +29,7 @@ Se instala fuera del agua (de ahí "de superficie"), succiona desde una fuente y
 
 El [AQUASTRONG Bomba de Superficie Autocebante 1.5 HP](/productos/B0C8N8CG9G) de este ranking es específicamente para esto — cuerpo de hierro fundido, autocebante (no hay que llenarla de agua manualmente para arrancarla cada vez), comercializada puntualmente para aspersores de césped. Es notablemente más cara que la sumergible ($349 vs. $59) y que la booster — antes de comprarla, medí la presión real de tu red con un [manómetro barato](/productos/B0956QKMJ2) en la salida de la canilla (se atornilla directo, sin herramientas, y cuesta menos de $10). Si tenés 40-50 PSI y varios aspersores abiertos a la vez pierden presión, ahí es donde esta bomba se paga sola. Si tu presión ya es buena, estás pagando por un problema que no tenés — el manómetro es justamente lo que te evita gastar $349 a ciegas.
 
-Si tu fuente de agua es específicamente un **pozo somero propio** (no la red municipal, y no más de 25 pies de profundidad), la [WAYNE SWS50](/productos/B000CQ1Y7A) de este ranking resuelve extracción y presión con un solo equipo más chico y más barato que la AQUASTRONG de arriba — 1/2 HP, cuerpo de hierro fundido también, $299.89. La diferencia real frente a la AQUASTRONG: no es autocebante lista para usar, hay que llenarle la carcasa de agua por un puerto de cebado antes del primer arranque y sumarle una válvula de pie en la punta de la manguera de succión, y viene configurada de fábrica en 240V, así que revisá el selector de voltaje antes de enchufarla en un tomacorriente doméstico de 120V. Si tu pozo es más profundo que 25 pies, ninguna de las dos te sirve — ahí necesitás una bomba sumergible de **pozo profundo**, que no es la misma sumergible de arriba (esa es para achique, no para pozo profundo).
+Si tu fuente de agua es específicamente un **pozo somero propio** (no la red municipal, y no más de 25 pies de profundidad), la [WAYNE SWS50](/productos/B000CQ1Y7A) de este ranking resuelve extracción y presión con un solo equipo más chico y más barato que la AQUASTRONG de arriba — 1/2 HP, cuerpo de hierro fundido también, $299.89. La diferencia real frente a la AQUASTRONG: no es autocebante lista para usar, hay que llenarle la carcasa de agua por un puerto de cebado antes del primer arranque y sumarle una [válvula de pie](/productos/B087KZZ5NZ) en la punta de la manguera de succión — sin esa pieza, la manguera se vacía por gravedad cada vez que la bomba se apaga y hay que volver a cebarla a mano en el próximo arranque —, y viene configurada de fábrica en 240V, así que revisá el selector de voltaje antes de enchufarla en un tomacorriente doméstico de 120V. Si tu pozo es más profundo que 25 pies, ninguna de las dos te sirve — ahí necesitás una bomba sumergible de **pozo profundo**, que no es la misma sumergible de arriba (esa es para achique, no para pozo profundo).
 
 ### Pozo perforado profundo (más de 25 pies): otro equipo, otra certificación
 
@@ -65,6 +65,14 @@ Una vez que tenés bomba e interruptor, esto es lo que completa la instalación 
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1ihQZb8ZTGk" title="Amtrol WX 202 Well Pressure Tank Review — Dave Fignar" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+## Video: cómo instalar la válvula de pie en el pozo somero
+
+Si tu bomba jet de pozo somero (como la WAYNE SWS50 de arriba) pierde el cebado entre usos, este video muestra la instalación real de una válvula de pie y el caño de bajada dentro de un pozo somero — el mismo principio aplica a la válvula de pie de este ranking.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/c8EjCD-J2zQ" title="Install Shallow Well Foot Valve and Drop Pipe — Learn Plumbing" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## Bomba booster de diafragma: el punto intermedio para un solo punto de riego
@@ -111,3 +119,6 @@ Sí, sin excepción: es la pieza que le dice a la bomba cuándo prender y apagar
 
 **¿Y el tanque de presión, dónde lo consigo?**
 Es la pieza que falta en casi todas las instalaciones nuevas de bomba de pozo, y la respuesta corta es: no es opcional. El [Amtrol WX-202](/productos/B00WOUTDJ8) de este ranking es un tanque de 20 galones precargado a 38 PSI de fábrica — ese número no es casual, es 2 PSI por debajo del punto de arranque de un interruptor de 40-60 PSI como el Square D FSG2J24CP de arriba, así que los dos quedan calibrados para trabajar en pareja sin que tengas que reajustar nada. Si tu casa tiene varios baños o usa agua en varios puntos a la vez, revisá el drawdown real antes de asumir que 20 galones alcanza — la familia Well-X-Trol también viene en tamaños más grandes.
+
+**Mi bomba jet de pozo somero pierde el cebado cada vez que la apago un rato largo — ¿qué le falta?**
+Casi seguro te falta una válvula de pie en la punta de la manguera de succión, adentro del pozo. Sin ella, el agua que está en la manguera se escurre de vuelta hacia el pozo por gravedad apenas la bomba se apaga, así que en el próximo arranque la manguera está vacía y hay que volver a cebar la carcasa a mano — el mismo problema que ya describe el punto de la WAYNE SWS50 más arriba. La [válvula de pie de bronce H2O PRO](/productos/B087KZZ5NZ) de este ranking se atornilla en la punta de la manguera y funciona como una válvula de un solo sentido: deja subir el agua hacia la bomba, pero no la deja bajar de nuevo. Ojo, esto solo aplica a bombas jet no autocebantes como la WAYNE — la AQUASTRONG de superficie de este ranking ya es autocebante y no depende de esta pieza para mantener el cebado.

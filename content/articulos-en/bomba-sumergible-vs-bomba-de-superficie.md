@@ -29,7 +29,7 @@ It sits outside the water source (hence "surface"), draws from it, and pushes wi
 
 The [AQUASTRONG Self-Priming Surface Pump 1.5 HP](/en/productos/B0C8N8CG9G) in this ranking is built specifically for this — cast iron housing, self-priming (no need to manually fill it with water before every start), marketed specifically for lawn sprinklers. It's notably more expensive than the submersible ($349 vs. $59) and the booster — before buying it, measure your actual line pressure with a cheap gauge at the spigot. If you're at 40-50 PSI and several open sprinklers lose pressure together, that's where this pump pays for itself. If your pressure is already fine, you're paying to solve a problem you don't have.
 
-If your water source is specifically **your own shallow well** (not the mains, and no deeper than 25 feet), the [WAYNE SWS50](/en/productos/B000CQ1Y7A) in this ranking handles extraction and pressure in one smaller, cheaper unit than the AQUASTRONG above — 1/2 HP, also cast iron, $299.89. The real difference versus the AQUASTRONG: it isn't self-priming out of the box — you fill the housing with water through a priming port before the first start and add a foot valve at the end of the suction hose, and it ships factory-set to 240V, so check the voltage selector before plugging it into a standard 120V household outlet. If your well is deeper than 25 feet, neither of these works for you — you'd need a **deep-well** submersible pump, which is not the same submersible listed above (that one is for drainage, not deep wells).
+If your water source is specifically **your own shallow well** (not the mains, and no deeper than 25 feet), the [WAYNE SWS50](/en/productos/B000CQ1Y7A) in this ranking handles extraction and pressure in one smaller, cheaper unit than the AQUASTRONG above — 1/2 HP, also cast iron, $299.89. The real difference versus the AQUASTRONG: it isn't self-priming out of the box — you fill the housing with water through a priming port before the first start and add a [foot valve](/en/productos/B087KZZ5NZ) at the end of the suction hose — without one, the hose drains back into the well by gravity every time the pump shuts off, so you'd have to re-prime the housing by hand before the next start —, and it ships factory-set to 240V, so check the voltage selector before plugging it into a standard 120V household outlet. If your well is deeper than 25 feet, neither of these works for you — you'd need a **deep-well** submersible pump, which is not the same submersible listed above (that one is for drainage, not deep wells).
 
 ### Deep drilled well (over 25 feet): a different pump, a different certification
 
@@ -65,6 +65,14 @@ Once you've got the pump and switch sorted, this is what finishes the install �
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1ihQZb8ZTGk" title="Amtrol WX 202 Well Pressure Tank Review — Dave Fignar" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+## Video: installing the foot valve on a shallow well
+
+If your shallow-well jet pump (like the WAYNE SWS50 above) keeps losing its prime between uses, this video shows a real foot valve and drop pipe install on a shallow well — the same principle applies to the foot valve in this ranking.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/c8EjCD-J2zQ" title="Install Shallow Well Foot Valve and Drop Pipe — Learn Plumbing" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## Diaphragm booster pump: the middle ground almost nobody mentions
@@ -111,3 +119,6 @@ Yes, no way around it: it's the part that tells the pump when to turn itself on 
 
 **Where do I get the pressure tank itself?**
 It's the piece missing from almost every new well pump install, and the short answer is: it's not optional. The [Amtrol WX-202](/en/productos/B00WOUTDJ8) in this ranking is a 20-gallon tank pre-charged to 38 PSI at the factory — that number isn't arbitrary, it's 2 PSI below the cut-in point of a 40-60 PSI switch like the Square D FSG2J24CP above, so the two ship calibrated to work as a pair with no readjustment needed. If your home has multiple bathrooms or draws water at several points at once, check the actual drawdown before assuming 20 gallons is enough — the Well-X-Trol family also comes in larger sizes.
+
+**My shallow-well jet pump loses its prime every time I shut it off for a while — what's missing?**
+You're almost certainly missing a foot valve at the end of the suction hose, down inside the well. Without one, the water sitting in the hose drains back down into the well by gravity the moment the pump shuts off, so on the next start the hose is empty and you have to re-prime the housing by hand — the same issue already described for the WAYNE SWS50 above. The [H2O PRO brass foot valve](/en/productos/B087KZZ5NZ) in this ranking screws onto the end of the hose and acts as a one-way check valve: it lets water flow up toward the pump but won't let it drain back down. Note this only applies to non-self-priming jet pumps like the WAYNE — the AQUASTRONG surface pump in this ranking is already self-priming and doesn't depend on this part to hold its prime.
