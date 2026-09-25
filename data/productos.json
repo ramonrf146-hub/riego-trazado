@@ -2402,5 +2402,56 @@
       "3/4\" brass",
       "Check valve + strainer"
     ]
+  },
+  {
+    "asin": "B000BQUUD0",
+    "nombre": "Raindrip R620CT — Válvula Anti-Retorno para Canilla 3/4\" (Backflow Preventer)",
+    "nombreEn": "Raindrip R620CT — Anti-Siphon Backflow Preventer 3/4\" (Hose Bib to Drip Irrigation)",
+    "categoria": "kits-goteo",
+    "precio": 9.59,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71F8GcnszJS._AC_UL320_.jpg",
+    "rating": 4.3,
+    "numResenas": 435,
+    "ranking": 10,
+    "notaTecnica": "Se atornilla directo sobre la canilla (rosca 3/4\" FHT hembra) y del otro lado sale una rosca 3/4\" MHT macho para conectar el temporizador, el regulador de presión o directamente la manguera del kit de goteo. Es una válvula anti-retorno de tipo rompedor de vacío atmosférico: mientras el agua fluye, un sello interno se mantiene cerrado; en el momento en que cortás el agua, ese sello se abre y deja entrar aire, rompiendo cualquier succión que pudiera arrastrar agua del kit de goteo (con tierra, restos de fertilizante o insectos) de vuelta hacia la cañería potable de la casa. Trae además un filtro/lavador removible que frena partículas antes de que lleguen a los emisores, con un caudal máximo de 480 GPH. Limitación real: para que el rompedor de vacío funcione, no puede haber ninguna otra válvula ni conexión cerrada inmediatamente después de esta pieza — si el kit de goteo tiene su propia llave de paso pegada a la salida, hay que dejar al menos un tramo de manguera libre entre ambas, o el sello se queda trabado y deja de proteger.",
+    "notaTecnicaEn": "It screws directly onto the hose bib (3/4\" FHT female thread) and the other side has a 3/4\" MHT male thread to connect a timer, pressure regulator, or the drip kit's hose directly. It's an atmospheric vacuum breaker-type check valve: while water is flowing, an internal seal stays closed; the moment you shut off the water, that seal opens and lets air in, breaking any suction that could pull water from the drip kit (carrying dirt, fertilizer residue, or bugs) back into the house's potable water line. It also has a removable filter washer that blocks particles before they reach the emitters, rated for up to 480 GPH flow. Real limitation: for the vacuum breaker to work, there can't be any other valve or closed connection immediately downstream of this part — if the drip kit has its own shutoff right at the outlet, you need to leave at least a short stretch of open hose between the two, or the seal gets stuck and stops protecting the water supply.",
+    "idealPara": "Cualquier kit de riego por goteo o micro-aspersión de este catálogo que se conecte directo a una canilla sin pasar por una válvula solenoide de 24V — protege la cañería potable de la casa sin necesitar cableado ni electricidad.",
+    "idealParaEn": "Any drip or micro-spray irrigation kit in this catalog that connects straight to a hose bib without going through a 24V solenoid valve — protects the house's potable water line without needing wiring or power.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Pensalo como una válvula de un solo sentido para el aire, no solo para el agua: es una pieza chica que se atornilla en la canilla, antes de todo lo demás (timer, regulador, manguera de goteo). Mientras el agua corre hacia el jardín, se mantiene sellada; en el instante en que cerrás la canilla, se abre y deja entrar aire para \"romper\" cualquier succión hacia atrás. Sin esa pieza, si en algún momento cae la presión de la red (una rotura de caño en la calle, por ejemplo), el agua que está en la manguera de goteo —con tierra, restos de fertilizante o bichos— podría ser aspirada de vuelta hacia la cañería de agua potable de tu casa. Es exactamente lo que exige la mayoría de los códigos de plomería municipales para cualquier conexión de riego a una canilla exterior.",
+      "ejemploHogar": "Tenés un kit de goteo para las macetas del patio conectado directo a la canilla, sin controlador WiFi ni válvula eléctrica de por medio. Este anti-retorno se atornilla entre la canilla y el resto del sistema (timer o manguera) y queda de por vida, sin mantenimiento ni pilas — protege la casa sin que tengas que pensarlo de nuevo.",
+      "ejemploNegocio": "Un paisajista que instala kits de goteo simples (sin controlador eléctrico) en varios canteros de un edificio o un negocio lo suma como pieza estándar en cada canilla exterior donde arma un sistema, porque en muchos municipios de EE.UU. es requisito de código sanitario y evita una observación en una inspección.",
+      "puntosClave": [
+        "Instalalo primero, pegado a la canilla, y dejá que el timer, el regulador o la manguera vayan DESPUÉS de esta pieza — nunca antes.",
+        "No le pongas ninguna llave de paso ni válvula cerrada justo después: el rompedor de vacío necesita poder abrirse libremente al aire o deja de funcionar.",
+        "Si tu kit de goteo (como el MIXC o el Bonviee de este ranking) ya está limitado a 20-45 PSI, este anti-retorno no reemplaza al regulador de presión — son dos problemas distintos (seguridad del agua potable vs. presión del kit) y en muchas instalaciones hace falta sumar ambos."
+      ],
+      "consejoInversion": "Frente a no poner ninguna protección (lo que hacen la mayoría de los kits de goteo económicos por defecto, ya que ninguno de este catálogo la incluye), esta pieza de menos de $10 evita el escenario real de que el agua de tus canteros —con tierra, insectos o fertilizante si alguna vez sumás uno— termine mezclada con el agua que bebe tu familia en una caída de presión de la red. No es una mejora de comodidad ni de rendimiento: es la diferencia entre un sistema de riego legal y seguro, y uno que técnicamente no debería estar conectado a la cañería de agua potable sin esta protección."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Think of it as a one-way valve for air, not just water: it's a small part that screws onto the hose bib, before everything else (timer, regulator, drip hose). While water is flowing toward the garden, it stays sealed; the instant you shut off the bib, it opens and lets air in to break any backward suction. Without this part, if mains pressure ever drops (a water main break down the street, for example), the water sitting in your drip hose — carrying dirt, fertilizer residue, or bugs — could get siphoned back into your house's drinking water line. This is exactly what most municipal plumbing codes require for any irrigation connection to an outdoor hose bib.",
+      "ejemploHogar": "You have a drip kit for patio pots connected straight to the hose bib, no WiFi controller or electric valve involved. This backflow preventer screws in between the bib and the rest of the system (timer or hose) and stays there for good, no maintenance or batteries — it protects the house without you ever having to think about it again.",
+      "ejemploNegocio": "A landscaper installing simple drip kits (no electric controller) in several planters at a building or business adds this as a standard part at every outdoor hose bib where they set up a system, because in many U.S. municipalities it's a plumbing code requirement and avoids a flag during an inspection.",
+      "puntosClave": [
+        "Install it first, right at the hose bib, and let the timer, regulator, or hose come AFTER this part — never before.",
+        "Don't put any shutoff valve or closed connection right after it: the vacuum breaker needs to be able to open freely to air or it stops working.",
+        "If your drip kit (like the MIXC or Bonviee in this ranking) is already limited to 20-45 PSI, this backflow preventer doesn't replace a pressure regulator — they're two different problems (drinking water safety vs. kit pressure rating), and many setups need both."
+      ],
+      "consejoInversion": "Compared to running no protection at all (what most budget drip kits do by default, since none in this catalog include one), this under-$10 part avoids the real scenario of water from your planters — carrying dirt, bugs, or fertilizer if you ever add one — mixing with the water your family drinks during a pressure drop in the mains. This isn't a comfort or performance upgrade: it's the difference between a legal, safe irrigation setup and one that technically shouldn't be connected to the drinking water line without this protection."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B000BQUUD0?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-25",
+    "activo": true,
+    "tags": [
+      "Anti-retorno",
+      "Rosca 3/4\"",
+      "Para canilla/hose bib"
+    ],
+    "tagsEn": [
+      "Backflow preventer",
+      "3/4\" hose thread",
+      "Hose bib"
+    ]
   }
 ]
