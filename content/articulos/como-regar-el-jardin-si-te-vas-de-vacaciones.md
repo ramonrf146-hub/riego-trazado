@@ -11,7 +11,7 @@ Todos los años pasa lo mismo: reservás el viaje, y en algún momento antes de 
 
 **Fin de semana largo (2-4 días):** la mayoría de las plantas de maceta aguantan sin regar ese tiempo, sobre todo si las movés a la sombra antes de salir. Si tenés dudas, no hace falta armar un kit de goteo completo para un viaje tan corto — alcanza con dejar la manguera puesta y sumar el [Orbit 62034](/productos/B006FLGHGE), un timer mecánico de canilla de menos de $10: le das cuerda hasta el tiempo que querés (15 a 120 minutos) y corta el agua solo, sin pilas ni WiFi de por medio. Eso sí, es de un solo ciclo — no repite el horario todos los días como el timer digital del kit HEKIWAY de abajo, así que sirve para este viaje corto puntual, no para dejarlo funcionando semanas.
 
-**Una a dos semanas:** acá ya no alcanza con "aguantar" — necesitás un sistema que riegue de verdad todos los días, en el horario correcto, sin que nadie tenga que tocar nada. Es el escenario donde un kit con timer incluido, como el [HEKIWAY 60ft con timer](/productos/B0F5VYR2Z4), tiene más sentido que armar la manguera y el timer por separado: llegás, programás una vez, y te olvidás.
+**Una a dos semanas:** acá ya no alcanza con "aguantar" — necesitás un sistema que riegue de verdad todos los días, en el horario correcto, sin que nadie tenga que tocar nada. Si no tenés armado nada todavía, un kit con timer incluido, como el [HEKIWAY 60ft con timer](/productos/B0F5VYR2Z4), tiene más sentido que armar la manguera y el timer por separado: llegás, programás una vez, y te olvidás. Pero si ya tenés manguera o un kit de goteo funcionando y lo único que te falta es que el riego se repita solo mientras no estás, no hace falta comprar un kit nuevo entero: el [Orbit 62061](/productos/B004INGS8S) es un temporizador digital independiente que se atornilla en la canilla existente — a diferencia del Orbit 62034 mecánico de arriba, programás una vez la duración y la frecuencia (cada 6, 12 horas, o de 1 a 7 días) en su pantalla LCD y el aparato repite el ciclo solo, día tras día, sin que tengas que darle cuerda de nuevo. Cuesta más que el mecánico (~$30 contra menos de $10) pero mucho menos que armar un sistema WiFi nuevo si lo único que te falta es la repetición automática, no el control a distancia.
 
 **Más de dos semanas, o viajás seguido:** ahí conviene sumar un controlador WiFi de verdad, no solo un timer a pilas. La diferencia importa: con WiFi podés revisar desde el celular que el riego efectivamente se está ejecutando, y si el clima cambia (una ola de calor, una tormenta), ajustás el horario a distancia en vez de confiar en que el timer programado antes de salir siga siendo el correcto dos semanas después.
 
@@ -52,6 +52,14 @@ Si tu plan es el viaje corto del punto 1 (fin de semana largo con un timer simpl
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/A51l-lEfAlk" title="Orbit Mechanical Watering Hose Timer 62034 — MACH 1 TIPS" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
+## Video: el temporizador digital para viajes más largos
+
+Si tu plan es el escenario de una a dos semanas y ya tenés manguera o kit armado, este video muestra el uso real de un temporizador digital de canilla de una sola salida como el Orbit 62061 — programación de duración, frecuencia y retraso por lluvia en la pantalla LCD.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/O50-jtvSiRk" title="Automate Your Watering With Orbit Single-Outlet Hose Timers — Alan's Reviews" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## Nuestra recomendación del mes
 
 Para huertas elevadas y canteros de tamaño chico a mediano, el [kit HEKIWAY con timer incluido](/productos/B0F5VYR2Z4) es la opción de menor esfuerzo antes de un viaje. Si tu situación es más grande (césped, varias zonas) mirá la guía de [cómo elegir un controlador de riego WiFi](/articulos/como-elegir-controlador-riego-wifi) antes de decidir cuál se ajusta a tu jardín.
@@ -66,3 +74,6 @@ Los timers a pilas (como el del kit HEKIWAY) no dependen de WiFi ni de la luz de
 
 **¿Hace falta algo más además del regulador de presión antes de conectar el kit a la canilla y viajar tranquilo?**
 Sí, y es un problema distinto al de la presión: sin una válvula anti-retorno, si la presión de la red cae en algún momento mientras estás de viaje, el agua de la manguera de goteo puede ser aspirada de vuelta hacia la cañería de tu casa. La [Raindrip R620CT](/productos/B000BQUUD0) resuelve justo eso por menos de $10, sin pilas ni cableado — se instala primero, pegada a la canilla, y el regulador de presión y el kit van después.
+
+**¿Cuál es la diferencia real entre el timer mecánico y el timer digital de canilla de este catálogo?**
+El [Orbit 62034](/productos/B006FLGHGE) mecánico es de un solo ciclo: le das cuerda, riega ese tiempo y se cierra, y para el próximo riego hay que volver a darle cuerda a mano — sirve para un viaje corto y puntual. El [Orbit 62061](/productos/B004INGS8S) digital hace lo mismo pero con memoria: programás una vez la duración y cada cuánto repetirlo, y el aparato se acuerda solo día tras día hasta que lo cambies, sin necesitar WiFi. Para un fin de semana, el mecánico alcanza y es más barato; para una o dos semanas sin tener que resetear nada, el digital es la opción.

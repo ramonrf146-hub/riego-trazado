@@ -2453,5 +2453,56 @@
       "3/4\" hose thread",
       "Hose bib"
     ]
+  },
+  {
+    "asin": "B004INGS8S",
+    "nombre": "Orbit 62061 — Temporizador Digital Programable de Canilla (1 Salida, LCD, a Pilas)",
+    "nombreEn": "Orbit 62061 — Programmable Digital Hose Watering Timer (1 Outlet, LCD, Battery-Powered)",
+    "categoria": "kits-goteo",
+    "precio": 29.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71RZ-KRpdIL._AC_UL320_.jpg",
+    "rating": 4.1,
+    "numResenas": 47640,
+    "ranking": 11,
+    "notaTecnica": "Es un temporizador digital de una sola salida: se atornilla directo en cualquier canilla con rosca estándar de manguera (GHT), y tiene pantalla LCD y dial para programar el riego. A diferencia del temporizador mecánico de este mismo catálogo, no hay que darle cuerda para cada riego — programás una vez la duración (de 1 a 240 minutos) y la frecuencia (cada 6 horas, 12 horas, o de 1 a 7 días) y el propio timer repite el ciclo solo, día tras día, hasta que lo cambies o le saques las pilas. Trae además retraso por lluvia (rain delay) manual y un modo manual para regar fuera de horario sin desprogramar el ciclo guardado. Funciona a pilas (no necesita WiFi ni corriente de la casa) y es resistente al agua para uso exterior. Limitación real: sigue siendo de una sola salida (una sola canilla) y no tiene conexión a internet — se programa y se revisa a mano en el dial del propio aparato, no desde el celular; si necesitás controlar o ajustar el riego a distancia mientras viajás, esto no lo reemplaza, hace falta un controlador WiFi.",
+    "notaTecnicaEn": "This is a single-outlet digital timer: it screws directly onto any faucet with standard garden hose thread (GHT), with an LCD screen and dial to program watering. Unlike the mechanical timer in this same catalog, you don't have to rewind it for every watering — you program the duration once (1 to 240 minutes) and the frequency (every 6 hours, 12 hours, or every 1 to 7 days), and the timer repeats the cycle on its own, day after day, until you change it or pull the batteries. It also has a manual rain delay and a manual mode to water off-schedule without erasing the saved program. It runs on batteries (no WiFi or house power needed) and is water-resistant for outdoor use. Real limitation: it's still single-outlet (one faucet only) and has no internet connection — you program and check it by hand on the unit's own dial, not from your phone; if you need to control or adjust watering remotely while traveling, this doesn't replace that, you'd need a WiFi controller.",
+    "idealPara": "Viajes de una a dos semanas donde ya tenés manguera o kit de goteo armado y no querés comprar uno nuevo solo por el timer incluido, ni instalar WiFi — a diferencia del Orbit 62034 mecánico de este catálogo, repite el riego solo todos los días sin que tengas que darle cuerda de nuevo.",
+    "idealParaEn": "One- to two-week trips where you already have a hose or drip kit set up and don't want to buy a new one just for a bundled timer, or install WiFi — unlike the mechanical Orbit 62034 in this catalog, it repeats watering on its own every day without needing to be rewound.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es como el temporizador mecánico de este catálogo, pero con memoria: en vez de darle cuerda para un solo riego, programás una vez cuánto tiempo regar (1 a 240 minutos) y cada cuánto repetirlo (cada 6 horas, 12 horas, o de 1 a 7 días) en una pantalla LCD, y el aparato se acuerda solo — vuelve a abrir y cerrar el agua en cada ciclo programado sin que vuelvas a tocarlo, funcionando a pilas, sin necesidad de WiFi ni de electricidad de la casa.",
+      "ejemploHogar": "Te vas de viaje 10 días y ya tenés el kit de goteo de las macetas armado desde el verano pasado — en vez de comprar un kit nuevo con timer incluido, le sumás este temporizador a la canilla existente, programás 20 minutos cada 2 días, y se repite solo mientras no estás, sin reprogramación.",
+      "ejemploNegocio": "Un vivero o un paisajista que mantiene varias canillas sueltas en distintos puntos de un predio (sin controlador central ni cableado de 24V) usa uno de estos por canilla para automatizar el riego de cada zona por separado, sin el costo ni la instalación eléctrica de un sistema de válvulas solenoides completo.",
+      "puntosClave": [
+        "Es de una sola salida (una canilla) — si necesitás automatizar más de un punto a la vez, no alcanza con este, hace falta un controlador WiFi multi-zona o repetir la compra por cada canilla.",
+        "Funciona a pilas (sin WiFi): se programa y se controla a mano en el propio dial/pantalla, no desde el celular — si necesitás revisar o ajustar el riego a distancia mientras viajás, esto no lo resuelve.",
+        "Confirmá que tu canilla tenga rosca estándar de manguera de jardín (GHT), igual que el temporizador mecánico de este catálogo — no está pensado para roscas de tubería (FPT/MPT) como las válvulas solenoides."
+      ],
+      "consejoInversion": "Frente al temporizador mecánico de este catálogo, que cuesta menos de $10 pero hay que rearmar a mano cada vez que querés regar, este cuesta unos $30 y esa diferencia se paga sola apenas el viaje pasa de un fin de semana: te ahorra tener que estar ahí para darle cuerda de nuevo cada vez, y a diferencia de comprar un kit completo nuevo solo para tener el timer incluido, reutilizás la manguera o el kit de goteo que ya tenés. Sigue siendo más barato y más simple que sumar un controlador WiFi completo si lo único que necesitás es que el riego se repita solo durante el viaje, no controlarlo a distancia."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Think of it as the mechanical timer in this catalog, but with memory: instead of rewinding it for a single watering, you program it once — how long to water (1 to 240 minutes) and how often to repeat it (every 6 hours, 12 hours, or every 1 to 7 days) — on an LCD screen, and the unit remembers on its own, opening and closing the water on every scheduled cycle without you touching it again, running on batteries with no WiFi or house power needed.",
+      "ejemploHogar": "You're leaving for a 10-day trip and already have last summer's drip kit set up for the patio pots — instead of buying a whole new kit with a timer bundled in, you add this timer to the existing faucet, program 20 minutes every 2 days, and it repeats on its own while you're away, with no reprogramming.",
+      "ejemploNegocio": "A nursery or landscaper maintaining several standalone hose bibs around a property (no central controller or 24V wiring) uses one of these per faucet to automate watering for each zone separately, without the cost or electrical install of a full solenoid valve system.",
+      "puntosClave": [
+        "It's single-outlet (one faucet) — if you need to automate more than one point at once, this alone isn't enough, you'd need a multi-zone WiFi controller or one of these per faucet.",
+        "It runs on batteries with no WiFi: you program and check it by hand on its own dial/screen, not from your phone — if you need to check or adjust watering remotely while traveling, this doesn't solve that.",
+        "Confirm your faucet has standard garden hose thread (GHT), same as the mechanical timer in this catalog — it's not built for pipe thread (FPT/MPT) like the solenoid valves."
+      ],
+      "consejoInversion": "Compared to the mechanical timer in this catalog, which costs under $10 but has to be rewound by hand every single time you want to water, this one costs about $30 — and that gap pays for itself the moment a trip runs longer than a weekend: it saves you from having to be there to rewind it again, and unlike buying a whole new kit just to get a bundled timer, you keep reusing the hose or drip kit you already own. It's still cheaper and simpler than adding a full WiFi controller if all you need is for watering to repeat on its own during a trip, not to control it remotely."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B004INGS8S?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-26",
+    "activo": true,
+    "tags": [
+      "1 salida",
+      "A pilas (sin WiFi)",
+      "47K+ reseñas"
+    ],
+    "tagsEn": [
+      "1 outlet",
+      "Battery (no WiFi)",
+      "47K+ reviews"
+    ]
   }
 ]

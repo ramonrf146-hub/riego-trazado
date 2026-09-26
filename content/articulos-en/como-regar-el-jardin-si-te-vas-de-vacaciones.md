@@ -11,7 +11,7 @@ Every year it's the same story: you book the trip, and at some point before leav
 
 **A long weekend (2-4 days):** most potted plants can handle going without water that long, especially if you move them into the shade before leaving. If you're not sure, you don't need a full drip kit for such a short trip — a garden hose plus the [Orbit 62034](/en/productos/B006FLGHGE) is enough, a mechanical faucet timer under $10: wind the dial to the time you want (15 to 120 minutes) and it shuts the water off on its own, no batteries or WiFi involved. One catch — it's single-cycle, it doesn't repeat the schedule every day like the digital timer in the HEKIWAY kit below, so it's built for this one short trip, not for running for weeks.
 
-**One to two weeks:** at this point, "hanging in there" isn't enough — you need a system that actually waters every day, at the right time, without anyone touching anything. This is the scenario where a kit with a built-in timer, like the [HEKIWAY 60ft with timer](/en/productos/B0F5VYR2Z4), makes more sense than putting together the hose and timer separately: you set it up once and forget about it.
+**One to two weeks:** at this point, "hanging in there" isn't enough — you need a system that actually waters every day, at the right time, without anyone touching anything. If you don't have anything set up yet, a kit with a built-in timer, like the [HEKIWAY 60ft with timer](/en/productos/B0F5VYR2Z4), makes more sense than putting together the hose and timer separately: you set it up once and forget about it. But if you already have a hose or a drip kit running and all you're missing is watering that repeats on its own while you're gone, you don't need to buy a whole new kit: the [Orbit 62061](/en/productos/B004INGS8S) is a standalone digital timer that screws onto your existing faucet — unlike the mechanical Orbit 62034 above, you program the duration and frequency once (every 6, 12 hours, or every 1 to 7 days) on its LCD screen and the unit repeats the cycle on its own, day after day, with no rewinding needed. It costs more than the mechanical one (~$30 versus under $10) but far less than setting up a new WiFi system if all you're missing is the automatic repeat, not remote control.
 
 **More than two weeks, or you travel often:** here it's worth stepping up to a real WiFi controller, not just a battery timer. The difference matters: with WiFi you can check from your phone that watering is actually running, and if the weather changes (a heat wave, a storm), you can adjust the schedule remotely instead of trusting that the timer you set before leaving is still right two weeks later.
 
@@ -52,6 +52,14 @@ If your plan is the short trip from point 1 (a long weekend with a simple timer 
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/A51l-lEfAlk" title="Orbit Mechanical Watering Hose Timer 62034 — MACH 1 TIPS" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
+## Video: the digital timer for longer trips
+
+If your plan is the one-to-two-week scenario and you already have a hose or kit set up, this video shows real use of a single-outlet digital faucet timer like the Orbit 62061 — programming duration, frequency, and rain delay on the LCD screen.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/O50-jtvSiRk" title="Automate Your Watering With Orbit Single-Outlet Hose Timers — Alan's Reviews" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## Our pick of the month
 
 For raised vegetable gardens and small-to-medium beds, the [HEKIWAY kit with timer included](/en/productos/B0F5VYR2Z4) is the lowest-effort option before a trip. If your situation is bigger (a lawn, several zones), check the guide on [how to choose a WiFi irrigation controller](/en/articulos/como-elegir-controlador-riego-wifi) before deciding which one fits your yard.
@@ -66,3 +74,6 @@ Battery timers (like the one in the HEKIWAY kit) don't depend on WiFi or your ho
 
 **Is there anything else I need besides the pressure regulator before connecting the kit to the bib and leaving worry-free?**
 Yes, and it's a different problem than pressure: without a backflow preventer, if mains pressure drops at any point while you're traveling, water in the drip line can get siphoned back into your house's pipes. The [Raindrip R620CT](/en/productos/B000BQUUD0) solves exactly that for under $10, with no batteries or wiring — it installs first, right at the bib, with the pressure regulator and the kit coming after it.
+
+**What's the real difference between the mechanical and the digital faucet timer in this catalog?**
+The mechanical [Orbit 62034](/en/productos/B006FLGHGE) is single-cycle: you wind it, it waters for that time, then shuts off, and for the next watering you have to rewind it by hand — good for a short, one-off trip. The digital [Orbit 62061](/en/productos/B004INGS8S) does the same job but with memory: you program the duration and how often to repeat it once, and the unit remembers on its own, day after day, until you change it, with no WiFi required. For a weekend, the mechanical one is enough and cheaper; for one or two weeks without having to reset anything, the digital one is the better fit.
