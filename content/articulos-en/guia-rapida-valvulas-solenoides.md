@@ -35,8 +35,9 @@ Most residential irrigation kits use 3/4-inch valves. If your main line is 1 inc
 
 1. **Installing the valve backwards**: almost all of them have an arrow on the body indicating flow direction. Installing it backwards can keep it from closing properly, or stop it from working at all.
 2. **Skipping a valve box**: leaving valves exposed to the weather without protection speeds up wear on the solenoid and the electrical connections, especially in humid climates like Florida's. The [NDS jumbo valve box](/en/productos/B000IBN9M2) in this ranking solves this — it's the industry-standard brand, not a generic one.
-3. **Unsealed electrical connections**: most valve failures aren't mechanical — they're electrical, from moisture getting into the wire splice. Use waterproof connectors (the sealed gel-filled "wire nuts" type), no exceptions — the [Tondiamo gel connectors](/en/productos/B09H7DQN1V) in this ranking cost 25 cents each, against the real cost of a valve failing from a poorly sealed connection.
-4. **Skipping a check valve on sloped terrain**: if your system has zones lower than others, water can keep draining downhill by gravity after the valve closes, causing pooling at the lowest sprinkler head. This isn't fixed by tweaking the controller or swapping the solenoid valve — it's fixed by adding a separate part at that low point, like the [Hunter HC75F75M](/en/productos/B00FYQWTUE): it installs between the riser and the lowest sprinkler and holds back 4 to 32 feet of elevation change without letting water keep draining.
+3. **Unsealed electrical connections**: most valve failures aren't mechanical — they're electrical, from moisture getting into the wire splice. Use waterproof connectors (the sealed gel-filled "wire nuts" type), no exceptions — the [Tondiamo gel connectors](/en/productos/B09H7DQN1V) in this ranking cost 25 cents each, against the real cost of a valve failing from a poorly sealed connection. That matters just as much for the cable you use to get there in the first place: ordinary hardware-store electrical wire isn't built to sit buried underground year-round. The [Southwire 18/7 multi-conductor cable](/en/productos/B0069F4I5I) in this same ranking is the right part for this — it packs 7 individual wires plus a common wire in one direct-burial-rated jacket, so a single cable connects up to 6 different valves to the controller instead of running one cable per valve.
+4. **Wiring with undersized gauge on long runs**: if the farthest valve sits well past 150 feet from the controller, an 18 AWG cable like the Southwire above can lose voltage along the way and make that valve open weakly or not at all — that calls for stepping up to a thicker gauge (14 or 16 AWG), not just buying more feet of the same cable.
+5. **Skipping a check valve on sloped terrain**: if your system has zones lower than others, water can keep draining downhill by gravity after the valve closes, causing pooling at the lowest sprinkler head. This isn't fixed by tweaking the controller or swapping the solenoid valve — it's fixed by adding a separate part at that low point, like the [Hunter HC75F75M](/en/productos/B00FYQWTUE): it installs between the riser and the lowest sprinkler and holds back 4 to 32 feet of elevation change without letting water keep draining.
 
 ## The bottom line
 
@@ -52,10 +53,18 @@ If your valve stopped opening or closing (point 3 above: it's almost always the 
 
 ## Video: how to install a check valve
 
-If you're dealing with the issue in point 4 (a low sprinkler head that keeps flooding or dripping after watering ends), this video shows how to install a Hunter HCV-type check valve directly between the riser and the sprinkler head — the same procedure applies to this ranking's [Hunter HC75F75M](/en/productos/B00FYQWTUE).
+If you're dealing with the issue in point 5 (a low sprinkler head that keeps flooding or dripping after watering ends), this video shows how to install a Hunter HCV-type check valve directly between the riser and the sprinkler head — the same procedure applies to this ranking's [Hunter HC75F75M](/en/productos/B00FYQWTUE).
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/3qEGGMSYRys" title="How To Install Check Valves for the Hunter PGP and I-20 Sprinklers — SprinklerSupplyStore.com" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+## Video: how to run irrigation wire from the controller to the valves
+
+If you don't have any wire buried yet, or you're adding a new zone, this video shows what actually running multi-conductor cable in the trench alongside the pipe looks like — the same procedure applies to this ranking's [Southwire 18/7 cable](/en/productos/B0069F4I5I).
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/PGmKPK4yEYo" title="How To Run Sprinkler Wire — Sprinkler Warehouse" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## Real examples from this ranking
@@ -63,5 +72,6 @@ If you're dealing with the issue in point 4 (a low sprinkler head that keeps flo
 - **Complete valve, 3/4":** the [Orbit 57280](/en/productos/B01MG1VV2M) already comes in the 3/4" FPT thread that's the standard for most residential kits.
 - **Replacement solenoid, 24V AC:** if your valve is still mechanically sound but the solenoid failed (the most common cause, per point 3 above), the [Irritrol R811-24VACG](/en/productos/B07T4TNP3B) is a 24V AC replacement solenoid — it comes as a 2-pack, handy for keeping a spare on hand before the next one fails.
 - **Anti-siphon valve, 3/4":** if your install sits over a spigot or local code requires visible backflow protection, the [Rain Bird DASASVF075](/en/productos/B00004RAAZ) is an anti-siphon valve with a built-in vacuum breaker, unlike the in-line Orbit valve above. Note that it's a full solenoid valve (it needs the controller's 24V AC) — if your setup has no electric valve at all and is just a drip kit connected straight to the hose bib, the right backflow protection there is a much smaller, unwired part, like the [Raindrip R620CT](/en/productos/B000BQUUD0) in the drip kits catalog.
-- **Check valve for sloped terrain:** the [Hunter HC75F75M](/en/productos/B00FYQWTUE) doesn't replace any of the valves above — it's added at the lowest sprinkler in a sloped zone to prevent the flooding described in point 4, something no solenoid valve in this ranking fixes on its own.
+- **Check valve for sloped terrain:** the [Hunter HC75F75M](/en/productos/B00FYQWTUE) doesn't replace any of the valves above — it's added at the lowest sprinkler in a sloped zone to prevent the flooding described in point 5, something no solenoid valve in this ranking fixes on its own.
 - **1-inch valve with flow control:** if your main line is 1" instead of 3/4", the [Hunter PGV](/en/productos/B000678LWQ) has built-in flow control and is one of the best-rated valves in the whole ranking (4.8 stars, 1,063 reviews) — but it isn't interchangeable with the 3/4" valves above without an adapter.
+- **Cable to connect the valves to the controller:** no valve in this ranking ships with wire included — the [Southwire 18/7](/en/productos/B0069F4I5I) is a direct-burial-rated, 7-conductor multi-conductor cable, the missing piece between the valve box and the controller; one cable connects up to 6 different valves instead of running a separate one for each.

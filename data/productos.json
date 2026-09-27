@@ -2504,5 +2504,56 @@
       "Battery (no WiFi)",
       "47K+ reviews"
     ]
+  },
+  {
+    "asin": "B0069F4I5I",
+    "nombre": "Southwire 18/7 — Cable Multiconductor para Riego (100 pies, Apto para Enterrar)",
+    "nombreEn": "Southwire 18/7 — Multi-Conductor Sprinkler Wire (100 ft, Direct Burial Rated)",
+    "categoria": "valvulas-solenoides",
+    "precio": 49.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/419P8KR8bvL._AC_SL1500_.jpg",
+    "rating": 4.7,
+    "numResenas": 329,
+    "ranking": 9,
+    "notaTecnica": "Es un cable multiconductor de 7 hilos individuales (cada uno de un color distinto) más un hilo común, calibre 18 AWG, pensado específicamente para riego: cada hilo lleva la señal de 24V AC del controlador a una válvula solenoide distinta, así que un solo cable enterrado controla hasta 6-7 zonas separadas sin tender un cable por válvula. La aislación es de PE/PVC resistente a rayos UV y está certificada para \"direct burial\" — se entierra directo en la tierra junto a la tubería, sin necesitar caño o conduit de protección. En cada extremo se conecta con conectores impermeables de gel (como los Tondiamo de este mismo catálogo), nunca con cinta aisladora. Limitación real: el calibre 18 AWG pierde voltaje en tiradas muy largas — si la válvula más lejana queda a bastante más de 150 pies del controlador, hace falta un calibre más grueso (14 o 16 AWG), no este cable. Tampoco reemplaza el cable de alimentación de 120V del controlador: es exclusivamente para la señal de 24V AC hacia las válvulas.",
+    "notaTecnicaEn": "This is a 7-individual-wire multi-conductor cable (each wire a different color) plus one common wire, 18 AWG gauge, built specifically for irrigation: each wire carries the controller's 24V AC signal to one solenoid valve, so a single buried cable can control up to 6-7 separate zones without running one cable per valve. The jacket is UV-resistant PE/PVC and rated for direct burial — it goes straight into the ground alongside the pipe, no conduit needed. Each end connects with waterproof gel wire connectors (like the Tondiamo ones in this same catalog), never electrical tape. Real limitation: 18 AWG loses voltage over very long runs — if the farthest valve sits well past 150 feet from the controller, you need a thicker gauge (14 or 16 AWG), not this cable. It also doesn't replace the controller's 120V power cord: it's strictly for the 24V AC signal to the valves.",
+    "idealPara": "Instalar o ampliar un sistema con varias válvulas solenoides (in-line o anti-sifón) enterradas a distintas distancias del controlador, cuando todavía no hay cableado tirado o el existente ya no tiene hilos libres para una zona nueva.",
+    "idealParaEn": "Installing or expanding a system with several solenoid valves (in-line or anti-siphon) buried at different distances from the controller, when there's no wiring run yet or the existing one has no spare wires left for a new zone.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Pensalo como el cable telefónico viejo de varios pares, pero para riego: adentro de una sola funda vienen 7 hilos individuales, cada uno de un color distinto, más un hilo común de retorno — así un solo cable enterrado le manda la señal de 24V AC del controlador a hasta 6 o 7 válvulas solenoides distintas, cada una conectada a su propio hilo, sin tener que enterrar un cable separado por cada válvula.",
+      "ejemploHogar": "Estás agregando una zona nueva de goteo al fondo del patio y el cable que dejó el instalador original de la casa solo tenía 4 hilos, todos ya ocupados por las zonas existentes — en vez de abrir una zanja nueva de punta a punta, cortás el tramo de este cable que necesitás y sumás la válvula nueva en un hilo libre, sin tocar el cableado de las zonas que ya funcionan.",
+      "ejemploNegocio": "Un instalador de riego que arma un sistema nuevo de 6 zonas en una casa usa un solo rollo de este cable para conectar las 6 válvulas de la caja de válvulas hasta el controlador del garage de una sola pasada, en vez de comprar y tender 6 cables sueltos por separado — ahorra horas de zanja y de mano de obra en cada instalación.",
+      "puntosClave": [
+        "Contá cuántas válvulas necesitás controlar y elegí el cable con esa cantidad de hilos (o uno más, pensando en el futuro) — este trae 7, suficiente para hasta 6 válvulas más el común; si tu sistema tiene más zonas, existen versiones de 8 o 10 hilos.",
+        "Medí la distancia real entre el controlador y la válvula más lejana antes de comprar por metraje: a calibre 18 AWG, tiradas de bastante más de 150 pies pueden perder voltaje en el camino y hacer que esa válvula abra floja o no abra — ahí corresponde un calibre más grueso (14 o 16 AWG), no este.",
+        "Confirmá que sea específicamente \"direct burial\" / apto para enterrar, como este — un cable eléctrico común de ferretería para uso interior se degrada rápido bajo tierra con la humedad, aunque a simple vista parezca igual de grueso."
+      ],
+      "consejoInversion": "Frente a un cable eléctrico genérico de ferretería (más barato por metro, pero pensado para uso interior, no para quedar enterrado bajo tierra y humedad todo el año), este cable con aislación certificada para direct burial cuesta un poco más pero evita el problema real: un empalme que se degrada con la humedad subterránea y deja una válvula sin señal, obligando a cavar la zanja de nuevo solo para encontrar la falla. Es de una marca reconocida como fabricante de cable en Estados Unidos (Southwire, no una marca genérica sin trayectoria), con 4.7 estrellas y más de 300 reseñas — la diferencia de precio frente a un cable sin certificación para enterrar se paga sola la primera vez que te evita reabrir el jardín."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Think of it like an old multi-pair telephone cable, but for irrigation: inside a single jacket there are 7 individual wires, each a different color, plus one common return wire — so one buried cable carries the controller's 24V AC signal to up to 6 or 7 separate solenoid valves, each wired to its own conductor, without burying a separate cable for every valve.",
+      "ejemploHogar": "You're adding a new drip zone at the back of the yard and the cable the original installer left only had 4 wires, all already used by existing zones — instead of digging a brand-new trench end to end, you cut the length of this cable you need and add the new valve to a spare wire, without touching the wiring for the zones that already work.",
+      "ejemploNegocio": "An irrigation installer setting up a new 6-zone system at a house uses a single roll of this cable to connect all 6 valves from the valve box back to the garage controller in one pass, instead of buying and running 6 separate cables — saving hours of trenching and labor on every install.",
+      "puntosClave": [
+        "Count how many valves you need to control and pick the wire count accordingly (or one more, for future zones) — this one has 7 conductors, enough for up to 6 valves plus common; for bigger systems, 8- and 10-conductor versions exist.",
+        "Measure the real distance between the controller and the farthest valve before buying by length: at 18 AWG, runs well past 150 feet can lose voltage along the way and make that valve open weakly or not at all — that calls for a thicker gauge (14 or 16 AWG), not this one.",
+        "Confirm it's specifically rated \"direct burial\" like this one — ordinary hardware-store electrical cable meant for indoor use degrades quickly underground with moisture, even if it looks just as thick at a glance."
+      ],
+      "consejoInversion": "Compared to generic hardware-store electrical cable (cheaper per foot, but built for indoor use, not for sitting buried in ground moisture year-round), this direct-burial-rated cable costs a bit more but avoids the real failure mode: a splice that degrades underground and leaves a valve with no signal, forcing you to dig up the trench again just to find the fault. It comes from an established US wire manufacturer (Southwire, not an unproven generic brand), with a 4.7-star rating and over 300 reviews — the price gap over uncertified cable pays for itself the first time it saves you from reopening the yard."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B0069F4I5I?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-27",
+    "activo": true,
+    "tags": [
+      "7 hilos (18 AWG)",
+      "Apto para enterrar",
+      "329 reseñas"
+    ],
+    "tagsEn": [
+      "7-wire (18 AWG)",
+      "Direct burial rated",
+      "329 reviews"
+    ]
   }
 ]
