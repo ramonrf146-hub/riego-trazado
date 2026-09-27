@@ -86,12 +86,14 @@ export default async function ProductoPage({ params }: Props) {
             highPrice: producto.precioMax,
             priceCurrency: producto.moneda,
             url: producto.urlAfiliado,
+            availability: "https://schema.org/InStock",
           }
         : {
             "@type": "Offer",
             price: producto.precio,
             priceCurrency: producto.moneda,
             url: producto.urlAfiliado,
+            availability: "https://schema.org/InStock",
           },
   };
 
