@@ -42,6 +42,14 @@ Es una pregunta incómoda pero válida: si la empresa detrás del controlador ci
 
 Antes de mirar el precio, verifica: cuántas zonas reales necesitas (más un margen), si funciona sin depender de servidores externos, si acepta sensores externos por entrada física, y qué tan lejos vas a instalarlo del router. Esos cuatro factores predicen mejor la satisfacción a largo plazo que cualquier lista de funciones de la app.
 
+## Si ya tenés un controlador Rain Bird tradicional que anda bien, no hace falta cambiarlo entero
+
+Todo lo de arriba asume que vas a comprar un controlador completo nuevo. Pero si ya tenés instalado un controlador Rain Bird de la línea TRU, ESP-TM2, ESP-ME3, ESP-RZXe o ESP-LXME2 (fabricado después del 2 de noviembre de 2016) que funciona bien mecánicamente y lo único que te falta es el control por app, el [Rain Bird LNK2](/productos/B01MUVVSSF) es un módulo WiFi que se enchufa adentro de ese controlador existente — ojo, no es un controlador standalone como los de este ranking: si todavía no tenés uno de esos modelos Rain Bird compatibles, este módulo solo no sirve de nada. Si sí lo tenés, suma control remoto por app, retraso por lluvia y manejo de zonas individuales sin tocar el cableado ya instalado ni tirar un controlador que sigue funcionando. A $104.16 es más caro que varios controladores enteros de este ranking, pero comparalo contra el costo real de reemplazar un controlador que todavía anda bien solo para tener WiFi.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/M4iVfoFDOx0" title="Rain Bird's LNK2 WiFi Module - Faster From The Inside - Product Overview — Rain Bird" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## Si solo necesitás resolver un viaje, no todo el jardín
 
 No siempre hace falta un controlador WiFi completo. Si el problema puntual es "me voy de vacaciones y no quiero que se sequen las macetas o la huerta", puede alcanzar con un kit de goteo con timer a pilas — mirá la guía de [cómo regar el jardín si te vas de vacaciones](/articulos/como-regar-el-jardin-si-te-vas-de-vacaciones) para saber cuándo conviene cada opción según cuánto tiempo estés fuera.

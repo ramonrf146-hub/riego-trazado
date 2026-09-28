@@ -23,6 +23,8 @@ El [AQUASTRONG Bomba Sumergible 1 HP (4.500 GPH)](/productos/B0C9QCCBVW) de este
 
 Si el trabajo es más chico — una ventana de sótano inundada, vaciar una pileta o un estanque — no hace falta pagar por los 4.500 GPH de la de 1 HP. La [AQUASTRONG Bomba Sumergible 1/2 HP (3.159 GPH)](/productos/B0C9Q7V9GB) es la misma marca a menor potencia y precio, aunque con bastante menos historial (152 reseñas contra miles de la versión de 1 HP) — para pozos profundos o sótanos grandes inundados, la de 1 HP sigue siendo la apuesta más probada.
 
+Ninguna de las dos AQUASTRONG te avisa sola de que el sótano se está inundando — vos tenés que notarlo o bajar a revisar. Un [detector de fugas GoveeLife (5 sensores + gateway WiFi)](/productos/B0DQLFC3Q6) resuelve ese punto ciego: son sensores chicos que se dejan apoyados en el piso cerca de donde esperás un problema (bajo la bomba, junto al desagüe, cerca del calefón) y mandan una alerta al celular apenas detectan agua donde no debería haber, con hasta 1.804 pies de alcance de radio hasta el gateway. No reemplaza a la bomba — es la pieza que te avisa a tiempo de usarla, o de que la bomba ya instalada dejó de funcionar y el agua está subiendo igual.
+
 ## Bomba de superficie: presión constante para todo el sistema
 
 Se instala fuera del agua (de ahí "de superficie"), succiona desde una fuente y empuja con presión constante hacia toda la red de riego. Es la que necesitás cuando la presión de tu red municipal o de tu pozo no alcanza para que dos o tres aspersores funcionen a la vez sin que cada uno pierda fuerza.
@@ -113,6 +115,9 @@ No — está pensada para un punto o una manguera, no para presurizar una red co
 
 **¿Puedo usar la sumergible de achique (AQUASTRONG) en un pozo perforado profundo para tomar agua de ahí?**
 No es recomendable: no está certificada para agua potable (NSF/ANSI 372) como la Red Lion de pozo profundo de este ranking, y su fuerza está pensada para achicar agua acumulada, no para levantarla con presión constante desde 40, 80 o 120 pies de profundidad.
+
+**¿Cómo me entero de que el sótano se está inundando antes de que sea tarde?**
+Con revisiones manuales periódicas, o con un detector como el [GoveeLife](/productos/B0DQLFC3Q6) de este ranking: son sensores de agua chicos (no miden humedad de suelo, sino presencia de agua donde no debería haberla) que mandan una alerta al celular por WiFi apenas se mojan. Tiene sentido tanto si todavía no instalaste ninguna bomba de achique como si ya tenés una — en ese segundo caso, te avisa igual si la bomba falla o no da abasto.
 
 **Compré una bomba de pozo (Red Lion o WAYNE) y no venía con presostato — ¿lo necesito sí o sí?**
 Sí, sin excepción: es la pieza que le dice a la bomba cuándo prender y apagarse sola según la presión del agua. El [Square D FSG2J24CP](/productos/B000BQSERE) de este ranking es un reemplazo o complemento válido para cualquiera de las dos — pero recordá que el presostato solo no alcanza, también necesitás un tanque de presión aparte para que la bomba no cicle cada pocos segundos.

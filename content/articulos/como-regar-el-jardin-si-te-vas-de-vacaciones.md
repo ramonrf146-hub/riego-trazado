@@ -21,6 +21,7 @@ No todos los kits de riego por goteo son iguales, y la diferencia clave antes de
 
 - El [MIXC de 50 ft](/productos/B079LFKZX6) es el más económico del catálogo, pero el fabricante aclara que **no incluye ningún temporizador** — si lo comprás pensando que vas a automatizar el riego para el viaje y no sumás un timer aparte, vas a llegar a destino con el sistema armado pero sin encender solo.
 - El [HEKIWAY con timer incluido](/productos/B0F5VYR2Z4) resuelve esto en una sola compra: manguera, boquillas y el temporizador ya vienen juntos, así que no hay riesgo de armar todo y darte cuenta en el aeropuerto de que falta la pieza que hace que funcione sin vos.
+- El [Bonviee de 247 ft](/productos/B0F6Y9CSZP) es la opción si tu patio es más grande que lo que cubre el MIXC: bastante más línea (247 ft contra 50 ft) y conectores rápidos para sumar o mover goteros sin herramientas — pero tampoco trae timer incluido, así que aplica la misma regla: sin sumar un temporizador aparte (como el Orbit 62034 o 62061 de arriba), no se enciende solo mientras no estás.
 
 ## El accesorio que nadie piensa hasta que revienta una manguera con vos de viaje
 
@@ -33,6 +34,10 @@ Además de la presión, hay un problema distinto que ninguno de los kits de este
 ## Si tu situación es específicamente un cantero elevado o una huerta
 
 Los kits de arriba (MIXC, HEKIWAY) están pensados para jardín en general — macetas, canteros, plantas dispersas. Si tu caso puntual es un cantero elevado o una huerta de verduras, el [CARPATHEN de 100 ft](/productos/B08CRSYCQS) está armado específicamente para eso: 30 emisores ajustables, línea principal más gruesa (5/16 en vez del 1/4 estándar), y trae de regalo una guía digital de cultivo de hortalizas — útil si además de automatizar el riego querés que la huerta rinda mientras no estás. Igual que el MIXC y el Bonviee, está limitado a 20-45 PSI y 40 GPH, así que aplica el mismo consejo del manómetro de arriba antes de viajar.
+
+## Si tu patio es más grande que unas macetas pero no es exactamente césped
+
+Un macizo de flores, un cantero largo o un almácigo a veces necesitan más cobertura de la que da un gotero puntual, sin llegar todavía a justificar un controlador de zonas. El [Bluepro de 200 ft](/productos/B0GLM4SYN8) resuelve ese punto intermedio con boquillas de cobre tipo micro-aspersión en vez de goteo gota a gota: cubre un área más amplia por punto, a costa de perder la precisión de los kits de arriba — conviene más para un macizo de flores o un semillero que para plantas individuales en maceta, donde el MIXC o el Bonviee siguen siendo la opción más precisa.
 
 ## Si tenés césped o un jardín más grande (no solo macetas)
 

@@ -21,6 +21,7 @@ Not all drip kits are the same, and the key difference before a trip is simple: 
 
 - The [MIXC 50 ft kit](/en/productos/B079LFKZX6) is the most affordable in the catalog, but the manufacturer states clearly that it **does not include any timer** — if you buy it thinking you'll automate watering for the trip and don't add a separate timer, you'll land at your destination with the system installed but with nothing to turn it on by itself.
 - The [HEKIWAY kit with timer included](/en/productos/B0F5VYR2Z4) solves this in a single purchase: tubing, nozzles, and the timer already come together, so there's no risk of putting everything together and realizing at the airport that the piece that makes it run on its own is missing.
+- The [Bonviee 247 ft kit](/en/productos/B0F6Y9CSZP) is the pick if your yard is bigger than what the MIXC covers: quite a bit more line (247 ft versus 50 ft) and quick-connect fittings to add or move emitters without tools — but it doesn't come with a timer either, so the same rule applies: without adding a separate timer (like the Orbit 62034 or 62061 above), it won't turn itself on while you're away.
 
 ## The accessory nobody thinks about until a line bursts while you're away
 
@@ -33,6 +34,10 @@ Beyond pressure, there's a separate problem none of the kits in this ranking sol
 ## If your situation is specifically a raised bed or a vegetable garden
 
 The kits above (MIXC, HEKIWAY) are built for general garden use — pots, beds, scattered plants. If your specific case is a raised garden bed or a vegetable patch, the [CARPATHEN 100 ft kit](/en/productos/B08CRSYCQS) is built specifically for that: 30 adjustable emitters, a thicker mainline (5/16 instead of the standard 1/4), and it throws in a digital vegetable-growing guide — handy if, on top of automating watering, you want the garden to actually produce while you're away. Like the MIXC and Bonviee, it's limited to 20-45 PSI and 40 GPH, so the same pressure-gauge advice above applies before you travel.
+
+## If your yard is bigger than a few pots but isn't quite a lawn
+
+A flower bed, a long garden row, or a seedbed sometimes needs more coverage than a single point-source emitter gives, without quite justifying a zoned controller yet. The [Bluepro 200 ft kit](/en/productos/B0GLM4SYN8) fills that middle ground with brass micro-sprinkler nozzles instead of drop-by-drop drip: it covers a wider area per point, at the cost of the precision the kits above offer — better suited to a flower bed or seedbed than to individual potted plants, where the MIXC or the Bonviee remain the more precise choice.
 
 ## If you have a lawn or a bigger yard (not just pots)
 

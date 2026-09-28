@@ -42,6 +42,14 @@ It's an uncomfortable but valid question: if the company behind the controller s
 
 Before you even look at price, check: how many zones you actually need (plus a margin), whether it works without relying on external servers, whether it accepts external sensors through a physical input, and how far you'll be installing it from the router. Those four factors predict long-term satisfaction far better than any list of app features.
 
+## If you already have a traditional Rain Bird controller that works fine, you don't need to replace the whole thing
+
+Everything above assumes you're buying a whole new controller. But if you already have a Rain Bird controller installed from the TRU, ESP-TM2, ESP-ME3, ESP-RZXe, or ESP-LXME2 line (manufactured after November 2, 2016) that still works mechanically and the only thing missing is app control, the [Rain Bird LNK2](/en/productos/B01MUVVSSF) is a WiFi module that plugs directly into that existing controller — note that it isn't a standalone controller like the ones in this ranking: if you don't already own one of those compatible Rain Bird models, this module alone is useless. If you do, it adds remote app control, rain delay, and individual zone management without touching the wiring you already have installed or throwing away a controller that still works. At $104.16 it costs more than several full controllers in this ranking, but weigh that against the real cost of replacing a controller that still runs fine just to get WiFi.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/M4iVfoFDOx0" title="Rain Bird's LNK2 WiFi Module - Faster From The Inside - Product Overview — Rain Bird" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## If you only need to solve a trip, not the whole yard
 
 You don't always need a full WiFi controller. If the immediate problem is "I'm going on vacation and don't want the pots or the vegetable garden to dry out," a drip kit with a battery timer can be enough — check the guide on [how to water your garden while you're on vacation](/en/articulos/como-regar-el-jardin-si-te-vas-de-vacaciones) to see which option fits depending on how long you'll be away.

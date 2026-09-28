@@ -23,6 +23,8 @@ The [AQUASTRONG Submersible Pump 1 HP (4,500 GPH)](/en/productos/B0C9QCCBVW) in 
 
 For smaller jobs — a flooded basement window well, draining a pool or a small pond — you don't need to pay for the 1 HP version's 4,500 GPH. The [AQUASTRONG Submersible Pump 1/2 HP (3,159 GPH)](/en/productos/B0C9Q7V9GB) is the same brand at lower power and price, though with a much shorter track record (152 reviews versus thousands for the 1 HP version) — for deep wells or large flooded basements, the 1 HP remains the more proven bet.
 
+Neither AQUASTRONG pump tells you on its own that the basement is flooding — you still have to notice it or walk down and check. A [GoveeLife water leak detector (5 sensors + WiFi gateway)](/en/productos/B0DQLFC3Q6) covers that blind spot: small sensors you set on the floor wherever you expect trouble (under the pump, next to the drain, by the water heater) that push a phone alert the moment they detect water where there shouldn't be any, with up to 1,804 feet of radio range back to the gateway. It doesn't replace the pump — it's the part that warns you in time to use it, or that the pump you already installed has stopped working while the water keeps rising.
+
 ## Surface pump: constant pressure for the whole system
 
 It sits outside the water source (hence "surface"), draws from it, and pushes with constant pressure across the whole irrigation network. This is what you need when your municipal or well pressure isn't enough for two or three sprinklers to run at once without each one losing force.
@@ -113,6 +115,9 @@ No — it's built for one point or hose, not for pressurizing a full sprinkler n
 
 **Can I use the drainage submersible (AQUASTRONG) in a deep drilled well to draw drinking water?**
 It's not recommended: it isn't NSF/ANSI 372 certified for potable water like the deep-well Red Lion in this ranking, and its power is built for pumping out standing water, not lifting it with constant pressure from 40, 80, or 120 feet down.
+
+**How do I find out the basement is flooding before it's too late?**
+With regular manual checks, or with a detector like the [GoveeLife](/en/productos/B0DQLFC3Q6) in this ranking: small water sensors (they detect standing water, not soil moisture) that push a phone alert over WiFi the moment they get wet. It's worth it whether you haven't installed a sump pump yet or already have one — in that second case, it still warns you if the pump fails or can't keep up.
 
 **I bought a well pump (Red Lion or WAYNE) and it didn't come with a pressure switch — do I really need one?**
 Yes, no way around it: it's the part that tells the pump when to turn itself on and off based on water pressure. The [Square D FSG2J24CP](/en/productos/B000BQSERE) in this ranking is a valid replacement or add-on for either pump — but remember the switch alone isn't enough, you also need a separate pressure tank so the pump doesn't short-cycle every few seconds.
