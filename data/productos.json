@@ -2555,5 +2555,56 @@
       "Direct burial rated",
       "329 reviews"
     ]
+  },
+  {
+    "asin": "B08T21QJQZ",
+    "nombre": "Hunter Wand — Módulo WiFi para Controlador X2 (Hydrawise)",
+    "nombreEn": "Hunter Wand — WiFi Module for X2 Controller (Hydrawise)",
+    "categoria": "controladores-wifi",
+    "precio": 100.9,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/619n5cj-1pL._SL1500_.jpg",
+    "rating": 3.6,
+    "numResenas": 1790,
+    "ranking": 11,
+    "notaTecnica": "Es un módulo WiFi que se enchufa directo en el puerto lateral \"WAND\" de un controlador Hunter X2 ya instalado (compatible con todas sus variantes: X2-400, X2-600 y X2-800) y lo convierte en un controlador inteligente con la app Hydrawise — no es un controlador independiente: si todavía no tenés un Hunter X2 instalado, este módulo solo no sirve de nada. Se conecta únicamente a WiFi de 2.4GHz (no 5GHz), con el emparejamiento inicial hecho por Bluetooth desde el celular. Reseñas reales de compradores señalan que la instalación física es simple (se desliza en el puerto del panel) pero el primer emparejamiento con la app puede tardar varios intentos — no es tan plug-and-play como algunos controladores todo-en-uno de este ranking.",
+    "notaTecnicaEn": "This is a WiFi module that plugs directly into the side \"WAND\" port of an already-installed Hunter X2 controller (compatible with all its versions: X2-400, X2-600, and X2-800) and turns it into a smart controller with the Hydrawise app — it isn't a standalone controller: if you don't already have a Hunter X2 installed, this module alone does nothing. It only connects to 2.4GHz WiFi (not 5GHz), with the initial pairing done over Bluetooth from your phone. Real buyer reviews note the physical install is simple (it slides into the panel port), but the first app pairing can take a few tries — it's not as plug-and-play as some all-in-one controllers in this ranking.",
+    "idealPara": "Quien ya tiene instalado un controlador Hunter X2 (cualquier variante) que funciona bien mecánicamente y solo le falta control por app — no sirve como controlador independiente sin uno de esos ya instalado.",
+    "idealParaEn": "Anyone who already has a Hunter X2 controller installed (any version) that still works fine mechanically and just needs app control — it doesn't work as a standalone controller without one of those already in place.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Pensalo como el mismo truco de convertir una tele vieja en un Smart TV enchufando un dispositivo de streaming, en vez de comprar una tele nueva entera: este módulo se enchufa en un puerto lateral de tu controlador Hunter X2 ya instalado y le suma WiFi y control por la app Hydrawise, sin reemplazar el controlador ni tocar el cableado de las válvulas.",
+      "ejemploHogar": "Tenés un Hunter X2 de 6 zonas instalado en el garage desde hace un par de años, anda bien, pero tenés que programarlo a mano parado frente al panel — con este módulo, programás y revisás el riego desde el celular sin salir de la cocina.",
+      "ejemploNegocio": "Una empresa de mantenimiento de jardines que atiende varias propiedades con controladores Hunter X2 ya instalados puede sumarle este módulo a cada uno en vez de reemplazar los controladores enteros, y así monitorear y ajustar el riego de todos sus clientes de forma remota desde una sola cuenta Hydrawise.",
+      "puntosClave": [
+        "Confirmá que tu controlador existente sea específicamente de la línea Hunter X2 (X2-400, X2-600 u X2-800) — no funciona con otras líneas de Hunter como Pro-C o ICC2, ni con controladores de otras marcas.",
+        "Se conecta solo a redes WiFi de 2.4GHz, no 5GHz — si tu router es dual-band, activá o creá una red separada de 2.4GHz antes de intentar emparejarlo.",
+        "Además de los cerca de $100 del módulo, reseñas reales de compradores marcan que la configuración inicial por Bluetooth puede llevar varios intentos — no es un defecto de hardware, pero conviene hacer la primera configuración con tiempo disponible, no apurado."
+      ],
+      "consejoInversion": "Frente a comprar un controlador WiFi todo-en-uno nuevo (como el Hunter HPC400 de este mismo ranking) y descartar un X2 que todavía funciona, este módulo cuesta una fracción de reemplazar el controlador completo y aprovecha una instalación de válvulas y cableado que ya está probada y funcionando — el ahorro real está en no duplicar el gasto en un controlador nuevo cuando lo único que falta es WiFi, no el controlador en sí."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Think of it like the trick of turning an old TV into a Smart TV by plugging in a streaming stick, instead of buying a whole new TV: this module plugs into a side port on your already-installed Hunter X2 controller and adds WiFi and Hydrawise app control, without replacing the controller or touching the valve wiring.",
+      "ejemploHogar": "You've had a 6-zone Hunter X2 controller in the garage for a couple of years, it works fine, but you have to program it standing in front of the panel — with this module, you schedule and check watering from your phone without leaving the kitchen.",
+      "ejemploNegocio": "A landscaping maintenance company servicing several properties with Hunter X2 controllers already installed can add this module to each one instead of replacing whole controllers, monitoring and adjusting every client's irrigation remotely from a single Hydrawise account.",
+      "puntosClave": [
+        "Confirm your existing controller is specifically from the Hunter X2 line (X2-400, X2-600, or X2-800) — it doesn't work with other Hunter lines like Pro-C or ICC2, or with controllers from other brands.",
+        "It only connects to 2.4GHz WiFi networks, not 5GHz — if your router is dual-band, turn on or create a separate 2.4GHz network before trying to pair it.",
+        "On top of the roughly $100 module cost, real buyer reviews note the initial Bluetooth setup can take a few tries — it's not a hardware defect, but it's worth doing the first setup when you have time to spare, not in a rush."
+      ],
+      "consejoInversion": "Compared to buying a whole new all-in-one WiFi controller (like the Hunter HPC400 in this same ranking) and tossing out an X2 that still works, this module costs a fraction of replacing the entire controller and reuses a valve and wiring installation that's already proven and working — the real savings is not duplicating spend on a new controller when the only thing missing is WiFi, not the controller itself."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B08T21QJQZ?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-29",
+    "activo": true,
+    "tags": [
+      "Módulo WiFi retrofit",
+      "Hydrawise",
+      "1.790 reseñas"
+    ],
+    "tagsEn": [
+      "Retrofit WiFi module",
+      "Hydrawise",
+      "1,790 reviews"
+    ]
   }
 ]

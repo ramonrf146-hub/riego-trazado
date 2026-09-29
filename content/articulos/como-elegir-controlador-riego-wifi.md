@@ -50,6 +50,14 @@ Todo lo de arriba asume que vas a comprar un controlador completo nuevo. Pero si
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/M4iVfoFDOx0" title="Rain Bird's LNK2 WiFi Module - Faster From The Inside - Product Overview — Rain Bird" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
+## Si ya tenés un controlador Hunter X2 que anda bien, tampoco hace falta cambiarlo entero
+
+El mismo razonamiento del Rain Bird LNK2 de arriba aplica si tu controlador existente es un Hunter de la línea X2 (X2-400, X2-600 u X2-800): el [Hunter Wand](/productos/B08T21QJQZ) es un módulo WiFi que se enchufa directo en el puerto lateral del panel y lo convierte en un controlador inteligente con la app Hydrawise, sin reemplazar el controlador ni tocar el cableado de las válvulas ya instalado. A diferencia del LNK2 (pensado para la línea Rain Bird TRU/ESP), este solo funciona con controladores Hunter X2 — no sirve con otras líneas de Hunter como Pro-C o ICC2. Reseñas reales de compradores marcan que la instalación física es simple, pero el primer emparejamiento por Bluetooth con la app puede llevar varios intentos, así que conviene hacerlo con tiempo disponible.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/LtovNaja0ek" title="Hunter X2 Irrigation Wand - Wi-Fi module — Sean's Hobby House" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## Si solo necesitás resolver un viaje, no todo el jardín
 
 No siempre hace falta un controlador WiFi completo. Si el problema puntual es "me voy de vacaciones y no quiero que se sequen las macetas o la huerta", puede alcanzar con un kit de goteo con timer a pilas — mirá la guía de [cómo regar el jardín si te vas de vacaciones](/articulos/como-regar-el-jardin-si-te-vas-de-vacaciones) para saber cuándo conviene cada opción según cuánto tiempo estés fuera.
@@ -73,3 +81,9 @@ La mayoría de los controladores económicos, incluido el [Smart Sprinklers Cont
 
 **El garage donde instalé el controlador queda lejos del router y la señal le llega débil, ¿qué hago?**
 Un repetidor WiFi enchufable genérico funciona, pero pierde buena parte del ancho de banda al retransmitir por aire y suele ser poco estable para un dispositivo que necesita estar siempre conectado. La alternativa más confiable es un punto de acceso cableado como el [TP-Link EAP225-Outdoor](/productos/B07953S2FD): requiere tender un cable de red hasta el garage o cobertizo (el mismo cable lo alimenta vía PoE, sin necesitar un tomacorriente ahí), pero a cambio da una señal fuerte y estable en el lugar exacto donde está el controlador.
+
+**Tengo un controlador de una marca puntual (Rain Bird o Hunter) que funciona bien, ¿cuál módulo WiFi le corresponde?**
+Depende de la marca y línea exacta: si tu controlador es Rain Bird de la línea TRU, ESP-TM2, ESP-ME3, ESP-RZXe o ESP-LXME2, te corresponde el [Rain Bird LNK2](/productos/B01MUVVSSF); si es un Hunter de la línea X2 (X2-400, X2-600 u X2-800), te corresponde el [Hunter Wand](/productos/B08T21QJQZ). No son intercambiables entre marcas — cada módulo se enchufa en un puerto físico específico del fabricante, así que confirmá primero la marca y línea exacta de tu controlador actual antes de comprar cualquiera de los dos.
+
+**Todas las mangueras de mi patio están sueltas, sin válvulas fijas — ¿me sirve un controlador de este ranking?**
+No exactamente: los controladores de este ranking se cablean a válvulas solenoides de 24V AC ya instaladas. Si en cambio tenés varias mangueras o canillas sueltas repartidas por el patio y querés programarlas todas desde el celular sin tender cable ni instalar válvulas, un [temporizador WiFi con gateway RF](/productos/B0GSSJ2KWT) resuelve ese caso distinto: cada temporizador a batería se atornilla directo en la canilla y se comunica por radiofrecuencia con un gateway central (hasta 64 dispositivos), sin obra ni cableado — a cambio, depende de pilas (hasta 8 meses de duración declarada) en vez de estar siempre conectado a corriente como un controlador cableado.

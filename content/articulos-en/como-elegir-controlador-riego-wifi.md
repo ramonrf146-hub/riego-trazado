@@ -50,6 +50,14 @@ Everything above assumes you're buying a whole new controller. But if you alread
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/M4iVfoFDOx0" title="Rain Bird's LNK2 WiFi Module - Faster From The Inside - Product Overview — Rain Bird" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
+## If you already have a Hunter X2 controller that works fine, you don't need to replace it either
+
+The same reasoning as the Rain Bird LNK2 above applies if your existing controller is a Hunter from the X2 line (X2-400, X2-600, or X2-800): the [Hunter Wand](/en/productos/B08T21QJQZ) is a WiFi module that plugs directly into a side port on the panel and turns it into a smart controller with the Hydrawise app, without replacing the controller or touching the valve wiring you already have installed. Unlike the LNK2 (built for the Rain Bird TRU/ESP line), this one only works with Hunter X2 controllers — it doesn't work with other Hunter lines like Pro-C or ICC2. Real buyer reviews note the physical install is simple, but the first Bluetooth pairing with the app can take a few tries, so it's worth doing when you have time to spare.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/LtovNaja0ek" title="Hunter X2 Irrigation Wand - Wi-Fi module — Sean's Hobby House" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## If you only need to solve a trip, not the whole yard
 
 You don't always need a full WiFi controller. If the immediate problem is "I'm going on vacation and don't want the pots or the vegetable garden to dry out," a drip kit with a battery timer can be enough — check the guide on [how to water your garden while you're on vacation](/en/articulos/como-regar-el-jardin-si-te-vas-de-vacaciones) to see which option fits depending on how long you'll be away.
@@ -73,3 +81,9 @@ Most budget controllers, including the [Smart Sprinklers Controller](/en/product
 
 **The garage where I installed the controller is far from the router and the signal is weak — what do I do?**
 A generic plug-in WiFi repeater works, but it loses a good chunk of bandwidth retransmitting over the air and tends to be unreliable for a device that needs to stay connected at all times. The more reliable fix is a wired access point like the [TP-Link EAP225-Outdoor](/en/productos/B07953S2FD): it requires running a network cable out to the garage or shed (that same cable powers it via PoE, so no outlet is needed there), but in exchange it gives you a strong, stable signal right where the controller sits.
+
+**I have a controller from a specific brand (Rain Bird or Hunter) that works fine — which WiFi module fits it?**
+It depends on the exact brand and line: if your controller is a Rain Bird from the TRU, ESP-TM2, ESP-ME3, ESP-RZXe, or ESP-LXME2 line, you need the [Rain Bird LNK2](/en/productos/B01MUVVSSF); if it's a Hunter from the X2 line (X2-400, X2-600, or X2-800), you need the [Hunter Wand](/en/productos/B08T21QJQZ). They aren't interchangeable between brands — each module plugs into a manufacturer-specific physical port, so confirm the exact brand and line of your current controller before buying either one.
+
+**Every hose in my yard is loose, with no fixed valves — does a controller from this ranking work for me?**
+Not exactly: the controllers in this ranking wire into already-installed 24V AC solenoid valves. If instead you have several loose hoses or spigots scattered around the yard and want to schedule all of them from your phone without running cable or installing valves, a [WiFi timer with an RF gateway](/en/productos/B0GSSJ2KWT) solves that different case: each battery-powered timer screws directly onto a spigot and talks to a central gateway over radio frequency (up to 64 devices), with no construction or wiring — in exchange, it runs on batteries (up to 8 months of claimed life) instead of staying always powered like a wired controller.
