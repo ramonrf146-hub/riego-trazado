@@ -2606,5 +2606,56 @@
       "Hydrawise",
       "1,790 reviews"
     ]
+  },
+  {
+    "asin": "B0D2HG7QCY",
+    "nombre": "VEVOR Localizador de Cable Enterrado — Rastreador de Roturas para Cableado de Riego",
+    "nombreEn": "VEVOR Underground Cable Locator — Wire Break Tracer for Irrigation Wiring",
+    "categoria": "valvulas-solenoides",
+    "precio": 31.4,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71K1Z0yHNqL._SL1500_.jpg",
+    "rating": 4,
+    "numResenas": 59,
+    "ranking": 10,
+    "notaTecnica": "Es un localizador de cable enterrado de dos piezas: un transmisor que se conecta al cable de riego (en la caja de válvulas, o directo sobre el cable cortado) y un receptor portátil que vas paseando por el jardín — el pitido se hace más fuerte cuanto más cerca pasás del cable, y se corta de golpe justo en el punto de la rotura, así que cavás ahí y no a lo largo de toda la zanja a ciegas. Detecta hasta 3 pies (90cm) de profundidad y hasta 1.000 pies de cable en línea recta. No repara nada ni reemplaza los conectores de gel o el cable correcto de este mismo ranking — solo te dice dónde cavar. Limitación real: en un cable multiconductor con varios hilos juntos dentro de la misma funda (como el Southwire 18/7 de este ranking), el localizador rastrea el trayecto del mazo completo, pero no distingue automáticamente cuál de los 7 hilos individuales es el que está cortado — para aislar el hilo exacto hay que desconectarlos uno por uno en el controlador y probar de a uno.",
+    "notaTecnicaEn": "This is a two-piece underground cable locator: a transmitter that clips onto the irrigation wire (at the valve box, or directly on a cut wire) and a handheld receiver you walk across the yard with — the beep gets louder as you pass closer to the wire, and cuts out sharply right at the break point, so you dig there instead of trenching the whole run blind. It detects up to 3 feet (90cm) deep and up to 1,000 feet of cable in a straight line. It doesn't repair anything or replace the gel connectors or the correct-gauge cable in this same ranking — it only tells you where to dig. Real limitation: on a multiconductor cable with several wires bundled inside one jacket (like the Southwire 18/7 in this ranking), the locator traces the path of the whole bundle, but it doesn't automatically tell you which of the 7 individual wires is the one that's cut — isolating the exact wire means disconnecting them one at a time at the controller and testing each in turn.",
+    "idealPara": "Quien ya tiene un sistema de riego con cable enterrado y una zona que dejó de regar sin explicación clara (sospecha de cable cortado) — no es para diagnosticar válvulas o solenoides que nunca funcionaron, ni para detectar fugas de agua en la tubería.",
+    "idealParaEn": "Anyone with an already-buried irrigation wiring system whose zone suddenly stopped watering for no clear reason (a suspected wire break) — not for diagnosing valves or solenoids that never worked, and not for finding water leaks in the pipe.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Pensalo como el mismo detector de metales que se usa en la playa, pero en vez de buscar monedas busca el trayecto de un cable enterrado: le enchufás un transmisor al cable (en la caja de válvulas o directo sobre la punta cortada) y caminás con el receptor — el sonido te va guiando hasta el punto exacto donde el cable se cortó, sin tener que abrir una zanja entera a ciegas para encontrarlo.",
+      "ejemploHogar": "Una zona del jardín dejó de regar de un día para el otro, no hay fusible quemado ni corte de luz, y sospechás que alguien cortó el cable sin querer con el borde de una pala mientras armaba un cantero nuevo — en vez de cavar toda la zanja de punta a punta, el localizador te marca el punto exacto en un par de minutos.",
+      "ejemploNegocio": "Una empresa de mantenimiento de riego que atiende varias propiedades puede diagnosticar una válvula que no abre en la primera visita, en vez de cobrar una segunda visita solo para \"buscar el problema\" — ubican la rotura puntual y cavan nada más ese metro cuadrado, no la zanja completa.",
+      "puntosClave": [
+        "Confirmá la profundidad de tu cable de riego antes de comprar — este modelo detecta hasta 3 pies (90cm); en una instalación más profunda que eso (poco común en riego residencial, pero pasa en zonas con mucho relleno) hace falta un modelo profesional con más alcance.",
+        "Necesita continuidad eléctrica para funcionar: sirve para encontrar dónde se cortó un cable que antes conducía señal, no para diagnosticar una válvula que nunca funcionó porque el solenoide está quemado — para eso alcanza con un multímetro común, midiendo continuidad directo en el solenoide.",
+        "Llevá un auricular de repuesto con conector 3.5mm propio — varias reseñas reales de compradores marcan que el auricular incluido es lo primero que falla, mientras el transmisor y el receptor siguen funcionando bien."
+      ],
+      "consejoInversion": "Frente a cavar la zanja completa a ciegas (varias horas de trabajo, con el riesgo real de romper encima un caño de PVC o cortar el cable en otro punto distinto) o directamente volver a tender un cable nuevo para toda la zona, el localizador cuesta menos que una sola visita de un técnico de riego — se paga solo la primera vez que evita una excavación completa que no hacía falta."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Think of it like a metal detector at the beach, except instead of hunting for coins it traces the path of a buried wire: you clip a transmitter onto the cable (at the valve box, or directly on the cut end) and walk around with the receiver — the sound guides you straight to the exact point where the wire broke, instead of trenching the whole run blind to find it.",
+      "ejemploHogar": "One zone of the yard suddenly stopped watering, there's no blown fuse and no power outage, and you suspect someone nicked the wire with a shovel edge while digging a new flower bed — instead of trenching the whole run end to end, the locator marks the exact spot in a couple of minutes.",
+      "ejemploNegocio": "An irrigation maintenance company servicing several properties can diagnose a valve that won't open on the first visit, instead of billing a second visit just to \"find the problem\" — they pinpoint the break and dig only that one square foot, not the whole trench.",
+      "puntosClave": [
+        "Confirm how deep your irrigation wire is buried before buying — this model detects down to 3 feet (90cm); a deeper install than that (uncommon in residential irrigation, but it happens where there's a lot of fill dirt) needs a professional-grade model with more range.",
+        "It needs electrical continuity to work: it's built to find where a wire that used to carry signal got cut, not to diagnose a valve that never worked because the solenoid is burned out — a basic multimeter measuring continuity directly on the solenoid handles that instead.",
+        "Bring a spare earphone with your own 3.5mm plug — several genuine buyer reviews note the included earphone is the first thing to fail, while the transmitter and receiver keep working fine."
+      ],
+      "consejoInversion": "Compared to trenching the whole run blind (several hours of labor, with a real risk of cracking a PVC pipe underneath or cutting the wire in a second spot) or just re-running new cable for the whole zone, the locator costs less than a single irrigation tech visit — it pays for itself the first time it saves you an excavation you didn't actually need."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B0D2HG7QCY?tag=riegotrazado-20",
+    "actualizadoEn": "2026-09-30",
+    "activo": true,
+    "tags": [
+      "Localizador de cable",
+      "Hasta 3 pies de profundidad",
+      "59 reseñas"
+    ],
+    "tagsEn": [
+      "Wire locator",
+      "Up to 3 ft depth",
+      "59 reviews"
+    ]
   }
 ]
