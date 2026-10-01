@@ -2657,5 +2657,58 @@
       "Up to 3 ft depth",
       "59 reviews"
     ]
+  },
+  {
+    "asin": "B07Q5HBC2N",
+    "nombre": "Iron Forge Cable 16 AWG — Cable de Bajo Voltaje para Enterrar Directo (250 pies, 2 Conductores)",
+    "nombreEn": "Iron Forge Cable 16 AWG — Direct Burial Low Voltage Wire (250 Ft, 2-Conductor)",
+    "categoria": "valvulas-solenoides",
+    "precio": 54.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71BzqmIEh9L._SL1500_.jpg",
+    "rating": 4.8,
+    "numResenas": 86,
+    "ranking": 11,
+    "notaTecnica": "Es un cable de 2 hilos (positivo + común) en calibre 16 AWG, más grueso que el Southwire 18/7 de este mismo ranking — el fabricante lo vende explícitamente para riego, iluminación de bajo voltaje y otros proyectos eléctricos al aire libre. No reemplaza al Southwire como cable troncal de 7 hilos para todas las válvulas: se usa como refuerzo puntual, tendiendo un par de hilos de 16 AWG aparte solo hasta la válvula más lejana (la que queda a bastante más de 150 pies del controlador), en vez de intentar estirar más metros del cable de 18 AWG que ya pierde voltaje en esa distancia. Carrete de 250 pies, cobre libre de oxígeno, aislación resistente a UV y agua, apto para enterrar directo (direct burial), certificado UL. Limitación real: son solo 2 conductores — para una zona nueva con varias válvulas lejanas hacen falta varios pares, no alcanza con un cable único como el multiconductor de 7 hilos.",
+    "notaTecnicaEn": "This is a 2-wire cable (hot + common) in 16 AWG gauge, thicker than this same ranking's Southwire 18/7 — the manufacturer explicitly sells it for irrigation, low-voltage lighting, and other outdoor electrical projects. It doesn't replace the Southwire as the 7-wire trunk cable for every valve: it's meant as a targeted reinforcement, running a separate pair of 16 AWG wires only out to the farthest valve (the one sitting well past 150 feet from the controller), instead of trying to stretch more feet of the 18 AWG cable that's already losing voltage at that distance. 250-foot spool, oxygen-free copper, UV- and water-resistant jacket, rated for direct burial, UL certified. Real limitation: it's only 2 conductors — a new zone with several distant valves needs several pairs, a single cable like the 7-conductor multi-conductor one won't do it.",
+    "idealPara": "Quien ya tiene (o va a tender) el cable Southwire 18/7 de este ranking para la mayoría de las válvulas, pero tiene una sola zona bastante más lejos de 150 pies del controlador donde ese calibre pierde voltaje — no es para reemplazar el cable troncal de varias válvulas, sino para reforzar el tramo más largo.",
+    "idealParaEn": "Anyone who already has (or is about to run) this ranking's Southwire 18/7 cable for most valves, but has one zone well past 150 feet from the controller where that gauge loses voltage — not meant to replace the multi-valve trunk cable, just to reinforce the longest run.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Pensalo como pasar de una manguera de jardín fina a una más gruesa para que llegue más agua al final del tramo, pero con electricidad: un cable más grueso (calibre más bajo, 16 AWG en vez de 18 AWG) deja pasar la corriente con menos resistencia, así que en una tirada larga la válvula del final recibe el voltaje que necesita para abrir bien, en vez de llegarle una señal débil.",
+      "ejemploHogar": "Tu patio trasero es grande y la última válvula del fondo queda a 200 pies del controlador — las otras seis zonas funcionan bien con el cable 18/7 estándar, pero esa última abre floja o directamente no abre. En vez de cambiar todo el tendido, corrés un par de hilos de este cable de 16 AWG solo hasta esa válvula.",
+      "ejemploNegocio": "Una empresa de instalación de riego que cablea una propiedad grande (un campo de golf chico, una finca) donde varias zonas superan los 150-200 pies puede usar este calibre como estándar para los tramos largos desde el arranque, en vez de descubrir el problema de voltaje recién en la primera prueba del sistema.",
+      "puntosClave": [
+        "Medí la distancia real hasta la válvula más lejana antes de comprar: este cable tiene sentido recién pasados los 150 pies; para tiradas más cortas, el Southwire 18/7 de este mismo ranking alcanza y sale más barato por pie.",
+        "Son 2 conductores, no 7: no reemplaza al cable multiconductor para varias válvulas — se usa como refuerzo puntual en el tramo más largo, sumado al cable principal, no en lugar de él.",
+        "Comprá los conectores de gel impermeables aparte si no los tenés: este cable no los incluye, y empalmarlo con cinta aisladora común anula la ventaja del calibre más grueso en cuanto entra humedad en el empalme."
+      ],
+      "consejoInversion": "Frente a resignarte a una válvula que abre floja (o cambiar el controlador pensando que el problema es otro), este cable cuesta bastante menos que una visita de diagnóstico de un técnico de riego, y mucho menos que volver a abrir la zanja completa para cambiar todo el tendido por un calibre más grueso. Es la pieza correcta para un problema puntual de distancia, no un gasto genérico."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Think of it like swapping a thin garden hose for a thicker one so more water reaches the far end — but with electricity: a thicker cable (a lower gauge number, 16 AWG instead of 18 AWG) lets current pass with less resistance, so on a long run the valve at the end gets the voltage it needs to open properly, instead of a weak signal.",
+      "ejemploHogar": "Your backyard is large and the last valve at the back sits 200 feet from the controller — the other six zones work fine on the standard 18/7 cable, but that last one opens weakly or not at all. Instead of redoing the whole run, you pull a pair of this 16 AWG wire out to just that valve.",
+      "ejemploNegocio": "An irrigation installer wiring a large property (a small golf course, an estate) where several zones run past 150-200 feet can standardize on this gauge for the long runs from the start, instead of discovering the voltage problem at the first system test.",
+      "puntosClave": [
+        "Measure the real distance to the farthest valve before buying: this cable only makes sense past roughly 150 feet; for shorter runs, this ranking's Southwire 18/7 is enough and costs less per foot.",
+        "It's 2 conductors, not 7: it doesn't replace the multi-conductor cable for several valves — it's a targeted reinforcement for the longest run, added alongside the main cable, not instead of it.",
+        "Buy waterproof gel connectors separately if you don't already have them: this cable doesn't include any, and splicing it with ordinary electrical tape cancels out the thicker gauge's advantage the moment moisture gets into the splice."
+      ],
+      "consejoInversion": "Compared to living with a valve that opens weakly (or replacing the controller thinking that's the problem), this cable costs well less than a diagnostic visit from an irrigation tech, and far less than reopening the whole trench to redo the run in a thicker gauge. It's the right fix for a specific distance problem, not a generic expense."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B07Q5HBC2N?tag=riegotrazado-20",
+    "actualizadoEn": "2026-10-01",
+    "activo": true,
+    "tags": [
+      "16 AWG",
+      "2 conductores",
+      "250 pies",
+      "Apto para enterrar"
+    ],
+    "tagsEn": [
+      "16 AWG",
+      "2-conductor",
+      "250 ft",
+      "Direct burial"
+    ]
   }
 ]
