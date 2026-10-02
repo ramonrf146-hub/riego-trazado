@@ -2710,5 +2710,56 @@
       "250 ft",
       "Direct burial"
     ]
+  },
+  {
+    "asin": "B0GHNB78F7",
+    "nombre": "THIRDREALITY Sensor de Humedad de Suelo Gen2 — Zigbee (requiere hub)",
+    "nombreEn": "THIRDREALITY Smart Soil Moisture Sensor Gen2 — Zigbee (Hub Required)",
+    "categoria": "sensores-humedad",
+    "precio": 39.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/41vnNNZMvpL._SL1500_.jpg",
+    "rating": 3.6,
+    "numResenas": 349,
+    "ranking": 7,
+    "notaTecnica": "Es un sensor de humedad de suelo con sonda capacitiva (igual principio que el RAINPOINT de este ranking: mide la capacidad eléctrica de la tierra, no la corrosiona como las sondas resistivas viejas) pero con una diferencia clave: en vez de traer su propio hub WiFi propietario, habla por radio Zigbee 3.0 y necesita un hub Zigbee ya existente para funcionar — Echo de 4ª generación, Echo Plus, Echo Studio, o un hub dedicado como SmartThings, Home Assistant, Hubitat o Homey. Si ya tenés alguno de esos corriendo en tu casa (por luces, enchufes u otros sensores), este sensor se suma a ese mismo ecosistema sin agregar una app más al celular. Si no tenés ninguno, esta pieza sola no sirve — hace falta comprar o ya tener el hub aparte, a diferencia del RAINPOINT con hub WiFi incluido de este mismo ranking, que funciona de entrada sin nada más. La versión Gen2 (lanzada en 2026) reforzó la carcasa de la sonda y mejoró la antena para una señal más estable que la primera generación. Limitación real declarada: sin un hub Zigbee activo es una pieza inerte, y la integración con Apple Home o Google Home no es directa — requiere además el puente opcional Smart Bridge MZ1 del mismo fabricante.",
+    "notaTecnicaEn": "This is a soil moisture sensor with a capacitive probe (same principle as this ranking's RAINPOINT: it measures the soil's electrical capacitance instead of corroding like old resistive probes) but with one key difference: instead of shipping with its own proprietary WiFi hub, it talks over Zigbee 3.0 radio and needs an existing Zigbee hub to work — a 4th-gen Echo, Echo Plus, Echo Studio, or a dedicated hub like SmartThings, Home Assistant, Hubitat, or Homey. If you already run one of those at home (for lights, plugs, or other sensors), this sensor joins that same ecosystem without adding yet another app to your phone. If you don't have one, this piece alone does nothing — you need to buy or already own the hub separately, unlike this ranking's RAINPOINT with included WiFi hub, which works out of the box with nothing else. The Gen2 version (launched in 2026) reinforced the probe housing and improved the antenna for a more stable signal than the first generation. Real stated limitation: without an active Zigbee hub it's an inert piece, and Apple Home or Google Home integration isn't direct — it also requires the manufacturer's optional Smart Bridge MZ1.",
+    "idealPara": "Quien ya tiene un hub Zigbee corriendo en casa (Echo de 4ª gen o posterior, SmartThings, Home Assistant, Hubitat o Homey) por otros dispositivos y quiere sumar el riego a ese mismo ecosistema — no es para quien busca algo que funcione solo, sin nada más que comprar o configurar.",
+    "idealParaEn": "Anyone who already runs a Zigbee hub at home (4th-gen Echo or later, SmartThings, Home Assistant, Hubitat, or Homey) for other devices and wants to fold irrigation into that same ecosystem — not for anyone looking for something that works standalone with nothing else to buy or set up.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Pensalo como un enchufe inteligente Zigbee, pero en vez de prender y apagar una lámpara, mide cuánta agua tiene la tierra: una sonda metálica se entierra en la maceta o el cantero y avisa por radio a tu hub (el mismo cerebro que ya controla tus luces o enchufes inteligentes, si tenés uno) cuándo el suelo está seco.",
+      "ejemploHogar": "Tenés varios enchufes y bombillas Zigbee controlados desde Home Assistant o SmartThings, y querés que una automatización te avise al celular (o directamente prenda una válvula ya conectada a ese mismo hub) cuando las macetas del balcón se secan — este sensor se suma a esa misma app sin instalar una nueva.",
+      "ejemploNegocio": "Un vivero o invernadero chico que ya usa Home Assistant para monitorear temperatura y humedad ambiente de varias naves puede sumar varios de estos sensores de suelo al mismo panel central, viendo todo — clima y riego — en un solo dashboard en vez de en apps separadas por cada marca de sensor.",
+      "puntosClave": [
+        "Confirmá que tenés un hub Zigbee 3.0 real antes de comprar: un Echo Dot común NO sirve como hub Zigbee, hace falta específicamente un Echo de 4ª generación o posterior, Echo Plus, Echo Studio, o un hub dedicado (SmartThings, Home Assistant, Hubitat, Homey) — sin eso, el sensor no se conecta a nada.",
+        "Si tu ecosistema es Apple Home o Google Home sin ningún hub Zigbee de por medio, este sensor no integra directo — necesitarías sumar además el puente Smart Bridge MZ1 del mismo fabricante, un gasto y un paso extra que el RAINPOINT de este ranking no te pide.",
+        "Revisá las reseñas reales antes de decidir: tiene una calificación más moderada (3.6★) que otros sensores de este ranking, con comentarios mixtos sobre la estabilidad de la lectura en distintos tipos de sustrato — no es garantía de precisión perfecta, es una pieza más del ecosistema Zigbee, no un instrumento de laboratorio."
+      ],
+      "consejoInversion": "Frente a comprar un sensor con hub WiFi propio nuevo (como el RAINPOINT) cuando ya tenés un hub Zigbee funcionando en casa por otros dispositivos, este sensor evita pagar dos veces por la misma función de \"cerebro central\" — aprovechás la inversión que ya hiciste en el hub para sumar el riego sin otra app ni otro gateway enchufado a la pared. Si no tenés ya un hub Zigbee, no es el punto de entrada más barato: te conviene el RAINPOINT con todo incluido."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Think of it like a Zigbee smart plug, except instead of switching a lamp on and off, it measures how much water is in the soil: a metal probe goes into the pot or garden bed and radios your hub (the same brain already running your smart lights or plugs, if you have one) when the soil runs dry.",
+      "ejemploHogar": "You already have several Zigbee plugs and bulbs controlled from Home Assistant or SmartThings, and you want an automation to ping your phone (or directly open a valve already wired to that same hub) when the balcony pots dry out — this sensor joins that same app instead of installing a new one.",
+      "ejemploNegocio": "A small nursery or greenhouse already using Home Assistant to monitor ambient temperature and humidity across several bays can add several of these soil sensors to the same central panel, seeing everything — climate and irrigation — on one dashboard instead of separate apps per sensor brand.",
+      "puntosClave": [
+        "Confirm you have an actual Zigbee 3.0 hub before buying: a plain Echo Dot does NOT work as a Zigbee hub — you specifically need a 4th-gen Echo or later, Echo Plus, Echo Studio, or a dedicated hub (SmartThings, Home Assistant, Hubitat, Homey) — without that, the sensor connects to nothing.",
+        "If your ecosystem is Apple Home or Google Home with no Zigbee hub in the mix, this sensor doesn't integrate directly — you'd also need the manufacturer's optional Smart Bridge MZ1, an extra cost and step this ranking's RAINPOINT doesn't ask for.",
+        "Check real reviews before deciding: it carries a more moderate rating (3.6★) than other sensors in this ranking, with mixed comments about reading stability across different soil types — it's not a guarantee of lab-grade precision, it's one more piece of the Zigbee ecosystem, not a lab instrument."
+      ],
+      "consejoInversion": "Compared to buying a brand-new sensor with its own WiFi hub (like the RAINPOINT) when you already have a Zigbee hub running at home for other devices, this sensor avoids paying twice for the same \"central brain\" function — you reuse the investment you already made in the hub to add irrigation without another app or another gateway plugged into the wall. If you don't already have a Zigbee hub, it isn't the cheapest entry point: the all-included RAINPOINT suits you better."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B0GHNB78F7?tag=riegotrazado-20",
+    "actualizadoEn": "2026-10-02",
+    "activo": true,
+    "tags": [
+      "Zigbee 3.0",
+      "Requiere hub",
+      "349 reseñas"
+    ],
+    "tagsEn": [
+      "Zigbee 3.0",
+      "Hub required",
+      "349 reviews"
+    ]
   }
 ]
