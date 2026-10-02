@@ -15,6 +15,7 @@ import ComoArmamosRanking from "@/components/ComoArmamosRanking";
 import NewsletterBand from "@/components/NewsletterBand";
 
 const HERO_VIDEO = "/videos/riego-smart.mp4";
+const HERO_POSTER = "/videos/riego-smart-poster.jpg";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.riegocom.uk";
 
@@ -61,8 +62,8 @@ export default async function HomePage({
   return (
     <>
       <section className="border-b border-line-dim/40">
-        <ContainerScroll className="h-[240vh]">
-          <ContainerSticky className="overflow-hidden px-4 pb-10 pt-24 text-text-light sm:px-6">
+        <ContainerScroll className="h-[160vh]">
+          <ContainerSticky className="overflow-hidden px-4 pb-10 pt-24 text-text-light sm:px-6 md:pt-32">
             <div
               className="blueprint-grid pointer-events-none absolute inset-0"
               aria-hidden="true"
@@ -82,6 +83,7 @@ export default async function HomePage({
             <ContainerInset className="relative mx-auto h-[min(420px,50svh)] w-full max-w-5xl py-6">
               <HeroVideo
                 src={HERO_VIDEO}
+                poster={HERO_POSTER}
                 aria-hidden="true"
                 className="h-full w-full object-cover"
               />

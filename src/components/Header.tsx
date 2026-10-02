@@ -50,21 +50,6 @@ export default function Header({ locale }: { locale: Locale }) {
           </span>
         </Link>
 
-        <nav
-          aria-label={dict["nav.categorias"]}
-          className="hidden items-center gap-5 overflow-x-auto text-sm font-medium text-text-dim md:flex"
-        >
-          {CATEGORIAS.map((categoria) => (
-            <Link
-              key={categoria.slug}
-              href={withLocale(`/categorias/${categoria.slug}`, locale)}
-              className="whitespace-nowrap transition-colors hover:text-line"
-            >
-              {t(categoria.nombre, categoria.nombreEn, locale)}
-            </Link>
-          ))}
-        </nav>
-
         <div className="flex items-center gap-3 text-sm font-medium">
           <Link
             href={withLocale("/articulos", locale)}
@@ -97,6 +82,24 @@ export default function Header({ locale }: { locale: Locale }) {
           </button>
         </div>
       </div>
+
+      <nav
+        aria-label={dict["nav.categorias"]}
+        className="hidden border-t border-line-dim/40 md:block"
+      >
+        <ul className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-6 gap-y-1 px-4 py-2 text-[13px] font-medium text-text-dim sm:px-6">
+          {CATEGORIAS.map((categoria) => (
+            <li key={categoria.slug}>
+              <Link
+                href={withLocale(`/categorias/${categoria.slug}`, locale)}
+                className="whitespace-nowrap transition-colors hover:text-line"
+              >
+                {t(categoria.nombre, categoria.nombreEn, locale)}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
 
       {menuAbierto && (
         <nav

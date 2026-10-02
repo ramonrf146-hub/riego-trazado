@@ -7,6 +7,7 @@ import {
   Variants,
   motion,
   useMotionTemplate,
+  useReducedMotion,
   useScroll,
   useTransform,
 } from "motion/react"
@@ -132,6 +133,7 @@ export const HeroVideo = React.forwardRef<
 >(({ style, className, transition, ...props }, ref) => {
   const { scrollYProgress } = useContainerScrollContext()
   const scale = useTransform(scrollYProgress, [0, 0.8], [0.7, 1])
+  const reduceMotion = useReducedMotion()
 
   return (
     <motion.video
@@ -140,11 +142,12 @@ export const HeroVideo = React.forwardRef<
         "relative z-10 size-auto max-h-full max-w-full ",
         className
       )}
-      autoPlay
+      autoPlay={!reduceMotion}
       muted
-      loop
+      loop={!reduceMotion}
       playsInline
-      style={{ scale, ...style }}
+      preload="metadata"
+      style={{ scale: reduceMotion ? 1 : scale, ...style }}
       {...props}
     />
   )
