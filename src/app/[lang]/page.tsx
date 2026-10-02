@@ -79,8 +79,12 @@ export default async function HomePage({
               </p>
             </ContainerAnimated>
 
-            <ContainerInset className="relative mx-auto max-h-[420px] w-auto py-6">
-              <HeroVideo src={HERO_VIDEO} aria-hidden="true" />
+            <ContainerInset className="relative mx-auto h-[min(420px,50svh)] w-full max-w-5xl py-6">
+              <HeroVideo
+                src={HERO_VIDEO}
+                aria-hidden="true"
+                className="h-full w-full object-cover"
+              />
             </ContainerInset>
 
             <ContainerAnimated
