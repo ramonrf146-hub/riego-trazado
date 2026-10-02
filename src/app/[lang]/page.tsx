@@ -14,9 +14,7 @@ import RankingConFiltros from "@/components/RankingConFiltros";
 import ComoArmamosRanking from "@/components/ComoArmamosRanking";
 import NewsletterBand from "@/components/NewsletterBand";
 
-// Video de ejemplo de 21st.dev: reemplazar por uno propio (ideal en /public).
-const HERO_VIDEO =
-  "https://cdn.21st.dev/assets/mirror/06/065ccc6c341108f959302b4bb3b20fb87e581b6eee35ccfae0fb3badc0e148fa.mp4";
+const HERO_VIDEO = "/videos/riego-smart.mp4";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.riegocom.uk";
 
