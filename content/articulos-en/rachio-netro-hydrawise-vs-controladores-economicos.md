@@ -56,10 +56,22 @@ It's a U.S. government seal certifying that a controller meets real water-effici
 
 If your need is fixed schedules, app control, and not watering in the rain, a controller like the ones in this ranking or the [meross with hub included](/en/productos/B0DX6G7MSV) does exactly the same job for a fraction of the price — the gap with premium brands shows up more in large or complex yards, not in a standard residential patio.
 
+## 7. What happens if the WiFi drops or the manufacturer's service goes down?
+
+It's the same question already answered for budget controllers in the guide on [how to choose a WiFi irrigation controller](/en/articulos/como-elegir-controlador-riego-wifi) (criterion 2), and premium brands don't escape the same problem just because they cost more. The [Rachio 3](/en/productos/B07CZ864Y9) keeps running the last saved schedule if the WiFi drops for a while, but you need the internet connection back to change anything from the app. Hunter's [Hydrawise](/en/productos/B08BJBKW44) works similarly: the already-programmed schedule stays saved on the controller itself and keeps watering without a connection, but the unit's touchscreen won't let you adjust anything while the cloud service is down — you just have to wait it out. None of the three premium brands in this ranking is "local-first" in the strict sense from that guide: all three depend on the manufacturer's server for you to change anything remotely, even though an already-saved schedule survives a brief internet outage without stopping. It's the same underlying risk that any cloud-dependent controller runs if the company ever shuts down the service (see point 5 of that same guide) — paying more doesn't get you out of that problem, it just postpones it for as long as the brand stays in business.
+
 ## Video: Rachio vs. Orbit head to head
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
 <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/LVB48v5deL8" title="What's the BEST Sprinkler Controller? Rachio vs Orbit — Smart Home Solver" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+## Video: a closer look at the Netro Sprite
+
+The video below covers both the Sprite and the Spark (its sibling model, with more zones) from Netro — there's no video specific to just the 6-zone Sprite in this catalog, but the app and plant-database experience is the same on both.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/ctQSagIWDyI" title="Mark Leishman Presents: Netro Smart Sprinkler Controllers (Sprite & Spark)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## Our pick of the month

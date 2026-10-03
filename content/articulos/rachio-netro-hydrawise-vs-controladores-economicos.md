@@ -56,10 +56,22 @@ Es un sello del gobierno de EE.UU. que certifica que un controlador cumple está
 
 Si tu necesidad es programar horarios fijos, tener control por app y que no riegue bajo lluvia, un controlador como el de este ranking o el [meross con hub incluido](/productos/B0DX6G7MSV) cumple exactamente lo mismo por una fracción del precio — la diferencia con las marcas premium se nota más en jardines grandes o complejos, no en un patio residencial estándar.
 
+## 7. ¿Qué pasa si se corta el WiFi o cae el servicio del fabricante?
+
+Es la misma pregunta que ya se responde para controladores económicos en la guía de [cómo elegir un controlador de riego WiFi](/articulos/como-elegir-controlador-riego-wifi) (criterio 2), y las marcas premium no se salvan del mismo problema por pagar más. El [Rachio 3](/productos/B07CZ864Y9) sigue ejecutando el último horario guardado si el WiFi se corta un rato, pero para cambiar cualquier cosa desde la app necesitás que vuelva la conexión a internet. El [Hydrawise de Hunter](/productos/B08BJBKW44) funciona parecido: el horario ya programado queda guardado en el propio controlador y sigue regando sin conexión, pero la pantalla táctil del equipo no te deja ajustar nada mientras el servicio en la nube esté caído — tenés que esperar a que vuelva. Ninguna de las tres marcas premium de este ranking es "local-first" en el sentido estricto de esa guía: todas dependen del servidor del fabricante para que vos cambies algo a distancia, aunque el riego ya programado aguante un corte breve de internet sin detenerse. Es el mismo riesgo de fondo que corre cualquier controlador dependiente de nube si la empresa algún día cierra el servicio (ver el punto 5 de esa misma guía) — pagar más no te saca de ese problema, solo lo pospone mientras la marca siga activa.
+
 ## Video: Rachio vs. Orbit cara a cara
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
 <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/LVB48v5deL8" title="What's the BEST Sprinkler Controller? Rachio vs Orbit — Smart Home Solver" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+## Video: de cerca con el Netro Sprite
+
+El video de abajo muestra tanto el Sprite como el Spark (el modelo hermano, con más zonas) de Netro — no hay un video específico solo del Sprite de 6 zonas de este catálogo, pero el funcionamiento de la app y la base de datos de plantas es el mismo en ambos.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/ctQSagIWDyI" title="Mark Leishman Presents: Netro Smart Sprinkler Controllers (Sprite & Spark)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## Nuestra recomendación del mes
