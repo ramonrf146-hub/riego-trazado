@@ -57,3 +57,20 @@ If your priority is simplicity and cost, a timer with a schedule well adjusted f
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zYRyo5MeWGw" title="Is it worth Upgrading to the 3rd Reality Gen 2 Soil Sensor?" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+## Frequently asked questions
+
+**Can the moisture sensor control the valve or pump directly, with nothing else in between?**
+No. The sensor on its own only measures and sends an electrical signal — it needs a relay in between to close or open the valve or pump's circuit. Further up is the full ladder depending on how much control (and how much coding) you want, from the [1-channel relay module](/en/productos/B00VRUAHLE) to no-code options like the [SONOFF 4CH Pro R3](/en/productos/B08BHWF8KD) or the [Shelly 1 Mini Gen3](/en/productos/B0CQCHS2QS).
+
+**What does it mean for a relay to have an optocoupler, and why should I care?**
+An optocoupler electrically separates the control signal coming from your microcontroller (5V) from the load it switches, such as a 24V AC valve, by passing the signal through light instead of a direct wire connection. Without that separation, a voltage spike on the valve side can damage your Arduino or ESP. The [ELEGOO 8-channel module](/en/productos/B09ZQRLD95) confirms it in the factory spec; the cheaper [1-channel module](/en/productos/B00VRUAHLE) in this ranking doesn't confirm it on its listing, so check before wiring it to a 24V AC load.
+
+**I have several valves but don't want to program anything — which WiFi relay should I pick?**
+If you're installing everything in an electrical panel and want several outputs run from one device, the [SONOFF 4CH Pro R3](/en/productos/B08BHWF8KD) (DIN rail mount, 4 channels) is built for that. If you only need to control one specific point — a pump, a valve — right next to where that device sits, the [Shelly 1 Mini Gen3](/en/productos/B0CQCHS2QS) is smaller and needs no enclosure of its own, but it's single-channel: for several independent zones you'd need one per zone.
+
+**Does the Orbit 57069 rain sensor only work with basic timers, or also with a WiFi controller?**
+It works with any controller that has a physical 24V AC external sensor input, WiFi or not. The real difference is that this catalog's WiFi controllers already cancel watering based on their app's forecast, with no extra wiring needed — while the [Orbit 57069](/en/productos/B000A7SPPU) reacts to the actual rain falling on your yard right now, which can still be useful even with a WiFi controller if you'd rather not rely on the forecast alone.
+
+**Can I combine a moisture sensor with a timer in the same system?**
+Yes, and it's more common than it sounds. Many real-world setups use the timer (or WiFi controller) to set the base schedule, and the moisture sensor or rain veto sensor only to cancel that schedule when watering wouldn't make sense. You don't have to pick one exclusively — they're complementary, not opposites.

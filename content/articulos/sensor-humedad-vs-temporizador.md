@@ -57,3 +57,20 @@ Si tu prioridad es simplicidad y costo, un temporizador con buen horario ajustad
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zYRyo5MeWGw" title="Is it worth Upgrading to the 3rd Reality Gen 2 Soil Sensor?" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+## Preguntas frecuentes
+
+**¿El sensor de humedad puede controlar la válvula o la bomba directamente, sin nada más?**
+No. El sensor por sí solo solo mide y manda una señal eléctrica — necesita un relé en el medio para cerrar o abrir el circuito de la válvula o la bomba. Más arriba está la escalera completa según cuánto control (y cuánto querés programar) necesitás, desde el [relé de 1 canal](/productos/B00VRUAHLE) hasta opciones que no requieren tocar código como el [SONOFF 4CH Pro R3](/productos/B08BHWF8KD) o el [Shelly 1 Mini Gen3](/productos/B0CQCHS2QS).
+
+**¿Qué significa que un relé tenga optoacoplador, y por qué me importa?**
+Un optoacoplador separa eléctricamente la señal de control de tu microcontrolador (5V) de la carga que enciende, como una válvula de 24V AC, transmitiendo la señal por luz en vez de por un cable directo. Sin esa separación, un pico de voltaje del lado de la válvula puede llegar a dañar tu Arduino o ESP. El [ELEGOO de 8 canales](/productos/B09ZQRLD95) lo trae de fábrica confirmado; el [módulo de 1 canal](/productos/B00VRUAHLE) más barato de este ranking no lo confirma en su ficha, así que conviene revisarlo antes de conectarlo a una carga de 24V AC.
+
+**Tengo varias válvulas pero no quiero programar nada — ¿cuál de los relés WiFi me conviene?**
+Si vas a instalar todo en un tablero eléctrico y querés varias salidas controladas por un solo dispositivo, el [SONOFF 4CH Pro R3](/productos/B08BHWF8KD) (montaje en riel DIN, 4 canales) está pensado para eso. Si en cambio solo necesitás controlar un punto puntual —una bomba, una válvula— cerca de donde está el propio dispositivo, el [Shelly 1 Mini Gen3](/productos/B0CQCHS2QS) es más chico y no necesita gabinete propio, pero es de un solo canal: para varias zonas independientes necesitarías uno por zona.
+
+**El sensor de lluvia Orbit 57069, ¿funciona solo con temporizadores básicos o también con un controlador WiFi?**
+Funciona con cualquier controlador que tenga una entrada física de sensor externo de 24V AC, sea WiFi o no. La diferencia real es que los controladores WiFi de este catálogo ya cancelan el riego solo con el pronóstico de su app, sin cablear nada aparte — mientras que el [Orbit 57069](/productos/B000A7SPPU) reacciona a la lluvia real que está cayendo sobre tu jardín en ese momento, lo cual puede seguir siendo útil incluso con un controlador WiFi si preferís no depender solo del pronóstico.
+
+**¿Puedo combinar un sensor de humedad con un temporizador en el mismo sistema?**
+Sí, y es más común de lo que parece. Muchos armados reales usan el temporizador (o el controlador WiFi) para fijar el horario base, y el sensor de humedad o el sensor de lluvia de veto solo para cancelar ese horario cuando no corresponde regar. No hace falta elegir uno de forma excluyente — son complementarios, no opuestos.
