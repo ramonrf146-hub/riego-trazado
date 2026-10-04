@@ -84,6 +84,10 @@ const es = {
   "producto.enNegocio": "En un negocio o taller: ",
   "producto.guiaParaNoEquivocarte": "Guía para no equivocarte al comprar",
   "producto.consejoDeInversion": "El consejo de inversión",
+  "producto.enCategoria": "en",
+  "producto.idealPara": "Ideal para",
+  "producto.productosSimilares": "Otros productos de esta categoría",
+  "producto.verRankingCategoria": "Ver todo el ranking de",
 
   "comparador.comparando": "Comparando",
   "comparador.producto": "producto",
@@ -221,6 +225,10 @@ const en: Dictionary = {
   "producto.enNegocio": "In a business or workshop: ",
   "producto.guiaParaNoEquivocarte": "How to avoid buying the wrong one",
   "producto.consejoDeInversion": "The investment takeaway",
+  "producto.enCategoria": "in",
+  "producto.idealPara": "Best for",
+  "producto.productosSimilares": "More products in this category",
+  "producto.verRankingCategoria": "See the full ranking of",
 
   "comparador.comparando": "Comparing",
   "comparador.producto": "product",

@@ -3,27 +3,7 @@
 import Link from "next/link";
 import type { Producto } from "@/lib/tipos";
 import { getDictionary, t, withLocale, type Locale } from "@/lib/i18n";
-
-declare global {
-  interface Window {
-    gtag?: (...args: unknown[]) => void;
-  }
-}
-
-/** Registra en GA4 cada clic a un enlace de afiliado — sin esto, la
- * analítica solo ve vistas de página, nunca si alguien realmente
- * hizo clic hacia Amazon. */
-function registrarClicAfiliado(producto: Producto) {
-  if (typeof window !== "undefined" && typeof window.gtag === "function") {
-    window.gtag("event", "click_afiliado", {
-      asin: producto.asin,
-      nombre_producto: producto.nombre,
-      categoria: producto.categoria,
-      valor: producto.precio,
-      moneda: producto.moneda,
-    });
-  }
-}
+import { registrarClicAfiliado } from "@/lib/analitica";
 
 function IconoFlecha() {
   return (
