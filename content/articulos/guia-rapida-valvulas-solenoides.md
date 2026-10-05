@@ -95,3 +95,20 @@ Si te está costando entender cuándo un cable de 18 AWG como el Southwire se qu
 - **Cable para conectar las válvulas al controlador:** ninguna válvula de este ranking trae el cable incluido — el [Southwire 18/7](/productos/B0069F4I5I) es un cable multiconductor de 7 hilos apto para enterrar (direct burial), la pieza que falta entre la caja de válvulas y el controlador; con un solo cable conectás hasta 6 válvulas distintas, en vez de tender un cable por cada una.
 - **Diagnóstico de un cable cortado bajo tierra:** ninguno de los productos de arriba te ayuda a encontrar dónde se cortó un cable ya enterrado — el [localizador VEVOR](/productos/B0D2HG7QCY) es justamente esa pieza: un transmisor y receptor que marcan el punto exacto de la rotura, para cavar solo ahí en vez de abrir la zanja completa a ciegas.
 - **Cable de refuerzo para la válvula más lejana:** el Southwire 18/7 de arriba alcanza para la mayoría de las instalaciones, pero si una sola zona queda a bastante más de 150 pies del controlador, el [Iron Forge Cable 16 AWG](/productos/B07Q5HBC2N) es el calibre más grueso que corresponde ahí — 2 conductores en vez de 7, pensado para tender un par aparte solo hasta esa válvula puntual, no para reemplazar el cable troncal de las demás.
+
+## Preguntas frecuentes
+
+**¿Qué pasa si por error instalo una válvula normalmente abierta (NA) en vez de normalmente cerrada (NC)?**
+El sistema queda regando todo el tiempo excepto cuando el controlador manda señal — exactamente al revés de lo que buscás. Por eso conviene confirmar la especificación antes de comprar: si la ficha no la menciona, es casi seguro que es NC, pero confirmalo con el vendedor antes de instalar, no después.
+
+**¿Cuál es la diferencia entre la válvula anti-sifón Rain Bird DASASVF075 y un simple rompedor de vacío como la Raindrip R620CT?**
+La [Rain Bird DASASVF075](/productos/B00004RAAZ) es una válvula solenoide completa: necesita los 24V AC del controlador para abrir y cerrar, igual que las válvulas in-line de este ranking, solo que se instala sobre el nivel del suelo con el rompedor de vacío integrado. La [Raindrip R620CT](/productos/B000BQUUD0) (del catálogo de kits de goteo) es una pieza mucho más simple, sin cableado ni electricidad: se atornilla directo en la canilla antes del timer o el kit de goteo, para instalaciones sin ninguna válvula eléctrica.
+
+**Mi válvula más lejana queda a más de 150 pies y ya tengo instalado el cable Southwire 18/7, ¿tengo que reemplazar todo el tendido?**
+No. El [Iron Forge Cable 16 AWG](/productos/B07Q5HBC2N) se usa como refuerzo puntual: se tiende aparte, solo hasta esa válvula lejana, sin tocar el Southwire que ya conecta a las demás. No es un reemplazo del multiconductor, es un complemento para el único tramo donde el calibre 18 AWG pierde voltaje.
+
+**El localizador de cable VEVOR me marcó dónde se cortó el cable, pero el Southwire tiene 7 hilos — ¿me dice cuál hilo puntual falló?**
+No. El localizador rastrea el mazo completo de 7 hilos como una sola unidad, te marca el punto de la rotura en la zanja, pero no distingue cuál de los 7 hilos individuales está cortado adentro de esa funda. Ese dato todavía hay que aislarlo a mano, probando una por una las válvulas desde el controlador después de exponer el punto exacto.
+
+**¿Necesito una válvula de retención (check valve) en todas las zonas, o solo en algunas?**
+Solo en las zonas donde el aspersor más bajo queda a menor altura que el resto del circuito — ahí es donde el agua sigue drenando por gravedad después de que la válvula cierra. Si tu terreno es parejo o la zona no tiene desnivel real, la [Hunter HC75F75M](/productos/B00FYQWTUE) no aporta nada: es una pieza puntual para el problema puntual del punto 5, no un agregado general a todo el sistema.

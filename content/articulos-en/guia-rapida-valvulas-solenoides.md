@@ -94,3 +94,20 @@ If you're still not sure when an 18 AWG cable like the Southwire falls short and
 - **Cable to connect the valves to the controller:** no valve in this ranking ships with wire included — the [Southwire 18/7](/en/productos/B0069F4I5I) is a direct-burial-rated, 7-conductor multi-conductor cable, the missing piece between the valve box and the controller; one cable connects up to 6 different valves instead of running a separate one for each.
 - **Diagnosing a cut wire underground:** none of the products above help you find where an already-buried wire got cut — the [VEVOR locator](/en/productos/B0D2HG7QCY) is exactly that missing piece: a transmitter and receiver that mark the exact break point, so you dig only there instead of trenching the whole run blind.
 - **Reinforcement cable for the farthest valve:** the Southwire 18/7 above handles most installs, but if a single zone sits well past 150 feet from the controller, the [Iron Forge Cable 16 AWG](/en/productos/B07Q5HBC2N) is the thicker gauge that fits there — 2 conductors instead of 7, meant for running a separate pair out to just that one distant valve, not for replacing the trunk cable for the rest.
+
+## Frequently asked questions
+
+**What happens if I accidentally install a normally-open (NO) valve instead of normally-closed (NC)?**
+The system ends up watering all the time except when the controller sends a signal — exactly the opposite of what you want. That's why it's worth confirming the spec before buying: if the listing doesn't mention it, it's almost certainly NC, but confirm it with the seller before installing, not after.
+
+**What's the difference between the Rain Bird DASASVF075 anti-siphon valve and a simple vacuum breaker like the Raindrip R620CT?**
+The [Rain Bird DASASVF075](/en/productos/B00004RAAZ) is a complete solenoid valve: it needs the controller's 24V AC to open and close, just like the in-line valves in this ranking, except it mounts above ground level with the vacuum breaker built in. The [Raindrip R620CT](/en/productos/B000BQUUD0) (from the drip kits catalog) is a much simpler piece, with no wiring or electricity: it screws directly onto the hose bib before the timer or drip kit, for setups with no electric valve at all.
+
+**My farthest valve is more than 150 feet away and I already have the Southwire 18/7 cable installed — do I need to replace the whole run?**
+No. The [Iron Forge Cable 16 AWG](/en/productos/B07Q5HBC2N) is used as a targeted reinforcement: it's run separately, only to that one far valve, without touching the Southwire that already connects the rest. It doesn't replace the multi-conductor cable — it's a supplement for the one stretch where 18 AWG loses too much voltage.
+
+**The VEVOR cable locator marked where the cable broke, but the Southwire has 7 wires — does it tell me which exact wire failed?**
+No. The locator tracks the full 7-wire bundle as a single unit — it marks the break point in the trench, but it can't tell which of the 7 individual wires inside that jacket is cut. You still have to isolate that by hand, testing each valve from the controller one at a time after exposing the exact spot.
+
+**Do I need a check valve on every zone, or only some?**
+Only on zones where the lowest sprinkler sits below the rest of the circuit — that's where water keeps draining by gravity after the valve closes. If your yard is flat or that zone has no real grade change, the [Hunter HC75F75M](/en/productos/B00FYQWTUE) doesn't add anything: it's a targeted fix for the specific problem in point 5, not a general addition to the whole system.
