@@ -2761,5 +2761,57 @@
       "Hub required",
       "349 reviews"
     ]
+  },
+  {
+    "asin": "B084GSRXDX",
+    "nombre": "Hunter HC075FLOW — Medidor de Caudal 3/4\" para Controladores Hydrawise",
+    "nombreEn": "Hunter HC075FLOW — 3/4\" Flow Meter for Hydrawise Controllers",
+    "categoria": "sensores-humedad",
+    "precio": 147.19,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61gqssDGErL._SX342_.jpg",
+    "rating": 4.4,
+    "numResenas": 87,
+    "ranking": 8,
+    "notaTecnica": "A diferencia de los sensores de humedad y lluvia de este ranking, este no mide el suelo ni el clima — mide el caudal real de agua en la línea principal, en acero inoxidable con unión para instalación entre la válvula maestra y las válvulas de zona (0.22 a 21 GPM). Se conecta directo al puerto SEN de un controlador Hydrawise (HC, Pro-HC, HPC o HCC) y la app dispara alertas automáticas de caudal alto (fuga o válvula rota), caudal bajo (obstrucción) o actividad fuera de horario. Limitación real: solo integra con la familia Hydrawise de Hunter, no con Rachio, Netro ni otro controlador de este catálogo, y llegó a esta verificación con poco stock (\"Only 6 left in stock\").",
+    "notaTecnicaEn": "Unlike this ranking's moisture and rain sensors, this one doesn't measure soil or weather — it measures real water flow on the main line, in stainless steel with union fittings for installation between the master valve and the zone valves (0.22 to 21 GPM). It connects directly to a Hydrawise controller's SEN port (HC, Pro-HC, HPC or HCC) and the app triggers automatic alerts for high flow (a leak or stuck valve), low flow (a blockage), or off-schedule activity. Real limitation: it only integrates with Hunter's Hydrawise family, not Rachio, Netro, or any other controller in this catalog, and it showed low stock at the time of this verification (\"Only 6 left in stock\").",
+    "idealPara": "Sumarle monitoreo de caudal y detección automática de fugas al Hunter HPC400 (Hydrawise) de este catálogo — avisa si una válvula quedó rota o una zona consume de más antes de que se note en la factura de agua.",
+    "idealParaEn": "Adding flow monitoring and automatic leak detection to this catalog's Hunter HPC400 (Hydrawise) — it flags a stuck valve or an overconsuming zone before it shows up on the water bill.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Un medidor de caudal es como un \"cuentalitros\" que se instala en el caño principal de riego: mide cuánta agua pasa en tiempo real y avisa si el número no tiene sentido — por ejemplo, si de golpe sale el doble de agua de lo normal (probablemente una válvula rota) o no sale nada (probablemente un caño tapado).",
+      "ejemploHogar": "Tenés un Hunter HPC400 con Hydrawise instalado y una válvula se traba abierta sin que lo notes — el medidor detecta el caudal fuera de lo normal y la app te avisa esa misma noche, en vez de que te enteres al mes siguiente con la factura de agua.",
+      "ejemploNegocio": "Un mantenedor de jardines que atiende varias propiedades con controladores Hydrawise puede sumar este medidor en cada sitio para recibir alertas remotas de fugas sin tener que visitar cada jardín a revisar las válvulas a mano.",
+      "puntosClave": [
+        "Solo es compatible con la familia Hydrawise de Hunter (controladores HC, Pro-HC, HPC y HCC) — no funciona con Rachio, Orbit ni ningún otro controlador de este catálogo.",
+        "Se instala en la línea principal de 3/4\" entre la válvula maestra y las de zona, no en cada válvula individual — mide el caudal total del sistema, no zona por zona.",
+        "Es acero inoxidable con unión, pensado para años a la intemperie, pero llegó a esta verificación con poco stock (\"Only 6 left in stock\") — conviene confirmar disponibilidad antes de planear la instalación."
+      ],
+      "consejoInversion": "$147 es una inversión real sobre los $200 que ya cuesta el Hunter HPC400 — pero una fuga no detectada en una válvula rota puede significar cientos de litros desperdiciados por semana sin que nadie lo note hasta la factura. Para quien ya invirtió en un controlador Hydrawise, este medidor se paga solo la primera vez que evita una fuga grande."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "A flow meter is like a 'water odometer' installed on the main irrigation line: it measures how much water passes through in real time and flags it when the number doesn't add up — for example, if suddenly twice the normal flow comes through (probably a broken valve) or none at all (probably a clogged line).",
+      "ejemploHogar": "You have a Hunter HPC400 with Hydrawise installed, and a valve sticks open without you noticing — the meter detects the abnormal flow and the app alerts you that same night, instead of finding out next month on the water bill.",
+      "ejemploNegocio": "A landscaper maintaining several properties with Hydrawise controllers can add this meter at each site to get remote leak alerts without having to visit every yard to check valves by hand.",
+      "puntosClave": [
+        "Only compatible with Hunter's Hydrawise family (HC, Pro-HC, HPC and HCC controllers) — it doesn't work with Rachio, Orbit, or any other controller in this catalog.",
+        "It installs on the main 3/4\" line between the master valve and the zone valves, not on each individual valve — it measures total system flow, not zone by zone.",
+        "It's stainless steel with union fittings, built for years outdoors, but it showed low stock at the time of this verification (\"Only 6 left in stock\") — worth confirming availability before planning the install."
+      ],
+      "consejoInversion": "$147 is a real added cost on top of the $200 the Hunter HPC400 already costs — but an undetected leak from a broken valve can mean hundreds of gallons wasted per week before anyone notices it on the bill. For anyone who already invested in a Hydrawise controller, this meter pays for itself the first time it catches a big leak."
+    },
+    "tags": [
+      "Medidor de caudal",
+      "Detección de fugas",
+      "Hydrawise"
+    ],
+    "tagsEn": [
+      "Flow meter",
+      "Leak detection",
+      "Hydrawise"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B084GSRXDX?tag=riegotrazado-20",
+    "actualizadoEn": "2026-10-06",
+    "activo": true
   }
+
 ]

@@ -60,6 +60,10 @@ If your need is fixed schedules, app control, and not watering in the rain, a co
 
 It's the same question already answered for budget controllers in the guide on [how to choose a WiFi irrigation controller](/en/articulos/como-elegir-controlador-riego-wifi) (criterion 2), and premium brands don't escape the same problem just because they cost more. The [Rachio 3](/en/productos/B07CZ864Y9) keeps running the last saved schedule if the WiFi drops for a while, but you need the internet connection back to change anything from the app. Hunter's [Hydrawise](/en/productos/B08BJBKW44) works similarly: the already-programmed schedule stays saved on the controller itself and keeps watering without a connection, but the unit's touchscreen won't let you adjust anything while the cloud service is down — you just have to wait it out. None of the three premium brands in this ranking is "local-first" in the strict sense from that guide: all three depend on the manufacturer's server for you to change anything remotely, even though an already-saved schedule survives a brief internet outage without stopping. It's the same underlying risk that any cloud-dependent controller runs if the company ever shuts down the service (see point 5 of that same guide) — paying more doesn't get you out of that problem, it just postpones it for as long as the brand stays in business.
 
+## 8. Already have Hunter's Hydrawise? Add leak detection with a flow meter
+
+None of the three premium controllers in this ranking tells you out of the box if a valve sticks open or a pipe breaks — that needs a separate flow sensor. For the [Hunter HPC400 with Hydrawise](/en/productos/B08BJBKW44), that exact piece exists: the [Hunter HC075FLOW](/en/productos/B084GSRXDX), a 3/4" stainless-steel flow meter that installs on the main line, between the master valve and the zone valves, and connects straight into the controller's SEN port. It reports real-time flow to the Hydrawise app and fires automatic alerts for high flow (likely a leak or stuck valve), low flow (likely a blockage), or off-schedule activity (something got left open by mistake). Real limitation: it only integrates with Hunter's Hydrawise family (HC, Pro-HC, HPC, HCC) — if your controller is the Rachio 3 or the Netro Sprite in this same ranking, there's currently no equivalent accessory from either brand sold on Amazon with this same direct integration.
+
 ## Video: Rachio vs. Orbit head to head
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
@@ -85,3 +89,6 @@ Not necessarily — most of the differences are in software (weather-prediction 
 
 **Can I mix sensors from another brand with a budget controller?**
 It depends on the controller — several (like the [RAINPOINT](/en/productos/B0F596PTCF)) work within their own closed ecosystem, so confirm compatibility before mixing brands.
+
+**Does the Hunter flow meter work with Rachio or Netro instead of Hydrawise?**
+No. It connects straight into the controller's SEN port and reports to Hunter's Hydrawise app — it isn't compatible with Rachio or Netro. If your controller is one of those two, there's currently no accessory from that brand sold on Amazon with this same flow-monitoring and leak-detection integration.

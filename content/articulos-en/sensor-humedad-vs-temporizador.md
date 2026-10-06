@@ -53,6 +53,7 @@ If your priority is simplicity and cost, a timer with a schedule well adjusted f
 - **Soil moisture sensor:** the [RAINPOINT with capacitive probe](/en/productos/B0F596PTCF) measures the soil permanently, or if you also want alerts on your phone, the [RAINPOINT with WiFi hub](/en/productos/B0GH6WJWQK) adds that layer of notifications.
 - **Soil sensor for an existing Zigbee ecosystem:** the [THIRDREALITY Smart Soil Moisture Sensor Gen2](/en/productos/B0GHNB78F7) measures the same thing as the RAINPOINT, but instead of shipping with its own hub it joins the Zigbee hub you already have running (Echo, SmartThings, Home Assistant, Hubitat) — without one of those already installed, it does nothing.
 - **Rain sensor as a veto (the middle option):** the [Orbit 57069](/en/productos/B000A7SPPU) is a wired rain/freeze sensor, far cheaper than any soil sensor in this ranking — it doesn't measure soil moisture, it just vetoes watering when it's genuinely raining or freezing out.
+- **Flow meter for leak detection (doesn't measure soil or rain):** the [Hunter HC075FLOW](/en/productos/B084GSRXDX) is different from everything above — it doesn't read moisture or rain, it measures the water passing through the main line and alerts you through the Hydrawise app if the flow doesn't add up (a leak, a stuck valve, or a blockage). It only integrates with Hunter's Hydrawise controllers, like the [HPC400](/en/productos/B08BJBKW44) in the WiFi controllers category.
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zYRyo5MeWGw" title="Is it worth Upgrading to the 3rd Reality Gen 2 Soil Sensor?" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -74,3 +75,6 @@ It works with any controller that has a physical 24V AC external sensor input, W
 
 **Can I combine a moisture sensor with a timer in the same system?**
 Yes, and it's more common than it sounds. Many real-world setups use the timer (or WiFi controller) to set the base schedule, and the moisture sensor or rain veto sensor only to cancel that schedule when watering wouldn't make sense. You don't have to pick one exclusively — they're complementary, not opposites.
+
+**Does the Hunter HC075FLOW replace the moisture or rain sensor?**
+No, it solves a different problem. This ranking's moisture and rain sensors decide WHEN to water; the HC075FLOW doesn't decide anything on its own — it only measures HOW MUCH water is passing through the main line right now and flags it when the number is abnormal, which is useful for catching a leak or a stuck valve, not for saving water based on weather or soil.

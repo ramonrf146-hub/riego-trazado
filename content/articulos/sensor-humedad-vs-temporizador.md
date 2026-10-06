@@ -53,6 +53,7 @@ Si tu prioridad es simplicidad y costo, un temporizador con buen horario ajustad
 - **Sensor de humedad de suelo:** el [RAINPOINT con sonda capacitiva](/productos/B0F596PTCF) mide directamente el suelo de forma permanente, o si además querés recibir alertas en el celular, el [RAINPOINT con hub WiFi](/productos/B0GH6WJWQK) suma esa capa de notificaciones.
 - **Sensor de suelo para un ecosistema Zigbee ya existente:** el [THIRDREALITY Smart Soil Moisture Sensor Gen2](/productos/B0GHNB78F7) mide lo mismo que el RAINPOINT, pero en vez de traer su propio hub se suma al hub Zigbee que ya tenés funcionando (Echo, SmartThings, Home Assistant, Hubitat) — sin uno de esos ya instalado, no sirve de nada.
 - **Sensor de lluvia como veto (la opción intermedia):** el [Orbit 57069](/productos/B000A7SPPU) es un sensor cableado de lluvia/helada, mucho más barato que cualquier sensor de suelo de este ranking — no mide humedad del suelo, solo veta el riego cuando está lloviendo o helando de verdad.
+- **Medidor de caudal para detectar fugas (no mide suelo ni lluvia):** el [Hunter HC075FLOW](/productos/B084GSRXDX) es distinto a todos los de arriba — no lee humedad ni lluvia, mide el agua que pasa por la línea principal y avisa por la app Hydrawise si el caudal no tiene sentido (fuga, válvula rota u obstrucción). Solo integra con controladores Hydrawise de Hunter, como el [HPC400](/productos/B08BJBKW44) de la categoría de controladores WiFi.
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zYRyo5MeWGw" title="Is it worth Upgrading to the 3rd Reality Gen 2 Soil Sensor?" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -74,3 +75,6 @@ Funciona con cualquier controlador que tenga una entrada física de sensor exter
 
 **¿Puedo combinar un sensor de humedad con un temporizador en el mismo sistema?**
 Sí, y es más común de lo que parece. Muchos armados reales usan el temporizador (o el controlador WiFi) para fijar el horario base, y el sensor de humedad o el sensor de lluvia de veto solo para cancelar ese horario cuando no corresponde regar. No hace falta elegir uno de forma excluyente — son complementarios, no opuestos.
+
+**¿El Hunter HC075FLOW reemplaza al sensor de humedad o al de lluvia?**
+No, resuelve un problema distinto. Los sensores de humedad y lluvia de este ranking deciden CUÁNDO regar; el HC075FLOW no decide nada por sí solo, solo mide CUÁNTA agua está pasando por la línea principal en ese momento y avisa si el número es anormal — útil para detectar una fuga o una válvula rota, no para ahorrar agua regando según el clima o el suelo.

@@ -60,6 +60,10 @@ Si tu necesidad es programar horarios fijos, tener control por app y que no rieg
 
 Es la misma pregunta que ya se responde para controladores económicos en la guía de [cómo elegir un controlador de riego WiFi](/articulos/como-elegir-controlador-riego-wifi) (criterio 2), y las marcas premium no se salvan del mismo problema por pagar más. El [Rachio 3](/productos/B07CZ864Y9) sigue ejecutando el último horario guardado si el WiFi se corta un rato, pero para cambiar cualquier cosa desde la app necesitás que vuelva la conexión a internet. El [Hydrawise de Hunter](/productos/B08BJBKW44) funciona parecido: el horario ya programado queda guardado en el propio controlador y sigue regando sin conexión, pero la pantalla táctil del equipo no te deja ajustar nada mientras el servicio en la nube esté caído — tenés que esperar a que vuelva. Ninguna de las tres marcas premium de este ranking es "local-first" en el sentido estricto de esa guía: todas dependen del servidor del fabricante para que vos cambies algo a distancia, aunque el riego ya programado aguante un corte breve de internet sin detenerse. Es el mismo riesgo de fondo que corre cualquier controlador dependiente de nube si la empresa algún día cierra el servicio (ver el punto 5 de esa misma guía) — pagar más no te saca de ese problema, solo lo pospone mientras la marca siga activa.
 
+## 8. Si ya tenés el Hydrawise de Hunter: sumale detección de fugas con un medidor de caudal
+
+Ninguno de los tres controladores premium de este ranking avisa de fábrica si una válvula se traba abierta o un caño se rompe — para eso hace falta un sensor de caudal aparte. Para el [Hunter HPC400 con Hydrawise](/productos/B08BJBKW44) existe exactamente esa pieza: el [Hunter HC075FLOW](/productos/B084GSRXDX), un medidor de caudal de 3/4" en acero inoxidable que se instala en la línea principal, entre la válvula maestra y las válvulas de zona, y se conecta directo al puerto SEN del controlador. Reporta el caudal en tiempo real a la app Hydrawise y dispara alertas automáticas de caudal alto (probable fuga o válvula rota), caudal bajo (probable obstrucción) o actividad fuera de horario (algo quedó abierto sin querer). Limitación real: solo integra con la familia Hydrawise de Hunter (HC, Pro-HC, HPC, HCC) — si tu controlador es el Rachio 3 o el Netro Sprite de este mismo ranking, hoy no hay un accesorio equivalente de esa marca vendido en Amazon con esta misma integración directa.
+
 ## Video: Rachio vs. Orbit cara a cara
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
@@ -85,3 +89,6 @@ No necesariamente — la mayoría de las diferencias son de software (algoritmos
 
 **¿Puedo combinar sensores de otra marca con un controlador económico?**
 Depende del controlador — varios (como el [RAINPOINT](/productos/B0F596PTCF)) funcionan dentro de un ecosistema cerrado propio, así que confirmá compatibilidad antes de mezclar marcas.
+
+**¿El medidor de caudal Hunter sirve con Rachio o Netro en vez de con Hydrawise?**
+No. Se conecta directo al puerto SEN del controlador y reporta a la app Hydrawise de Hunter — no es compatible con Rachio ni con Netro. Si tu controlador es uno de esos dos, por ahora no hay un accesorio de esa marca vendido en Amazon con esta misma integración de caudal y detección de fugas.
