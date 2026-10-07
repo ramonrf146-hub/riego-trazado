@@ -2812,6 +2812,56 @@
     "urlAfiliado": "https://www.amazon.com/dp/B084GSRXDX?tag=riegotrazado-20",
     "actualizadoEn": "2026-10-06",
     "activo": true
+  },
+  {
+    "asin": "B075X15KXJ",
+    "nombre": "LeMotech Caja Eléctrica Estanca IP65 — Gabinete para Relés y Módulos WiFi (255 x 200 x 80 mm)",
+    "nombreEn": "LeMotech IP65 Weatherproof Enclosure — Project Box for Relays and WiFi Modules (255 x 200 x 80 mm)",
+    "categoria": "modulos-rele",
+    "precio": 16.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/51jLyW+YslL._AC_UY218_.jpg",
+    "rating": 4.5,
+    "numResenas": 4312,
+    "ranking": 6,
+    "notaTecnica": "Una caja vacía de plástico ABS, sellada contra agua y polvo (IP65), para meter adentro un relé o módulo WiFi y protegerlo si va a quedar a la intemperie. Es la pieza que le falta al Shelly 1 Mini Gen3 de este catálogo — el propio fabricante aclara que ese relé no trae gabinete propio y necesita una caja aparte para instalarse cerca de una bomba o un tablero de riego al aire libre. También le sirve a cualquier proyecto DIY con el relé de 1 u 8 canales de este ranking, que tampoco traen protección contra la intemperie. Viene con tapa transparente, tornillos y prensacables para pasar los cables sin dejar entrar agua.",
+    "notaTecnicaEn": "An empty ABS plastic box, sealed against water and dust (IP65), to hold a relay or WiFi module inside and protect it when it's going to sit outdoors. It's the missing piece for this catalog's Shelly 1 Mini Gen3 — the manufacturer itself notes that relay ships with no enclosure of its own and needs a separate box to be installed near a pump or an outdoor irrigation panel. It also works for any DIY project using this ranking's 1-channel or 8-channel relay, which likewise have no weather protection. It comes with a clear lid, screws, and cable glands to run wires through without letting water in.",
+    "idealPara": "Proteger un relé o módulo WiFi (como el Shelly 1 Mini Gen3 de este catálogo) cuando va a quedar instalado a la intemperie, cerca de una bomba o un tablero de riego al aire libre.",
+    "idealParaEn": "Protecting a relay or WiFi module (like this catalog's Shelly 1 Mini Gen3) when it will be installed outdoors, near a pump or an open-air irrigation panel.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Pensalo como un paragüas con llave para tu relé: por fuera es una caja de plástico duro cerrada con tornillos y un sello de goma en la tapa, y por dentro tiene una placa perforable donde atornillás el relé o módulo WiFi. El sello evita que entre lluvia, riego por aspersión o polvo del jardín, que son justamente las causas más comunes de que un relé barato se queme o se trabe con el tiempo.",
+      "ejemploHogar": "Instalás el Shelly 1 Mini Gen3 de este catálogo adentro de esta caja, atornillada a la pared junto al tablero de riego del patio, para que la lluvia o el aspersor más cercano no le lleguen directo a los contactos eléctricos.",
+      "ejemploNegocio": "Un instalador de sistemas de riego que arma controladores a medida con el relé de 8 canales ELEGOO de este catálogo usa esta caja (o una más grande de la misma línea) como gabinete final prolijo y protegido, en vez de dejar la placa de relés expuesta en una canilla o un cobertizo sin puerta.",
+      "puntosClave": [
+        "Confirmá el tamaño interno contra el relé o módulo que vas a meter adentro — esta versión de 255 x 200 x 80 mm (10 x 7.9 x 3.1 in) le entra holgado al Shelly, al DieseRC o al ELEGOO de 8 canales de este ranking con lugar para la cablería, pero un SONOFF 4CH Pro R3 ya pensado para riel DIN va mejor en un tablero dedicado.",
+        "Fijate que los prensacables que trae alcancen para todos los cables que necesitás pasar (alimentación + salidas del relé) — si te quedan cortos, un prensacable mal sellado anula todo el sentido de una caja IP65.",
+        "IP65 protege contra lluvia y chorros de agua, pero no es apta para sumergir — si la zona se inunda (no solo se moja), necesitás una caja con clasificación IP67/68, no esta."
+      ],
+      "consejoInversion": "Un relé de $8-18 instalado a la intemperie sin protección dura meses antes de que la humedad corroa los contactos y haya que comprar otro relé entero. Esta caja cuesta casi lo mismo que el relé que protege, pero evita tener que reemplazarlo cada temporada de lluvias — a la larga sale más barato que repetir la compra del relé."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Think of it as an umbrella with a lock for your relay: on the outside it's a hard plastic box closed with screws and a rubber gasket on the lid, and inside it has a mounting plate you can drill to screw in the relay or WiFi module. The seal keeps out rain, sprinkler overspray, and garden dust — exactly the most common reasons a cheap relay burns out or jams over time.",
+      "ejemploHogar": "You install this catalog's Shelly 1 Mini Gen3 inside this box, screwed to the wall next to the patio's irrigation panel, so rain or the nearest sprinkler head can't hit the electrical contacts directly.",
+      "ejemploNegocio": "An irrigation installer who builds custom controllers with this catalog's ELEGOO 8-channel relay uses this box (or a bigger one from the same line) as a clean, protected final enclosure, instead of leaving the relay board exposed at an outdoor spigot or a shed with no door.",
+      "puntosClave": [
+        "Check the inside dimensions against the relay or module you're putting in — this 255 x 200 x 80 mm (10 x 7.9 x 3.1 in) version fits the Shelly, the DieseRC, or this ranking's 8-channel ELEGOO with room for wiring, but a SONOFF 4CH Pro R3 built for DIN rail belongs in a dedicated panel instead.",
+        "Make sure the included cable glands are enough for every cable you need to run (power plus the relay's outputs) — a poorly sealed gland defeats the whole point of an IP65 box.",
+        "IP65 protects against rain and water jets, but it's not rated for submersion — if the area floods rather than just gets wet, you need an IP67/68 box, not this one."
+      ],
+      "consejoInversion": "An $8-18 relay installed outdoors with no protection lasts only a few months before moisture corrodes the contacts and you need to buy a whole new one. This box costs nearly the same as the relay it protects, but saves you from replacing that relay every rainy season — over time, that's cheaper than buying the relay again and again."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B075X15KXJ?tag=riegotrazado-20",
+    "actualizadoEn": "2026-10-07",
+    "activo": true,
+    "tags": [
+      "IP65",
+      "Gabinete estanco",
+      "Para relés/WiFi"
+    ],
+    "tagsEn": [
+      "IP65",
+      "Weatherproof enclosure",
+      "For relays/WiFi"
+    ]
   }
-
 ]
