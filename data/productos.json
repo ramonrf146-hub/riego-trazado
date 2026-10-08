@@ -2863,5 +2863,56 @@
       "Weatherproof enclosure",
       "For relays/WiFi"
     ]
+  },
+  {
+    "asin": "B0G2L59MYP",
+    "nombre": "RAINPOINT Riego Automático para Macetas de Interior (10-15 Plantas, a Pilas)",
+    "nombreEn": "RAINPOINT Automatic Indoor Plant Waterer (10-15 Pots, Battery-Powered)",
+    "categoria": "kits-goteo",
+    "precio": 29.49,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71Jb2wDzkuL._AC_UY218_.jpg",
+    "rating": 3.9,
+    "numResenas": 184,
+    "ranking": 12,
+    "notaTecnica": "A diferencia de los demás kits de este ranking, que se atornillan a la canilla y necesitan 20-45 PSI de la red de agua, esta bomba a pilas se sumerge directo en un balde o recipiente con agua y desde ahí reparte el riego por la misma manguerita de goteo a 10 plantas en maceta (ampliable a 15 con un kit de expansión del fabricante, vendido aparte) — la opción correcta cuando no hay canilla cerca (balcón, departamento, oficina). Se programa con dos diales (duración de 15 segundos a 20 minutos, frecuencia de cada 6 horas a 14 días), sin WiFi ni app. Trae válvula anti-retorno integrada y un LED que avisa cuando el agua del recipiente se está acabando, antes de que la bomba trabaje en seco.",
+    "notaTecnicaEn": "Unlike the rest of this ranking's kits, which screw onto an outdoor faucet and need 20-45 PSI from the water mains, this battery-powered pump sits directly in a bucket or container of water and distributes it through the same drip tubing to 10 potted plants (expandable to 15 with the manufacturer's separate expansion kit) — the right pick when there's no faucet nearby (balcony, apartment, office). It's programmed with two dials (duration from 15 seconds to 20 minutes, frequency from every 6 hours to every 14 days), no WiFi or app involved. It includes a built-in anti-siphon valve and a low-water LED that warns before the pump runs dry.",
+    "idealPara": "Automatizar el riego de plantas en maceta en un balcón, departamento u oficina sin canilla cerca — se alimenta de un balde con agua, no de la red.",
+    "idealParaEn": "Automating watering for potted plants on a balcony, apartment, or office with no outdoor faucet nearby — it draws from a bucket of water, not the water mains.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es básicamente una bomba chica, como la de una pecera, metida dentro de un balde de agua: en vez de conectarse a la canilla como el resto de los kits de este ranking, chupa agua de cualquier recipiente (un balde, un bidón) y la empuja por una manguerita fina hasta cada maceta, en la dosis y el horario que programes con dos diales — sin necesitar WiFi, enchufe fijo ni canilla cerca.",
+      "ejemploHogar": "Vivís en un departamento sin canilla en el balcón, pero tenés 10 plantas en macetas repartidas por la casa — llenás un balde una vez, programás el riego cada 2 o 3 días con los diales, y las plantas quedan regadas aunque te vayas de viaje una semana.",
+      "ejemploNegocio": "Una oficina o local comercial con plantas decorativas en el hall de entrada, sin acceso a una canilla cerca, usa este kit para que el riego no dependa de que algún empleado se acuerde de pasar con una regadera todos los días.",
+      "puntosClave": [
+        "Viene armado para 10 plantas — si necesitás cubrir hasta 15, hace falta comprar el kit de expansión del mismo fabricante aparte, no viene incluido en esta compra.",
+        "Funciona a pilas y hay que rellenar el recipiente de agua a mano de vez en cuando — no se conecta a la red de agua ni se recarga solo, a diferencia de los demás kits de este ranking.",
+        "No tiene WiFi ni app — se programa a mano con dos diales (duración y frecuencia); si buscás controlarlo o revisarlo desde el celular, este no es el modelo."
+      ],
+      "consejoInversion": "Por menos de $30, resuelve algo que ningún otro kit de este catálogo resuelve: regar macetas donde no hay canilla cerca. Armar algo equivalente con una bomba de pecera suelta y una manguerita genérica, sin el aviso de nivel bajo de agua ni la válvula anti-retorno de este kit, termina costando parecido y sin la misma protección contra que la bomba trabaje en seco o el agua se devuelva sucia al recipiente."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's basically a small aquarium-style pump dropped into a bucket of water: instead of connecting to an outdoor faucet like the rest of the kits in this ranking, it draws water from any container (a bucket, a jug) and pushes it through thin tubing to each pot, in the dose and schedule you set with two dials — no WiFi, no fixed outlet, and no faucet needed nearby.",
+      "ejemploHogar": "You live in an apartment with no balcony faucet, but you have 10 potted plants scattered around the house — you fill a bucket once, set watering every 2-3 days with the dials, and your plants stay watered even if you travel for a week.",
+      "ejemploNegocio": "An office or storefront with decorative plants in the lobby, with no faucet nearby, uses this kit so watering doesn't depend on an employee remembering to grab a watering can every day.",
+      "puntosClave": [
+        "It ships set up for 10 plants — covering up to 15 requires buying the manufacturer's separate expansion kit, which isn't included in this purchase.",
+        "It runs on batteries and you need to manually refill the water container from time to time — it doesn't hook up to the water mains or recharge itself like the rest of this ranking's kits.",
+        "No WiFi or app — you program it by hand with two dials (duration and frequency); if you want phone control or remote monitoring, this isn't the model for that."
+      ],
+      "consejoInversion": "For under $30, it solves something no other kit in this catalog does: watering potted plants where there's no faucet nearby. Rigging up something similar with a loose aquarium pump and generic tubing, without this kit's low-water alert and anti-siphon valve, usually costs about the same without the same protection against the pump running dry or dirty water siphoning back into the container."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B0G2L59MYP?tag=riegotrazado-20",
+    "actualizadoEn": "2026-10-08",
+    "activo": true,
+    "tags": [
+      "A pilas",
+      "Sin canilla",
+      "Interior"
+    ],
+    "tagsEn": [
+      "Battery-powered",
+      "No hose needed",
+      "Indoor"
+    ]
   }
 ]
