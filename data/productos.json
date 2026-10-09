@@ -2914,5 +2914,56 @@
       "No hose needed",
       "Indoor"
     ]
+  },
+  {
+    "asin": "B0B1NZ2WF4",
+    "nombre": "Rain Bird ARC8 — Controlador WiFi 8 Zonas (Certificado EPA WaterSense)",
+    "nombreEn": "Rain Bird ARC8 — WiFi Controller 8-Zone (EPA WaterSense Certified)",
+    "categoria": "controladores-wifi",
+    "precio": 117.0,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71ZeJzK90WL._AC_UY218_.jpg",
+    "rating": 3.8,
+    "numResenas": 620,
+    "ranking": 12,
+    "notaTecnica": "Es el controlador completo de Rain Bird que faltaba en este ranking: hasta ahora la marca solo estaba representada por el [Rain Bird LNK2](/productos/B01MUVVSSF), un módulo que necesita un controlador Rain Bird tradicional ya instalado para funcionar — el ARC8 en cambio es standalone, se instala desde cero, con 8 zonas, salida para válvula maestra/bomba y entrada para sensor de lluvia/helada, apto interior o exterior, compatible con Alexa, y con certificación EPA WaterSense (el mismo sello que ya tienen Rachio, Netro y Hydrawise en este catálogo). Tiene una particularidad real de instalación: si no conectás un sensor de lluvia/helada, el propio manual exige puentear con un cable corto los dos terminales SENS o el controlador directamente no riega — no es opcional como en otras marcas. Varias reseñas reales también señalan que el riego corre las zonas en secuencia dentro de cada horario (no con el mismo nivel de programación independiente por zona que ofrecen Rachio o Netro) y que la app tiene margen de mejora frente a esas dos.",
+    "notaTecnicaEn": "This is the complete standalone Rain Bird controller this ranking was missing: until now the brand was only represented by the [Rain Bird LNK2](/productos/B01MUVVSSF), a module that needs an existing traditional Rain Bird controller to work — the ARC8, instead, is standalone and installs from scratch, with 8 zones, a master valve/pump-start output, a rain/freeze sensor input, indoor/outdoor mounting, Alexa compatibility, and EPA WaterSense certification (the same seal Rachio, Netro, and Hydrawise already carry in this catalog). It has one real installation quirk: if you don't connect a rain/freeze sensor, Rain Bird's own manual requires jumpering the two SENS terminals with a short wire, or the controller simply won't water — it's not optional like on some other brands. Several real buyer reviews also note that it runs zones sequentially within each start time (not with the same level of independent per-zone scheduling Rachio or Netro offer) and that the app has room for improvement compared to those two.",
+    "idealPara": "Quien quiere un controlador Rain Bird completo de 8 zonas, instalado desde cero (no un retrofit), a un precio más bajo que Rachio — aceptando una app y un historial de reseñas más flojos a cambio.",
+    "idealParaEn": "Anyone who wants a complete 8-zone Rain Bird controller installed from scratch (not a retrofit module), at a lower price than Rachio — trading off a weaker app and review track record to get there.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es una caja que reemplaza al temporizador mecánico viejo de tu sistema de riego: se atornilla en la pared (adentro o afuera de la casa), se cablea a las mismas válvulas solenoides de 24V AC que ya tenés o vas a instalar, y desde ahí decide cuándo abrir cada una de las 8 zonas según el horario que programes desde la app — como cambiar un reloj despertador de agujas por uno que programás desde el celular, sin tocar la plomería ni las válvulas en sí.",
+      "ejemploHogar": "Tenés un patio con césped, un sector de flores y una huerta chica, cada uno con su propia válvula, y hoy programás el riego a mano parado frente a una caja de plástico en la pared del garage — con el ARC8 programás los 8 horarios desde el celular, y si llueve el controlador retrasa el riego solo hasta 14 días sin que tengas que acordarte de apagarlo.",
+      "ejemploNegocio": "Un administrador de un edificio de departamentos o un pequeño comercio con jardín propio (no un campo grande) necesita manejar 8 zonas de riego distintas entre canteros, césped y plantas de entrada, sin pagar el sobreprecio de una marca premium ni contratar a alguien que vaya físicamente a reprogramar el temporizador cada vez que cambia la estación.",
+      "puntosClave": [
+        "Revisá que tengas (o vayas a instalar) válvulas solenoides de 24V AC estándar — el ARC8 no sirve para mangueras sueltas sin válvula fija, para eso conviene un kit o temporizador de canilla de este catálogo.",
+        "Si no vas a cablear un sensor de lluvia/helada externo desde el día uno, vas a necesitar puentear los dos terminales SENS con un cable corto (no es opcional): sin sensor ni puente, el controlador no riega directamente.",
+        "Es más barato que el Rachio 3 de este mismo ranking por las mismas 8 zonas, pero tiene menos reseñas y un rating más bajo (3.8★ contra 4.5★) — si para vos pesa más el historial probado por miles de compradores que ahorrar en el precio, Rachio sigue siendo la apuesta más segura."
+      ],
+      "consejoInversion": "Por unos $80 menos que el Rachio 3 de 8 zonas, conseguís un controlador de una marca reconocida de la industria del riego (no un genérico sin nombre) con el mismo sello EPA WaterSense que puede calificarte para un reembolso de tu compañía de agua. La fricción real está en la app y en que no tiene el mismo nivel de pulido de software que Rachio o Netro — si tu prioridad es ahorrar sin resignar marca ni certificación, tiene sentido; si preferís la experiencia de app más probada, pagar la diferencia por Rachio sigue siendo la opción más segura."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a box that replaces the old mechanical timer in your irrigation system: it mounts on a wall (indoors or outdoors), wires to the same 24V AC solenoid valves you already have or are about to install, and from there decides when to open each of the 8 zones based on the schedule you set in the app — like swapping an analog alarm clock for one you program from your phone, without touching the plumbing or the valves themselves.",
+      "ejemploHogar": "You have a yard with a lawn section, a flower bed, and a small vegetable patch, each on its own valve, and today you program watering by hand standing in front of a plastic box in the garage wall — with the ARC8 you set all 8 schedules from your phone, and if it rains the controller delays watering on its own for up to 14 days without you having to remember to turn it off.",
+      "ejemploNegocio": "A property manager for an apartment building, or a small business with its own landscaping (not a large farm), needs to manage 8 separate watering zones across flower beds, lawn, and entrance plantings, without paying the premium-brand markup or sending someone out in person to reprogram the timer every time the season changes.",
+      "puntosClave": [
+        "Confirm you have (or are installing) standard 24V AC solenoid valves — the ARC8 doesn't work with loose hoses without a fixed valve; for that, a drip kit or hose timer from this catalog is the right fit.",
+        "If you're not wiring an external rain/freeze sensor from day one, you'll need to jumper the two SENS terminals with a short wire — it isn't optional: without a sensor or a jumper, the controller simply won't water.",
+        "It's cheaper than the Rachio 3 in this same ranking for the same 8 zones, but it has fewer reviews and a lower rating (3.8★ vs. 4.5★) — if a proven track record across thousands of buyers matters more to you than saving on price, Rachio remains the safer bet."
+      ],
+      "consejoInversion": "For about $80 less than the 8-zone Rachio 3, you get a controller from a recognized name in the irrigation industry (not a no-name generic) carrying the same EPA WaterSense seal that can qualify you for a rebate from your water utility. The real friction is the app, which isn't as polished as Rachio's or Netro's — if your priority is saving money without giving up brand or certification, it makes sense; if you'd rather have the more proven app experience, paying the difference for Rachio is still the safer call."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B0B1NZ2WF4?tag=riegotrazado-20",
+    "actualizadoEn": "2026-10-09",
+    "activo": true,
+    "tags": [
+      "Controlador standalone",
+      "8 zonas",
+      "EPA WaterSense"
+    ],
+    "tagsEn": [
+      "Standalone controller",
+      "8 zones",
+      "EPA WaterSense"
+    ]
   }
 ]

@@ -34,6 +34,8 @@ Un controlador económico (como el [Smart Sprinklers Controller de este ranking]
 
 Es un sello del gobierno de EE.UU. que certifica que un controlador cumple estándares de eficiencia de agua reales, no solo lo que dice el fabricante en la caja. Lo interesante: varias compañías de agua en EE.UU. dan **reembolsos (rebates)** a quien instala un controlador certificado WaterSense — en algunos casos cubren buena parte del costo del equipo. Si vivís en EE.UU., vale la pena revisar si tu compañía de agua local ofrece esto antes de decidir qué controlador comprar.
 
+Importante: la certificación WaterSense no es exclusiva de los tres premium de arriba. El [Rain Bird ARC8](/productos/B0B1NZ2WF4) — un controlador de 8 zonas de una marca reconocida de la industria, no "weather intelligence" premium — también la tiene, a un precio bastante más cercano al rango económico (~$117) que al de Rachio, Netro o Hydrawise. Si lo único que te importa es calificar para el reembolso de tu compañía de agua y no te interesa el riego predictivo por clima, no hace falta pagar el precio completo de una de las tres marcas premium para conseguirlo — aunque viene con una app y un historial de reseñas más flojos que esas tres (3.8★, bastante menos recorrido en Amazon).
+
 ## 3. Lo que NO cambia entre premium y económico
 
 - **La instalación eléctrica es la misma** — ambos tipos se conectan a válvulas de 24V AC estándar, no hay diferencia de cableado.
@@ -92,3 +94,6 @@ Depende del controlador — varios (como el [RAINPOINT](/productos/B0F596PTCF)) 
 
 **¿El medidor de caudal Hunter sirve con Rachio o Netro en vez de con Hydrawise?**
 No. Se conecta directo al puerto SEN del controlador y reporta a la app Hydrawise de Hunter — no es compatible con Rachio ni con Netro. Si tu controlador es uno de esos dos, por ahora no hay un accesorio de esa marca vendido en Amazon con esta misma integración de caudal y detección de fugas.
+
+**¿Puedo conseguir la certificación EPA WaterSense sin pagar el precio de Rachio, Netro o Hydrawise?**
+Sí. El [Rain Bird ARC8](/productos/B0B1NZ2WF4) de este catálogo tiene certificación WaterSense a un precio bastante más bajo (~$117) que las tres marcas premium, aunque no tiene el riego predictivo por clima ("Weather Intelligence") que sí tienen Rachio, Netro y Hydrawise — solo cancela por lluvia/helada, como los controladores económicos. Tiene sentido si lo único que buscás es calificar para el reembolso de tu compañía de agua, no la optimización automática por pronóstico.

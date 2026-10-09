@@ -34,6 +34,8 @@ A budget controller (like the [Smart Sprinklers Controller in this ranking](/en/
 
 It's a U.S. government seal certifying that a controller meets real water-efficiency standards, not just what the manufacturer claims on the box. Here's the interesting part: several U.S. water utilities offer **rebates** to anyone who installs a WaterSense-certified controller — in some cases covering a good chunk of the equipment cost. If you live in the U.S., it's worth checking whether your local water utility offers this before deciding which controller to buy.
 
+Important: WaterSense certification isn't exclusive to the three premium brands above. The [Rain Bird ARC8](/en/productos/B0B1NZ2WF4) — an 8-zone controller from a recognized name in the industry, not a premium "weather intelligence" model — also carries it, at a price much closer to the budget range (~$117) than to Rachio, Netro, or Hydrawise. If all you care about is qualifying for your water utility's rebate and you don't care about predictive weather-based watering, you don't need to pay full premium price to get it — though it comes with a weaker app and review track record than those three (3.8★, far less history on Amazon).
+
 ## 3. What does NOT change between premium and budget
 
 - **The electrical install is the same** — both types connect to standard 24V AC valves, no wiring difference.
@@ -92,3 +94,6 @@ It depends on the controller — several (like the [RAINPOINT](/en/productos/B0F
 
 **Does the Hunter flow meter work with Rachio or Netro instead of Hydrawise?**
 No. It connects straight into the controller's SEN port and reports to Hunter's Hydrawise app — it isn't compatible with Rachio or Netro. If your controller is one of those two, there's currently no accessory from that brand sold on Amazon with this same flow-monitoring and leak-detection integration.
+
+**Can I get EPA WaterSense certification without paying Rachio, Netro, or Hydrawise prices?**
+Yes. The [Rain Bird ARC8](/en/productos/B0B1NZ2WF4) in this catalog carries WaterSense certification at a much lower price (~$117) than the three premium brands, though it doesn't have the predictive weather-based watering ("Weather Intelligence") that Rachio, Netro, and Hydrawise offer — it only cancels for rain/freeze, like the budget controllers. It makes sense if all you're after is qualifying for your water utility's rebate, not automatic forecast-based optimization.
