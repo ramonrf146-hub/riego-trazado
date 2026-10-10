@@ -2712,6 +2712,57 @@
     ]
   },
   {
+    "asin": "B000VRYVYS",
+    "nombre": "Orbit 57040 — Transformador 24V 750mA para Controladores de Riego de Interior",
+    "nombreEn": "Orbit 57040 — 24V 750mA Transformer for Indoor Sprinkler Controllers",
+    "categoria": "valvulas-solenoides",
+    "precio": 22.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/51smIDedWbL._AC_SL1500_.jpg",
+    "rating": 4.4,
+    "numResenas": 546,
+    "ranking": 12,
+    "notaTecnica": "Es el transformador real detrás del '24V AC' que se repite en toda esta categoría: una cajita que se enchufa al tomacorriente de 120V y entrega, por un par de cables, los 24V AC de baja potencia que efectivamente abren y cierran una válvula solenoide — pensalo como el cargador de un teléfono, que toma los 120V de la pared y entrega los pocos voltios que el aparato realmente usa, solo que acá la salida sigue siendo corriente alterna (AC), no continua (DC) como la de un celular. El 57040 entrega 750mA, suficiente para 1 o 2 solenoides a la vez. Dos casos reales: en una casa, reemplaza al transformador que se quemó en un temporizador de interior viejo (la falla más común en estos equipos según reseñas, mucho antes que falle el controlador completo); en un proyecto armado con relés desde cero (como el SONOFF 4CH Pro R3 o el ELEGOO de 8 canales de este catálogo), es la fuente de 24V AC que falta — el relé solo prende y apaga esa alimentación, no la genera. Limitación real: 750mA no alcanza para abrir varias zonas grandes al mismo tiempo ni para sumar un arranque de bomba; para eso corresponde un transformador de mayor amperaje o, directamente, el que ya trae incorporado un controlador completo como el Rachio 3 o el Rain Bird ARC8 de este catálogo. Es de uso interior: no está pensado para quedar expuesto a la intemperie sin protección.",
+    "notaTecnicaEn": "This is the actual transformer behind the '24V AC' that gets mentioned throughout this category: a small box that plugs into a 120V outlet and delivers low-power 24V AC over a pair of wires — the voltage that actually opens and closes a solenoid valve. Think of it like a phone charger, which takes the wall's 120V and outputs the few volts a device actually uses, except here the output stays alternating current (AC), not direct current (DC) like a phone charger's. The 57040 delivers 750mA, enough for 1-2 solenoids at a time. Two real cases: at home, it replaces a burned-out transformer in an old indoor timer (the most common failure in these units per reviews, well before the whole controller fails); in a relay-based project built from scratch (like this catalog's SONOFF 4CH Pro R3 or the 8-channel ELEGOO), it's the missing 24V AC power source — the relay only switches that power on and off, it doesn't generate it. Real limitation: 750mA isn't enough to open several large zones at once or to add a pump-start relay on top; that calls for a higher-amperage transformer, or simply the one already built into a complete controller like this catalog's Rachio 3 or Rain Bird ARC8. It's rated for indoor use only — not meant to sit exposed outdoors without protection.",
+    "idealPara": "Reemplazar o sumar el transformador 24V que alimenta válvulas solenoides o un controlador de interior, cuando el original se quemó o estás armando un sistema de relés desde cero — no es para controladores WiFi que ya traen su propia fuente de 24V incorporada.",
+    "idealParaEn": "Replacing or adding the 24V transformer that powers solenoid valves or an indoor controller, when the original burned out or you're building a relay-based system from scratch — not for WiFi controllers that already ship with their own built-in 24V supply.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es la pieza que convierte los 120V de tu tomacorriente en los 24V AC de baja potencia que de verdad abren y cierran una válvula solenoide o alimentan un relé de riego — como el cargador de tu teléfono, que toma 120V de la pared y entrega unos pocos voltios seguros para el aparato, solo que acá la salida sigue siendo corriente alterna (AC), no continua (DC) como la de un celular.",
+      "ejemploHogar": "Tu temporizador de riego de interior viejo deja de funcionar de un día para el otro sin ningún otro síntoma — antes de tirar el controlador entero, revisás si el transformador (la pieza que se enchufa al tomacorriente) se quemó, que es la falla más común en estos equipos según las reseñas, y lo reemplazás por este mismo modelo sin tocar el resto de la instalación.",
+      "ejemploNegocio": "Un instalador o un hobbista que arma un sistema de riego con relés desde cero (por ejemplo con el SONOFF 4CH Pro R3 o el ELEGOO de 8 canales de este catálogo) no tiene ningún controlador de fábrica que traiga transformador incluido — este 57040 es la fuente de 24V AC que efectivamente alimenta las válvulas, mientras el relé solo se encarga de prender y apagar esa alimentación.",
+      "puntosClave": [
+        "Confirmá el amperaje que necesitás antes de comprar: el 57040 entrega 750mA, suficiente para 1 o 2 válvulas a la vez — si tu sistema abre varias zonas simultáneas o además alimenta un relé de arranque de bomba, sumá un segundo transformador o uno de mayor capacidad, no fuerces este.",
+        "Es para instalación de interior, no resiste intemperie directa — si va a quedar expuesto afuera, protegelo dentro de una caja como la LeMotech IP65 de la categoría de módulos de relé de este mismo catálogo.",
+        "Confirmá que la salida sea 24V AC (corriente alterna) y no 24V DC: el enchufe y el voltaje se ven parecidos, pero un adaptador DC no abre un solenoide de riego estándar, que necesita corriente alterna."
+      ],
+      "consejoInversion": "Un adaptador genérico de 24V sin marca cuesta unos pocos dólares menos, pero varios reportes de foros de riego señalan amperajes mal rotulados o reales por debajo de lo que indica la caja — eso se traduce en válvulas que abren flojas o fallan antes de tiempo, el mismo tipo de falla intermitente y difícil de diagnosticar que esta categoría ya documenta en otras piezas eléctricas (conectores sin sellar, cable de calibre insuficiente). Pagar la diferencia por una marca reconocida de la industria del riego, con el amperaje real confirmado en la ficha y más de 500 reseñas respaldándolo, evita ese dolor de cabeza por menos de lo que cuesta una sola válvula de repuesto."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's the part that converts the 120V coming out of your wall outlet into the low-power 24V AC that actually opens and closes a solenoid valve or powers a relay-driven irrigation setup — like your phone charger, which takes 120V from the wall and delivers a few safe volts for the device, except here the output stays alternating current (AC), not direct current (DC) like a phone charger's.",
+      "ejemploHogar": "Your old indoor sprinkler timer stops working overnight with no other symptom — before tossing the whole controller, you check whether the transformer (the part that plugs into the outlet) burned out, which reviews flag as the most common failure in these units, and swap it for this same model without touching the rest of the install.",
+      "ejemploNegocio": "An installer or a hobbyist building a relay-based irrigation setup from scratch (say, with this catalog's SONOFF 4CH Pro R3 or the 8-channel ELEGOO) has no factory controller that ships with a transformer included — this 57040 is the actual 24V AC power source feeding the valves, while the relay only switches that power on and off.",
+      "puntosClave": [
+        "Confirm the amperage you actually need before buying: the 57040 delivers 750mA, enough for 1-2 valves at once — if your system opens several zones simultaneously or also powers a pump-start relay, add a second transformer or a higher-capacity one instead of forcing this one.",
+        "It's rated for indoor use and won't survive direct outdoor exposure — if it'll sit outside, protect it inside an enclosure like this catalog's LeMotech IP65 box from the relay modules category.",
+        "Confirm the output is 24V AC (alternating current), not 24V DC: the plug and voltage look similar, but a DC adapter won't open a standard irrigation solenoid, which needs alternating current."
+      ],
+      "consejoInversion": "A generic no-name 24V adapter costs a few dollars less, but several irrigation-forum reports flag mislabeled or underrated real-world amperage — that shows up as valves opening weakly or failing early, the same kind of hard-to-diagnose intermittent failure this category already documents in other electrical parts (unsealed connectors, undersized wire gauge). Paying the difference for a recognized irrigation brand, with the real amperage confirmed on the spec sheet and backed by over 500 reviews, avoids that headache for less than the cost of a single replacement valve."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B000VRYVYS?tag=riegotrazado-20",
+    "actualizadoEn": "2026-10-10",
+    "activo": true,
+    "tags": [
+      "Transformador 24V",
+      "750mA",
+      "Uso interior"
+    ],
+    "tagsEn": [
+      "24V Transformer",
+      "750mA",
+      "Indoor use"
+    ]
+  },
+  {
     "asin": "B0GHNB78F7",
     "nombre": "THIRDREALITY Sensor de Humedad de Suelo Gen2 — Zigbee (requiere hub)",
     "nombreEn": "THIRDREALITY Smart Soil Moisture Sensor Gen2 — Zigbee (Hub Required)",

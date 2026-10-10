@@ -9,7 +9,7 @@ The solenoid valve is the part that actually opens and closes the water flow —
 
 ## Voltage: 24V AC is the standard
 
-Almost every residential irrigation controller, traditional or WiFi, runs on 24V AC (alternating current, not direct). Before buying a valve, confirm your controller supplies that voltage — it's true for the vast majority of models, but it's worth verifying on the spec sheet, especially if you're mixing components from different manufacturers or building your own system with relays — for that last case, a relay like the [SONOFF 4CH Pro R3](/en/productos/B08BHWF8KD) controls the transformer's or pump's 120V power, not the 24V AC solenoid directly.
+Almost every residential irrigation controller, traditional or WiFi, runs on 24V AC (alternating current, not direct). Before buying a valve, confirm your controller supplies that voltage — it's true for the vast majority of models, but it's worth verifying on the spec sheet, especially if you're mixing components from different manufacturers or building your own system with relays — for that last case, a relay like the [SONOFF 4CH Pro R3](/en/productos/B08BHWF8KD) controls the transformer's or pump's 120V power, not the 24V AC solenoid directly. That 24V AC doesn't come out of the wall on its own — it's delivered by a transformer like the [Orbit 57040](/en/productos/B000VRYVYS), which converts the outlet's 120V into the low-power signal the valve actually needs. A complete controller like this catalog's Rachio 3 or Rain Bird ARC8 already has one built in, but if you're replacing a burned-out one from an old indoor timer, or building a relay-based system from scratch with no factory controller, you need a standalone one like this.
 
 ## Normally closed (NC) vs. normally open (NO)
 
@@ -94,6 +94,7 @@ If you're still not sure when an 18 AWG cable like the Southwire falls short and
 - **Cable to connect the valves to the controller:** no valve in this ranking ships with wire included — the [Southwire 18/7](/en/productos/B0069F4I5I) is a direct-burial-rated, 7-conductor multi-conductor cable, the missing piece between the valve box and the controller; one cable connects up to 6 different valves instead of running a separate one for each.
 - **Diagnosing a cut wire underground:** none of the products above help you find where an already-buried wire got cut — the [VEVOR locator](/en/productos/B0D2HG7QCY) is exactly that missing piece: a transmitter and receiver that mark the exact break point, so you dig only there instead of trenching the whole run blind.
 - **Reinforcement cable for the farthest valve:** the Southwire 18/7 above handles most installs, but if a single zone sits well past 150 feet from the controller, the [Iron Forge Cable 16 AWG](/en/productos/B07Q5HBC2N) is the thicker gauge that fits there — 2 conductors instead of 7, meant for running a separate pair out to just that one distant valve, not for replacing the trunk cable for the rest.
+- **24V AC transformer:** no valve or cable above generates the 24V AC they need on its own — if you're replacing the burned-out transformer in an old indoor timer, or building a relay-based system from scratch with no factory controller, the [Orbit 57040](/en/productos/B000VRYVYS) is that part: it delivers 750mA, enough for 1-2 valves at once (it doesn't replace the internal transformer of a complete controller like the Rachio 3 or Rain Bird ARC8, which already ships with one included).
 
 ## Frequently asked questions
 
@@ -111,3 +112,6 @@ No. The locator tracks the full 7-wire bundle as a single unit — it marks the 
 
 **Do I need a check valve on every zone, or only some?**
 Only on zones where the lowest sprinkler sits below the rest of the circuit — that's where water keeps draining by gravity after the valve closes. If your yard is flat or that zone has no real grade change, the [Hunter HC75F75M](/en/productos/B00FYQWTUE) doesn't add anything: it's a targeted fix for the specific problem in point 5, not a general addition to the whole system.
+
+**My WiFi controller already waters fine — why would I need a separate transformer like the Orbit 57040?**
+If your controller already works, you don't need one — complete models like this catalog's Rachio 3 or Rain Bird ARC8 ship with a transformer built in from the factory. The [Orbit 57040](/en/productos/B000VRYVYS) covers two specific cases: replacing the transformer in an old indoor timer that burned out (the most common failure in those units, well before the whole controller fails), or supplying the 24V AC for a system built from scratch with relays (like this catalog's SONOFF 4CH Pro R3), which on their own only switch the 120V power but don't generate the 24V AC the valve needs.
