@@ -38,9 +38,13 @@ La mayoría son WiFi puro, lo cual funciona bien si el controlador está cerca d
 
 Es una pregunta incómoda pero válida: si la empresa detrás del controlador cierra, ¿el dispositivo sigue siendo útil? Los modelos local-first casi siempre siguen funcionando como temporizador básico. Los dependientes de nube pueden quedar completamente inutilizables — literalmente ladrillos con válvulas conectadas.
 
+## 6. ¿Dónde lo vas a instalar? Interior vs. exterior
+
+La mayoría de las fichas de producto no lo destacan, pero no todos los controladores completos de este ranking están pensados para quedar atornillados directo a una pared exterior sin protección. El [Rachio 3](/productos/B07CZ864Y9) de este catálogo es el caso más documentado: su propia guía oficial de instalación dice en texto llano que el equipo está diseñado para interior (un garage cerrado alcanza), y que si va a quedar expuesto afuera hace falta sumar un gabinete exterior aparte, vendido por separado. El [Orbit B-hyve](/productos/B01D15HOIQ) y su versión de 12 zonas, en cambio, ya traen carcasa weatherproof de fábrica pensada para exterior, sin necesitar nada más. Si tu única pared disponible cerca de las válvulas es la de afuera de la casa y tu controlador es de los que exige interior, el [gabinete Orbit 57095 con GFCI integrado](/productos/B000VYGMF2) resuelve ese problema sin depender del accesorio específico de cada marca — y de paso suma el tomacorriente con protección diferencial que el código eléctrico exige cerca del agua.
+
 ## En resumen
 
-Antes de mirar el precio, verifica: cuántas zonas reales necesitas (más un margen), si funciona sin depender de servidores externos, si acepta sensores externos por entrada física, y qué tan lejos vas a instalarlo del router. Esos cuatro factores predicen mejor la satisfacción a largo plazo que cualquier lista de funciones de la app.
+Antes de mirar el precio, verifica: cuántas zonas reales necesitas (más un margen), si funciona sin depender de servidores externos, si acepta sensores externos por entrada física, qué tan lejos vas a instalarlo del router, y si el lugar donde va a quedar es interior o exterior. Esos cinco factores predicen mejor la satisfacción a largo plazo que cualquier lista de funciones de la app.
 
 ## Si ya tenés un controlador Rain Bird tradicional que anda bien, no hace falta cambiarlo entero
 
@@ -72,6 +76,7 @@ No siempre hace falta un controlador WiFi completo. Si el problema puntual es "m
 - **Respaldo de otros compradores:** el [Orbit B-hyve](/productos/B01D15HOIQ) es el controlador con más reseñas de todo este ranking (más de 9.000) — no es sinónimo de "mejor" en cada criterio técnico, pero sí de que mucha gente lo usó sin problemas graves.
 - **Protocolo:** todos los controladores de este ranking son WiFi puro — si tu instalación queda lejos del router, revisá el alcance de tu red antes de comprar cualquiera de ellos, ya que ninguno incluye un repetidor propio. El [TP-Link EAP225-Outdoor](/productos/B07953S2FD) de este catálogo es la forma de resolverlo sin depender del auto-skip por pronóstico: lleva WiFi fuerte hasta el punto exacto donde instalaste el controlador, en vez de esperar que la señal de la casa llegue sola.
 - **Marca reconocida a precio más bajo:** el [Rain Bird ARC8](/productos/B0B1NZ2WF4) tiene las mismas 8 zonas y la misma certificación EPA WaterSense que el Rachio 3, a unos $80 menos — a cambio de un rating más bajo (3.8★ contra 4.5★) y bastantes menos reseñas acumuladas en Amazon.
+- **Instalación interior sin garage disponible (criterio 6):** si tu controlador es de los que el fabricante marca "de interior" (como el Rachio 3) y no tenés dónde meterlo bajo techo cerca de las válvulas, el [gabinete Orbit 57095 con GFCI](/productos/B000VYGMF2) lo protege afuera sin comprar el accesorio específico de esa marca.
 
 ## Preguntas frecuentes
 
@@ -95,3 +100,6 @@ No, resuelven situaciones distintas. El [LNK2](/productos/B01MUVVSSF) es un mód
 
 **Todas las mangueras de mi patio están sueltas, sin válvulas fijas — ¿me sirve un controlador de este ranking?**
 No exactamente: los controladores de este ranking se cablean a válvulas solenoides de 24V AC ya instaladas. Si en cambio tenés varias mangueras o canillas sueltas repartidas por el patio y querés programarlas todas desde el celular sin tender cable ni instalar válvulas, un [temporizador WiFi con gateway RF](/productos/B0GSSJ2KWT) resuelve ese caso distinto: cada temporizador a batería se atornilla directo en la canilla y se comunica por radiofrecuencia con un gateway central (hasta 64 dispositivos), sin obra ni cableado — a cambio, depende de pilas (hasta 8 meses de duración declarada) en vez de estar siempre conectado a corriente como un controlador cableado.
+
+**Mi controlador (como el Rachio 3) dice que es "de instalación interior" — ¿puedo igual atornillarlo afuera sin problema?**
+No es recomendable sin protección aparte: la propia documentación oficial de Rachio dice que el equipo está diseñado para interior, y que si va a quedar expuesto a la intemperie hace falta un gabinete exterior vendido por separado — exponerlo directo a la lluvia por fuera de ese gabinete acorta su vida útil o lo rompe directamente. El [gabinete Orbit 57095](/productos/B000VYGMF2) cumple esa función, con la ventaja de ser genérico (no exclusivo de una marca) y traer un tomacorriente GFCI integrado para la conexión eléctrica. Si tu controlador en cambio ya es weatherproof de fábrica, como el [Orbit B-hyve](/productos/B01D15HOIQ) de este mismo ranking, no necesitás ningún gabinete adicional.

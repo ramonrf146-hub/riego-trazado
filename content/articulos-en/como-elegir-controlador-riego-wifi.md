@@ -38,9 +38,13 @@ Most are plain WiFi, which works fine if the controller sits close to the router
 
 It's an uncomfortable but valid question: if the company behind the controller shuts down, does the device still work? Local-first models almost always keep functioning as a basic timer. Cloud-dependent ones can become completely useless — literally bricks with valves attached.
 
+## 6. Where will it be mounted? Indoor vs. outdoor
+
+Most product listings don't call this out, but not every full controller in this ranking is meant to be screwed directly onto an exposed outside wall. This catalog's [Rachio 3](/en/productos/B07CZ864Y9) is the most documented case: its own official install guide says in plain language that the unit is designed for indoor use (an enclosed garage is fine), and that an outdoor enclosure — sold separately — is required if it's going to sit exposed outside. The [Orbit B-hyve](/en/productos/B01D15HOIQ) and its 12-zone version, by contrast, already ship with weatherproof housing built for outdoor use, with nothing else needed. If the only wall you have near the valves is the outside of the house and your controller is one of the ones that requires indoor mounting, this catalog's [Orbit 57095 cabinet with built-in GFCI](/en/productos/B000VYGMF2) solves that without locking you into a brand-specific accessory — and it also adds the ground-fault-protected outlet electrical code requires near water.
+
 ## The bottom line
 
-Before you even look at price, check: how many zones you actually need (plus a margin), whether it works without relying on external servers, whether it accepts external sensors through a physical input, and how far you'll be installing it from the router. Those four factors predict long-term satisfaction far better than any list of app features.
+Before you even look at price, check: how many zones you actually need (plus a margin), whether it works without relying on external servers, whether it accepts external sensors through a physical input, how far you'll be installing it from the router, and whether the spot it'll sit in is indoors or outdoors. Those five factors predict long-term satisfaction far better than any list of app features.
 
 ## If you already have a traditional Rain Bird controller that works fine, you don't need to replace the whole thing
 
@@ -72,6 +76,7 @@ You don't always need a full WiFi controller. If the immediate problem is "I'm g
 - **Backing from other buyers:** the [Orbit B-hyve](/en/productos/B01D15HOIQ) is the controller with the most reviews in this entire ranking (over 9,000) — that isn't the same as "best" on every technical criterion, but it does mean a lot of people have used it without major issues.
 - **Protocol:** every controller in this ranking is plain WiFi — if your install sits far from the router, check your network's range before buying any of them, since none of them ship with their own repeater. The [TP-Link EAP225-Outdoor](/en/productos/B07953S2FD) in this catalog is how to fix that without relying on forecast-based auto-skip: it brings strong WiFi to the exact spot where you installed the controller, instead of hoping the house signal reaches that far on its own.
 - **Recognized brand at a lower price:** the [Rain Bird ARC8](/en/productos/B0B1NZ2WF4) has the same 8 zones and the same EPA WaterSense certification as the Rachio 3, for about $80 less — in exchange for a lower rating (3.8★ vs. 4.5★) and a lot fewer reviews on Amazon.
+- **Indoor-only controller with no garage available (criterion 6):** if your controller is one the manufacturer labels "indoor" (like the Rachio 3) and you have nowhere sheltered to mount it near the valves, the [Orbit 57095 cabinet with GFCI](/en/productos/B000VYGMF2) protects it outside without buying that brand's specific accessory.
 
 ## Frequently asked questions
 
@@ -95,3 +100,6 @@ No, they solve different situations. The [LNK2](/en/productos/B01MUVVSSF) is a m
 
 **Every hose in my yard is loose, with no fixed valves — does a controller from this ranking work for me?**
 Not exactly: the controllers in this ranking wire into already-installed 24V AC solenoid valves. If instead you have several loose hoses or spigots scattered around the yard and want to schedule all of them from your phone without running cable or installing valves, a [WiFi timer with an RF gateway](/en/productos/B0GSSJ2KWT) solves that different case: each battery-powered timer screws directly onto a spigot and talks to a central gateway over radio frequency (up to 64 devices), with no construction or wiring — in exchange, it runs on batteries (up to 8 months of claimed life) instead of staying always powered like a wired controller.
+
+**My controller (like the Rachio 3) says it's "for indoor installation" — can I just screw it up outside anyway?**
+Not without separate protection: Rachio's own official documentation says the unit is designed for indoor use, and that an outdoor enclosure sold separately is required if it's going to be exposed to the weather — leaving it out in the rain without that enclosure shortens its life or breaks it outright. The [Orbit 57095 cabinet](/en/productos/B000VYGMF2) does that job, with the advantage of being generic (not tied to one brand) and including a built-in GFCI outlet for the electrical connection. If your controller is already weatherproof from the factory, like this ranking's [Orbit B-hyve](/en/productos/B01D15HOIQ), you don't need any extra cabinet.

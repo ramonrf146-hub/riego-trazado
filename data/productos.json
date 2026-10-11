@@ -3016,5 +3016,56 @@
       "8 zones",
       "EPA WaterSense"
     ]
+  },
+  {
+    "asin": "B000VYGMF2",
+    "nombre": "Orbit 57095 — Gabinete Exterior con GFCI para Controladores de Riego de Interior",
+    "nombreEn": "Orbit 57095 — Outdoor Cabinet with GFCI for Indoor Sprinkler Controllers",
+    "categoria": "controladores-wifi",
+    "precio": 38.74,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61-318ccmVL._AC_UL320_.jpg",
+    "rating": 4.6,
+    "numResenas": 597,
+    "ranking": 13,
+    "notaTecnica": "Es un gabinete de pared resistente al clima pensado para los controladores que la propia marca marca como 'de instalación interior' — el caso real y documentado del Rachio 3 de este catálogo, cuya guía oficial dice textualmente que está diseñado para instalarse adentro (un garage cerrado alcanza) y que, si va a quedar expuesto afuera, hace falta sumar un gabinete exterior aparte, vendido por separado. Pensalo como la funda resistente al agua de un teléfono: el aparato de adentro no cambia, es la carcasa la que absorbe la lluvia y el sol en su lugar. El Orbit 57095 suma algo más que protección física: trae integrado un tomacorriente GFCI (diferencial) aprobado por UL, el mismo tipo que exige el código eléctrico cerca del agua, que corta la corriente en milisegundos si detecta una fuga, antes de que alguien reciba una descarga parado junto a una válvula mojada. Mide 10-3/4\" x 9-1/4\" x 3-1/4\" por dentro, con puerta con bisagra y cerradura con llave, y el fabricante lo describe compatible con controladores de interior de las marcas principales, no solo los de Orbit. Limitación real: no viene con el cableado de alimentación ya tendido — hace falta conectar el GFCI a un circuito de 120V existente, un trabajo de electricidad básica que conviene dejar en manos de alguien con experiencia si no se tiene.",
+    "notaTecnicaEn": "This is a weather-resistant wall cabinet built for controllers the manufacturer itself labels 'indoor installation only' — the real, documented case of this catalog's Rachio 3, whose official guide states in plain language that it's designed to be installed indoors (an enclosed garage is fine) and that an outdoor enclosure, sold separately, is required if it's going to sit outside. Think of it like a waterproof phone case: the device inside doesn't change, it's the shell that takes the rain and sun in its place. The Orbit 57095 adds more than physical protection — it has a UL-approved GFCI outlet built in, the same kind of outlet electrical code requires near water, which cuts power in milliseconds if it detects a leak, before anyone standing next to a wet valve gets shocked. It measures 10-3/4\" x 9-1/4\" x 3-1/4\" inside, with a hinged door and keyed lock, and the manufacturer describes it as compatible with indoor controllers from major brands, not just Orbit's own. Real limitation: it doesn't come with power wiring already run — you need to connect the GFCI outlet to an existing 120V circuit, basic electrical work best left to someone experienced if you aren't.",
+    "idealPara": "Proteger del clima un controlador de riego WiFi marcado como 'de instalación interior' (como el Rachio 3 de este catálogo) cuando no tenés garage ni pared interior cerca de las válvulas, sumando además un tomacorriente GFCI a la instalación eléctrica.",
+    "idealParaEn": "Weatherproofing a WiFi irrigation controller labeled 'indoor installation only' (like this catalog's Rachio 3) when there's no garage or indoor wall near the valves, while adding a GFCI outlet to the electrical install.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es una caja de pared resistente al clima con un enchufe de seguridad GFCI (diferencial) ya integrado: convierte la pared exterior de tu casa en un lugar seguro para instalar un controlador que el fabricante diseñó solo para adentro, protegiéndolo de la lluvia y el sol igual que una funda protege un teléfono que no es resistente al agua por sí solo.",
+      "ejemploHogar": "Tenés el Rachio 3 (o cualquier otro controlador 'de interior' de este catálogo) y la única pared cerca de las válvulas es la exterior de la casa, sin garage a mano — en vez de tirar cable hasta adentro o arriesgar el controlador a la lluvia directa, lo instalás dentro de este gabinete atornillado a esa pared exterior.",
+      "ejemploNegocio": "Un instalador que atiende casas sin garage cercano a las válvulas (lotes chicos, casas en hilera) estandariza este gabinete genérico como parte del kit de instalación para cualquier controlador 'de interior' que el cliente ya tenga o compre, en vez de cotizar un gabinete de marca distinto según el modelo de cada cliente.",
+      "puntosClave": [
+        "Confirmá que tu controlador entra en el espacio interior (10-3/4\" x 9-1/4\" x 3-1/4\") antes de comprar — la mayoría de los controladores residenciales de pared entran, pero medí el tuyo si trae un gabinete propio grande.",
+        "Vas a necesitar conectar el tomacorriente GFCI a un circuito de 120V existente — el gabinete no viene con el cableado de alimentación ya tendido, así que sumá esa mano de obra si no la vas a hacer vos mismo.",
+        "No reemplaza la resistencia al agua que ya trae de fábrica un controlador pensado para exterior (como el Orbit B-hyve de este mismo catálogo) — es para el caso contrario: proteger uno que la propia marca dice que es solo de interior."
+      ],
+      "consejoInversion": "Frente al gabinete propio de la marca (en el caso de Rachio, entre $32 y $70 según el listado, y sin el enchufe GFCI incluido en la mayoría de las versiones), este gabinete genérico de Orbit cuesta menos, suma el tomacorriente con protección diferencial que el código eléctrico exige cerca del agua, y sirve para controladores de varias marcas distintas, no solo una. Para quien instala más de un controlador a lo largo del tiempo, no depender de un gabinete específico por marca es la diferencia entre comprar una pieza por proyecto y comprar una reutilizable."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a weather-resistant wall cabinet with a safety GFCI outlet already built in: it turns the outside wall of your house into a safe spot to install a controller the manufacturer designed for indoor use only, shielding it from rain and sun the same way a case protects a phone that isn't waterproof on its own.",
+      "ejemploHogar": "You have the Rachio 3 (or any other 'indoor' controller from this catalog) and the only wall near the valves is the outside of the house, with no garage nearby — instead of running wire all the way indoors or risking the controller to direct rain, you install it inside this cabinet mounted on that exterior wall.",
+      "ejemploNegocio": "An installer who services homes with no garage near the valves (small lots, row houses) standardizes on this generic cabinet as part of the install kit for whatever 'indoor' controller the customer already owns or is buying, instead of quoting a different brand-specific enclosure for each customer's model.",
+      "puntosClave": [
+        "Confirm your controller fits the interior space (10-3/4\" x 9-1/4\" x 3-1/4\") before buying — most residential wall controllers fit, but measure yours if it has a large housing of its own.",
+        "You'll need to wire the GFCI outlet to an existing 120V circuit — the cabinet doesn't ship with power wiring already run, so budget for that labor if you won't be doing it yourself.",
+        "It doesn't replace the factory weatherproofing a controller built for outdoor use already has (like this catalog's Orbit B-hyve) — it's for the opposite case: protecting one the manufacturer itself says is indoor-only."
+      ],
+      "consejoInversion": "Compared to the brand's own enclosure (for Rachio, running $32-$70 depending on the listing, and without a GFCI outlet included in most versions), this generic Orbit cabinet costs less, adds the ground-fault-protected outlet electrical code requires near water, and works with controllers from several different brands instead of just one. For anyone installing more than one controller over time, not being locked into a brand-specific enclosure is the difference between buying a one-project part and buying a reusable one."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B000VYGMF2?tag=riegotrazado-20",
+    "actualizadoEn": "2026-10-11",
+    "activo": true,
+    "tags": [
+      "Gabinete exterior",
+      "GFCI integrado",
+      "Para controladores de interior"
+    ],
+    "tagsEn": [
+      "Outdoor cabinet",
+      "Built-in GFCI",
+      "For indoor controllers"
+    ]
   }
 ]
