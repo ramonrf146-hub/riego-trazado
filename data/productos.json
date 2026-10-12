@@ -3067,5 +3067,56 @@
       "Built-in GFCI",
       "For indoor controllers"
     ]
+  },
+  {
+    "asin": "B00E8S2ZR6",
+    "nombre": "Tuhorse — Kit de Empalme Termocontraíble para Cable de Bomba Sumergible de Pozo (4 Hilos, #10/#12/#14 AWG)",
+    "nombreEn": "Tuhorse — Heat-Shrink Splice Kit for Submersible Well Pump Cable (4-Wire, #10/#12/#14 AWG)",
+    "categoria": "bombas",
+    "precio": 7.98,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/81dj53lkzYL._AC_UL320_.jpg",
+    "rating": 4.6,
+    "numResenas": 1418,
+    "ranking": 10,
+    "notaTecnica": "Es un kit para empalmar el cable de una bomba sumergible de pozo con el cable de bajada que llega hasta la superficie, usando tubos termocontraíbles de doble capa (3M) y conectores de cobre — pensalo como una curita hermética para el punto donde se unen dos cables: en vez de envolver la unión con cinta aisladora común, que con el tiempo y la humedad se despega, este tubo se contrae con calor y libera un adhesivo interno que sella el empalme contra el agua, pensado específicamente para quedar sumergido de forma permanente dentro del pozo, no solo protegido de la lluvia como la cinta común alcanzaría a hacer afuera. Trae 4 tubos y conectores, suficiente para un cable de hasta 4 hilos — el caso típico de una bomba sumergible de 2 o 3 hilos más el cable a tierra, como la que necesita la Red Lion de este catálogo para bajar desde el motor hasta la caja de conexiones en superficie. Limitación real: cubre calibres #10, #12 y #14 AWG — una bomba de mayor potencia con cable más grueso (8 AWG o más) necesita un kit de otro calibre, este no entra. Además hace falta una pistola de calor real para contraer el tubo de forma pareja; un encendedor o un secador de pelo no llegan a la temperatura constante que el sellado necesita, y un sellado a medias es casi tan malo como no sellar nada.",
+    "notaTecnicaEn": "This is a kit for splicing a submersible well pump's cable to the drop cable that runs up to the surface, using dual-wall heat-shrink tubing (3M) and copper connectors — think of it as a watertight bandage for the point where two cables join: instead of wrapping the joint in ordinary electrical tape, which loosens over time with constant moisture, this tubing shrinks with heat and releases an internal adhesive that seals the splice against water, built specifically to stay permanently submerged inside the well, not just shielded from rain the way tape manages outdoors. It includes 4 tubes and connectors, enough for a cable with up to 4 wires — the typical case for a 2- or 3-wire submersible pump plus ground wire, like the one the Red Lion in this catalog needs running from the motor up to the junction box at the surface. Real limitation: it covers #10, #12, and #14 AWG gauges — a higher-power pump with thicker cable (8 AWG or heavier) needs a different-gauge kit, this one won't fit. You'll also need an actual heat gun to shrink the tubing evenly; a lighter or a hair dryer can't reach or hold the steady temperature the seal needs, and a half-finished seal is almost as bad as no seal at all.",
+    "idealPara": "Empalmar de forma sellada y permanente el cable de una bomba sumergible de pozo (2, 3 o 4 hilos, calibre #10 a #14 AWG) con el cable de bajada, para que la unión quede protegida del agua durante años dentro del pozo.",
+    "idealParaEn": "Making a permanently sealed splice in a submersible well pump cable (2, 3, or 4 wires, #10 to #14 AWG) with the drop cable, so the joint stays protected from water for years inside the well.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un kit de 4 tubos termocontraíbles con adhesivo interno y conectores de cobre, pensado para unir dos cables eléctricos y sellar esa unión contra el agua de forma permanente — como una curita que en vez de pegamento usa calor para encogerse y cerrar hermético alrededor del empalme, apto para quedar sumergido dentro del pozo, no solo mojado por la lluvia.",
+      "ejemploHogar": "Reemplazás la Red Lion de este catálogo (o cualquier otra bomba sumergible de pozo profundo) y el cable de fábrica del motor no llega hasta la caja de conexiones en la superficie — con este kit empalmás ese cable con un tramo de cable de bajada nuevo, sellado para que baje otra vez al pozo sin que la humedad arruine la unión en el primer año.",
+      "ejemploNegocio": "Un perforista o plomero que instala y repara bombas de pozo para varios clientes lo lleva siempre en la caja de herramientas — cada instalación nueva o cada cambio de motor implica al menos un empalme, y sale mucho más barato cargar este kit de $7.98 en la camioneta que volver a sacar la bomba entera del pozo meses después porque la cinta aisladora común se aflojó bajo el agua.",
+      "puntosClave": [
+        "Contá los hilos y medí el calibre del cable de tu bomba antes de comprar — este kit cubre #10, #12 y #14 AWG y hasta 4 hilos; una bomba de mayor potencia con cable más grueso (8 AWG) necesita un kit de otro calibre.",
+        "Vas a necesitar una pistola de calor real para contraer el tubo de forma pareja y completa — un encendedor o un secador de pelo no mantienen la temperatura constante que el sellado necesita.",
+        "No reemplaza al cable de bajada en sí ni a piezas como la válvula de pie o el presostato — es solo el empalme eléctrico; para una instalación completa de pozo profundo seguís necesitando esas otras piezas, ya cubiertas en este mismo ranking."
+      ],
+      "consejoInversion": "Frente a una vuelta rápida de cinta aisladora común, que cuesta centavos, este kit sale un poco más pero resuelve el problema de fondo: la cinta se despega con la humedad constante dentro de un pozo, y cuando el empalme falla la señal suele ser que la bomba 'deja de andar sola' sin ninguna falla mecánica real — lo que obliga a sacar toda la tubería de bajada del pozo para revisar, una mano de obra que cuesta muchísimo más que los $7.98 de este kit. Para una bomba de pozo profundo como la Red Lion de este catálogo ($468.69), instalada a varios metros de profundidad donde nadie va a revisar el empalme después, el sellado térmico no es un gasto extra — es la diferencia entre una instalación que dura años y una que hay que volver a sacar del pozo al poco tiempo."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a kit of 4 heat-shrink tubes with internal adhesive and copper connectors, built to join two electrical cables and permanently seal that joint against water — like a bandage that shrinks with heat instead of glue, closing airtight around the splice, built to stay submerged inside the well, not just rained on.",
+      "ejemploHogar": "You're replacing the Red Lion in this catalog (or any other deep-well submersible pump) and the motor's factory cable doesn't reach the junction box at the surface — with this kit you splice that cable to a new length of drop cable, sealed so it can go back down the well without moisture ruining the joint within the first year.",
+      "ejemploNegocio": "A well driller or plumber who installs and repairs well pumps for multiple customers always carries one in the toolbox — every new install or motor swap involves at least one splice, and it's far cheaper to carry this $7.98 kit in the truck than to pull an entire pump back out of the well months later because ordinary electrical tape came loose underwater.",
+      "puntosClave": [
+        "Count the wires and measure your pump cable's gauge before buying — this kit covers #10, #12, and #14 AWG, up to 4 wires; a higher-power pump with thicker cable (8 AWG) needs a different-gauge kit.",
+        "You'll need an actual heat gun to shrink the tubing evenly and fully — a lighter or a hair dryer can't hold the steady temperature the seal needs.",
+        "It doesn't replace the drop cable itself or parts like the foot valve or pressure switch — it's just the electrical splice; a full deep-well install still needs those other parts, already covered in this same ranking."
+      ],
+      "consejoInversion": "Compared to a quick wrap of ordinary electrical tape, which costs pennies, this kit costs a little more but fixes the actual problem: tape loosens under the constant moisture inside a well, and when a splice fails the usual sign is the pump just \"stops working on its own\" with no real mechanical fault — forcing you to pull the entire drop pipe back out of the well to check it, labor that costs far more than this kit's $7.98. For a deep-well pump like the Red Lion in this catalog ($468.69), installed dozens of feet down where nobody is going to check the splice again, a proper heat-shrink seal isn't an extra expense — it's the difference between an install that lasts for years and one you end up pulling back out soon after."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B00E8S2ZR6?tag=riegotrazado-20",
+    "actualizadoEn": "2026-10-12",
+    "activo": true,
+    "tags": [
+      "Kit de empalme sumergible",
+      "Termocontraíble 3M",
+      "Para cable de bomba de pozo"
+    ],
+    "tagsEn": [
+      "Submersible splice kit",
+      "3M heat shrink",
+      "For well pump cable"
+    ]
   }
 ]
