@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const notaTecnica = t(producto.notaTecnica, producto.notaTecnicaEn, locale);
 
   return {
-    title: locale === "en" ? `${nombre} — Buying Guide` : `${nombre} — Guía de compra`,
+    title: locale === "en" ? `${nombre}: price and what it's for` : `${nombre}: precio y para qué sirve`,
     description: guia?.queEsYParaQueSirve ?? notaTecnica,
     alternates: {
       canonical: withLocale(`/productos/${producto.asin}`, locale),
@@ -136,6 +136,41 @@ export default async function ProductoPage({ params }: Props) {
     ],
   };
 
+  const faq = [
+    {
+      pregunta: locale === "en" ? `What is the ${nombre} for?` : `¿Para qué sirve ${nombre}?`,
+      respuesta: guia?.queEsYParaQueSirve ?? notaTecnica,
+    },
+    {
+      pregunta: locale === "en" ? "Who is it a good fit for?" : "¿Para quién es recomendable?",
+      respuesta: idealPara,
+    },
+    {
+      pregunta: locale === "en" ? "What should I know before buying it?" : "¿Qué tengo que saber antes de comprarlo?",
+      respuesta: notaTecnica,
+    },
+    {
+      pregunta: locale === "en" ? "Is it worth it?" : "¿Vale la pena?",
+      respuesta: guia?.consejoInversion ?? "",
+    },
+    {
+      pregunta: locale === "en" ? "How much does it cost?" : "¿Cuánto cuesta?",
+      respuesta:
+        locale === "en"
+          ? `The reference price is ${precioTexto} on Amazon. It can change, so check the current price before buying.`
+          : `El precio de referencia es ${precioTexto} en Amazon. Puede cambiar, así que confirmá el precio actual antes de comprar.`,
+    },
+  ].filter((item) => item.respuesta && item.respuesta.trim().length > 0);
+
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((item) => ({
+      "@type": "Question",
+      name: item.pregunta,
+      acceptedAnswer: { "@type": "Answer", text: item.respuesta },
+    })),
+  };
 
   return (
     <div className="mx-auto max-w-5xl px-4 pb-28 pt-10 sm:px-6 md:pb-14 md:pt-12">
@@ -147,6 +182,12 @@ export default async function ProductoPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+      {faq.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
 
       <nav className="font-mono text-xs uppercase tracking-wide text-text-dim">
         <Link href={withLocale("/", locale)} className="hover:text-line">
@@ -320,6 +361,22 @@ export default async function ProductoPage({ params }: Props) {
             className="mt-4 w-full sm:w-auto"
           />
         </div>
+
+        {faq.length > 0 && (
+          <section className="mt-12">
+            <h2 className="text-xl font-bold text-text-light">{dict["producto.faq"]}</h2>
+            <div className="mt-4 divide-y divide-line-dim rounded-2xl border border-line-dim bg-ink-2">
+              {faq.map((item) => (
+                <details key={item.pregunta} className="group p-4">
+                  <summary className="cursor-pointer list-none text-sm font-semibold text-text-light marker:hidden">
+                    {item.pregunta}
+                  </summary>
+                  <p className="mt-2 text-sm leading-relaxed text-text-dim">{item.respuesta}</p>
+                </details>
+              ))}
+            </div>
+          </section>
+        )}
 
         <GlosarioDeCampo producto={producto} locale={locale} />
       </div>
