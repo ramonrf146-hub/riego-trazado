@@ -3169,5 +3169,56 @@
       "Brass",
       "For Hunter PGV"
     ]
+  },
+  {
+    "asin": "B0C2HPM863",
+    "nombre": "THIRDREALITY Smart Hub Gen2 Plus — Hub Zigbee 3.0 (Compatible con Alexa y Google)",
+    "nombreEn": "THIRDREALITY Smart Hub Gen2 Plus — ZigBee 3.0 Hub (Works with Alexa and Google)",
+    "categoria": "sensores-humedad",
+    "precio": 23.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/41Cits55jtL._AC_UL320_.jpg",
+    "rating": 3.6,
+    "numResenas": 81,
+    "ranking": 9,
+    "notaTecnica": "Es el \"traductor\" que le falta al sensor de humedad THIRDREALITY Gen2 de este mismo catálogo para que sus lecturas lleguen al celular: un hub Zigbee 3.0 compacto que se conecta a tu red WiFi de 2,4GHz y arma el puente entre los sensores de radio Zigbee y la app donde se ven las alertas (compatible con Alexa y Google para sumarlo a rutinas de voz). Al ser de la misma marca, el fabricante lo describe explícitamente como compatible con \"todos los dispositivos ZigBee de THIRDREALITY\" — la forma más directa de evitar la pregunta típica de \"¿este hub le sirve a mi sensor?\" que aparece con los hubs genéricos multimarca. $23,99, 3,6 estrellas y 81 reseñas — el rating más bajo de este ranking y una base de reseñas más chica que la mayoría de los sensores que ya tiene el catálogo, así que conviene tenerlo en cuenta antes de comprar. Limitación real: necesita WiFi de 2,4GHz (no alcanza con una red exclusivamente de 5GHz) y, aunque técnicamente puede sumar otros dispositivos Zigbee 3.0 estándar, el fabricante solo confirma compatibilidad total con su propia línea de productos — para mezclar marcas distintas en el mismo hub conviene chequearlo antes de comprar.",
+    "notaTecnicaEn": "This is the \"translator\" missing for this catalog's THIRDREALITY Gen2 moisture sensor to get its readings onto your phone: a compact Zigbee 3.0 hub that connects to your 2.4GHz WiFi and bridges Zigbee-radio sensors to the app where alerts show up (works with Alexa and Google for voice routines). Being the same brand, the manufacturer explicitly describes it as compatible with \"all THIRDREALITY ZigBee devices\" — the most direct way to avoid the usual \"will this hub work with my sensor?\" question that comes up with generic multi-brand hubs. $23.99, 3.6 stars and 81 reviews — the lowest rating in this ranking and a smaller review base than most of the catalog's sensors, worth keeping in mind before buying. Real limitation: it needs 2.4GHz WiFi (a 5GHz-only network isn't enough) and, while it can technically add other standard Zigbee 3.0 devices, the manufacturer only confirms full compatibility with its own product line — check first if you plan to mix brands on the same hub.",
+    "idealPara": "Para quien ya tiene o está por comprar el sensor de humedad THIRDREALITY Gen2 de este catálogo y todavía no tiene ningún hub Zigbee funcionando en casa (Echo de 4ª generación o más nuevo, SmartThings, Home Assistant, Hubitat, Homey) — sin uno de esos, un sensor Zigbee por sí solo no reporta nada.",
+    "idealParaEn": "For anyone who already has, or is about to buy, this catalog's THIRDREALITY Gen2 moisture sensor and doesn't yet have a Zigbee hub running at home (an Echo 4th-gen or newer, SmartThings, Home Assistant, Hubitat, Homey) — without one of those, a Zigbee sensor on its own reports nothing.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Un hub Zigbee es un pequeño traductor de idiomas de radio: los sensores chicos (como el de humedad THIRDREALITY de este catálogo) hablan por una frecuencia de bajo consumo llamada Zigbee, que tu router WiFi no entiende directamente. El hub escucha ese idioma y lo convierte en la señal que sí llega a tu celular — la misma idea que un adaptador de enchufe de viaje, que no cambia la electricidad en sí, solo el formato de la conexión para que dos piezas que hablan distinto puedan entenderse.",
+      "ejemploHogar": "Compraste el sensor de humedad THIRDREALITY de este catálogo para una maceta grande, pero nunca te llegó ninguna alerta al celular — resulta que el sensor por sí solo no tiene WiFi propio, solo radio Zigbee. Este hub es la pieza que faltaba: lo enchufás, lo sumás a tu WiFi de 2,4GHz, y recién ahí el sensor empieza a reportar de verdad.",
+      "ejemploNegocio": "Un vivero chico con varios sensores de humedad repartidos entre distintos canteros o invernaderos no quiere pagar por un sistema de riego WiFi completo por cada zona — con un solo hub como este, todos los sensores Zigbee de la marca reportan al mismo punto central, y de ahí a una única app en el celular del encargado.",
+      "puntosClave": [
+        "Confirmá que no tenés ya un hub Zigbee funcionando por otro motivo (Echo de 4ª generación o más nuevo, SmartThings, Home Assistant, Hubitat, Homey) — si ya tenés uno de esos, probablemente no necesitás comprar este aparte.",
+        "Tu router tiene que tener banda de 2,4GHz disponible (no alcanza con una red exclusivamente de 5GHz) — es el estándar en casi todos los routers domésticos, pero vale confirmarlo si el tuyo es nuevo y separa las bandas con nombres de red distintos.",
+        "El fabricante confirma compatibilidad total solo con sus propios dispositivos THIRDREALITY — si pensás sumar sensores Zigbee de otras marcas al mismo hub, no des por sentado que van a funcionar sin probarlo primero."
+      ],
+      "consejoInversion": "Frente a un hub Zigbee genérico multimarca que cuesta parecido pero no garantiza nada con un sensor puntual, comprar el de la misma marca que el sensor elimina la duda de compatibilidad desde el día uno — a $23,99, el tiempo (y las devoluciones) que te ahorrás al no tener que probar a ciegas si un hub ajeno reconoce tu sensor vale más que la diferencia de precio con una alternativa genérica."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "A Zigbee hub is a small radio translator: tiny sensors (like this catalog's THIRDREALITY moisture sensor) talk over a low-power frequency called Zigbee, which your WiFi router doesn't understand on its own. The hub listens in that language and converts it into the signal that actually reaches your phone — the same idea as a travel plug adapter, which doesn't change the electricity itself, just the connection format so two parts that speak differently can understand each other.",
+      "ejemploHogar": "You bought this catalog's THIRDREALITY moisture sensor for a big planter, but no alert ever showed up on your phone — turns out the sensor itself has no WiFi of its own, only Zigbee radio. This hub is the missing piece: plug it in, add it to your 2.4GHz WiFi, and only then does the sensor actually start reporting.",
+      "ejemploNegocio": "A small nursery with several moisture sensors spread across different beds or greenhouses doesn't want to pay for a full WiFi irrigation system per zone — with one hub like this, every Zigbee sensor of the brand reports to the same central point, and from there into a single app on the manager's phone.",
+      "puntosClave": [
+        "Check you don't already have a Zigbee hub running for another reason (an Echo 4th-gen or newer, SmartThings, Home Assistant, Hubitat, Homey) — if you do, you probably don't need to buy this separately.",
+        "Your router needs an available 2.4GHz band (a 5GHz-only network isn't enough) — standard on almost every home router, but worth confirming if yours is newer and splits the bands under separate network names.",
+        "The manufacturer only confirms full compatibility with its own THIRDREALITY devices — if you plan to add Zigbee sensors from other brands to the same hub, don't assume it'll work without testing it first."
+      ],
+      "consejoInversion": "Compared to a generic multi-brand Zigbee hub that costs about the same but guarantees nothing with a specific sensor, buying the same brand as the sensor removes the compatibility guesswork from day one — at $23.99, the time (and returns) you save by not blind-testing whether a third-party hub recognizes your sensor is worth more than the price gap to a generic alternative."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B0C2HPM863?tag=riegotrazado-20",
+    "actualizadoEn": "2026-10-14",
+    "activo": true,
+    "tags": [
+      "Hub Zigbee 3.0",
+      "Para sensor THIRDREALITY",
+      "WiFi 2.4GHz"
+    ],
+    "tagsEn": [
+      "Zigbee 3.0 Hub",
+      "For THIRDREALITY sensor",
+      "2.4GHz WiFi"
+    ]
   }
 ]
