@@ -3271,5 +3271,56 @@
       "40°-360° arc",
       "22-52 ft"
     ]
+  },
+  {
+    "asin": "B07SYBSHGX",
+    "nombre": "Songhe Sensor de Humedad de Suelo Capacitivo para Arduino/ESP32 — Anticorrosión (Pack x5)",
+    "nombreEn": "Songhe Capacitive Soil Moisture Sensor for Arduino/ESP32 — Corrosion-Resistant (5-Pack)",
+    "categoria": "sensores-humedad",
+    "precio": 9.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71I+61-rohL._AC_UL320_.jpg",
+    "rating": 4.3,
+    "numResenas": 227,
+    "ranking": 10,
+    "notaTecnica": "Es la pieza que falta en la escalera DIY de este catálogo para que un sensor de humedad hable directo con tu propio relé (como el [módulo de 1 canal](/productos/B00VRUAHLE) o el [ELEGOO de 8 canales](/productos/B09ZQRLD95)) sin depender de ninguna app ni ecosistema cerrado de fábrica: una sonda capacitiva con chip TL555 que entrega un voltaje analógico (0 a 3,0V) proporcional a la humedad del suelo, sin exponer metal pelado a la tierra como los sensores resistivos baratos — eso es justamente lo que evita la corrosión que arruina esos otros en pocas semanas de uso permanente. Funciona con 3,3 a 5,5V, así que sirve tanto con un Arduino Uno (5V) como con un ESP32/ESP8266 (3,3V) sin necesitar un divisor de voltaje aparte. Viene de a 5 unidades — útil para varias macetas o zonas desde un solo microcontrolador con suficientes entradas analógicas. $9,99 (23% de descuento sobre $12,99 de precio típico), 4,3 estrellas, 227 reseñas, en stock. Limitación real: entrega un número crudo de voltaje, no un porcentaje de humedad — hay que calibrarlo a mano (sumergido en agua vs. al aire) antes de que el dato signifique algo en tu código, y no trae ninguna pantalla, app ni alerta propia como el RAINPOINT o el THIRDREALITY de este mismo ranking.",
+    "notaTecnicaEn": "This is the missing piece in this catalog's DIY ladder so a moisture sensor can talk directly to your own relay (like the [1-channel module](/en/productos/B00VRUAHLE) or the [ELEGOO 8-channel module](/en/productos/B09ZQRLD95)) without depending on any app or closed factory ecosystem: a capacitive probe with a TL555 chip that outputs an analog voltage (0 to 3.0V) proportional to soil moisture, without exposing bare metal to the dirt like cheap resistive sensors do — that's exactly what avoids the corrosion that ruins those within a few weeks of permanent use. It runs on 3.3 to 5.5V, so it works with both an Arduino Uno (5V) and an ESP32/ESP8266 (3.3V) with no voltage divider needed. It ships as a 5-pack — useful for several pots or zones from a single microcontroller with enough analog inputs. $9.99 (23% off the $12.99 typical price), 4.3 stars, 227 reviews, in stock. Real limitation: it outputs a raw voltage number, not a ready moisture percentage — you have to calibrate it by hand (dunked in water vs. in open air) before the reading means anything in your code, and it has no screen, app, or alert of its own like this ranking's RAINPOINT or THIRDREALITY.",
+    "idealPara": "Para quien ya arma (o quiere armar) su propio sistema de riego con Arduino o ESP32 y necesita el sensor de humedad crudo que falta antes del relé — no es para quien busca algo listo para usar con app o pantalla propia.",
+    "idealParaEn": "For anyone already building (or about to build) their own Arduino or ESP32 irrigation setup who needs the raw moisture sensor that's missing before the relay — not for someone looking for something ready to use with its own app or screen.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es una sonda chica que se entierra en la tierra de la maceta o el cantero y le dice a un microcontrolador (un Arduino o un ESP32, la \"computadora\" chica que programás vos) qué tan húmeda está la tierra en ese punto. Que sea \"capacitiva\" quiere decir que mide un cambio en un campo eléctrico cerca de la punta, sin que el metal toque directo la tierra mojada — pensalo como un detector de metales que sabe que hay algo cerca sin necesidad de tocarlo. Los sensores viejos y baratos (resistivos) en cambio clavan dos clavitos de metal pelado en la tierra y miden cuánta corriente pasa entre ellos: funciona al principio, pero esos clavitos se oxidan con la humedad constante, igual que cualquier clavo de metal que dejás mojado en el patio semana tras semana.",
+      "ejemploHogar": "Armaste (o querés armar) tu propio sistema de riego automático para las macetas del balcón con un ESP32 y uno de los relés de este catálogo: este sensor es la pieza que le avisa al ESP32 cuándo la tierra está realmente seca, en vez de regar en un horario fijo sin saber si hace falta o no.",
+      "ejemploNegocio": "Un vivero chico o un sistema de acuaponía que monitorea varios canteros o bandejas a la vez conecta varios de estos sensores (vienen de a 5) a las entradas analógicas de un solo ESP32, y ese mismo microcontrolador decide qué zona regar a través de un relé como el ELEGOO de 8 canales de este catálogo — todo el monitoreo centralizado sin pagar por un sensor con WiFi propio en cada punto.",
+      "puntosClave": [
+        "Confirmá que tu microcontrolador tiene al menos una entrada analógica libre: un Arduino Uno o un ESP32 la traen de fábrica, pero una Raspberry Pi no — ahí vas a necesitar sumar un módulo ADC aparte, este sensor por sí solo no se conecta directo a los pines digitales de una Raspberry.",
+        "El sensor entrega un número crudo de voltaje (0 a 3,0V), no un porcentaje de humedad listo para usar — hay que calibrarlo a mano metiéndolo en agua y dejándolo al aire para anotar los dos extremos antes de que el dato signifique algo en tu código.",
+        "No trae pantalla, app ni alerta propia — es solo la sonda. Si buscás algo que te avise directo al celular sin programar nada, el RAINPOINT con hub WiFi o el THIRDREALITY con hub Zigbee de este mismo ranking son la opción lista para usar, no esta."
+      ],
+      "consejoInversion": "Frente a un sensor resistivo de metal pelado que cuesta un par de dólares menos, la diferencia real aparece después de la primera temporada: el resistivo empieza a dar lecturas falsas o deja de responder en pocas semanas de humedad constante porque los electrodos se oxidan, mientras que el capacitivo sigue leyendo bien año tras año sin exponer ningún metal directo a la tierra. Para un proyecto que vas a dejar enterrado todo el verano sin revisarlo seguido, pagar esos centavos de más por el capacitivo evita el peor tipo de falla: la que no te avisa, solo deja de regar en silencio porque el sensor dejó de leer bien."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a small probe you bury in a planter's or garden bed's soil that tells a microcontroller (an Arduino or an ESP32 — the tiny \"computer\" you program yourself) how wet the soil is at that spot. Being \"capacitive\" means it measures a change in an electric field near the tip, without the metal ever touching the wet dirt directly — think of it like a metal detector that knows something's nearby without having to touch it. Old, cheap sensors (resistive ones) instead stick two bare metal pins into the soil and measure how much current flows between them: it works at first, but those pins corrode with constant moisture, the same way any bare metal left wet in the yard does, week after week.",
+      "ejemploHogar": "You've built (or want to build) your own automatic watering setup for balcony pots with an ESP32 and one of this catalog's relays: this sensor is the piece that tells the ESP32 when the soil is actually dry, instead of watering on a fixed schedule without knowing if it's actually needed.",
+      "ejemploNegocio": "A small nursery or aquaponics setup monitoring several beds or trays at once wires several of these sensors (they come 5 to a pack) into a single ESP32's analog inputs, and that same microcontroller decides which zone to water through a relay like this catalog's 8-channel ELEGOO — all the monitoring centralized without paying for a sensor with its own WiFi at every single point.",
+      "puntosClave": [
+        "Check that your microcontroller has at least one free analog input: an Arduino Uno or an ESP32 have one built in, but a Raspberry Pi doesn't — there you'll need to add a separate ADC module, since this sensor doesn't connect directly to a Raspberry Pi's digital pins on its own.",
+        "The sensor outputs a raw voltage number (0 to 3.0V), not a ready-to-use moisture percentage — you have to calibrate it by hand, dunking it in water and leaving it in open air to note both extremes, before the reading means anything in your code.",
+        "It has no screen, app, or alert of its own — it's just the probe. If you want something that notifies your phone directly without coding anything, this ranking's RAINPOINT with WiFi hub or THIRDREALITY with Zigbee hub are the ready-to-use pick, not this one."
+      ],
+      "consejoInversion": "Compared to a bare-metal resistive sensor that costs a couple dollars less, the real difference shows up after the first season: the resistive one starts giving false readings or stops responding within a few weeks of constant moisture because its electrodes corrode, while the capacitive one keeps reading correctly year after year without exposing any bare metal to the dirt. For a project you're going to leave buried all summer without checking it often, paying those extra cents for the capacitive version avoids the worst kind of failure: the one that doesn't warn you, it just silently stops watering because the sensor stopped reading correctly."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B07SYBSHGX?tag=riegotrazado-20",
+    "actualizadoEn": "2026-10-17",
+    "activo": true,
+    "tags": [
+      "Sensor capacitivo",
+      "Para Arduino/ESP32",
+      "Pack x5"
+    ],
+    "tagsEn": [
+      "Capacitive sensor",
+      "For Arduino/ESP32",
+      "5-Pack"
+    ]
   }
 ]
