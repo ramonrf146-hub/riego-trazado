@@ -86,13 +86,6 @@ export default async function ProductoPage({ params }: Props) {
     sku: producto.asin,
     image: producto.imagen,
     description: guia?.queEsYParaQueSirve ?? notaTecnica,
-    ...(producto.numResenas > 0 && {
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: producto.rating,
-        reviewCount: producto.numResenas,
-      },
-    }),
     offers:
       producto.precioMax && producto.precioMax > producto.precio
         ? {

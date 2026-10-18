@@ -89,31 +89,8 @@ export default async function CategoriaPage({ params }: Props) {
     itemListElement: productos.map((p, i) => ({
       "@type": "ListItem",
       position: i + 1,
-      item: {
-        "@type": "Product",
-        name: t(p.nombre, p.nombreEn, locale),
-        sku: p.asin,
-        aggregateRating: {
-          "@type": "AggregateRating",
-          ratingValue: p.rating,
-          reviewCount: p.numResenas,
-        },
-        offers:
-          p.precioMax && p.precioMax > p.precio
-            ? {
-                "@type": "AggregateOffer",
-                lowPrice: p.precio,
-                highPrice: p.precioMax,
-                priceCurrency: p.moneda,
-                url: p.urlAfiliado,
-              }
-            : {
-                "@type": "Offer",
-                price: p.precio,
-                priceCurrency: p.moneda,
-                url: p.urlAfiliado,
-              },
-      },
+      url: `${SITE_URL}${withLocale(`/productos/${p.asin}`, locale)}`,
+      name: t(p.nombre, p.nombreEn, locale),
     })),
   };
 
