@@ -31,6 +31,7 @@ export async function generateMetadata({
   const { lang } = await params;
   const locale = normalizarLocale(lang);
   return {
+    title: { absolute: locale === "en" ? "HidroLab — Monthly smart irrigation ranking" : "HidroLab — Ranking mensual de riego inteligente" },
     description:
       locale === "en"
         ? "A monthly technical ranking of WiFi controllers, moisture sensors, solenoid valves, drip kits, relay modules, and pumps for automated irrigation."

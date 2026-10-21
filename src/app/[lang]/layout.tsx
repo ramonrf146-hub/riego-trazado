@@ -26,6 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "es_ES",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     siteName: "HidroLab",
     title: "HidroLab — Ranking mensual de riego inteligente",
     description:

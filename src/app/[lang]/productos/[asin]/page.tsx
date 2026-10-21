@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getCategoriaPorSlug } from "@/lib/categorias";
 import { getProductos, getProductoPorAsin, getProductosPorCategoria } from "@/lib/productos";
+import { getArticulos } from "@/lib/contenido";
 import { getDictionary, t, withLocale, type Locale } from "@/lib/i18n";
 import GlosarioDeCampo from "@/components/GlosarioDeCampo";
 import ImagenConZoom from "@/components/ImagenConZoom";
@@ -10,6 +11,7 @@ import BotonAfiliado from "@/components/BotonAfiliado";
 import BarraCtaFija from "@/components/BarraCtaFija";
 import Estrellas from "@/components/Estrellas";
 import ProductCard from "@/components/ProductCard";
+import { tituloCorto, recortar } from "@/lib/seo";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.riegocom.uk";
 
@@ -37,8 +39,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const notaTecnica = t(producto.notaTecnica, producto.notaTecnicaEn, locale);
 
   return {
-    title: locale === "en" ? `${nombre}: price and what it's for` : `${nombre}: precio y para qué sirve`,
-    description: guia?.queEsYParaQueSirve ?? notaTecnica,
+    title: locale === "en" ? `${tituloCorto(nombre)}: price and what it's for` : `${tituloCorto(nombre)}: precio y para qué sirve`,
+    description: recortar(guia?.queEsYParaQueSirve ?? notaTecnica),
     alternates: {
       canonical: withLocale(`/productos/${producto.asin}`, locale),
       languages: {
@@ -50,7 +52,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       type: "website",
       title: nombre,
-      description: guia?.queEsYParaQueSirve ?? notaTecnica,
+      description: recortar(guia?.queEsYParaQueSirve ?? notaTecnica),
       images: producto.imagen ? [producto.imagen] : undefined,
     },
   };
@@ -74,6 +76,9 @@ export default async function ProductoPage({ params }: Props) {
   const precioTexto = tieneRango
     ? `${dict["producto.desde"]} $${producto.precio.toFixed(2)}`
     : `$${producto.precio.toFixed(2)}`;
+  const guiasRelacionadas = (await getArticulos(locale))
+    .filter((a) => a.categoria === producto.categoria)
+    .slice(0, 2);
   const similares = (await getProductosPorCategoria(producto.categoria))
     .filter((p) => p.asin !== producto.asin)
     .slice(0, 3);
@@ -373,6 +378,25 @@ export default async function ProductoPage({ params }: Props) {
 
         <GlosarioDeCampo producto={producto} locale={locale} />
       </div>
+
+      {guiasRelacionadas.length > 0 && (
+        <section className="mx-auto mt-16 max-w-3xl border-t border-line-dim/60 pt-10">
+          <h2 className="text-xl font-bold text-text-light">{dict["producto.guiasRelacionadas"]}</h2>
+          <ul className="mt-4 space-y-3">
+            {guiasRelacionadas.map((g) => (
+              <li key={g.slug}>
+                <Link
+                  href={withLocale(`/articulos/${g.slug}`, locale)}
+                  className="block rounded-2xl border border-line-dim bg-ink-2 p-4 transition-colors hover:border-line"
+                >
+                  <span className="text-sm font-semibold text-text-light">{g.titulo}</span>
+                  <span className="mt-1 block text-sm leading-relaxed text-text-dim">{g.descripcion}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {similares.length > 0 && (
         <section className="mt-16 border-t border-line-dim/60 pt-10">

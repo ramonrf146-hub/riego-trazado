@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { CATEGORIAS, getCategoriaPorSlug } from "@/lib/categorias";
 import { getProductosPorCategoria } from "@/lib/productos";
+import { getArticulos } from "@/lib/contenido";
 import { getDictionary, t, withLocale, type Locale } from "@/lib/i18n";
 import GridDeProductos from "@/components/GridDeProductos";
 import { CONTENIDO_CATEGORIAS } from "@/lib/categorias-seo";
@@ -33,8 +34,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title:
       locale === "en"
-        ? `Best ${nombre.toLowerCase()} for irrigation: ranking and buying guide`
-        : `Mejores ${nombre.toLowerCase()} para riego: ranking y guía de compra`,
+        ? `${nombre}: ranking and buying guide`
+        : `${nombre}: ranking y guía de compra`,
     description:
       locale === "en"
         ? `Monthly ranking of ${nombre.toLowerCase()} for automated irrigation, with how to choose and common questions. ${descripcion}`
@@ -60,6 +61,7 @@ export default async function CategoriaPage({ params }: Props) {
   const nombre = t(categoria.nombre, categoria.nombreEn, locale);
   const descripcion = t(categoria.descripcion, categoria.descripcionEn, locale);
   const productos = await getProductosPorCategoria(categoria.slug);
+  const guias = (await getArticulos(locale)).filter((a) => a.categoria === categoria.slug);
 
   const contenido = CONTENIDO_CATEGORIAS[categoria.slug]?.[locale];
   const precios = productos.map((p) => p.precio).filter((n) => n > 0);
@@ -131,6 +133,25 @@ export default async function CategoriaPage({ params }: Props) {
         </p>
       ) : (
         <GridDeProductos productos={productos} locale={locale} />
+      )}
+
+      {guias.length > 0 && (
+        <section className="mx-auto mt-14 max-w-3xl">
+          <h2 className="text-xl font-bold text-text-light">{dict["categoria.guias"]}</h2>
+          <ul className="mt-4 space-y-3">
+            {guias.map((g) => (
+              <li key={g.slug}>
+                <Link
+                  href={withLocale(`/articulos/${g.slug}`, locale)}
+                  className="block rounded-2xl border border-line-dim bg-ink-2 p-4 transition-colors hover:border-line"
+                >
+                  <span className="text-sm font-semibold text-text-light">{g.titulo}</span>
+                  <span className="mt-1 block text-sm leading-relaxed text-text-dim">{g.descripcion}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
       )}
 
       {contenido && (
