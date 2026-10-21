@@ -3322,5 +3322,56 @@
       "For Arduino/ESP32",
       "5-Pack"
     ]
+  },
+  {
+    "asin": "B07FHXLKH5",
+    "nombre": "HQMPC Conectores Rápidos de Bronce para Manguera 3/4\" (Pack x2 Sets)",
+    "nombreEn": "HQMPC Brass Quick Connect Garden Hose Fittings 3/4\" GHT (2-Set Pack)",
+    "categoria": "kits-goteo",
+    "precio": 15.27,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61vpL5ZeONL._AC_SL1000_.jpg",
+    "rating": 4.6,
+    "numResenas": 7322,
+    "ranking": 13,
+    "notaTecnica": "Rosca estándar GHT 3/4\" (la misma de cualquier canilla o manguera de jardín en EE.UU.) — no es para la rosca de 1/4\" de los tubos de goteo en sí, sino para la manguera que alimenta el kit. Cada set trae el macho y la hembra: uno se queda fijo en la canilla o en el regulador, y el otro en la punta de la manguera, así desconectás con un clic en vez de destornillar. Soporta hasta 200 PSI, bastante por encima de los 20-45 PSI a los que ya trabajan los kits de goteo de este catálogo.",
+    "notaTecnicaEn": "Standard 3/4\" GHT thread (the same one on any US garden spigot or hose) — this isn't for the 1/4\" drip tubing itself, it's for the hose feeding the kit. Each set includes both the male and female halves: one stays fixed on the spigot or regulator, the other on the hose end, so you disconnect with a click instead of unscrewing threads. Rated up to 200 PSI, well above the 20-45 PSI the drip kits in this catalog already run at.",
+    "idealPara": "Quien ya tiene un kit de goteo o una manguera fija y se cansó de destornillar cada vez que quiere sacarla para otra tarea (lavar el auto, llenar un balde) o moverla entre dos sectores del jardín.",
+    "idealParaEn": "Anyone who already has a drip kit or a fixed hose and is tired of unscrewing it every time they need it for something else (washing the car, filling a bucket) or moving it between two spots in the yard.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Pensá en un enchufe eléctrico: en vez de atornillar y desatornillar la manguera cada vez (como enroscar una tapa), encajás las dos mitades con un clic y listo. Una mitad se queda puesta en la canilla, el regulador o el kit de goteo; la otra en la punta de la manguera. Para desconectar, un solo movimiento — sin herramientas ni fuerza.",
+      "ejemploHogar": "Tenés el kit de goteo armado en el cantero, pero el sábado necesitás la misma manguera para lavar el auto: con el conector rápido la sacás en dos segundos y la volvés a poner el domingo, sin aflojar ni ensuciarte las manos con la rosca.",
+      "ejemploNegocio": "Un vivero o un servicio de mantenimiento de jardines que mueve la misma manguera entre varios sectores en el día (goteo acá, lavado de herramientas allá, llenado de regaderas más allá) ahorra minutos reales en cada cambio — y minutos multiplicados por varias veces al día, varios días a la semana, suman horas de trabajo al mes.",
+      "puntosClave": [
+        "Verificá que sea rosca GHT 3/4\" — es el estándar de EE.UU. para canillas y mangueras de jardín; no sirve para la rosca de 1/4\" de los tubos de goteo en sí, solo para la manguera que alimenta el kit.",
+        "Elegí bronce sólido en vez de plástico: el plástico se fisura con el sol y el frío en una o dos temporadas, el bronce no.",
+        "Confirmá que el set traiga las dos mitades (macho y hembra) — algunos packs baratos venden solo una mitad y te obligan a comprar el par por separado."
+      ],
+      "consejoInversion": "Frente a un conector plástico genérico que cuesta la mitad, el de bronce aguanta sol, frío y los 200 PSI de margen sin fisurarse — evitás tener que reemplazarlo (y destornillar todo de nuevo) a mitad de la temporada que viene."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Think of an electrical plug: instead of screwing and unscrewing the hose every time (like twisting on a bottle cap), you snap the two halves together with a click. One half stays mounted on the spigot, the regulator, or the drip kit; the other goes on the hose end. To disconnect, one quick motion — no tools, no force needed.",
+      "ejemploHogar": "Your drip kit is set up in the garden bed, but Saturday you need that same hose to wash the car: with the quick connect you pull it off in two seconds and snap it back on Sunday, no loosening threads or getting your hands dirty on the fitting.",
+      "ejemploNegocio": "A nursery or landscaping service that moves the same hose between several spots during the day (drip here, tool rinsing there, filling watering cans elsewhere) saves real minutes on every swap — and minutes multiplied several times a day, several days a week, add up to hours of labor a month.",
+      "puntosClave": [
+        "Check that it's 3/4\" GHT thread — the US standard for garden spigots and hoses; it won't fit the 1/4\" thread of the drip tubing itself, only the hose feeding the kit.",
+        "Pick solid brass over plastic: plastic cracks from sun and cold within a season or two, brass doesn't.",
+        "Confirm the set includes both halves (male and female) — some cheap packs only sell one half and force you to buy the pair separately."
+      ],
+      "consejoInversion": "Compared to a generic plastic connector that costs half as much, brass holds up to sun, cold, and the 200 PSI margin without cracking — you avoid replacing it (and unscrewing everything again) partway through next season."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B07FHXLKH5?tag=riegotrazado-20",
+    "actualizadoEn": "2026-10-21",
+    "activo": true,
+    "tags": [
+      "Bronce sólido",
+      "Rosca GHT 3/4\"",
+      "Pack x2 sets"
+    ],
+    "tagsEn": [
+      "Solid brass",
+      "3/4\" GHT thread",
+      "2-set pack"
+    ]
   }
 ]
