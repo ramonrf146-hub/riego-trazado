@@ -2971,7 +2971,7 @@
     "nombre": "Rain Bird ARC8 — Controlador WiFi 8 Zonas (Certificado EPA WaterSense)",
     "nombreEn": "Rain Bird ARC8 — WiFi Controller 8-Zone (EPA WaterSense Certified)",
     "categoria": "controladores-wifi",
-    "precio": 117.0,
+    "precio": 117,
     "moneda": "USD",
     "imagen": "https://m.media-amazon.com/images/I/71ZeJzK90WL._AC_UY218_.jpg",
     "rating": 3.8,
@@ -3372,6 +3372,57 @@
       "Solid brass",
       "3/4\" GHT thread",
       "2-set pack"
+    ]
+  },
+  {
+    "asin": "B0CJJ384QG",
+    "nombre": "WORKPRO Pistola de Calor Mini 400W — 2 Temperaturas (482°F/842°F) con Boquilla Reflectora",
+    "nombreEn": "WORKPRO 400W Mini Heat Gun — Dual Temperature (482°F/842°F) with Reflector Nozzle",
+    "categoria": "bombas",
+    "precio": 17.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/711lskm+ELL._AC_UF894,1000_QL80_.jpg",
+    "rating": 4.4,
+    "numResenas": 734,
+    "ranking": 11,
+    "notaTecnica": "400W con dos temperaturas fijas (482°F y 842°F) y boquilla reflectora que concentra el aire caliente en un punto chico — la que corresponde para contraer un tubo termocontraíble sin dispersarlo como haría una boquilla plana de desprender pintura. Cable de 5.9 pies, protección contra sobrecarga. Es un modelo liviano para uso doméstico u ocasional, no un equipo de 1500W+ pensado para sellar empalmes todos los días en el campo.",
+    "notaTecnicaEn": "400W with two fixed temperature settings (482°F and 842°F) and a reflector nozzle that concentrates the hot air on a small spot — the right kind for shrinking heat-shrink tubing instead of scattering it like a flat paint-stripping nozzle would. 5.9 ft cord, overload protection. It is a light-duty model for home or occasional use, not a 1500W+ unit built for sealing splices in the field every day.",
+    "idealPara": "Quien va a instalar el kit de empalme termocontraíble Tuhorse de este catálogo (o cualquier otro tubo termocontraíble para cable de riego o bomba) y no tiene todavía la herramienta real que necesita para sellarlo — ni un secador de pelo ni un encendedor llegan a hacer el trabajo bien.",
+    "idealParaEn": "Anyone installing the Tuhorse heat-shrink splice kit from this catalog (or any other heat-shrink tubing for irrigation or pump cable) who does not yet own the actual tool needed to seal it properly — neither a hair dryer nor a lighter gets the job done right.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Pensalo como un secador de pelo, pero mucho más caliente y con el chorro de aire dirigido a un punto chico en vez de esparcido. En vez de peinar o secar, lo que hace es encoger un tubo plástico especial (termocontraíble) hasta que se pega firme contra el cable que tiene adentro, sellándolo contra el agua. Sin esta herramienta, un tubo termocontraíble como el del kit de empalme Tuhorse de este mismo catálogo se queda sin usar — es la pieza que falta para que esa parte del trabajo se pueda hacer en serio.",
+      "ejemploHogar": "Compraste el kit de empalme Tuhorse para unir el cable de tu bomba sumergible de pozo y necesitás sellar esa unión antes de bajarla al pozo: con esta pistola, en segundos el tubo se contrae parejo y queda sellado, sin burbujas ni puntos flojos.",
+      "ejemploNegocio": "Un electricista o instalador de riego que hace varios empalmes por semana en distintas obras (bombas de pozo, cableado de válvulas enterrado) usa la misma herramienta para sellar cada unión en el lugar, sin depender de pegamento ni cinta que se despega con la humedad del tiempo.",
+      "puntosClave": [
+        "Confirmá que tenga por lo menos dos temperaturas (como las 482°F/842°F de este modelo) — una sola temperatura fija puede quemar el tubo si es muy alta o no contraerlo bien si es baja.",
+        "Fijate que traiga boquilla reflectora o concentradora, pensada para encoger un tubo chico como el de un empalme — una boquilla plana ancha (más común en modelos para despegar pintura) dispersa el calor y no sella bien un punto puntual.",
+        "Este modelo es de 400W, pensado para uso doméstico u ocasional — si vas a sellar empalmes todos los días (instalación profesional, varias obras por semana), conviene un equipo de 1500W o más, que aguanta mejor el uso constante sin sobrecalentarse."
+      ],
+      "consejoInversion": "Frente a usar un secador de pelo (no llega a la temperatura real de contracción, así que el tubo nunca queda bien sellado) o un encendedor (calor disparejo que puede quemar el tubo o dejarlo flojo, además de un riesgo real de incendio cerca de cables), esta pistola de $18 asegura un sellado parejo a la primera — evitás tener que abrir ese empalme de nuevo bajo tierra o dentro de un pozo, que sale muchísimo más caro en tiempo y trabajo que el precio del aparato."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Think of it like a hair dryer, but much hotter and with the air aimed at one small spot instead of spread out. Instead of drying or styling anything, it shrinks a special plastic tube (heat-shrink tubing) until it grips tight around the cable inside it, sealing it against water. Without this tool, a heat-shrink tube like the one in the Tuhorse splice kit in this same catalog just sits there unused — this is the missing piece that lets that part of the job actually get done right.",
+      "ejemploHogar": "You bought the Tuhorse splice kit to join the cable on your submersible well pump and need to seal that joint before lowering it into the well: with this gun, the tube shrinks evenly in seconds and seals up tight, with no bubbles or loose spots.",
+      "ejemploNegocio": "An electrician or irrigation installer doing several splices a week across different job sites (well pumps, buried valve wiring) uses the same tool to seal each joint on site, without relying on glue or tape that peels off over time with ground moisture.",
+      "puntosClave": [
+        "Check that it has at least two temperature settings (like this model's 482°F/842°F) — a single fixed temperature can scorch the tubing if it is too hot, or fail to shrink it properly if it is too low.",
+        "Look for a reflector or concentrator nozzle, built for shrinking a small tube like a splice — a wide flat nozzle (more common on paint-stripping heat guns) spreads the heat out and will not seal a small spot well.",
+        "This model is 400W, meant for home or occasional use — if you are sealing splices every day (professional installs, multiple job sites a week), a 1500W+ unit holds up better under constant use without overheating."
+      ],
+      "consejoInversion": "Compared to using a hair dryer (it never reaches the actual shrink temperature, so the tube never seals properly) or a lighter (uneven heat that can scorch the tubing or leave it loose, plus a real fire risk near cables), this $18 gun gets a tight seal the first time — you avoid having to reopen that splice underground or inside a well later, which costs far more in time and labor than the tool itself."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B0CJJ384QG?tag=riegotrazado-20",
+    "actualizadoEn": "2026-10-22",
+    "activo": true,
+    "tags": [
+      "400W",
+      "2 temperaturas",
+      "Boquilla reflectora"
+    ],
+    "tagsEn": [
+      "400W",
+      "2 temp settings",
+      "Reflector nozzle"
     ]
   }
 ]
