@@ -6,6 +6,8 @@ export interface PreguntaCategoria {
 }
 
 export interface ContenidoCategoria {
+  /** <title> pensado para la consulta real ("irrigation pumps", "moisture sensor"…), sin el sufijo del sitio. */
+  titulo: string;
   comoElegir: string[];
   faq: PreguntaCategoria[];
 }
@@ -18,6 +20,7 @@ export interface ContenidoCategoria {
 export const CONTENIDO_CATEGORIAS: Record<string, Record<Locale, ContenidoCategoria>> = {
   "controladores-wifi": {
     es: {
+      titulo: "Controladores WiFi para riego: ranking y guía de compra",
       comoElegir: [
         "Contá las zonas de tu jardín (cada válvula es una zona) y sumá una o dos de reserva: es la primera limitación real de cualquier controlador.",
         "Confirmá que funcione con el cableado que ya tenés: la mayoría de los sistemas residenciales usa válvulas de 24 V AC, así que revisá el voltaje antes de comprar.",
@@ -42,6 +45,7 @@ export const CONTENIDO_CATEGORIAS: Record<string, Record<Locale, ContenidoCatego
       ],
     },
     en: {
+      titulo: "WiFi Irrigation Controllers: ranking and buying guide",
       comoElegir: [
         "Count your yard's zones (each valve is one zone) and add one or two spare: it's the first real limit of any controller.",
         "Make sure it works with the wiring you already have: most residential systems use 24 V AC valves, so check the voltage before buying.",
@@ -68,6 +72,7 @@ export const CONTENIDO_CATEGORIAS: Record<string, Record<Locale, ContenidoCatego
   },
   "sensores-humedad": {
     es: {
+      titulo: "Sensores de humedad de suelo: ranking y guía de compra",
       comoElegir: [
         "Elegí el tipo de sonda: las capacitivas, sin electrodos metálicos expuestos, suelen durar más que las resistivas baratas, que se corroen con el tiempo.",
         "Decidí si solo querés medir (medidor manual) o automatizar (sensor con hub o WiFi cuya lectura pueda disparar el riego).",
@@ -92,6 +97,7 @@ export const CONTENIDO_CATEGORIAS: Record<string, Record<Locale, ContenidoCatego
       ],
     },
     en: {
+      titulo: "Soil Moisture Sensors: ranking and buying guide",
       comoElegir: [
         "Pick the probe type: capacitive probes, with no exposed metal electrodes, usually outlast cheap resistive ones, which corrode over time.",
         "Decide whether you only want to measure (manual meter) or to automate (a sensor with a hub or WiFi whose reading can trigger watering).",
@@ -118,6 +124,7 @@ export const CONTENIDO_CATEGORIAS: Record<string, Record<Locale, ContenidoCatego
   },
   "valvulas-solenoides": {
     es: {
+      titulo: "Válvulas solenoides de riego: ranking y guía de compra",
       comoElegir: [
         "Fijate en el diámetro de rosca (por ejemplo 3/4\" o 1\") y que coincida con tu tubería.",
         "Confirmá el voltaje de la bobina (24 V AC es lo habitual en riego residencial) y que tu controlador lo entregue.",
@@ -142,6 +149,7 @@ export const CONTENIDO_CATEGORIAS: Record<string, Record<Locale, ContenidoCatego
       ],
     },
     en: {
+      titulo: "Irrigation Solenoid Valves: ranking and buying guide",
       comoElegir: [
         "Check the thread size (for example 3/4\" or 1\") and make sure it matches your piping.",
         "Confirm the coil voltage (24 V AC is typical for residential irrigation) and that your controller supplies it.",
@@ -168,6 +176,7 @@ export const CONTENIDO_CATEGORIAS: Record<string, Record<Locale, ContenidoCatego
   },
   "kits-goteo": {
     es: {
+      titulo: "Kits de riego por goteo: ranking y guía de compra",
       comoElegir: [
         "Calculá cuántas plantas o metros de línea necesitás: cada kit indica la cantidad máxima de goteros o la longitud que cubre.",
         "Fijate si incluye regulador de presión y filtro: el goteo trabaja a baja presión.",
@@ -192,6 +201,7 @@ export const CONTENIDO_CATEGORIAS: Record<string, Record<Locale, ContenidoCatego
       ],
     },
     en: {
+      titulo: "Drip Irrigation Kits: ranking and buying guide",
       comoElegir: [
         "Work out how many plants or feet of line you need: each kit states the maximum number of emitters or the length it covers.",
         "Check whether it includes a pressure regulator and a filter: drip systems run at low pressure.",
@@ -218,6 +228,7 @@ export const CONTENIDO_CATEGORIAS: Record<string, Record<Locale, ContenidoCatego
   },
   "modulos-rele": {
     es: {
+      titulo: "Módulos de relé para riego DIY: ranking y guía",
       comoElegir: [
         "Verificá el voltaje y la corriente que soporta cada canal frente a la carga que vas a conmutar.",
         "Elegí el protocolo según tu sistema: WiFi (por ejemplo eWeLink o Matter), Modbus/RS485 o Zigbee.",
@@ -242,6 +253,7 @@ export const CONTENIDO_CATEGORIAS: Record<string, Record<Locale, ContenidoCatego
       ],
     },
     en: {
+      titulo: "Relay Modules for DIY Irrigation: ranking and guide",
       comoElegir: [
         "Check the voltage and current each channel can handle against the load you will switch.",
         "Pick the protocol that fits your system: WiFi (for example eWeLink or Matter), Modbus/RS485 or Zigbee.",
@@ -268,6 +280,7 @@ export const CONTENIDO_CATEGORIAS: Record<string, Record<Locale, ContenidoCatego
   },
   bombas: {
     es: {
+      titulo: "Bombas de riego: ranking y guía de compra",
       comoElegir: [
         "Calculá el caudal y la presión (o altura) que necesita tu sistema antes de mirar la potencia.",
         "Fijate si es autocebante y si es de superficie o sumergible, según dónde esté tu fuente de agua.",
@@ -292,6 +305,7 @@ export const CONTENIDO_CATEGORIAS: Record<string, Record<Locale, ContenidoCatego
       ],
     },
     en: {
+      titulo: "Irrigation Pumps: ranking and buying guide",
       comoElegir: [
         "Work out the flow and pressure (or head) your system needs before looking at horsepower.",
         "Check whether it is self-priming and whether it is a surface or submersible type, depending on where your water source is.",

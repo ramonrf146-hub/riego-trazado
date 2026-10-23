@@ -1,9 +1,11 @@
 ---
-titulo: "Submersible vs. Surface Pump: Which One Your Irrigation Actually Needs"
+titulo: "Irrigation Pump: Submersible vs Surface vs Booster — Which One to Buy"
 fecha: "2026-09-08"
-descripcion: "Drainage, constant pressure, or just boosting one hose — those are three different problems and three different pumps. How to know which one is yours before you buy."
+descripcion: "Which irrigation pump do you need? Submersible, surface (jet) or diaphragm booster: how to choose by water source, flow and pressure, with a decision table."
 categoria: "bombas"
 ---
+
+> **Which irrigation pump do you need?** Moving water out of a well, cistern or basement: a **submersible** pump. Several sprinklers losing pressure when they run together: a **surface** (self-priming) pump. Only one weak hose: a **diaphragm booster**. Choose by where the water comes from and by the flow (GPM) and pressure (PSI) your zones need — not by horsepower alone.
 
 "I need a pump for irrigation" is like saying "I need a tool to fix the house" — it depends entirely on what problem you actually have. A submersible pump, a surface pump, and a diaphragm booster pump solve three completely different things, and buying the wrong one means either overspending or staying short on pressure anyway.
 
@@ -130,3 +132,12 @@ You're almost certainly missing a foot valve at the end of the suction hose, dow
 
 **Can I just use ordinary electrical tape to splice the Red Lion's cable to the drop cable running up to the surface?**
 It's not a good idea. Ordinary electrical tape isn't built to stay permanently submerged — under the constant moisture inside a well, it loosens over time and the splice fails, often with no symptom beyond "the pump just stopped working on its own." The [Tuhorse heat-shrink splice kit](/en/productos/B00E8S2ZR6) in this ranking fixes this with tubing that shrinks with heat and seals against water — for #10, #12, and #14 AWG gauges, the range this ranking's Red Lion falls into. You'll need an actual heat gun, not a lighter or a hair dryer, to get an even seal — the [WORKPRO 400W with dual temperature settings](/en/productos/B0CJJ384QG) in this catalog is more than enough for an occasional splice at home; if you're sealing splices every week instead (a professional installer, multiple job sites), a 1500W+ unit is the better call — it holds up better under constant use without overheating.
+
+**What size irrigation pump do I need?**
+Add up the flow (GPM) of every sprinkler or drip emitter that runs at the same time in your biggest zone, then pick a pump that delivers that flow at the pressure your heads need (many residential sprinkler heads are rated for roughly 30 to 50 PSI — check the spec sheet of yours). Horsepower alone doesn't tell you this; look at the pump's flow-versus-pressure curve.
+
+**Can I use a submersible pump for irrigation?**
+Yes, to move water from a pond, cistern or tank to drip lines or a single hose, or to feed another pump. It's the wrong choice as the only pump for a multi-zone sprinkler system that needs steady pressure.
+
+**What is the difference between a submersible and a surface pump?**
+A submersible pump sits underwater and pushes the water out; a surface pump sits outside the water, pulls it in and pressurizes the system. The decision table above shows which one fits each situation.

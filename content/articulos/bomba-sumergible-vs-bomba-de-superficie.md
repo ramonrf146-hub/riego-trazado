@@ -1,9 +1,11 @@
 ---
-titulo: "Bomba sumergible vs. bomba de superficie: cuál necesitás para tu riego"
+titulo: "Bomba de riego: sumergible, de superficie o booster — cuál comprar"
 fecha: "2026-09-08"
-descripcion: "Achique, presión constante o solo reforzar una manguera — son tres problemas distintos y tres bombas distintas. Cómo saber cuál te toca antes de comprar."
+descripcion: "¿Qué bomba de riego necesitás? Sumergible, de superficie (jet) o booster de diafragma: cómo elegir según la fuente de agua, el caudal y la presión, con tabla de decisión."
 categoria: "bombas"
 ---
+
+> **¿Qué bomba de riego necesitás?** Sacar agua de un pozo, cisterna o sótano: una bomba **sumergible**. Varios aspersores que pierden presión cuando funcionan juntos: una bomba **de superficie** (autocebante). Una sola manguera floja: un **booster de diafragma**. Elegí según de dónde viene el agua y el caudal (GPM) y la presión (PSI) que piden tus zonas — no solo por los caballos de fuerza.
 
 "Necesito una bomba para el riego" es como decir "necesito una herramienta para arreglar la casa" — depende totalmente de qué problema tenés. Una bomba sumergible, una de superficie y una booster de diafragma resuelven tres cosas completamente distintas, y comprar la que no corresponde significa gastar de más o quedarte corto de presión igual.
 
@@ -130,3 +132,12 @@ Casi seguro te falta una válvula de pie en la punta de la manguera de succión,
 
 **¿Puedo usar cinta aisladora común para empalmar el cable de la Red Lion con el cable de bajada hasta la superficie?**
 No es buena idea. La cinta aisladora común no está pensada para quedar sumergida de forma permanente — con la humedad constante dentro del pozo, se despega con el tiempo y el empalme falla, muchas veces sin ningún otro síntoma más que "la bomba dejó de andar sola". El [kit de empalme termocontraíble Tuhorse](/productos/B00E8S2ZR6) de este ranking resuelve esto con tubos que se contraen con calor y sellan contra el agua — para calibres #10, #12 y #14 AWG, el rango de la Red Lion de este mismo ranking. Vas a necesitar una pistola de calor real, no un encendedor ni un secador de pelo, para que el sellado quede parejo — la [WORKPRO de 400W con dos temperaturas](/productos/B0CJJ384QG) de este catálogo alcanza de sobra para un empalme ocasional en casa; si en cambio sellás empalmes todas las semanas (instalador profesional, varias obras), conviene directamente un equipo de 1500W o más, que aguanta mejor el uso constante sin sobrecalentarse.
+
+**¿Qué tamaño de bomba de riego necesito?**
+Sumá el caudal (GPM) de todos los aspersores o goteros que funcionan a la vez en tu zona más grande, y elegí una bomba que entregue ese caudal a la presión que piden tus cabezales (muchos aspersores residenciales trabajan más o menos entre 30 y 50 PSI — mirá la ficha técnica de los tuyos). Los caballos de fuerza solos no te dicen eso; fijate en la curva de caudal contra presión de la bomba.
+
+**¿Puedo usar una bomba sumergible para regar?**
+Sí, para mover agua de un estanque, cisterna o tanque hacia líneas de goteo o una sola manguera, o para alimentar otra bomba. No es la opción correcta como única bomba de un sistema de aspersores de varias zonas que necesita presión estable.
+
+**¿Qué diferencia hay entre una bomba sumergible y una de superficie?**
+La sumergible va dentro del agua y la empuja hacia afuera; la de superficie queda fuera del agua, la aspira y presuriza el sistema. La tabla de decisión de arriba muestra cuál encaja en cada situación.

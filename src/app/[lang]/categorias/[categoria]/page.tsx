@@ -33,9 +33,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title:
-      locale === "en"
-        ? `${nombre}: ranking and buying guide`
-        : `${nombre}: ranking y guía de compra`,
+      CONTENIDO_CATEGORIAS[categoria.slug]?.[locale]?.titulo ??
+      (locale === "en" ? `${nombre}: ranking and buying guide` : `${nombre}: ranking y guía de compra`),
     description:
       locale === "en"
         ? `Monthly ranking of ${nombre.toLowerCase()} for automated irrigation, with how to choose and common questions. ${descripcion}`
