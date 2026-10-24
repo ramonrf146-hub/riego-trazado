@@ -531,9 +531,10 @@
       "puntosClave": [
         "No es una bomba para dar presión constante a aspersores — es para mover agua de un punto a otro (achique/extracción), no para sostener presión mientras varios aspersores riegan a la vez.",
         "Revisá los GPH (galones por hora, 4.500 en este modelo) contra cuánta agua necesitás mover y en cuánto tiempo.",
-        "Si tu objetivo final es presurizar aspersores de jardín, la bomba de superficie de este ranking está mejor especificada para eso."
+        "Si tu objetivo final es presurizar aspersores de jardín, la bomba de superficie de este ranking está mejor especificada para eso.",
+        "Ninguna AQUASTRONG de este ranking avisa sola de que el sótano, pozo o cisterna se está inundando — un detector como el GoveeLife (5 sensores + gateway WiFi) de este mismo catálogo te manda una alerta al celular apenas detecta agua donde no debería haberla, antes de que la bomba tenga que trabajar o de notar que ya no está dando abasto."
       ],
-      "consejoInversion": "Para achicar agua rápido y de forma confiable, esta bomba de 1HP rinde mucho más que un balde o una bomba manual — el gasto se justifica la primera vez que evita una inundación de sótano."
+      "consejoInversion": "Para achicar agua rápido y de forma confiable, esta bomba de 1HP rinde mucho más que un balde o una bomba manual — el gasto se justifica la primera vez que evita una inundación de sótano. Si la vas a dejar instalada de forma permanente contra inundaciones (no solo para un achique puntual), sumarle un detector de fugas aparte es la diferencia entre enterarte apenas empieza a entrar agua o recién cuando ya hay un problema real."
     },
     "guiaCompraEn": {
       "queEsYParaQueSirve": "It's a pump that sits submerged in the water (hence 'submersible') and pushes it up or over to somewhere else — think of it as a diver pushing water to the surface, instead of sucking it in from outside.",
@@ -542,12 +543,13 @@
       "puntosClave": [
         "It's not a pump for delivering constant pressure to sprinklers — it's for moving water from one point to another (drainage/removal), not sustaining pressure while several sprinklers run at once.",
         "Check the GPH (gallons per hour, 4,500 on this model) against how much water you need to move and in how much time.",
-        "If your end goal is pressurizing yard sprinklers, the surface pump in this ranking is better suited for that."
+        "If your end goal is pressurizing yard sprinklers, the surface pump in this ranking is better suited for that.",
+        "None of the AQUASTRONG pumps in this ranking warn you on their own that a basement, well, or cistern is flooding — a detector like the GoveeLife (5 sensors + WiFi gateway) in this same catalog sends a phone alert as soon as it detects water where it shouldn't be, before the pump even has to kick in or before you notice it can't keep up."
       ],
-      "consejoInversion": "For fast, reliable draining, this 1HP pump does far more than a bucket or a hand pump ever could — the cost pays for itself the first time it prevents a flooded basement."
+      "consejoInversion": "For fast, reliable draining, this 1HP pump does far more than a bucket or a hand pump ever could — the cost pays for itself the first time it prevents a flooded basement. If you're leaving it installed permanently against flooding (not just for a one-off drain job), adding a separate leak detector is the difference between finding out the moment water starts coming in and finding out only once there's already a real problem."
     },
     "urlAfiliado": "https://www.amazon.com/dp/B0C9QCCBVW?tag=riegotrazado-20",
-    "actualizadoEn": "2026-08-24",
+    "actualizadoEn": "2026-10-24",
     "activo": true,
     "tags": [
       "Sumergible",
