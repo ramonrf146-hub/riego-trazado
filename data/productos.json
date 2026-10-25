@@ -174,9 +174,10 @@
       "puntosClave": [
         "Confirmá que tu controlador de riego (si tenés uno de otra marca) acepte esta integración — es un ecosistema cerrado de RAINPOINT, no un estándar abierto.",
         "Trae registro histórico de datos y alertas de humedad baja, algo que el sensor suelto (sin hub) no ofrece.",
-        "El rating de este kit es más bajo (3.7) que el del sensor suelto — conviene leer las reseñas recientes antes de comprar."
+        "El rating de este kit es más bajo (3.7) que el del sensor suelto — conviene leer las reseñas recientes antes de comprar.",
+        "Si tu casa ya tiene un hub Zigbee corriendo por otros dispositivos (luces o enchufes inteligentes), compará antes con la sonda Zigbee THIRDREALITY de este mismo catálogo: mide lo mismo por capacitancia, pero sin traer su propio hub WiFi — te ahorrás pagar por un segundo hub que quizás no te hace falta. Si no tenés ningún hub Zigbee, este combo con hub WiFi incluido sigue siendo la entrada más directa."
       ],
-      "consejoInversion": "Si estás arrancando de cero, pagar un poco más por el combo con hub sale más barato y simple que comprar el hub y el sensor por separado — y las alertas de humedad baja te evitan perder plantas por descuido."
+      "consejoInversion": "Si estás arrancando de cero, pagar un poco más por el combo con hub sale más barato y simple que comprar el hub y el sensor por separado — y las alertas de humedad baja te evitan perder plantas por descuido. Antes de pagar por el hub propio de RAINPOINT, igual vale la pena confirmar si tu casa ya corre un hub Zigbee por otro motivo (luces, enchufes) — en ese caso, la sonda Zigbee THIRDREALITY de este catálogo te suma la misma medición sin el costo de un segundo hub."
     },
     "guiaCompraEn": {
       "queEsYParaQueSirve": "It's the same type of moisture probe as above, but bundled with the WiFi hub already included — like buying a phone with the charger in the box instead of having to buy it separately.",
@@ -185,12 +186,13 @@
       "puntosClave": [
         "Confirm your irrigation controller (if you have one from another brand) supports this integration — it's a closed RAINPOINT ecosystem, not an open standard.",
         "It includes historical data logging and low-moisture alerts, something the standalone sensor (without a hub) doesn't offer.",
-        "This kit's rating is lower (3.7) than the standalone sensor's — it's worth reading recent reviews before buying."
+        "This kit's rating is lower (3.7) than the standalone sensor's — it's worth reading recent reviews before buying.",
+        "If your home already runs a Zigbee hub for other devices (smart lights or plugs), compare it first against the THIRDREALITY Zigbee probe in this same catalog: it measures the same way, by capacitance, but without bringing its own WiFi hub — saving you the cost of a second hub you may not need. If you don't have any Zigbee hub running, this WiFi-hub-included combo is still the most direct entry point."
       ],
-      "consejoInversion": "If you're starting from scratch, paying a bit more for the hub-included combo works out cheaper and simpler than buying the hub and sensor separately — and the low-moisture alerts save you from losing plants to neglect."
+      "consejoInversion": "If you're starting from scratch, paying a bit more for the hub-included combo works out cheaper and simpler than buying the hub and sensor separately — and the low-moisture alerts save you from losing plants to neglect. Before paying for RAINPOINT's own hub, it's still worth checking whether your home already runs a Zigbee hub for another reason (lights, plugs) — in that case, the THIRDREALITY Zigbee probe in this catalog gives you the same reading without the cost of a second hub."
     },
     "urlAfiliado": "https://www.amazon.com/dp/B0GH6WJWQK?tag=riegotrazado-20",
-    "actualizadoEn": "2026-08-24",
+    "actualizadoEn": "2026-10-25",
     "activo": true,
     "tags": [
       "Hub incluido",
