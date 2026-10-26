@@ -327,25 +327,25 @@
       "ejemploHogar": "Armás una huerta con tomates, pimientos y lechugas en hilera, y cada planta recibe su goteo individual sin mojar las hojas ni el pasillo entre canteros.",
       "ejemploNegocio": "Un vivero que vende plantas en fila puede mantenerlas todas regadas de forma pareja con un solo sistema, ahorrando el trabajo de regar maceta por maceta a mano.",
       "puntosClave": [
-        "La presión de tu casa probablemente sea más alta que el rango que soporta este kit (20-45 PSI) — vas a necesitar un regulador de presión en la entrada si tu red tiene más presión.",
+        "La presión de tu casa probablemente sea más alta que el rango que soporta este kit (20-45 PSI) — confirmalo con un [manómetro de presión](/productos/B0956QKMJ2) antes de arriesgar nada: si da más de 45 PSI, vas a necesitar un [regulador de presión con filtro incluido](/productos/B00G5KHQBA) en la entrada, antes del kit.",
         "Los conectores rápidos (Quick Connect) te dejan mover o agregar goteros sin herramientas, útil si vas ampliando la huerta con el tiempo.",
         "Contá cuántos emisores necesitás realmente (trae 40) — si tenés más plantas que emisores vas a necesitar un segundo kit o comprar emisores sueltos."
       ],
-      "consejoInversion": "Frente a regar con manguera a mano todos los días, este kit se paga solo en el agua que ahorra (el goteo es mucho más eficiente que el riego superficial) y le da a cada planta exactamente lo que necesita, sin ahogar ni secar de más."
+      "consejoInversion": "Frente a regar con manguera a mano todos los días, este kit se paga solo en el agua que ahorra (el goteo es mucho más eficiente que el riego superficial) y le da a cada planta exactamente lo que necesita, sin ahogar ni secar de más. Sumarle el regulador con filtro de entrada, además, evita que el sedimento tape los 40 emisores — una limpieza que nadie va a hacer si el kit queda solo regando mientras estás de viaje."
     },
     "guiaCompraEn": {
       "queEsYParaQueSirve": "It's an IV drip for plants: instead of blasting water across the whole surface, a thin tube delivers water drop by drop straight to each plant's roots, with far less waste than a sprinkler.",
       "ejemploHogar": "You set up a vegetable garden with tomatoes, peppers, and lettuce in rows, and each plant gets its own individual drip without wetting the leaves or the path between beds.",
       "ejemploNegocio": "A nursery selling plants in rows can keep all of them evenly watered with a single system, saving the labor of hand-watering pot by pot.",
       "puntosClave": [
-        "Your home's water pressure is probably higher than what this kit is rated for (20-45 PSI) — you'll need a pressure regulator at the inlet if your supply runs higher.",
+        "Your home's water pressure is probably higher than what this kit is rated for (20-45 PSI) — confirm it with a [pressure gauge](/en/productos/B0956QKMJ2) before risking anything: if it reads above 45 PSI, you'll need a [pressure regulator with a built-in filter](/en/productos/B00G5KHQBA) at the inlet, before the kit.",
         "The quick-connect fittings let you move or add drippers without tools, handy if you keep expanding the garden over time.",
         "Count how many emitters you actually need (it comes with 40) — more plants than emitters means you'll need a second kit or extra emitters."
       ],
-      "consejoInversion": "Compared to hand-watering with a hose every day, this kit pays for itself in the water it saves (drip is far more efficient than surface watering) and gives each plant exactly what it needs, without drowning or under-watering it."
+      "consejoInversion": "Compared to hand-watering with a hose every day, this kit pays for itself in the water it saves (drip is far more efficient than surface watering) and gives each plant exactly what it needs, without drowning or under-watering it. Adding the inlet regulator with its filter also keeps sediment from clogging the 40 emitters — a cleanup nobody's going to do while the kit is left watering unattended on a trip."
     },
     "urlAfiliado": "https://www.amazon.com/dp/B0F6Y9CSZP?tag=riegotrazado-20",
-    "actualizadoEn": "2026-08-24",
+    "actualizadoEn": "2026-10-26",
     "activo": true,
     "tags": [
       "247 ft",
