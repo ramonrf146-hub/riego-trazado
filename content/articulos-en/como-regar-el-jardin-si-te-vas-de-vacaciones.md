@@ -42,7 +42,7 @@ The kits above (MIXC, HEKIWAY) are built for general garden use — pots, beds, 
 
 ## If your yard is bigger than a few pots but isn't quite a lawn
 
-A flower bed, a long garden row, or a seedbed sometimes needs more coverage than a single point-source emitter gives, without quite justifying a zoned controller yet. The [Bluepro 200 ft kit](/en/productos/B0GLM4SYN8) fills that middle ground with brass micro-sprinkler nozzles instead of drop-by-drop drip: it covers a wider area per point, at the cost of the precision the kits above offer — better suited to a flower bed or seedbed than to individual potted plants, where the MIXC or the Bonviee remain the more precise choice.
+A flower bed, a long garden row, or a seedbed sometimes needs more coverage than a single point-source emitter gives, without quite justifying a zoned controller yet. The [Bluepro 200 ft kit](/en/productos/B0GLM4SYN8) fills that middle ground with brass micro-sprinkler nozzles instead of drop-by-drop drip: it covers a wider area per point, at the cost of the precision the kits above offer — better suited to a flower bed or seedbed than to individual potted plants, where the MIXC or the Bonviee remain the more precise choice. The pressure check matters even more here than with the pure drip kits: measure with the same [pressure gauge](/en/productos/B0956QKMJ2) mentioned above before installing it, because a brass nozzle that gets more pressure than it's rated for doesn't just drip extra, it pops off — if it reads above 45 PSI, add the [Orbit 67798 regulator with filter](/en/productos/B00G5KHQBA) at the inlet.
 
 ## If you have a lawn or a bigger yard (not just pots)
 

@@ -42,7 +42,7 @@ Los kits de arriba (MIXC, HEKIWAY) están pensados para jardín en general — m
 
 ## Si tu patio es más grande que unas macetas pero no es exactamente césped
 
-Un macizo de flores, un cantero largo o un almácigo a veces necesitan más cobertura de la que da un gotero puntual, sin llegar todavía a justificar un controlador de zonas. El [Bluepro de 200 ft](/productos/B0GLM4SYN8) resuelve ese punto intermedio con boquillas de cobre tipo micro-aspersión en vez de goteo gota a gota: cubre un área más amplia por punto, a costa de perder la precisión de los kits de arriba — conviene más para un macizo de flores o un semillero que para plantas individuales en maceta, donde el MIXC o el Bonviee siguen siendo la opción más precisa.
+Un macizo de flores, un cantero largo o un almácigo a veces necesitan más cobertura de la que da un gotero puntual, sin llegar todavía a justificar un controlador de zonas. El [Bluepro de 200 ft](/productos/B0GLM4SYN8) resuelve ese punto intermedio con boquillas de cobre tipo micro-aspersión en vez de goteo gota a gota: cubre un área más amplia por punto, a costa de perder la precisión de los kits de arriba — conviene más para un macizo de flores o un semillero que para plantas individuales en maceta, donde el MIXC o el Bonviee siguen siendo la opción más precisa. Acá el chequeo de presión importa todavía más que en los kits de goteo puro: medí con el mismo [manómetro](/productos/B0956QKMJ2) de arriba antes de instalarlo, porque una boquilla de cobre que recibe más presión de la que soporta no gotea de más, sale disparada — si da más de 45 PSI, sumá el [regulador con filtro Orbit 67798](/productos/B00G5KHQBA) en la entrada.
 
 ## Si tenés césped o un jardín más grande (no solo macetas)
 
