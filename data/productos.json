@@ -278,9 +278,10 @@
       "puntosClave": [
         "Esto NO es una válvula completa — es solo la parte eléctrica. Si el cuerpo de tu válvula también está roto (pérdidas, rajaduras), esto no te alcanza.",
         "Solo es compatible con válvulas Irritrol de las series 2400, 2500, 2600 y 700 — confirmá el modelo de tu válvula actual antes de comprar.",
-        "Viene de a 2 unidades, conveniente si tenés más de una válvula Irritrol fallando o querés uno de repuesto guardado."
+        "Viene de a 2 unidades, conveniente si tenés más de una válvula Irritrol fallando o querés uno de repuesto guardado.",
+        "Antes de comprar, confirmá con un multímetro común que el solenoide realmente no tiene continuidad — si la válvula no abre pero el solenoide mide continuidad normal, el problema probablemente es un cable cortado en el tramo hasta el controlador, y ahí la herramienta correcta es el [localizador de cable VEVOR](/productos/B0D2HG7QCY) de este mismo ranking, no este repuesto."
       ],
-      "consejoInversion": "Cambiar solo el solenoide cuesta una fracción de lo que sale una válvula nueva completa — si el resto de la válvula está sano, este repuesto es la opción más barata y rápida de arreglar el problema."
+      "consejoInversion": "Cambiar solo el solenoide cuesta una fracción de lo que sale una válvula nueva completa — si el resto de la válvula está sano, este repuesto es la opción más barata y rápida de arreglar el problema. Y antes de gastar en el repuesto, un multímetro de unos pocos dólares te confirma en 30 segundos si el problema es realmente el solenoide o un cable cortado — gastar en el repuesto equivocado es peor negocio que la herramienta de diagnóstico."
     },
     "guiaCompraEn": {
       "queEsYParaQueSirve": "The solenoid is the valve's 'coil': the electrical part that receives the signal from the controller and does the mechanical work of opening or closing the water flow — like the little motor on an automatic garage door, but for water.",
@@ -289,12 +290,13 @@
       "puntosClave": [
         "This is NOT a complete valve — it's only the electrical part. If your valve body is also damaged (leaks, cracks), this alone won't fix it.",
         "It's only compatible with Irritrol valves in the 2400, 2500, 2600, and 700 series — confirm your current valve's model before buying.",
-        "It comes in a 2-pack, handy if you have more than one Irritrol valve failing or want a spare on hand."
+        "It comes in a 2-pack, handy if you have more than one Irritrol valve failing or want a spare on hand.",
+        "Before buying, confirm with a basic multimeter that the solenoid actually shows no continuity — if the valve won't open but the solenoid reads normal continuity, the real problem is probably a cut wire somewhere on the run to the controller, and the right tool for that is the [VEVOR cable locator](/en/productos/B0D2HG7QCY) in this same ranking, not this replacement part."
       ],
-      "consejoInversion": "Replacing just the solenoid costs a fraction of a full new valve — if the rest of the valve is sound, this replacement part is the cheapest and fastest way to fix the problem."
+      "consejoInversion": "Replacing just the solenoid costs a fraction of a full new valve — if the rest of the valve is sound, this replacement part is the cheapest and fastest way to fix the problem. And before spending on the replacement part, a multimeter costing a few dollars confirms in 30 seconds whether the problem is really the solenoid or a cut wire — buying the wrong replacement is a worse deal than the diagnostic tool itself."
     },
     "urlAfiliado": "https://www.amazon.com/dp/B07T4TNP3B?tag=riegotrazado-20",
-    "actualizadoEn": "2026-08-24",
+    "actualizadoEn": "2026-10-28",
     "activo": true,
     "tags": [
       "Repuesto",
