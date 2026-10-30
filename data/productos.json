@@ -783,8 +783,8 @@
     "rating": 4.3,
     "numResenas": 2809,
     "ranking": 4,
-    "notaTecnica": "La opción más económica de este ranking. Las 20 boquillas se ajustan entre modo chorro y modo niebla según la planta, cubriendo hasta 50 ft de recorrido. A diferencia de los otros kits de este ranking, NO incluye ningún temporizador — el fabricante lo aclara en la ficha, así que si querés automatizarlo del todo necesitás sumar uno de los controladores WiFi de este sitio o un timer mecánico aparte.",
-    "notaTecnicaEn": "The most affordable option in this ranking. The 20 nozzles adjust between jet mode and mist mode depending on the plant, covering up to 50 ft of run. Unlike the other kits in this ranking, it does NOT include any timer — the manufacturer states this clearly in the listing, so if you want to fully automate it you'll need to add one of this site's WiFi controllers or a separate mechanical timer.",
+    "notaTecnica": "La opción más económica de este ranking. Las 20 boquillas se ajustan entre modo chorro y modo niebla según la planta, cubriendo hasta 50 ft de recorrido. A diferencia de los otros kits de este ranking, NO incluye ningún temporizador — el fabricante lo aclara en la ficha, así que si querés automatizarlo del todo necesitás sumar uno de los dos timers de canilla de este mismo catálogo: el Orbit 62034 (mecánico, menos de $10, un solo ciclo) para un viaje corto, o el Orbit 62061 (digital, ~$30, repite el ciclo solo todos los días) si vas a estar afuera una o dos semanas.",
+    "notaTecnicaEn": "The most affordable option in this ranking. The 20 nozzles adjust between jet mode and mist mode depending on the plant, covering up to 50 ft of run. Unlike the other kits in this ranking, it does NOT include any timer — the manufacturer states this clearly in the listing, so if you want to fully automate it you'll need to add one of this same catalog's two hose-bib timers: the Orbit 62034 (mechanical, under $10, single cycle) for a short trip, or the Orbit 62061 (digital, ~$30, repeats the cycle on its own every day) if you'll be away for one or two weeks.",
     "idealPara": "La opción más barata para armar un sistema de niebla/goteo ajustable — acordate de sumar un timer aparte, no lo trae incluido.",
     "idealParaEn": "The cheapest way to put together an adjustable mist/drip system — remember to add a timer separately, it's not included.",
     "guiaCompra": {
@@ -792,22 +792,22 @@
       "ejemploHogar": "Armás tu primer sistema de riego automatizado en el patio sin gastar mucho, ajustando cada boquilla según si es una planta chica (niebla) o más grande (chorro).",
       "ejemploNegocio": "Un vivero que recién arranca y quiere probar el riego automatizado sin gran inversión inicial puede usar este kit como punto de entrada antes de escalar a algo más grande.",
       "puntosClave": [
-        "NO incluye ningún temporizador — si querés automatizarlo del todo, necesitás sumar un timer WiFi de este ranking o uno mecánico aparte.",
+        "NO incluye ningún temporizador — si querés automatizarlo del todo, sumá el Orbit 62034 (mecánico, un solo ciclo, para un viaje corto) o el Orbit 62061 (digital, repite el ciclo solo, para una o dos semanas), ambos de este mismo catálogo.",
         "Es el kit más barato de la categoría, así que la calidad de los materiales es más básica que las opciones más caras.",
         "Cubre hasta 50 pies (15 metros) de recorrido — medí tu jardín antes de comprar para saber si te alcanza con un kit o necesitás dos."
       ],
-      "consejoInversion": "Como punto de entrada al riego automatizado, este kit te deja probar el sistema con una inversión mínima — pero si te das cuenta que lo vas a usar todos los días, conviene sumarle un timer WiFi de este mismo ranking en vez de quedarte abriendo la canilla a mano."
+      "consejoInversion": "Como punto de entrada al riego automatizado, este kit te deja probar el sistema con una inversión mínima — pero si te das cuenta que lo vas a usar todos los días, el Orbit 62061 digital (de este mismo catálogo) te ahorra tener que acordarte de regar manualmente, y si solo necesitás cubrir un viaje corto puntual, el Orbit 62034 mecánico cuesta menos de $10 y hace exactamente eso sin pilas ni WiFi."
     },
     "guiaCompraEn": {
       "queEsYParaQueSirve": "It's the most affordable version of a misting/irrigation kit: tubing with 20 adjustable nozzles you can tune between a fine jet or a mist, depending on what each plant needs.",
       "ejemploHogar": "You set up your first automated irrigation system in the yard without spending much, adjusting each nozzle depending on whether it's a small plant (mist) or a bigger one (jet).",
       "ejemploNegocio": "A nursery just starting out and wanting to try automated irrigation without a big upfront investment can use this kit as an entry point before scaling up to something bigger.",
       "puntosClave": [
-        "It does NOT include any timer — if you want to fully automate it, you'll need to add a WiFi timer from this ranking or a separate mechanical one.",
+        "It does NOT include any timer — if you want to fully automate it, add the Orbit 62034 (mechanical, single cycle, for a short trip) or the Orbit 62061 (digital, repeats the cycle on its own, for one or two weeks), both from this same catalog.",
         "It's the cheapest kit in the category, so the materials are more basic than pricier options.",
         "It covers up to 50 feet (15 meters) of run — measure your yard before buying to know if one kit is enough or you need two."
       ],
-      "consejoInversion": "As an entry point into automated irrigation, this kit lets you try the system with a minimal investment — but if you find you're using it every day, it's worth adding a WiFi timer from this same ranking instead of sticking with manually turning the tap."
+      "consejoInversion": "As an entry point into automated irrigation, this kit lets you try the system with a minimal investment — but if you find you're using it every day, the digital Orbit 62061 (from this same catalog) saves you having to remember to water by hand, and if you only need to cover a short one-off trip, the mechanical Orbit 62034 costs under $10 and does exactly that with no batteries or WiFi."
     },
     "tags": [
       "20 boquillas ajustables",
@@ -820,7 +820,7 @@
       "No timer included"
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B079LFKZX6?tag=riegotrazado-20",
-    "actualizadoEn": "2026-08-26",
+    "actualizadoEn": "2026-10-30",
     "activo": true
   },
   {
